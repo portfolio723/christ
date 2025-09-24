@@ -21,6 +21,7 @@ import {
 import { Separator } from '@/components/ui/separator';
 import { GlowingEffect } from '@/components/ui/glowing-effect';
 import { cn } from '@/lib/utils';
+import { Feature } from '@/components/ui/feature-section-with-bento-grid';
 
 
 const StatCard = ({
@@ -216,27 +217,7 @@ export default function AboutPage() {
 
         <Separator className="my-16 bg-border" />
 
-        <section id="values" className="mb-16">
-          <h2 className="text-3xl font-headline font-bold text-white text-center mb-12">
-            Heart Values & Ministry DNA
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
-            {[
-              { icon: <Heart className="w-8 h-8"/>, title: 'Authentic Prophetic Ministry', text: 'Moving only as the Holy Spirit leads, speaking His heart with love and truth.' },
-              { icon: <TrendingUp className="w-8 h-8"/>, title: 'Spiritual Growth', text: 'Committed to personal growth and helping others mature in their faith journey.' },
-              { icon: <BookOpen className="w-8 h-8"/>, title: 'Biblical Foundation', text: 'Grounding every word and ministry action in the unchanging truth of God\'s Word.' },
-              { icon: <Globe className="w-8 h-8"/>, title: 'Global Vision', text: 'Believing God\'s heart is for all nations, tribes, tongues, and people groups.' },
-              { icon: <Heart className="w-8 h-8"/>, title: 'Compassionate Love', text: 'Extending God\'s unconditional love to every person, especially the broken and weary.' },
-              { icon: <Crown className="w-8 h-8"/>, title: 'Divine Purpose', text: 'Helping believers discover and walk confidently in their God-given calling.' },
-            ].map((value, index) => (
-              <div key={index} className="bg-card p-6 rounded-lg border-border border text-center flex flex-col items-center">
-                <div className="text-primary mb-4">{value.icon}</div>
-                <h3 className="text-xl font-headline text-white font-semibold mb-2">{value.title}</h3>
-                <p className="text-white/70">{value.text}</p>
-              </div>
-            ))}
-          </div>
-        </section>
+        <Feature />
         
         <Separator className="my-16 bg-border" />
 
