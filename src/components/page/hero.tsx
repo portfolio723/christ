@@ -61,7 +61,7 @@ export function Hero() {
           piritsays
         </h1>
         <p className="font-script italic text-2xl md:text-3xl mt-4">
-          She prospers in all that she does
+          &ldquo;She prospers in all that she does&rdquo;
         </p>
         <p className="text-lg mt-2 font-headline italic text-white/80">
           Psalms 1:3
