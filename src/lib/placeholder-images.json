@@ -3,94 +3,94 @@
     {
       "id": "hero-background",
       "description": "Gentle ocean waves on a serene beach at dusk.",
-      "imageUrl": "https://images.unsplash.com/photo-1532020326606-ca3ae703dd24?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8YmVhY2glMjB3YXZlc3xlbnwwfHx8fDE3NTg2MjA1Nzd8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "beach waves"
+      "imageUrl": "https://images.unsplash.com/photo-1498889420921-23a5f5a18146?q=80&w=1080",
+      "imageHint": "ocean sunset"
     },
     {
       "id": "profile-dp",
       "description": "Portrait of a smiling woman.",
-      "imageUrl": "https://images.unsplash.com/photo-1609505848912-b7c3b8b4beda?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx3b21hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTc1ODY0MDczOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1080",
       "imageHint": "woman portrait"
     },
     {
       "id": "reel-1",
       "description": "Be Still & REST: In The Presence of God",
-      "imageUrl": "https://images.unsplash.com/photo-1518495973542-4542c06a5843?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwZWFjZXxlbnwwfHx8fDE3NTg4MjI4ODh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1438786657495-640937046d18?q=80&w=1080",
       "imageHint": "peaceful lake",
       "videoSrc": "https://youtu.be/S4yEpPk5Wpk"
     },
     {
       "id": "reel-2",
       "description": "The Strength Within",
-      "imageUrl": "https://images.unsplash.com/photo-1721886561322-854c44c2535a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxzZXJlbmUlMjBsYW5kc2NhcGV8ZW58MHx8fHwxNzU4Njg0MTcyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1552083375-1447ce886485?q=80&w=1080",
       "imageHint": "serene landscape",
       "videoSrc": "https://www.youtube.com/watch?v=LXb3EKWsInQ"
     },
     {
       "id": "reel-3",
       "description": "A Path of Light",
-      "imageUrl": "https://images.unsplash.com/photo-1588406320565-9fa6d9901d1d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxsaWdodCUyMHJheXN8ZW58MHx8fHwxNzU4NzA3MDAyfDA&ixlibrb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1475924156734-496f6cac6ec1?q=80&w=1080",
       "imageHint": "light rays",
       "videoSrc": "/reel-3.mp4"
     },
     {
       "id": "testimonial-1",
       "description": "Portrait of a smiling woman.",
-      "imageUrl": "https://images.unsplash.com/photo-1690444963408-9573a17a8058?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxzbWlsaW5nJTIwd29tYW58ZW58MHx8fHwxNzU4NjgxMDcyfDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=1080",
       "imageHint": "smiling woman"
     },
     {
       "id": "testimonial-2",
       "description": "Portrait of a man in a suit.",
-      "imageUrl": "https://images.unsplash.com/photo-1548454782-15b189d129ab?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxtYW4lMjBpbiUyMHN1aXR8ZW58MHx8fHwxNzU4NzEwNTkyfDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=1080",
       "imageHint": "man in suit"
     },
     {
       "id": "testimonial-3",
       "description": "Portrait of a woman looking hopeful.",
-      "imageUrl": "https://images.unsplash.com/photo-1669153417574-38d882484c5d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx3b21hbiUyMGhvcGVmdWx8ZW58MHx8fHwxNzU4NzEwNTkyfDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=1080",
       "imageHint": "woman hopeful"
     },
     {
       "id": "testimonial-4",
       "description": "Portrait of a man looking up.",
-      "imageUrl": "https://images.unsplash.com/photo-1506205960836-b4e07117d8c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxtYW4lMjBsb29raW5nJTIwdXB8ZW58MHx8fHwxNzU4NzEwNTkyfDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1552058544-f2b08422138a?q=80&w=1080",
       "imageHint": "man looking up"
     },
     {
       "id": "testimonial-5",
       "description": "Portrait of a woman with glasses.",
-      "imageUrl": "https://images.unsplash.com/photo-1524255684952-d7185b509571?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3b21hbiUyMHdpdGglMjBnbGFzc2VzfGVufDB8fHx8MTc1ODcxMDU5Mnww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1575084713-3983949e6f5a?q=80&w=1080",
       "imageHint": "woman with glasses"
     },
     {
       "id": "testimonial-6",
       "description": "Portrait of a man reading a bible.",
-      "imageUrl": "https://images.unsplash.com/photo-1681117338171-a743f93f4aa2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8bWFuJTIwcmVhZGluZyUyMGJpYmxlfGVufDB8fHx8MTc1ODcxMDU5Mnww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1554151228-14d9def656e4?q=80&w=1080",
       "imageHint": "man reading bible"
     },
     {
       "id": "insight-1",
-      "description": "A small Buddha statue on a tray with flowers.",
-      "imageUrl": "https://images.unsplash.com/photo-1620021392090-a7a527c75626?q=80&w=1080",
+      "description": "Sun rays through the clouds.",
+      "imageUrl": "https://images.unsplash.com/photo-1438786657495-640937046d18?q=80&w=1080",
       "imageHint": "spiritual altar"
     },
     {
       "id": "insight-2",
-      "description": "A chronological Bible lying on a wooden surface.",
-      "imageUrl": "https://images.unsplash.com/photo-1453269293122-687e24a5948f?q=80&w=1080",
-      "imageHint": "chronological bible"
+      "description": "An open book with a heart-shaped shadow.",
+      "imageUrl": "https://images.unsplash.com/photo-1509228627152-72ae9ae6848d?q=80&w=1080",
+      "imageHint": "open book"
     },
     {
       "id": "insight-3",
-      "description": "A person with a backpack looking out over a body of water.",
-      "imageUrl": "https://images.unsplash.com/photo-1494548162494-384bba4ab999?q=80&w=1080",
+      "description": "A person standing on a mountain looking at the sunset.",
+      "imageUrl": "https://images.unsplash.com/photo-1508213824340-bcec86f36270?q=80&w=1080",
       "imageHint": "person purpose"
     },
     {
       "id": "insight-4",
-      "description": "A silhouette of a hand with light shining behind it.",
-      "imageUrl": "https://images.unsplash.com/photo-1586718524623-3b3a72661592?q=80&w=1080",
+      "description": "Two hands reaching for each other.",
+      "imageUrl": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?q=80&w=1080",
       "imageHint": "forgiveness light"
     }
   ]
