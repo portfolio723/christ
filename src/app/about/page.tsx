@@ -35,9 +35,18 @@ const StatCard = ({
 
 export default function AboutPage() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center bg-background pt-24 pb-12">
-      <div className="container mx-auto px-4 md:px-6">
-        <header className="text-center mb-16">
+    <main className="flex min-h-screen flex-col items-center justify-center bg-background">
+      <header className="relative w-full h-[60vh] md:h-[70vh] flex flex-col items-center justify-center text-center text-white overflow-hidden">
+        <video
+          src="/eagle.mp4"
+          autoPlay
+          muted
+          loop
+          playsInline
+          className="absolute top-0 left-0 w-full h-full object-cover"
+        />
+        <div className="absolute inset-0 bg-black/60" />
+        <div className="relative z-10 p-4 container mx-auto px-4 md:px-6">
           <h1 className="text-4xl md:text-6xl font-headline font-bold text-white mb-4 tracking-tight">
             Walking in Divine Calling
           </h1>
@@ -51,10 +60,10 @@ export default function AboutPage() {
               Jeremiah 1:5
             </footer>
           </blockquote>
-        </header>
-
-        <Separator className="my-16 bg-border" />
-
+        </div>
+      </header>
+      
+      <div className="container mx-auto px-4 md:px-6 py-12 md:py-24">
         <section id="journey" className="mb-16">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl font-headline font-bold text-white mb-6 flex items-center justify-center gap-3">
