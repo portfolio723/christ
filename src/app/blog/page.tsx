@@ -10,35 +10,39 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from '@/components/ui/carousel';
-import { PlaceHolderImages } from '@/lib/placeholder-images';
+import { ShineBorder, Timeline } from '@/components/ui/shine-border';
 
 const spiritualInsights = [
   {
     id: 'insight-1',
     title: '5 Keys to Spiritual Growth',
     category: 'Faith',
-    image: 'https://images.unsplash.com/photo-1457369804613-52c61a468e7d?q=80&w=2070&auto=format&fit=crop',
-    imageHint: 'spiritual altar',
+    image:
+      'https://images.unsplash.com/photo-1506126613408-2e61add503fa?q=80&w=1080',
+    imageHint: 'spiritual path',
   },
   {
     id: 'insight-2',
     title: 'Unlocking the Parables',
     category: 'Scripture',
-    image: 'https://images.unsplash.com/photo-1523878291631-87283277f717?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8amVzdXN8ZW58MHx8MHx8fDA%3D',
+    image:
+      'https://images.unsplash.com/photo-1523878291631-87283277f717?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8amVzdXN8ZW58MHx8MHx8fDA%3D',
     imageHint: 'jesus statue',
   },
   {
     id: 'insight-3',
     title: 'Finding Your Divine Purpose',
     category: 'Purpose',
-    image: 'https://images.unsplash.com/photo-1533090161767-e6ffed986c88?q=80&w=2069&auto=format&fit=crop',
+    image:
+      'https://images.unsplash.com/photo-1454789548928-9efd52dc4031?q=80&w=1080',
     imageHint: 'person purpose',
   },
   {
     id: 'insight-4',
     title: 'The Power of Forgiveness',
     category: 'Healing',
-    image: 'https://images.unsplash.com/photo-1532012197267-da84d127e765?q=80&w=1974&auto=format&fit=crop',
+    image:
+      'https://images.unsplash.com/photo-1519412666296-c19b06544a87?q=80&w=1080',
     imageHint: 'forgiveness light',
   },
 ];
@@ -165,8 +169,8 @@ const BlogPage = () => {
                 ))}
               </CarouselContent>
               <div className="md:hidden mt-4 flex justify-center">
-                 <CarouselPrevious className="static -left-4 text-white" />
-                 <CarouselNext className="static -right-4 ml-2 text-white" />
+                <CarouselPrevious className="static -left-4 text-white" />
+                <CarouselNext className="static -right-4 ml-2 text-white" />
               </div>
             </Carousel>
           </div>
@@ -237,21 +241,19 @@ const BlogPage = () => {
             insights, share testimonies, and support each other&apos;s faith
             journey.
           </p>
-          <div className="bg-card p-8 rounded-lg shadow-lg max-w-2xl mx-auto border border-border">
-            <h3 className="font-bold text-xl mb-4 text-white">
-              Community Guidelines:
-            </h3>
-            <ul className="text-left list-disc list-inside space-y-2 text-white/80">
-              <li>Speak in love and truth</li>
-              <li>Encourage and build up others</li>
-              <li>Share testimonies of God&apos;s goodness</li>
-              <li>Ask for prayer and offer prayer support</li>
-              <li>Keep discussions centered on Christ</li>
-            </ul>
-          </div>
-          <p className="mt-6 text-lg italic text-white/60">
-            *Be part of a global family united by faith and love*
-          </p>
+          <ShineBorder
+            borderWidth={3}
+            className="border bg-white/5 shadow-2xl backdrop-blur-md dark:bg-black/5"
+            color={["#663399", "#ffed4a", "#663399"]}
+          >
+            <div className="p-10">
+              <h1 className="my-8 text-2xl md:text-2xl text-center">
+                How We Engage
+              </h1>
+              <Timeline />
+            </div>
+            <div className="absolute inset-0 -z-10 rounded-full bg-background opacity-40 blur-xl" />
+          </ShineBorder>
         </section>
       </main>
     </div>
