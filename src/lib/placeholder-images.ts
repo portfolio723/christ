@@ -5,6 +5,11 @@ export type ImagePlaceholder = {
   description: string;
   imageUrl: string;
   imageHint: string;
+  videoSrc?: string;
+};
+
+export type VideoReel = ImagePlaceholder & {
+  videoSrc: string;
 };
 
 export const PlaceHolderImages: ImagePlaceholder[] = data.placeholderImages;

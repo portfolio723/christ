@@ -16,19 +16,22 @@
       "id": "reel-1",
       "description": "Finding Peace in Prayer",
       "imageUrl": "https://images.unsplash.com/photo-1605802861242-0ae53664541f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzcGlyaXR1YWwlMjBhYnN0cmFjdHxlbnwwfHx8fDE3NTg2Mzg5NTF8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "spiritual abstract"
+      "imageHint": "spiritual abstract",
+      "videoSrc": "/reel-1.mp4"
     },
     {
       "id": "reel-2",
       "description": "The Strength Within",
       "imageUrl": "https://images.unsplash.com/photo-1721886561322-854c44c2535a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxzZXJlbmUlMjBsYW5kc2NhcGV8ZW58MHx8fHwxNzU4Njg0MTcyfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "serene landscape"
+      "imageHint": "serene landscape",
+      "videoSrc": "https://www.youtube.com/watch?v=LXb3EKWsInQ"
     },
     {
       "id": "reel-3",
       "description": "A Path of Light",
       "imageUrl": "https://images.unsplash.com/photo-1588406320565-9fa6d9901d1d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxsaWdodCUyMHJheXN8ZW58MHx8fHwxNzU4NzA3MDAyfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "light rays"
+      "imageHint": "light rays",
+      "videoSrc": "/reel-3.mp4"
     }
   ]
 }
