@@ -18,7 +18,7 @@ const spiritualInsights = [
     title: '5 Keys to Spiritual Growth',
     category: 'Faith',
     image:
-      'https://images.unsplash.com/photo-1506126613408-2e61add503fa?q=80&w=1080',
+      'https://images.unsplash.com/photo-1499209974431-9dddcece7f88?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8c3Bpcml0dWFsfGVufDB8fDB8fHww',
     imageHint: 'spiritual path',
   },
   {
@@ -42,7 +42,7 @@ const spiritualInsights = [
     title: 'The Power of Forgiveness',
     category: 'Healing',
     image:
-      'https://images.unsplash.com/photo-1519412666296-c19b06544a87?q=80&w=1080',
+      'https://plus.unsplash.com/premium_photo-1683133593455-814352d8f6d0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Zm9yZ2l2ZW5lc3N8ZW58MHx8MHx8fDA%3D',
     imageHint: 'forgiveness light',
   },
 ];
