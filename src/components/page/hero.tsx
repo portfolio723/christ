@@ -1,14 +1,11 @@
 import Image from 'next/image';
 import { Crown, ChevronDown } from 'lucide-react';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
-import { cn } from '@/lib/utils';
-import { Card } from '@/components/ui/card';
 
-const heroBg = PlaceHolderImages.find((img) => img.id === 'hero-background');
 const profileDp = PlaceHolderImages.find((img) => img.id === 'profile-dp');
 
 export function Hero() {
-  if (!heroBg || !profileDp) {
+  if (!profileDp) {
     return null;
   }
   return (
@@ -16,13 +13,13 @@ export function Hero() {
       id="home"
       className="relative h-screen w-full flex flex-col items-center justify-center text-center text-white overflow-hidden"
     >
-      <Image
-        src={heroBg.imageUrl}
-        alt={heroBg.description}
-        fill
-        className="object-cover"
-        data-ai-hint={heroBg.imageHint}
-        priority
+      <video
+        src="/hero.mp4"
+        autoPlay
+        muted
+        loop
+        playsInline
+        className="absolute top-0 left-0 w-full h-full object-cover"
       />
       <div className="absolute inset-0 bg-black/70" />
       <div

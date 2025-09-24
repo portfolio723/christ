@@ -2,6 +2,7 @@ import Image from 'next/image';
 import { Card, CardContent } from '@/components/ui/card';
 import { PlayCircle } from 'lucide-react';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
+import { Button } from '@/components/ui/button';
 
 const reels = [
   PlaceHolderImages.find((img) => img.id === 'reel-1'),
@@ -28,7 +29,7 @@ export function VideoReels() {
             return (
               <Card
                 key={index}
-                className="group overflow-hidden rounded-xl border-2 border-transparent bg-card transition-all duration-300 hover:border-primary hover:shadow-2xl hover:shadow-primary/20 transform hover:-translate-y-2"
+                className="group overflow-hidden rounded-none border-2 border-transparent bg-card transition-all duration-300 hover:border-primary hover:shadow-2xl hover:shadow-primary/20 transform hover:-translate-y-2"
               >
                 <CardContent className="p-0">
                   <div className="relative aspect-video">
@@ -54,6 +55,14 @@ export function VideoReels() {
               </Card>
             );
           })}
+        </div>
+        <div className="mt-12 text-center">
+          <Button
+            size="lg"
+            className="bg-primary hover:bg-primary/90 text-primary-foreground font-bold"
+          >
+            Watch More
+          </Button>
         </div>
       </div>
     </section>
