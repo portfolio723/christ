@@ -76,9 +76,6 @@ const BlogPage = () => {
       <main className="container mx-auto px-4 py-16">
         {/* Featured Prophetic Word */}
         <section className="mb-16 text-center">
-          <h2 className="text-3xl font-bold mb-4 font-headline">
-            FEATURED PROPHETIC WORD
-          </h2>
           <div className="bg-card p-8 rounded-lg shadow-lg border border-border">
             <h3 className="text-2xl font-bold text-accent">
               &quot;The Season of Divine Acceleration Has Begun&quot;
@@ -105,21 +102,6 @@ const BlogPage = () => {
         {/* Latest Spiritual Insights */}
         <section className="mb-16 py-16">
           <div className="container mx-auto px-4 md:px-6">
-            <div className="flex justify-between items-center mb-8">
-              <div>
-                <h2 className="text-3xl md:text-4xl font-headline font-bold text-white">
-                  Spiritual Insights
-                </h2>
-                <p className="text-white/70 mt-2 max-w-xl">
-                  Explore articles that delve deeper into scripture, offer
-                  practical wisdom, and encourage a closer walk with God.
-                </p>
-              </div>
-              <div className="hidden md:flex">
-                <CarouselPrevious className="static -left-4 text-white" />
-                <CarouselNext className="static -right-4 ml-2 text-white" />
-              </div>
-            </div>
             <Carousel
               opts={{
                 align: 'start',
@@ -127,6 +109,21 @@ const BlogPage = () => {
               }}
               className="w-full"
             >
+              <div className="flex justify-between items-center mb-8">
+                <div>
+                  <h2 className="text-3xl md:text-4xl font-headline font-bold text-white">
+                    Spiritual Insights
+                  </h2>
+                  <p className="text-white/70 mt-2 max-w-xl">
+                    Explore articles that delve deeper into scripture, offer
+                    practical wisdom, and encourage a closer walk with God.
+                  </p>
+                </div>
+                <div className="hidden md:flex">
+                  <CarouselPrevious className="static -left-4 text-white" />
+                  <CarouselNext className="static -right-4 ml-2 text-white" />
+                </div>
+              </div>
               <CarouselContent>
                 {spiritualInsights.map((insight) => (
                   <CarouselItem
