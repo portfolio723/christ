@@ -1,15 +1,8 @@
 
 import Image from 'next/image';
-import Link from 'next/link';
 import {
   PlayCircle,
-  Clapperboard,
-  Heart,
   Youtube,
-  Instagram,
-  Facebook,
-  BotMessageSquare as Threads,
-  type LucideIcon,
 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import {

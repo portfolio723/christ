@@ -3,7 +3,6 @@ import {
   Phone,
   MessageSquare,
   Send,
-  User,
   Paperclip,
   BookUser,
 } from 'lucide-react';

@@ -1,4 +1,3 @@
-import { cn } from '@/lib/utils';
 
 export function MissionStatement() {
   const GlowText = ({ children }: { children: React.ReactNode }) => (

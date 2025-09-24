@@ -55,7 +55,7 @@ export function VideoReels() {
       ) {
         return videoUrl.searchParams.get('v');
       }
-    } catch (e) {
+    } catch {
       return null;
     }
     return null;
