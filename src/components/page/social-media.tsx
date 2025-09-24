@@ -23,7 +23,7 @@ const socialPlatforms: SocialPlatform[] = [
     handle: '@godsspiritsays',
     followers: '1.2M Followers',
     url: '#',
-    color: 'hover:text-[#E4405F]',
+    color: 'group-hover:text-[#E4405F]',
   },
   {
     name: 'YouTube',
@@ -31,7 +31,7 @@ const socialPlatforms: SocialPlatform[] = [
     handle: 'GodsspiritSays',
     followers: '890k Subscribers',
     url: '#',
-    color: 'hover:text-[#FF0000]',
+    color: 'group-hover:text-[#FF0000]',
   },
   {
     name: 'Facebook',
@@ -39,7 +39,7 @@ const socialPlatforms: SocialPlatform[] = [
     handle: 'GodsspiritSaysOfficial',
     followers: '500k Likes',
     url: '#',
-    color: 'hover:text-[#1877F2]',
+    color: 'group-hover:text-[#1877F2]',
   },
   {
     name: 'Threads',
@@ -47,7 +47,7 @@ const socialPlatforms: SocialPlatform[] = [
     handle: '@godsspiritsays',
     followers: '320k Followers',
     url: '#',
-    color: 'hover:text-white',
+    color: 'group-hover:text-white',
   },
 ];
 
@@ -77,11 +77,13 @@ export function SocialMedia() {
               href={platform.url}
               target="_blank"
               rel="noopener noreferrer"
+              className="group"
+              aria-label={`Follow on ${platform.name}`}
             >
-              <Card className="bg-card p-6 rounded-xl border-border hover:border-primary transition-all duration-300 transform hover:-translate-y-2 hover:shadow-2xl hover:shadow-primary/20">
+              <Card className="bg-card p-6 rounded-xl border-border group-hover:border-primary transition-all duration-300 transform group-hover:-translate-y-2 group-hover:shadow-2xl group-hover:shadow-primary/20">
                 <div className="flex items-center gap-4">
                   <platform.Icon
-                    className={`w-10 h-10 text-primary transition-colors ${platform.color}`}
+                    className={`w-10 h-10 text-primary transition-colors duration-300 group-hover:scale-110 group-hover:animate-pulse ${platform.color}`}
                   />
                   <div>
                     <h3 className="font-bold text-lg text-white">
