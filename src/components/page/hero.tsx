@@ -61,7 +61,21 @@ export function Hero() {
           piritsays
         </h1>
         <p className="font-script italic text-2xl md:text-3xl mt-4">
-          &ldquo;She prospers in all that she does&rdquo;
+          &ldquo;
+          <span className="relative inline-block">
+            S
+            <span
+              className="absolute text-accent"
+              style={{
+                top: '-1rem',
+                left: '-0.25rem',
+                filter: 'drop-shadow(0 0 6px hsl(var(--accent)))',
+              }}
+            >
+              <Crown className="w-6 h-6 transform -rotate-12 animate-pulse" />
+            </span>
+          </span>
+          he prospers in all that she does&rdquo;
           <span className="text-lg font-headline italic text-white/80 ml-2">
             &mdash; Psalms 1:3
           </span>
