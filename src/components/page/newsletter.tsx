@@ -29,7 +29,7 @@ export function Newsletter() {
       <div className="container mx-auto px-4 md:px-6">
         <div className="grid gap-12 lg:grid-cols-2 lg:gap-24 items-center">
           <div className="space-y-6 relative">
-            <Mail className="w-16 h-16 text-primary absolute -top-12 -left-8 opacity-10 transform -rotate-12 animate-float" />
+            <Mail className="w-16 h-16 text-primary absolute -top-12 -left-8 opacity-20 transform -rotate-12 animate-float" />
             <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-4xl md:text-5xl text-white">
               Join the Flock
             </h2>
