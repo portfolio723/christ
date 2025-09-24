@@ -240,7 +240,7 @@ export default function VideoMinistryPage() {
                  <h2 className="text-3xl font-headline font-bold text-white mb-4">
                     Our Sacred Mission
                   </h2>
-                  <blockquote className="mx-auto text-xl text-white/80 italic">
+                  <blockquote className="mx-auto text-xl text-white/80 font-script italic">
                     &ldquo;To inspire believers to embrace divine encounters through visual
                     ministry—transforming hearts with prophetic insight, worship, and
                     heartfelt prayer.&rdquo;
