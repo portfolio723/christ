@@ -183,9 +183,9 @@ export default function AboutPage() {
           <h2 className="text-3xl font-headline font-bold text-white text-center mb-12">
             Divine Encounters & Milestones
           </h2>
-          <div className="relative max-w-2xl mx-auto">
-            <div className="absolute left-1/2 top-0 bottom-0 w-0.5 bg-border transform -translate-x-1/2"></div>
-            <div className="space-y-12">
+          <div className="relative max-w-4xl mx-auto">
+            <div className="hidden md:block absolute left-1/2 top-0 bottom-0 w-0.5 bg-border transform -translate-x-1/2"></div>
+            <div className="space-y-12 md:space-y-0">
               {[
                 { year: '2018', title: 'The Prophetic Calling', desc: 'Received a clear prophetic calling during a prayer retreat, experiencing a life-changing encounter with God\'s presence.' },
                 { year: '2019', title: 'First Digital Message', desc: 'Stepped out in faith to share God\'s heart through digital platforms, reaching souls globally.' },
@@ -193,17 +193,21 @@ export default function AboutPage() {
                 { year: '2023', title: 'Global Impact', desc: 'Witnessed miraculous testimonies of healing, breakthrough, and transformation, reaching 50,000+ lives across 6 continents.' },
                 { year: '2024', title: 'Prophetic School Launch', desc: 'Established a training center for prophetic ministry, equipping others to hear God\'s voice and minister in supernatural gifts.' },
               ].map((item, index) => (
-                <div key={index} className="flex items-center w-full">
-                  <div className={`w-1/2 ${index % 2 === 0 ? 'pr-8' : 'pl-8 text-right'}`}>
-                    <div className="p-6 rounded-lg bg-card border border-border shadow-lg transform transition-transform hover:scale-105 hover:shadow-primary/20">
-                      <p className="text-primary font-bold text-xl mb-2">{item.year}</p>
-                      <h3 className="font-headline text-white text-xl font-semibold mb-2">{item.title}</h3>
-                      <p className="text-white/70">{item.desc}</p>
+                 <div key={index} className="relative md:grid md:grid-cols-2 md:gap-x-8 items-center mb-12 md:mb-0">
+                    <div className={cn(
+                        'md:col-start-1 md:row-start-1', 
+                        index % 2 !== 0 ? 'md:col-start-2' : ''
+                    )}>
+                        <div className={cn(
+                            'p-6 rounded-lg bg-card border border-border shadow-lg transform transition-transform hover:scale-105 hover:shadow-primary/20',
+                             index % 2 !== 0 ? 'md:text-left' : 'md:text-right'
+                        )}>
+                            <p className="text-primary font-bold text-xl mb-2">{item.year}</p>
+                            <h3 className="font-headline text-white text-xl font-semibold mb-2">{item.title}</h3>
+                            <p className="text-white/70">{item.desc}</p>
+                        </div>
                     </div>
-                  </div>
-                  <div className="w-1/2 flex justify-center absolute left-0 right-0">
-                    <div className="bg-primary rounded-full w-6 h-6 border-4 border-background flex items-center justify-center"></div>
-                  </div>
+                    <div className="hidden md:flex absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-6 h-6 bg-primary rounded-full border-4 border-background items-center justify-center"></div>
                 </div>
               ))}
             </div>
