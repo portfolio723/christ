@@ -1,3 +1,34 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-background",
+      "description": "Gentle ocean waves on a serene beach at dusk.",
+      "imageUrl": "https://images.unsplash.com/photo-1532020326606-ca3ae703dd24?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8YmVhY2glMjB3YXZlc3xlbnwwfHx8fDE3NTg2MjA1Nzd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "beach waves"
+    },
+    {
+      "id": "profile-dp",
+      "description": "Portrait of a smiling woman.",
+      "imageUrl": "https://images.unsplash.com/photo-1609505848912-b7c3b8b4beda?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx3b21hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTc1ODY0MDczOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman portrait"
+    },
+    {
+      "id": "reel-1",
+      "description": "Finding Peace in Prayer",
+      "imageUrl": "https://images.unsplash.com/photo-1605802861242-0ae53664541f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzcGlyaXR1YWwlMjBhYnN0cmFjdHxlbnwwfHx8fDE3NTg2Mzg5NTF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "spiritual abstract"
+    },
+    {
+      "id": "reel-2",
+      "description": "The Strength Within",
+      "imageUrl": "https://images.unsplash.com/photo-1721886561322-854c44c2535a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxzZXJlbmUlMjBsYW5kc2NhcGV8ZW58MHx8fHwxNzU4Njg0MTcyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "serene landscape"
+    },
+    {
+      "id": "reel-3",
+      "description": "A Path of Light",
+      "imageUrl": "https://images.unsplash.com/photo-1588406320565-9fa6d9901d1d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxsaWdodCUyMHJheXN8ZW58MHx8fHwxNzU4NzA3MDAyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "light rays"
+    }
+  ]
 }
