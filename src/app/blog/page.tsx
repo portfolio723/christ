@@ -7,7 +7,7 @@ const BlogPage = () => {
       {/* Hero Section */}
       <section className="relative h-screen flex items-center justify-center text-center">
         <video
-          src="/blog-hero.mp4"
+          src="/blog.mp4"
           autoPlay
           muted
           loop
@@ -157,3 +157,5 @@ const BlogPage = () => {
 };
 
 export default BlogPage;
+
+    
