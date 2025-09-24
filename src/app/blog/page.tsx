@@ -24,8 +24,8 @@ const spiritualInsights = [
     id: 'insight-2',
     title: 'Unlocking the Parables',
     category: 'Scripture',
-    image: 'https://images.unsplash.com/photo-1517960413543-34ee7424e8bb?q=80&w=2070&auto=format&fit=crop',
-    imageHint: 'chronological bible',
+    image: 'https://images.unsplash.com/photo-1523878291631-87283277f717?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8amVzdXN8ZW58MHx8MHx8fDA%3D',
+    imageHint: 'jesus statue',
   },
   {
     id: 'insight-3',
