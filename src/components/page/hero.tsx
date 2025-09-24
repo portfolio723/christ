@@ -62,8 +62,8 @@ export function Hero() {
         </h1>
         <p className="font-script italic text-2xl md:text-3xl mt-4">
           &ldquo;She prospers in all that she does&rdquo;
-          <span className="text-lg mt-2 font-headline italic text-white/80 block">
-            Psalms 1:3
+          <span className="text-lg font-headline italic text-white/80 ml-2">
+            &mdash; Psalms 1:3
           </span>
         </p>
       </div>
