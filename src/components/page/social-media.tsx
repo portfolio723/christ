@@ -80,7 +80,7 @@ export function SocialMedia() {
               className="group"
               aria-label={`Follow on ${platform.name}`}
             >
-              <Card className="bg-card p-6 rounded-xl border-border group-hover:border-primary transition-all duration-300 transform group-hover:-translate-y-2 group-hover:shadow-2xl group-hover:shadow-primary/20">
+              <Card className="bg-card p-6 rounded-xl border-border group-hover:border-primary transition-all duration-300 transform group-hover:-translate-y-2 group-hover:shadow-2xl group-hover:shadow-primary/20 h-full">
                 <div className="flex items-center gap-4">
                   <platform.Icon
                     className={`w-10 h-10 text-primary transition-colors duration-300 group-hover:scale-110 group-hover:animate-pulse ${platform.color}`}
@@ -92,7 +92,7 @@ export function SocialMedia() {
                     <p className="text-sm text-white/60">{platform.handle}</p>
                   </div>
                 </div>
-                <p className="text-2xl font-bold text-white mt-4">
+                <p className="font-bold text-white mt-4 text-2xl">
                   {platform.followers}
                 </p>
               </Card>
