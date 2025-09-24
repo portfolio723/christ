@@ -217,10 +217,6 @@ export default function AboutPage() {
 
         <Separator className="my-16 bg-border" />
 
-        <Feature />
-        
-        <Separator className="my-16 bg-border" />
-
         <section id="credentials" className="mb-16">
           <h2 className="text-3xl font-headline font-bold text-white text-center mb-12">
             Our Core Strengths
