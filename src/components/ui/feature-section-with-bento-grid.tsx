@@ -7,8 +7,6 @@ import {
   Heart,
   TrendingUp,
 } from "lucide-react";
-import { Badge } from "@/components/ui/badge";
-
 
 function Feature() {
   return (
@@ -27,7 +25,7 @@ function Feature() {
             </div>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div className="bg-muted rounded-md h-full lg:col-span-2 p-6 aspect-square lg:aspect-auto flex justify-between flex-col">
+            <div className="bg-muted rounded-md aspect-square p-6 flex justify-between flex-col">
               <Heart className="w-8 h-8 stroke-1 text-primary" />
               <div className="flex flex-col">
                 <h3 className="text-xl tracking-tight text-white font-semibold">
@@ -39,7 +37,7 @@ function Feature() {
                 </p>
               </div>
             </div>
-            <div className="bg-muted rounded-md  aspect-square p-6 flex justify-between flex-col">
+            <div className="bg-muted rounded-md aspect-square p-6 flex justify-between flex-col">
               <TrendingUp className="w-8 h-8 stroke-1 text-primary" />
               <div className="flex flex-col">
                 <h3 className="text-xl tracking-tight text-white font-semibold">Spiritual Growth</h3>
@@ -49,7 +47,6 @@ function Feature() {
                 </p>
               </div>
             </div>
-
             <div className="bg-muted rounded-md aspect-square p-6 flex justify-between flex-col">
               <BookOpen className="w-8 h-8 stroke-1 text-primary" />
               <div className="flex flex-col">
@@ -60,7 +57,7 @@ function Feature() {
                 </p>
               </div>
             </div>
-            <div className="bg-muted rounded-md h-full lg:col-span-2 p-6 aspect-square lg:aspect-auto flex justify-between flex-col">
+            <div className="bg-muted rounded-md aspect-square p-6 flex justify-between flex-col">
               <Globe className="w-8 h-8 stroke-1 text-primary" />
               <div className="flex flex-col">
                 <h3 className="text-xl tracking-tight text-white font-semibold">Global Vision</h3>
