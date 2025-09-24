@@ -11,6 +11,7 @@ import {
   CarouselPrevious,
 } from '@/components/ui/carousel';
 import { ShineBorder, Timeline } from '@/components/ui/shine-border';
+import { Cta4 } from '@/components/ui/cta-4';
 
 const spiritualInsights = [
   {
@@ -204,32 +205,19 @@ const BlogPage = () => {
           </div>
         </section>
 
-        {/* Newsletter Subscription */}
-        <section className="bg-card p-8 rounded-lg shadow-lg text-center mb-16 border border-border">
-          <h2 className="text-3xl font-bold mb-4 font-headline">
-            💌 NEVER MISS A DIVINE WORD
-          </h2>
-          <p className="mb-6 text-white/80">
-            Subscribe to receive prophetic insights, biblical teachings, and
-            spiritual encouragement delivered directly to your heart.
-          </p>
-          <div className="max-w-md mx-auto">
-            <h3 className="font-bold text-lg mb-2 text-white">
-              Weekly Newsletter Includes:
-            </h3>
-            <ul className="text-left list-disc list-inside space-y-1 mb-6 text-white/80">
-              <li>Fresh prophetic words and spiritual insights</li>
-              <li>Biblical study guides and devotional content</li>
-              <li>Prayer focuses and intercession guides</li>
-              <li>Upcoming ministry events and announcements</li>
-              <li>Exclusive content not available on the blog</li>
-            </ul>
-            <Button>Subscribe</Button>
-          </div>
-          <p className="mt-4 text-sm italic text-white/60">
-            *Join 28,000+ subscribers receiving Heaven&apos;s whispers weekly*
-          </p>
-        </section>
+        <Cta4
+          title="💌 NEVER MISS A DIVINE WORD"
+          description="Subscribe to receive prophetic insights, biblical teachings, and spiritual encouragement delivered directly to your heart."
+          buttonText="Subscribe Now"
+          buttonUrl="#"
+          items={[
+            'Fresh prophetic words and spiritual insights',
+            'Biblical study guides and devotional content',
+            'Prayer focuses and intercession guides',
+            'Upcoming ministry events and announcements',
+            'Exclusive content not available on the blog',
+          ]}
+        />
 
         {/* Community Discussion */}
         <section className="text-center">
