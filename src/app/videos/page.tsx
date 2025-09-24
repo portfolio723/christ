@@ -25,67 +25,27 @@ import { SocialMedia } from '@/components/page/social-media';
 const featuredVideos = [
   {
     id: 'video-1',
-    title: 'Metamorphosis: From Glory to Glory',
-    description: 'An introduction to our new series on spiritual transformation.',
+    title: 'The Unshakeable Kingdom',
+    description: 'Discover the stability and security found only in God’s eternal kingdom.',
     category: 'Sermon',
-    duration: '6:00',
-    views: '15K',
-    thumbnail: PlaceHolderImages.find((img) => img.id === 'reel-1')?.imageUrl,
-    thumbnailHint: 'spiritual abstract',
+    thumbnail: 'https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?q=80&w=2072&auto=format&fit=crop',
+    thumbnailHint: 'open bible',
   },
   {
     id: 'video-2',
-    title: 'Prophetic Word: Breakthrough Season',
-    description: 'A powerful prophetic word for the current season of your life.',
+    title: 'A Word for the Season',
+    description: 'A timely and encouraging prophetic word to navigate the current times.',
     category: 'Prophetic',
-    duration: '18:45',
-    views: '8.2K',
-    thumbnail: PlaceHolderImages.find((img) => img.id === 'reel-2')?.imageUrl,
-    thumbnailHint: 'serene landscape',
+    thumbnail: 'https://images.unsplash.com/photo-1496587373035-e5bc5b692a77?q=80&w=2070&auto=format&fit=crop',
+    thumbnailHint: 'light through clouds',
   },
   {
     id: 'video-3',
-    title: 'Healing Prayer Session',
-    description: 'Join us for a time of immersive prayer for divine healing.',
+    title: 'Intercession for Breakthrough',
+    description: 'Join in a powerful time of prayer for breakthrough in your life and family.',
     category: 'Prayer',
-    duration: '35:20',
-    views: '6.7K',
-    thumbnail:
-      'https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxwcmF5ZXJ8ZW58MHx8fHwxNzU4NzMwOTcxfDA&ixlib=rb-4.1.0&q=80&w=1080',
-    thumbnailHint: 'prayer hands',
-  },
-  {
-    id: 'video-4',
-    title: 'Testimony: From Ashes to Beauty',
-    description: 'A powerful story of redemption and God’s faithfulness.',
-    category: 'Testimony',
-    duration: '25:30',
-    views: '9.1K',
-    thumbnail:
-      'https://images.unsplash.com/photo-1543332164-6e82f355badc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxyZWRlbXB0aW9ufGVufDB8fHx8MTc1ODczMTAwN3ww&ixlib=rb-4.1.0&q=80&w=1080',
-    thumbnailHint: 'redemption light',
-  },
-  {
-    id: 'video-5',
-    title: 'Worship That Moves Heaven',
-    description: 'An anointed session of praise and worship.',
-    category: 'Worship',
-    duration: '11:55',
-    views: '13.8K',
-    thumbnail:
-      'https://images.unsplash.com/photo-1558223631-2e65d3a55743?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx3b3JzaGlwfGVufDB8fHx8MTc1ODczMTA0MXww&ixlib=rb-4.1.0&q=80&w=1080',
-    thumbnailHint: 'worship concert',
-  },
-  {
-    id: 'video-6',
-    title: 'Intercession for Nations',
-    description: 'Standing in the gap for countries around the world.',
-    category: 'Prayer',
-    duration: '45:20',
-    views: '5.9K',
-    thumbnail:
-      'https://images.unsplash.com/photo-1590483896841-8633c52081a8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxncm91cCUyMHByYXllcnxlbnwwfHx8fDE3NTg3MzEwNzB8MA&ixlib=rb-4.1.0&q=80&w=1080',
-    thumbnailHint: 'group prayer',
+    thumbnail: 'https://images.unsplash.com/photo-1528731708534-816fe59f90cb?q=80&w=2070&auto=format&fit=crop',
+    thumbnailHint: 'praying hands',
   },
 ];
 
@@ -175,7 +135,7 @@ export default function VideoMinistryPage() {
                   <div className="absolute inset-0 flex items-center justify-center">
                     <PlayCircle className="w-16 h-16 text-white/70 group-hover:text-white group-hover:scale-110 transition-all" />
                   </div>
-                  <Badge className="absolute top-3 right-3 bg-primary/80 backdrop-blur-sm">
+                  <Badge className="absolute top-3 left-3 bg-primary/80 backdrop-blur-sm">
                     {video.category}
                   </Badge>
                 </CardHeader>
@@ -186,19 +146,7 @@ export default function VideoMinistryPage() {
                   <p className="text-white/70 text-sm mb-4">
                     {video.description}
                   </p>
-                  <div className="flex justify-between items-center text-xs text-white/60">
-                    <span>{video.duration}</span>
-                    <span>{video.views} views</span>
-                  </div>
                 </CardContent>
-                <CardFooter className="p-4 pt-0">
-                  <Button
-                    variant="outline"
-                    className="w-full border-primary/50 text-primary-foreground/80 hover:bg-primary hover:text-primary-foreground"
-                  >
-                    Watch Now
-                  </Button>
-                </CardFooter>
               </Card>
             ))}
           </div>
