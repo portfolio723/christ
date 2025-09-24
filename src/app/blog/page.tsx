@@ -1,3 +1,4 @@
+
 import Link from 'next/link';
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
@@ -16,28 +17,28 @@ const spiritualInsights = [
     id: 'insight-1',
     title: '5 Keys to Spiritual Growth',
     category: 'Faith',
-    image: PlaceHolderImages.find((img) => img.id === 'insight-1')?.imageUrl,
+    image: 'https://images.unsplash.com/photo-1457369804613-52c61a468e7d?q=80&w=2070&auto=format&fit=crop',
     imageHint: 'spiritual altar',
   },
   {
     id: 'insight-2',
     title: 'Unlocking the Parables',
     category: 'Scripture',
-    image: PlaceHolderImages.find((img) => img.id === 'insight-2')?.imageUrl,
+    image: 'https://images.unsplash.com/photo-1517960413543-34ee7424e8bb?q=80&w=2070&auto=format&fit=crop',
     imageHint: 'chronological bible',
   },
   {
     id: 'insight-3',
     title: 'Finding Your Divine Purpose',
     category: 'Purpose',
-    image: PlaceHolderImages.find((img) => img.id === 'insight-3')?.imageUrl,
+    image: 'https://images.unsplash.com/photo-1533090161767-e6ffed986c88?q=80&w=2069&auto=format&fit=crop',
     imageHint: 'person purpose',
   },
   {
     id: 'insight-4',
     title: 'The Power of Forgiveness',
     category: 'Healing',
-    image: PlaceHolderImages.find((img) => img.id === 'insight-4')?.imageUrl,
+    image: 'https://images.unsplash.com/photo-1532012197267-da84d127e765?q=80&w=1974&auto=format&fit=crop',
     imageHint: 'forgiveness light',
   },
 ];
