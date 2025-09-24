@@ -10,8 +10,8 @@ const navLinks = [
   { href: '#home', label: 'Home' },
   { href: '#mission', label: 'About' },
   { href: '#reels', label: 'Videos' },
-  { href: '#', label: 'Blog' },
-  { href: '#', label: 'Testimonials' },
+  { href: '#blog', label: 'Blog' },
+  { href: '#testimonials', label: 'Testimonials' },
 ];
 
 export function Header() {
