@@ -28,7 +28,7 @@ export function Header() {
           >
             <Crown className="w-6 h-6 text-accent" />
             <span>
-              God<span className="text-accent">s</span>spirit
+              God<span className="text-accent">s</span>spiritsays
             </span>
           </Link>
 
