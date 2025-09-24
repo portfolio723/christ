@@ -12,7 +12,7 @@ const navLinks = [
   { href: '/about', label: 'About' },
   { href: '/videos', label: 'Videos' },
   { href: '/blog', label: 'Blog' },
-  { href: '/#testimonials', label: 'Testimonials' },
+  { href: '/testimonials', label: 'Testimonials' },
 ];
 
 export function Header() {
@@ -46,9 +46,10 @@ export function Header() {
 
           <div className="flex items-center gap-4">
             <Button
+              asChild
               className="hidden md:inline-flex bg-primary hover:bg-primary/90 text-primary-foreground font-bold"
             >
-              Contact
+              <Link href="/contact">Contact</Link>
             </Button>
             <Button
               variant="ghost"
@@ -83,10 +84,11 @@ export function Header() {
               </Link>
             ))}
             <Button
+              asChild
               className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-bold"
               onClick={() => setIsMenuOpen(false)}
             >
-              Contact
+              <Link href="/contact">Contact</Link>
             </Button>
           </nav>
         </div>
