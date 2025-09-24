@@ -237,9 +237,6 @@ export default function AboutPage() {
                 Jeremiah 29:11
                 </footer>
             </blockquote>
-            <p className="max-w-2xl mx-auto text-lg text-white/80 mb-8">
-                Whether you&apos;re seeking prophetic ministry, prayer support, spiritual mentoring, or simply want to connect with authentic community, you have a place in this spiritual family.
-            </p>
             <div className="flex flex-wrap justify-center gap-4">
                 <a href="mailto:hello@godsspiritsays.com" className="inline-flex items-center gap-2 bg-primary/20 text-white px-4 py-2 rounded-lg hover:bg-primary transition-colors">
                     <Mail className="w-5 h-5" /> hello@godsspiritsays.com
