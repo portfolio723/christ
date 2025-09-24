@@ -17,6 +17,9 @@ import {
   Lock,
   Sparkles,
   Search,
+  Feather,
+  GitCommit,
+  HeartHandshake,
 } from 'lucide-react';
 import { Separator } from '@/components/ui/separator';
 import { GlowingEffect } from '@/components/ui/glowing-effect';
@@ -155,25 +158,22 @@ export default function AboutPage() {
             <h2 className="text-3xl font-headline font-bold text-white mb-6 flex items-center justify-center gap-3">
               <Bird className="w-8 h-8 text-primary" /> My Journey Into Ministry
             </h2>
-            <div className="text-lg text-white/80 space-y-6 text-left leading-relaxed">
-              <p>
-                From childhood, the Lord placed a burning passion in my heart
-                for His people and His Word. Like the prophet Samuel, I learned
-                to recognize His voice and respond with &ldquo;Speak, Lord, for
-                your servant is listening.&rdquo;
-              </p>
-              <p>
-                Through seasons of preparation, wilderness experiences, and
-                divine encounters, God has shaped my heart for ministry. Every
-                trial became a classroom, every victory a testimony of His
-                faithfulness, and every season a deeper revelation of His love.
-              </p>
-              <p>
-                Today, I stand amazed at how He has opened doors across the
-                globe, connecting hearts through His Word and bringing healing
-                to broken places. This ministry flows from a heart overflow of
-                His love and a spirit burning with His truth.
-              </p>
+             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-left">
+                <div className="bg-card p-6 rounded-lg border border-border">
+                    <Feather className="w-8 h-8 text-primary mb-4" />
+                    <h3 className="font-headline text-xl font-semibold text-white mb-2">A Heart Prepared</h3>
+                    <p className="text-white/70">From a young age, a divine passion for God's Word and His people was ignited in my heart, setting the stage for a life of ministry.</p>
+                </div>
+                <div className="bg-card p-6 rounded-lg border border-border">
+                    <GitCommit className="w-8 h-8 text-primary mb-4" />
+                    <h3 className="font-headline text-xl font-semibold text-white mb-2">Seasons of Forging</h3>
+                    <p className="text-white/70">Through wilderness experiences and divine encounters, every trial became a lesson and every victory a testament to God's faithfulness.</p>
+                </div>
+                 <div className="bg-card p-6 rounded-lg border border-border">
+                    <HeartHandshake className="w-8 h-8 text-primary mb-4" />
+                    <h3 className="font-headline text-xl font-semibold text-white mb-2">A Ministry Unveiled</h3>
+                    <p className="text-white/70">Today, this ministry flows from a heart overflowing with His love, connecting and healing lives across the globe through His truth.</p>
+                </div>
             </div>
           </div>
         </section>
