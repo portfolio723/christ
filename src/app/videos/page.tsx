@@ -119,7 +119,7 @@ export default function VideoMinistryPage() {
             {featuredVideos.map((video) => (
               <Card
                 key={video.id}
-                className="group overflow-hidden bg-card border-border transition-all duration-300 hover:border-primary hover:shadow-2xl hover:shadow-primary/20 transform hover:-translate-y-2 rounded-none"
+                className="group overflow-hidden bg-card border-border transition-all duration-300 hover:border-primary hover:shadow-2xl hover:shadow-primary/20 transform hover:-translate-y-2 rounded-lg"
               >
                 <CardHeader className="p-0 relative aspect-video">
                   {video.thumbnail && (
@@ -176,7 +176,7 @@ export default function VideoMinistryPage() {
                   className="md:basis-1/2 lg:basis-1/3"
                 >
                   <div className="p-1">
-                    <Card className="overflow-hidden border-border group">
+                    <Card className="overflow-hidden border-border group rounded-lg">
                       <CardContent className="p-0 relative aspect-video">
                         <Image
                           src={series.thumbnail}
@@ -233,16 +233,18 @@ export default function VideoMinistryPage() {
       </section>
 
       {/* Mission Restatement */}
-      <section className="w-full py-20 md:py-28 bg-card/50 border-y border-border">
+      <section className="w-full py-20 md:py-28 bg-background">
         <div className="container mx-auto px-4 md:px-6 text-center">
-          <h2 className="text-3xl font-headline font-bold text-white mb-4">
-            Our Sacred Mission
-          </h2>
-          <blockquote className="max-w-3xl mx-auto text-xl text-white/80 italic">
-            &ldquo;To inspire believers to embrace divine encounters through visual
-            ministry—transforming hearts with prophetic insight, worship, and
-            heartfelt prayer.&rdquo;
-          </blockquote>
+            <Card variant="neubrutalism" className="max-w-3xl mx-auto bg-card">
+                 <h2 className="text-3xl font-headline font-bold text-white mb-4">
+                    Our Sacred Mission
+                  </h2>
+                  <blockquote className="mx-auto text-xl text-white/80 italic">
+                    &ldquo;To inspire believers to embrace divine encounters through visual
+                    ministry—transforming hearts with prophetic insight, worship, and
+                    heartfelt prayer.&rdquo;
+                  </blockquote>
+            </Card>
         </div>
       </section>
 
