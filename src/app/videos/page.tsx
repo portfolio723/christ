@@ -119,7 +119,7 @@ export default function VideoMinistryPage() {
             {featuredVideos.map((video) => (
               <Card
                 key={video.id}
-                className="group overflow-hidden bg-card border-border transition-all duration-300 hover:border-primary hover:shadow-2xl hover:shadow-primary/20 transform hover:-translate-y-2"
+                className="group overflow-hidden bg-card border-border transition-all duration-300 hover:border-primary hover:shadow-2xl hover:shadow-primary/20 transform hover:-translate-y-2 rounded-none"
               >
                 <CardHeader className="p-0 relative aspect-video">
                   {video.thumbnail && (
