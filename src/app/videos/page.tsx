@@ -235,7 +235,8 @@ export default function VideoMinistryPage() {
       {/* Mission Restatement */}
       <section className="w-full py-20 md:py-28 bg-background">
         <div className="container mx-auto px-4 md:px-6 text-center">
-            <Card variant="neubrutalism" className="max-w-3xl mx-auto bg-card">
+            <Card variant="plus" className="max-w-3xl mx-auto bg-card">
+              <CardContent>
                  <h2 className="text-3xl font-headline font-bold text-white mb-4">
                     Our Sacred Mission
                   </h2>
@@ -244,6 +245,7 @@ export default function VideoMinistryPage() {
                     ministry—transforming hearts with prophetic insight, worship, and
                     heartfelt prayer.&rdquo;
                   </blockquote>
+              </CardContent>
             </Card>
         </div>
       </section>
