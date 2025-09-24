@@ -27,6 +27,7 @@ import {
   CarouselPrevious,
 } from '@/components/ui/carousel';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
+import { SocialMedia } from '@/components/page/social-media';
 
 const featuredVideos = [
   {
@@ -127,44 +128,6 @@ const videoSeries = [
     thumbnail:
       'https://images.unsplash.com/photo-1524230659264-445c73a258be?q=80&w=1080',
     thumbnailHint: 'singing crowd',
-  },
-];
-
-type SocialPlatform = {
-  name: string;
-  Icon: LucideIcon;
-  handle: string;
-  url: string;
-  color: string;
-};
-const socialPlatforms: SocialPlatform[] = [
-  {
-    name: 'Instagram',
-    Icon: Instagram,
-    handle: '@godsspiritsays',
-    url: '#',
-    color: 'group-hover:text-[#E4405F]',
-  },
-  {
-    name: 'YouTube',
-    Icon: Youtube,
-    handle: 'GodsspiritSays',
-    url: '#',
-    color: 'group-hover:text-[#FF0000]',
-  },
-  {
-    name: 'Facebook',
-    Icon: Facebook,
-    handle: 'GodsspiritSaysOfficial',
-    url: '#',
-    color: 'group-hover:text-[#1877F2]',
-  },
-  {
-    name: 'Threads',
-    Icon: Threads,
-    handle: '@godsspiritsays',
-    url: '#',
-    color: 'group-hover:text-white',
   },
 ];
 
@@ -342,34 +305,7 @@ export default function VideoMinistryPage() {
         </div>
       </section>
 
-      {/* Social Media Connect */}
-      <section id="connect" className="w-full py-20 md:py-28 bg-background">
-        <div className="container mx-auto px-4 md:px-6">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-            {socialPlatforms.map((platform) => (
-              <a
-                key={platform.name}
-                href={platform.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group"
-              >
-                <div className="bg-card p-6 rounded-xl border-border group-hover:border-primary transition-all duration-300 transform group-hover:-translate-y-1 group-hover:shadow-lg group-hover:shadow-primary/20 flex items-center gap-4">
-                  <platform.Icon
-                    className={`w-8 h-8 text-primary transition-colors duration-300 ${platform.color}`}
-                  />
-                  <div>
-                    <h3 className="font-bold text-lg text-white">
-                      {platform.handle}
-                    </h3>
-                    <p className="text-sm text-white/60">{platform.name}</p>
-                  </div>
-                </div>
-              </a>
-            ))}
-          </div>
-        </div>
-      </section>
+      <SocialMedia />
     </main>
   );
 }
