@@ -42,7 +42,7 @@
     {
       "id": "testimonial-2",
       "description": "Portrait of a man in a suit.",
-      "imageUrl": "https://images.unsplash.com/photo-1548454782-15b189d129ab?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxtYW4lMjBpbiUyMHN1aXR8ZW58MHx8fHwxNzU4NzEwNTkyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1548454782-15b189d129ab?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxtYW4lMjBpbiUyMHN1aXR8ZW58MHx8fHwxNzU4NzEwNTkyfDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "man in suit"
     },
     {
@@ -68,6 +68,30 @@
       "description": "Portrait of a man reading a bible.",
       "imageUrl": "https://images.unsplash.com/photo-1681117338171-a743f93f4aa2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8bWFuJTIwcmVhZGluZyUyMGJpYmxlfGVufDB8fHx8MTc1ODcxMDU5Mnww&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "man reading bible"
+    },
+    {
+      "id": "insight-1",
+      "description": "A small Buddha statue on a tray with flowers.",
+      "imageUrl": "https://images.unsplash.com/photo-1620021392090-a7a527c75626?q=80&w=1080",
+      "imageHint": "spiritual altar"
+    },
+    {
+      "id": "insight-2",
+      "description": "A chronological Bible lying on a wooden surface.",
+      "imageUrl": "https://images.unsplash.com/photo-1453269293122-687e24a5948f?q=80&w=1080",
+      "imageHint": "chronological bible"
+    },
+    {
+      "id": "insight-3",
+      "description": "A person with a backpack looking out over a body of water.",
+      "imageUrl": "https://images.unsplash.com/photo-1494548162494-384bba4ab999?q=80&w=1080",
+      "imageHint": "person purpose"
+    },
+    {
+      "id": "insight-4",
+      "description": "A silhouette of a hand with light shining behind it.",
+      "imageUrl": "https://images.unsplash.com/photo-1586718524623-3b3a72661592?q=80&w=1080",
+      "imageHint": "forgiveness light"
     }
   ]
 }
