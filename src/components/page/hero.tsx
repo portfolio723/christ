@@ -50,7 +50,7 @@ export function Hero() {
             }}
           />
         </div>
-        <h1 className="font-headline text-5xl md:text-7xl font-bold">
+        <h1 className="font-headline text-4xl md:text-6xl font-bold">
           God
           <span className="relative inline-block mx-1">
             s
