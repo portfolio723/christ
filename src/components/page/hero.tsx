@@ -1,3 +1,4 @@
+
 import Image from 'next/image';
 import { Crown, ChevronDown } from 'lucide-react';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
@@ -53,16 +54,6 @@ export function Hero() {
           God
           <span className="relative inline-block mx-1">
             s
-            <span
-              className="absolute text-accent"
-              style={{
-                top: '-2.5rem',
-                left: '-0.75rem',
-                filter: 'drop-shadow(0 0 8px hsl(var(--accent)))',
-              }}
-            >
-              <Crown className="w-12 h-12 transform -rotate-12 animate-pulse" />
-            </span>
           </span>
           piritsays
         </h1>
