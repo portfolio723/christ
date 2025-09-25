@@ -33,16 +33,29 @@ export function MissionStatement() {
         <div className="mt-12 max-w-4xl mx-auto">
           <Card variant="plus" className="bg-card">
             <CardContent>
-              <blockquote className="m-0 border-0 p-0">
-                <p className="font-script text-3xl md:text-4xl text-white italic">
-                  &ldquo;But they that wait upon the LORD shall renew their strength;
-                  they shall mount up with wings as eagles; they shall run, and not be
-                  weary; and they shall walk, and not faint.&rdquo;
+              <div className="text-white text-left space-y-4 font-script text-2xl md:text-3xl">
+                <p>
+                  In the name of JESUS CHRIST, greetings 🌸 Beloved, the only
+                  purpose 🎯 I launched this channel is to tell you what
+                  GOD&apos;S SPIRIT Says 🕊️ by using me to uplift and
+                  strengthen your inner man 💪🏼 And enable you to pull
+                  yourself up internally strong first. Physiologic issues will
+                  automatically be resolved once we have healed ❤️‍🩹
+                  inwardly.
                 </p>
-                <footer className="mt-4 text-lg font-headline text-white/60">
-                  Isaiah 40:31
-                </footer>
-              </blockquote>
+                <p>
+                  Yes beloved 💙... Our mighty GOD will change our every broken
+                  heart piece to turn into mighty butterfly wings 🦋 to fly
+                  high 🕊️ And He will use every sharpened broken piece that
+                  converts it into massive strong butterfly wings. Even if your
+                  broken heart 💔 pieces pierced him and drew blood... 🔴
+                </p>
+                <p>
+                  By the way, one more affirmation! ⚡ Instead of hitting the
+                  millions of subscribers, my main goal in using Jesus&apos;
+                  name is for his love to reach the hearts of the millions 🤗🎀
+                </p>
+              </div>
             </CardContent>
           </Card>
         </div>
