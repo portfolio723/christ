@@ -3,14 +3,9 @@ import { Input } from '@/components/ui/input';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { GoldenCheck } from '@/components/icons';
 import { Mail, Users } from 'lucide-react';
+import FeatureSection from '@/components/ui/feature-section';
 
 export function Newsletter() {
-  const benefits = [
-    'Weekly prophetic insights and divine revelations',
-    'Exclusive Bible study guides and prayer focuses',
-    'Early access to new video teachings and events',
-    'Personal prayer support and community connection',
-  ];
 
   return (
     <section
@@ -37,24 +32,7 @@ export function Newsletter() {
               Subscribe to our newsletter for a weekly dose of inspiration,
               scripture, and divine guidance delivered straight to your inbox.
             </p>
-            <div className="space-y-4">
-              <h3 className="font-headline text-xl font-semibold text-white">What You&apos;ll Receive:</h3>
-              <ul className="space-y-3">
-                {benefits.map((benefit, index) => (
-                  <li key={index} className="flex items-start gap-4">
-                    <GoldenCheck className="w-6 h-6 shrink-0 mt-1" />
-                    <span className="text-lg text-white/90">{benefit}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-            <div className="flex items-center gap-4 rounded-lg bg-card/50 p-4 border border-border">
-                <Users className="w-8 h-8 text-accent"/>
-                <div>
-                    <p className="font-bold text-white">Join 25,000+ believers</p>
-                    <p className="text-sm text-white/70">&quot;These emails are pure gold!&quot; - Sarah M.</p>
-                </div>
-            </div>
+            <FeatureSection />
           </div>
           <div className="flex items-center justify-center">
             <Card className="w-full max-w-md bg-card border-primary/50 shadow-2xl shadow-primary/20 transition-all hover:shadow-primary/30">
