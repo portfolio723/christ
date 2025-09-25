@@ -3,7 +3,6 @@ import { VideoReels } from '@/components/page/video-reels';
 import { SocialMedia } from '@/components/page/social-media';
 import { Newsletter } from '@/components/page/newsletter';
 import { MissionStatement } from '@/components/page/mission-statement';
-import { getAssetPath } from '@/lib/utils';
 import { Hero } from '@/components/page/hero';
 
 export default function Home() {
@@ -12,7 +11,7 @@ export default function Home() {
       {/* Hero Section from former videos page */}
       <section className="relative h-screen w-full flex flex-col items-center justify-center text-center overflow-hidden">
         <video
-          src={getAssetPath('/butterflies.mp4')}
+          src="/butterflies.mp4"
           autoPlay
           muted
           loop

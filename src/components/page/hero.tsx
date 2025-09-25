@@ -2,7 +2,6 @@
 import Image from 'next/image';
 import { Crown, ChevronDown } from 'lucide-react';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
-import { getAssetPath } from '@/lib/utils';
 import { cn } from '@/lib/utils';
 import { GradualSpacing } from '@/components/ui/gradual-spacing';
 
@@ -18,7 +17,7 @@ export function Hero() {
       className="relative h-screen w-full flex flex-col items-center justify-center text-center text-white overflow-hidden"
     >
       <video
-        src={getAssetPath('/hero.mp4')}
+        src="/hero.mp4"
         autoPlay
         muted
         loop
@@ -36,7 +35,7 @@ export function Hero() {
       <div className="relative z-10 flex flex-col items-center p-4">
         <div className="relative mb-6">
           <Image
-            src={getAssetPath(profileDp.imageUrl)}
+            src={profileDp.imageUrl}
             alt={profileDp.description}
             width={160}
             height={160}
