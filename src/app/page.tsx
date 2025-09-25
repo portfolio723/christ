@@ -3,6 +3,7 @@ import { SocialMedia } from '@/components/page/social-media';
 import { Newsletter } from '@/components/page/newsletter';
 import { MissionStatement } from '@/components/page/mission-statement';
 import { getAssetPath } from '@/lib/utils';
+import { Hero } from '@/components/page/hero';
 
 export default function Home() {
   return (
