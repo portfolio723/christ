@@ -174,4 +174,4 @@ const timeline = [
   },
 ] satisfies Event[];
 
-export { ShineBorder, Timeline };
+export { ShineBorder };
