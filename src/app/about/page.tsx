@@ -154,7 +154,7 @@ export default function AboutPage() {
         <section id="journey" className="mb-16">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl font-headline font-bold text-white mb-6 flex items-center justify-center gap-3">
-              <Bird className="w-8 h-8 text-primary" /> My Journey Into Ministry
+              My Journey Into Ministry
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-left">
               <Card variant="plus" className="bg-card">
