@@ -15,7 +15,7 @@ export function Hero() {
       className="relative h-screen w-full flex flex-col items-center justify-center text-center text-white overflow-hidden"
     >
       <video
-        src={getAssetPath("/hero.mp4")}
+        src={getAssetPath('/hero.mp4')}
         autoPlay
         muted
         loop

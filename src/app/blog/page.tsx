@@ -55,7 +55,7 @@ const BlogPage = () => {
       {/* Hero Section */}
       <section className="relative h-screen flex items-center justify-center text-center">
         <video
-          src={getAssetPath("/blog.mp4")}
+          src={getAssetPath('/blog.mp4')}
           autoPlay
           muted
           loop

@@ -91,7 +91,7 @@ export default function VideoMinistryPage() {
       {/* Hero Section */}
       <section className="relative h-[80vh] w-full flex flex-col items-center justify-center text-center overflow-hidden">
         <video
-          src={getAssetPath("/butterflies.mp4")}
+          src={getAssetPath('/butterflies.mp4')}
           autoPlay
           muted
           loop
