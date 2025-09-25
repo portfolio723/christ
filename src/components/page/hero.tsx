@@ -4,6 +4,7 @@ import { Crown, ChevronDown } from 'lucide-react';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { getAssetPath } from '@/lib/utils';
 import { cn } from '@/lib/utils';
+import { GradualSpacing } from '@/components/ui/gradual-spacing';
 
 const profileDp = PlaceHolderImages.find((img) => img.id === 'profile-dp');
 
@@ -57,25 +58,22 @@ export function Hero() {
           </span>
           piritsays
         </h1>
-        <p className="font-script italic text-3xl md:text-4xl mt-4">
-          &ldquo;
-          <span className="relative inline-block">
-            S
-            <span
-              className="absolute text-accent"
-              style={{
-                top: '-1rem',
-                left: '-0.25rem',
-                filter: 'drop-shadow(0 0 6px hsl(var(--accent)))',
-              }}
-            >
+        <div className="relative mt-4">
+          <GradualSpacing
+            text="“She prospers in all that she does”"
+            className="font-script italic text-3xl md:text-4xl"
+            framerProps={{
+              hidden: { opacity: 0, y: 20 },
+              visible: { opacity: 1, y: 0 },
+            }}
+          >
+            <span className="absolute text-accent" style={{ top: '-1rem', left: '0.5rem', filter: 'drop-shadow(0 0 6px hsl(var(--accent)))' }}>
               <Crown className="w-8 h-8 transform -rotate-12 animate-pulse" />
             </span>
-          </span>
-          he prospers in all that she does&rdquo;
-          <span className="text-lg font-headline italic text-white/80 ml-2">
-            &mdash; Psalms 1:3
-          </span>
+          </GradualSpacing>
+        </div>
+        <p className="text-lg font-headline italic text-white/80 mt-4">
+          &mdash; Psalms 1:3
         </p>
       </div>
       <div className="absolute bottom-5 left-1/2 -translate-x-1/2">
