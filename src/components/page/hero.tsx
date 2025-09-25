@@ -2,6 +2,7 @@ import Image from 'next/image';
 import { Crown, ChevronDown } from 'lucide-react';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { getAssetPath } from '@/lib/utils';
+import { cn } from '@/lib/utils';
 
 const profileDp = PlaceHolderImages.find((img) => img.id === 'profile-dp');
 
@@ -33,11 +34,15 @@ export function Hero() {
       <div className="relative z-10 flex flex-col items-center p-4">
         <div className="relative mb-6">
           <Image
-            src={profileDp.imageUrl}
+            src={getAssetPath(profileDp.imageUrl)}
             alt={profileDp.description}
             width={160}
             height={160}
-            className="rounded-full object-cover border-4 border-primary"
+            className={cn(
+              'object-cover border-4 border-primary',
+              profileDp.id === 'profile-dp' &&
+                'rounded-full'
+            )}
             data-ai-hint={profileDp.imageHint}
             style={{
               boxShadow: '0 0 40px hsl(var(--primary)), 0 0 10px #000',
