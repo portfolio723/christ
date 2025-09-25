@@ -57,7 +57,7 @@ export function Hero() {
           </span>
           piritsays
         </h1>
-        <p className="font-script italic text-2xl md:text-3xl mt-4">
+        <p className="font-script italic text-3xl md:text-4xl mt-4">
           &ldquo;
           <span className="relative inline-block">
             S
@@ -69,7 +69,7 @@ export function Hero() {
                 filter: 'drop-shadow(0 0 6px hsl(var(--accent)))',
               }}
             >
-              <Crown className="w-6 h-6 transform -rotate-12 animate-pulse" />
+              <Crown className="w-8 h-8 transform -rotate-12 animate-pulse" />
             </span>
           </span>
           he prospers in all that she does&rdquo;
