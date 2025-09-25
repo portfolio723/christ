@@ -210,7 +210,7 @@ const ShaderMaterial = ({
   });
 
   const getUniforms = React.useCallback(() => {
-    const preparedUniforms: { [key: string]: THREE.IUniform<any> } = {};
+    const preparedUniforms: { [key: string]: THREE.IUniform } = {};
 
     for (const uniformName in uniforms) {
       const uniform: { value: any; type: string } = uniforms[uniformName];
@@ -221,7 +221,7 @@ const ShaderMaterial = ({
           break;
         case "uniform3f":
           preparedUniforms[uniformName] = {
-            value: new THREE.Vector3().fromArray(uniform.value),
+            value: new THREE.Vector3().fromArray(uniform.value as number[]),
           };
           break;
         case "uniform1fv":
@@ -229,14 +229,14 @@ const ShaderMaterial = ({
           break;
         case "uniform3fv":
           preparedUniforms[uniformName] = {
-            value: uniform.value.map((v: number[]) =>
+            value: (uniform.value as number[][]).map((v: number[]) =>
               new THREE.Vector3().fromArray(v)
             ),
           };
           break;
         case "uniform2f":
           preparedUniforms[uniformName] = {
-            value: new THREE.Vector2().fromArray(uniform.value),
+            value: new THREE.Vector2().fromArray(uniform.value as number[]),
           };
           break;
         default:
