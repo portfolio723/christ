@@ -91,7 +91,7 @@ const GlowingEffect = memo(
             },
             {
               duration: movementDuration,
-              ease: [0.16, 1, 0.3, 1],
+              easing: [0.16, 1, 0.3, 1],
             }
           );
         });
