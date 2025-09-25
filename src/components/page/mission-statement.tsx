@@ -33,7 +33,7 @@ export function MissionStatement() {
         <div className="mt-12 max-w-4xl mx-auto">
           <Card variant="plus" className="bg-card">
             <CardContent>
-              <div className="text-white text-left space-y-4 font-script text-2xl md:text-3xl">
+              <div className="text-white text-left space-y-4 font-body text-xl md:text-2xl">
                 <p>
                   In the name of JESUS CHRIST, greetings 🌸 Beloved, the only
                   purpose 🎯 I launched this channel is to tell you what
