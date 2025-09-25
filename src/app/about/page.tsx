@@ -24,8 +24,7 @@ import {
 import { Separator } from '@/components/ui/separator';
 import { GlowingEffect } from '@/components/ui/glowing-effect';
 import { cn, getAssetPath } from '@/lib/utils';
-import { Feature } from '@/components/ui/feature-section-with-bento-grid';
-
+import { Card, CardContent } from '@/components/ui/card';
 
 const StatCard = ({
   icon,
@@ -121,7 +120,6 @@ const GridItem = ({ area, icon, title, description }: GridItemProps) => {
   );
 };
 
-
 export default function AboutPage() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center bg-background">
@@ -151,29 +149,53 @@ export default function AboutPage() {
           </blockquote>
         </div>
       </header>
-      
+
       <div className="container mx-auto px-4 md:px-6 py-12 md:py-24">
         <section id="journey" className="mb-16">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl font-headline font-bold text-white mb-6 flex items-center justify-center gap-3">
               <Bird className="w-8 h-8 text-primary" /> My Journey Into Ministry
             </h2>
-             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-left">
-                <div className="bg-card p-6 rounded-lg border border-border">
-                    <Feather className="w-8 h-8 text-primary mb-4" />
-                    <h3 className="font-headline text-xl font-semibold text-white mb-2">A Heart Prepared</h3>
-                    <p className="text-white/70">From a young age, a divine passion for God's Word and His people was ignited in my heart, setting the stage for a life of ministry.</p>
-                </div>
-                <div className="bg-card p-6 rounded-lg border border-border">
-                    <GitCommit className="w-8 h-8 text-primary mb-4" />
-                    <h3 className="font-headline text-xl font-semibold text-white mb-2">Seasons of Forging</h3>
-                    <p className="text-white/70">Through wilderness experiences and divine encounters, every trial became a lesson and every victory a testament to God's faithfulness.</p>
-                </div>
-                 <div className="bg-card p-6 rounded-lg border border-border">
-                    <HeartHandshake className="w-8 h-8 text-primary mb-4" />
-                    <h3 className="font-headline text-xl font-semibold text-white mb-2">A Ministry Unveiled</h3>
-                    <p className="text-white/70">Today, this ministry flows from a heart overflowing with His love, connecting and healing lives across the globe through His truth.</p>
-                </div>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-left">
+              <Card variant="plus" className="bg-card">
+                <CardContent>
+                  <Feather className="w-8 h-8 text-primary mb-4 mt-4" />
+                  <h3 className="font-headline text-xl font-semibold text-white mb-2">
+                    A Heart Prepared
+                  </h3>
+                  <p className="text-white/70">
+                    From a young age, a divine passion for God's Word and His
+                    people was ignited in my heart, setting the stage for a
+                    life of ministry.
+                  </p>
+                </CardContent>
+              </Card>
+              <Card variant="plus" className="bg-card">
+                <CardContent>
+                  <GitCommit className="w-8 h-8 text-primary mb-4 mt-4" />
+                  <h3 className="font-headline text-xl font-semibold text-white mb-2">
+                    Seasons of Forging
+                  </h3>
+                  <p className="text-white/70">
+                    Through wilderness experiences and divine encounters, every
+                    trial became a lesson and every victory a testament to
+                    God's faithfulness.
+                  </p>
+                </CardContent>
+              </Card>
+              <Card variant="plus" className="bg-card">
+                <CardContent>
+                  <HeartHandshake className="w-8 h-8 text-primary mb-4 mt-4" />
+                  <h3 className="font-headline text-xl font-semibold text-white mb-2">
+                    A Ministry Unveiled
+                  </h3>
+                  <p className="text-white/70">
+                    Today, this ministry flows from a heart overflowing with
+                    His love, connecting and healing lives across the globe
+                    through His truth.
+                  </p>
+                </CardContent>
+              </Card>
             </div>
           </div>
         </section>
@@ -188,27 +210,58 @@ export default function AboutPage() {
             <div className="hidden md:block absolute left-1/2 top-0 bottom-0 w-0.5 bg-border transform -translate-x-1/2"></div>
             <div className="space-y-12 md:space-y-0">
               {[
-                { year: '2018', title: 'The Prophetic Calling', desc: 'Received a clear prophetic calling during a prayer retreat, experiencing a life-changing encounter with God\'s presence.' },
-                { year: '2019', title: 'First Digital Message', desc: 'Stepped out in faith to share God\'s heart through digital platforms, reaching souls globally.' },
-                { year: '2021', title: 'Ministry Expansion', desc: 'Launched a comprehensive online platform including website, social media, and structured teaching series.' },
-                { year: '2023', title: 'Global Impact', desc: 'Witnessed miraculous testimonies of healing, breakthrough, and transformation, reaching 50,000+ lives across 6 continents.' },
-                { year: '2024', title: 'Prophetic School Launch', desc: 'Established a training center for prophetic ministry, equipping others to hear God\'s voice and minister in supernatural gifts.' },
+                {
+                  year: '2018',
+                  title: 'The Prophetic Calling',
+                  desc: "Received a clear prophetic calling during a prayer retreat, experiencing a life-changing encounter with God's presence.",
+                },
+                {
+                  year: '2019',
+                  title: 'First Digital Message',
+                  desc: "Stepped out in faith to share God's heart through digital platforms, reaching souls globally.",
+                },
+                {
+                  year: '2021',
+                  title: 'Ministry Expansion',
+                  desc: 'Launched a comprehensive online platform including website, social media, and structured teaching series.',
+                },
+                {
+                  year: '2023',
+                  title: 'Global Impact',
+                  desc: 'Witnessed miraculous testimonies of healing, breakthrough, and transformation, reaching 50,000+ lives across 6 continents.',
+                },
+                {
+                  year: '2024',
+                  title: 'Prophetic School Launch',
+                  desc: "Established a training center for prophetic ministry, equipping others to hear God's voice and minister in supernatural gifts.",
+                },
               ].map((item, index) => (
-                 <div key={index} className="relative md:grid md:grid-cols-2 md:gap-x-8 items-center mb-12 md:mb-0">
-                    <div className={cn(
-                        'md:col-start-1 md:row-start-1', 
-                        index % 2 !== 0 ? 'md:col-start-2' : ''
-                    )}>
-                        <div className={cn(
-                            'p-6 rounded-lg bg-card border border-border shadow-lg transform transition-transform hover:scale-105 hover:shadow-primary/20',
-                             index % 2 !== 0 ? 'md:text-left' : 'md:text-right'
-                        )}>
-                            <p className="text-primary font-bold text-xl mb-2">{item.year}</p>
-                            <h3 className="font-headline text-white text-xl font-semibold mb-2">{item.title}</h3>
-                            <p className="text-white/70">{item.desc}</p>
-                        </div>
+                <div
+                  key={index}
+                  className="relative md:grid md:grid-cols-2 md:gap-x-8 items-center mb-12 md:mb-0"
+                >
+                  <div
+                    className={cn(
+                      'md:col-start-1 md:row-start-1',
+                      index % 2 !== 0 ? 'md:col-start-2' : ''
+                    )}
+                  >
+                    <div
+                      className={cn(
+                        'p-6 rounded-lg bg-card border border-border shadow-lg transform transition-transform hover:scale-105 hover:shadow-primary/20',
+                        index % 2 !== 0 ? 'md:text-left' : 'md:text-right'
+                      )}
+                    >
+                      <p className="text-primary font-bold text-xl mb-2">
+                        {item.year}
+                      </p>
+                      <h3 className="font-headline text-white text-xl font-semibold mb-2">
+                        {item.title}
+                      </h3>
+                      <p className="text-white/70">{item.desc}</p>
                     </div>
-                    <div className="hidden md:flex absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-6 h-6 bg-primary rounded-full border-4 border-background items-center justify-center"></div>
+                  </div>
+                  <div className="hidden md:flex absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-6 h-6 bg-primary rounded-full border-4 border-background items-center justify-center"></div>
                 </div>
               ))}
             </div>
@@ -222,37 +275,50 @@ export default function AboutPage() {
             Our Core Strengths
           </h2>
           <div className="max-w-6xl mx-auto">
-              <GlowingEffectDemo />
+            <GlowingEffectDemo />
           </div>
         </section>
-        
+
         <Separator className="my-16 bg-border" />
 
         <section id="connect" className="text-center">
-            <blockquote className="max-w-3xl mx-auto mb-8">
-                <p className="font-script text-2xl md:text-3xl text-white/90 italic">
-                &ldquo;For I know the plans I have for you,&rdquo; declares the Lord, &ldquo;plans to prosper you and not to harm you, to give you hope and a future.&rdquo;
-                </p>
-                <footer className="mt-2 text-lg font-headline text-white/60">
-                Jeremiah 29:11
-                </footer>
-            </blockquote>
-            <div className="flex flex-wrap justify-center gap-4">
-                <a href="mailto:hello@godsspiritsays.com" className="inline-flex items-center gap-2 bg-primary/20 text-white px-4 py-2 rounded-lg hover:bg-primary transition-colors">
-                    <Mail className="w-5 h-5" /> hello@godsspiritsays.com
-                </a>
-                <a href="tel:+15557729669" className="inline-flex items-center gap-2 bg-primary/20 text-white px-4 py-2 rounded-lg hover:bg-primary transition-colors">
-                    <Phone className="w-5 h-5" /> +1 (555) PRAY-NOW
-                </a>
-                 <a href="#" className="inline-flex items-center gap-2 bg-primary/20 text-white px-4 py-2 rounded-lg hover:bg-primary transition-colors">
-                    <Calendar className="w-5 h-5" /> Book Consultation
-                </a>
-                 <a href="#" className="inline-flex items-center gap-2 bg-primary/20 text-white px-4 py-2 rounded-lg hover:bg-primary transition-colors">
-                    <MessageSquare className="w-5 h-5" /> Live Chat
-                </a>
-            </div>
+          <blockquote className="max-w-3xl mx-auto mb-8">
+            <p className="font-script text-2xl md:text-3xl text-white/90 italic">
+              &ldquo;For I know the plans I have for you,&rdquo; declares the
+              Lord, &ldquo;plans to prosper you and not to harm you, to give
+              you hope and a future.&rdquo;
+            </p>
+            <footer className="mt-2 text-lg font-headline text-white/60">
+              Jeremiah 29:11
+            </footer>
+          </blockquote>
+          <div className="flex flex-wrap justify-center gap-4">
+            <a
+              href="mailto:hello@godsspiritsays.com"
+              className="inline-flex items-center gap-2 bg-primary/20 text-white px-4 py-2 rounded-lg hover:bg-primary transition-colors"
+            >
+              <Mail className="w-5 h-5" /> hello@godsspiritsays.com
+            </a>
+            <a
+              href="tel:+15557729669"
+              className="inline-flex items-center gap-2 bg-primary/20 text-white px-4 py-2 rounded-lg hover:bg-primary transition-colors"
+            >
+              <Phone className="w-5 h-5" /> +1 (555) PRAY-NOW
+            </a>
+            <a
+              href="#"
+              className="inline-flex items-center gap-2 bg-primary/20 text-white px-4 py-2 rounded-lg hover:bg-primary transition-colors"
+            >
+              <Calendar className="w-5 h-5" /> Book Consultation
+            </a>
+            <a
+              href="#"
+              className="inline-flex items-center gap-2 bg-primary/20 text-white px-4 py-2 rounded-lg hover:bg-primary transition-colors"
+            >
+              <MessageSquare className="w-5 h-5" /> Live Chat
+            </a>
+          </div>
         </section>
-
       </div>
     </main>
   );
