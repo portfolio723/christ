@@ -8,7 +8,6 @@ import { Button } from '@/components/ui/button';
 import {
   Card,
   CardContent,
-  CardFooter,
   CardHeader,
 } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
@@ -19,9 +18,7 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from '@/components/ui/carousel';
-import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { SocialMedia } from '@/components/page/social-media';
-import { getAssetPath } from '@/lib/utils';
 import { Hero } from '@/components/page/hero';
 import { MissionStatement } from '@/components/page/mission-statement';
 
