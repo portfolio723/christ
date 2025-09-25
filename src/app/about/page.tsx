@@ -123,7 +123,7 @@ const GridItem = ({ area, icon, title, description }: GridItemProps) => {
 export default function AboutPage() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center bg-background">
-      <header className="relative w-full h-[60vh] md:h-[70vh] flex flex-col items-center justify-center text-center text-white overflow-hidden">
+      <header className="relative w-full h-screen flex flex-col items-center justify-center text-center text-white overflow-hidden">
         <video
           src={getAssetPath('/eagle.mp4')}
           autoPlay

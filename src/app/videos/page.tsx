@@ -89,7 +89,7 @@ export default function VideoMinistryPage() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center bg-background text-white">
       {/* Hero Section */}
-      <section className="relative h-[80vh] w-full flex flex-col items-center justify-center text-center overflow-hidden">
+      <section className="relative h-screen w-full flex flex-col items-center justify-center text-center overflow-hidden">
         <video
           src={getAssetPath('/butterflies.mp4')}
           autoPlay
