@@ -4,47 +4,20 @@ import {
   BookOpen,
   Globe,
   TrendingUp,
-  Crown,
-  Award,
-  Briefcase,
-  Mic,
+  Sparkles,
+  Feather,
+  GitCommit,
+  HeartHandshake,
   Mail,
   Phone,
   Calendar,
   MessageSquare,
-  Bird,
-  Box,
-  Settings,
-  Lock,
-  Sparkles,
-  Search,
-  Feather,
-  GitCommit,
-  HeartHandshake,
 } from 'lucide-react';
 import { Separator } from '@/components/ui/separator';
 import { GlowingEffect } from '@/components/ui/glowing-effect';
 import { cn } from '@/lib/utils';
 import { Card, CardContent } from '@/components/ui/card';
 import { MissionStatement } from '@/components/page/mission-statement';
-
-const StatCard = ({
-  icon,
-  title,
-  children,
-}: {
-  icon: React.ReactNode;
-  title: string;
-  children: React.ReactNode;
-}) => (
-  <div className="flex items-start gap-4 rounded-lg bg-card/50 p-4 border border-border">
-    <div className="text-accent">{icon}</div>
-    <div>
-      <h3 className="font-bold text-white">{title}</h3>
-      <div className="text-sm text-white/70">{children}</div>
-    </div>
-  </div>
-);
 
 function GlowingEffectDemo() {
   return (
@@ -166,7 +139,7 @@ export default function AboutPage() {
                     A Heart Prepared
                   </h3>
                   <p className="text-white/70">
-                    From a young age, a divine passion for God's Word and His
+                    From a young age, a divine passion for God&apos;s Word and His
                     people was ignited in my heart, setting the stage for a
                     life of ministry.
                   </p>
@@ -181,7 +154,7 @@ export default function AboutPage() {
                   <p className="text-white/70">
                     Through wilderness experiences and divine encounters, every
                     trial became a lesson and every victory a testament to
-                    God's faithfulness.
+                    God&apos;s faithfulness.
                   </p>
                 </CardContent>
               </Card>
