@@ -246,20 +246,23 @@ export default function AboutPage() {
                       index % 2 !== 0 ? 'md:col-start-2' : ''
                     )}
                   >
-                    <div
+                    <Card
+                      variant="neubrutalism"
                       className={cn(
-                        'p-6 rounded-lg bg-card border border-border shadow-lg transform transition-transform hover:scale-105 hover:shadow-primary/20',
+                        'bg-card transition-transform hover:scale-105 hover:shadow-primary/20',
                         index % 2 !== 0 ? 'md:text-left' : 'md:text-right'
                       )}
                     >
-                      <p className="text-primary font-bold text-xl mb-2">
-                        {item.year}
-                      </p>
-                      <h3 className="font-headline text-white text-xl font-semibold mb-2">
-                        {item.title}
-                      </h3>
-                      <p className="text-white/70">{item.desc}</p>
-                    </div>
+                      <CardContent>
+                        <p className="text-primary font-bold text-xl mb-2">
+                          {item.year}
+                        </p>
+                        <h3 className="font-headline text-white text-xl font-semibold mb-2">
+                          {item.title}
+                        </h3>
+                        <p className="text-white/70">{item.desc}</p>
+                      </CardContent>
+                    </Card>
                   </div>
                   <div className="hidden md:flex absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-6 h-6 bg-primary rounded-full border-4 border-background items-center justify-center"></div>
                 </div>
