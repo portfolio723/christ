@@ -28,10 +28,6 @@ export function Newsletter() {
             <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-4xl md:text-5xl text-white">
               Join the Flock
             </h2>
-            <p className="max-w-[600px] text-white/80 md:text-xl">
-              Subscribe to our newsletter for a weekly dose of inspiration,
-              scripture, and divine guidance delivered straight to your inbox.
-            </p>
             <FeatureSection />
           </div>
           <div className="flex items-center justify-center">
