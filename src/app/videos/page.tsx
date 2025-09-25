@@ -103,10 +103,6 @@ export default function VideoMinistryPage() {
           <h1 className="text-4xl md:text-6xl font-headline font-bold mb-4 tracking-tight">
             Broken vessels will spark more when they are touched by JUSES
           </h1>
-          <p className="max-w-3xl mx-auto text-lg md:text-xl text-white/80">
-            Experience God’s presence through powerful video teachings,
-            prophetic words, worship sessions, and transformational testimonies.
-          </p>
         </div>
       </section>
 
