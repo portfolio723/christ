@@ -1,7 +1,7 @@
 "use client";
 import { cn } from "@/lib/utils";
 import { Canvas, useFrame, useThree } from "@react-three/fiber";
-import type { FC } from "react";
+import type { FC, Ref } from "react";
 import React from "react";
 import * as THREE from "three";
 
@@ -213,11 +213,12 @@ const ShaderMaterial = ({
     const preparedUniforms: { [key: string]: THREE.IUniform } = {};
 
     for (const uniformName in uniforms) {
-      const uniform: { value: any; type: string } = uniforms[uniformName];
+      const uniform: { value: number[] | number[][] | number; type: string } =
+        uniforms[uniformName];
 
       switch (uniform.type) {
         case "uniform1f":
-          preparedUniforms[uniformName] = { value: uniform.value };
+          preparedUniforms[uniformName] = { value: uniform.value as number };
           break;
         case "uniform3f":
           preparedUniforms[uniformName] = {
@@ -225,7 +226,7 @@ const ShaderMaterial = ({
           };
           break;
         case "uniform1fv":
-          preparedUniforms[uniformName] = { value: uniform.value };
+          preparedUniforms[uniformName] = { value: uniform.value as number[] };
           break;
         case "uniform3fv":
           preparedUniforms[uniformName] = {
@@ -277,10 +278,10 @@ const ShaderMaterial = ({
     });
 
     return materialObject;
-  }, [source, getUniforms]);
+  }, [getUniforms, source]);
 
   return (
-    <mesh ref={ref as React.Ref<THREE.Mesh>}>
+    <mesh ref={ref as Ref<THREE.Mesh>}>
       <planeGeometry args={[2, 2]} />
       <primitive object={material} attach="material" />
     </mesh>
@@ -304,5 +305,3 @@ interface ShaderProps {
   };
   maxFps?: number;
 }
-
-    
