@@ -1,4 +1,6 @@
 
+import { Card, CardContent } from '@/components/ui/card';
+
 export function MissionStatement() {
   const GlowText = ({ children }: { children: React.ReactNode }) => (
     <span
@@ -28,16 +30,22 @@ export function MissionStatement() {
           faith, and <GlowText>spiritual abundance</GlowText> through the
           teachings of the scripture.
         </p>
-        <blockquote className="mt-12 max-w-4xl mx-auto">
-          <p className="font-script text-3xl md:text-4xl text-white italic">
-            &ldquo;But they that wait upon the LORD shall renew their strength;
-            they shall mount up with wings as eagles; they shall run, and not be
-            weary; and they shall walk, and not faint.&rdquo;
-          </p>
-          <footer className="mt-4 text-lg font-headline text-white/60">
-            Isaiah 40:31
-          </footer>
-        </blockquote>
+        <div className="mt-12 max-w-4xl mx-auto">
+          <Card variant="plus" className="bg-card">
+            <CardContent>
+              <blockquote className="m-0 border-0 p-0">
+                <p className="font-script text-3xl md:text-4xl text-white italic">
+                  &ldquo;But they that wait upon the LORD shall renew their strength;
+                  they shall mount up with wings as eagles; they shall run, and not be
+                  weary; and they shall walk, and not faint.&rdquo;
+                </p>
+                <footer className="mt-4 text-lg font-headline text-white/60">
+                  Isaiah 40:31
+                </footer>
+              </blockquote>
+            </CardContent>
+          </Card>
+        </div>
       </div>
     </section>
   );
