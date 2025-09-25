@@ -2,14 +2,9 @@
 
 import * as React from "react";
 import { Card, CardContent } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
 import { motion } from "framer-motion";
 import {
-  Bell,
-  DollarSign,
   Users,
-  Share2,
-  FileBarChart,
   Heart,
   BookOpen,
   Video,
@@ -96,3 +91,5 @@ export default function FeatureSection() {
     </section>
   );
 }
+
+    

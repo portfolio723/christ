@@ -1,7 +1,7 @@
 "use client";
 
 import { cn } from "@/lib/utils";
-import type { LucideIcon, LucideProps } from "lucide-react";
+import type { LucideIcon } from "lucide-react";
 import { Heart, Repeat, Send, Check } from "lucide-react";
 import type { ReactNode } from "react";
 
@@ -175,3 +175,5 @@ const timeline = [
 ] satisfies Event[];
 
 export { ShineBorder };
+
+    
