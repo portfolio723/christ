@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import { Crown, ChevronDown } from 'lucide-react';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
+import { getAssetPath } from '@/lib/utils';
 
 const profileDp = PlaceHolderImages.find((img) => img.id === 'profile-dp');
 
@@ -14,7 +15,7 @@ export function Hero() {
       className="relative h-screen w-full flex flex-col items-center justify-center text-center text-white overflow-hidden"
     >
       <video
-        src="/christ/hero.mp4"
+        src={getAssetPath("/hero.mp4")}
         autoPlay
         muted
         loop

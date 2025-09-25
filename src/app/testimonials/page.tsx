@@ -4,6 +4,7 @@ import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { SocialMedia } from '@/components/page/social-media';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
+import { getAssetPath } from '@/lib/utils';
 
 const testimonials = [
   {
@@ -62,7 +63,7 @@ export default function TestimonialsPage() {
       {/* Hero Section */}
       <section className="relative h-[80vh] w-full flex flex-col items-center justify-center text-center overflow-hidden">
         <video
-          src="/christ/test.mp4"
+          src={getAssetPath("/test.mp4")}
           autoPlay
           muted
           loop

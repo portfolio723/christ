@@ -21,6 +21,7 @@ import {
 } from '@/components/ui/carousel';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { SocialMedia } from '@/components/page/social-media';
+import { getAssetPath } from '@/lib/utils';
 
 const featuredVideos = [
   {
@@ -90,7 +91,7 @@ export default function VideoMinistryPage() {
       {/* Hero Section */}
       <section className="relative h-[80vh] w-full flex flex-col items-center justify-center text-center overflow-hidden">
         <video
-          src="/christ/butterflies.mp4"
+          src={getAssetPath("/butterflies.mp4")}
           autoPlay
           muted
           loop
@@ -233,7 +234,7 @@ export default function VideoMinistryPage() {
       </section>
 
       {/* Mission Restatement */}
-      <section className="w-full py-20 md:py-28 bg-background">
+      <section className="w-full py-20 md:py-28 bg-card/50 border-y border-border">
         <div className="container mx-auto px-4 md:px-6 text-center">
             <Card variant="plus" className="max-w-3xl mx-auto bg-card">
               <CardContent>

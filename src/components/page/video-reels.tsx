@@ -12,6 +12,7 @@ import {
   DialogTrigger,
 } from '@/components/ui/dialog';
 import { useState } from 'react';
+import { getAssetPath } from '@/lib/utils';
 
 const reels = PlaceHolderImages.filter(
   (img) => img.id.startsWith('reel-') && img.videoSrc
@@ -63,7 +64,7 @@ export function VideoReels() {
 
   const getCorrectedPath = (videoSrc: string) => {
     if (videoSrc.startsWith('/')) {
-        return `/christ${videoSrc}`;
+        return getAssetPath(videoSrc);
     }
     return videoSrc;
   }

@@ -23,7 +23,7 @@ import {
 } from 'lucide-react';
 import { Separator } from '@/components/ui/separator';
 import { GlowingEffect } from '@/components/ui/glowing-effect';
-import { cn } from '@/lib/utils';
+import { cn, getAssetPath } from '@/lib/utils';
 import { Feature } from '@/components/ui/feature-section-with-bento-grid';
 
 
@@ -127,7 +127,7 @@ export default function AboutPage() {
     <main className="flex min-h-screen flex-col items-center justify-center bg-background">
       <header className="relative w-full h-[60vh] md:h-[70vh] flex flex-col items-center justify-center text-center text-white overflow-hidden">
         <video
-          src="/christ/eagle.mp4"
+          src={getAssetPath("/eagle.mp4")}
           autoPlay
           muted
           loop

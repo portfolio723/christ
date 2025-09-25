@@ -12,6 +12,7 @@ import {
 } from '@/components/ui/carousel';
 import { ShineBorder, Timeline } from '@/components/ui/shine-border';
 import { Cta4 } from '@/components/ui/cta-4';
+import { getAssetPath } from '@/lib/utils';
 
 const spiritualInsights = [
   {
@@ -54,7 +55,7 @@ const BlogPage = () => {
       {/* Hero Section */}
       <section className="relative h-screen flex items-center justify-center text-center">
         <video
-          src="/christ/blog.mp4"
+          src={getAssetPath("/blog.mp4")}
           autoPlay
           muted
           loop
