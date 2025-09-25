@@ -14,7 +14,7 @@ export function Hero() {
       className="relative h-screen w-full flex flex-col items-center justify-center text-center text-white overflow-hidden"
     >
       <video
-        src="/hero.mp4"
+        src="/christ/hero.mp4"
         autoPlay
         muted
         loop

@@ -61,6 +61,13 @@ export function VideoReels() {
     return null;
   };
 
+  const getCorrectedPath = (videoSrc: string) => {
+    if (videoSrc.startsWith('/')) {
+        return `/christ${videoSrc}`;
+    }
+    return videoSrc;
+  }
+
   return (
     <section id="reels" className="w-full py-20 md:py-32 bg-background">
       <Dialog
@@ -131,7 +138,7 @@ export function VideoReels() {
                 videoId={getYoutubeVideoId(selectedReel.videoSrc) || ''}
               />
             ) : (
-              <LocalVideo src={selectedReel.videoSrc} />
+              <LocalVideo src={getCorrectedPath(selectedReel.videoSrc)} />
             )}
           </DialogContent>
         )}

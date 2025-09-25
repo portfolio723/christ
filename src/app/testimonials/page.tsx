@@ -62,7 +62,7 @@ export default function TestimonialsPage() {
       {/* Hero Section */}
       <section className="relative h-[80vh] w-full flex flex-col items-center justify-center text-center overflow-hidden">
         <video
-          src="/test.mp4"
+          src="/christ/test.mp4"
           autoPlay
           muted
           loop
