@@ -23,6 +23,7 @@ import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { SocialMedia } from '@/components/page/social-media';
 import { getAssetPath } from '@/lib/utils';
 import { Hero } from '@/components/page/hero';
+import { MissionStatement } from '@/components/page/mission-statement';
 
 const featuredVideos = [
   {
@@ -216,22 +217,7 @@ export default function VideoMinistryPage() {
       </section>
 
       {/* Mission Restatement */}
-      <section className="w-full py-20 md:py-28 bg-card/50 border-y border-border">
-        <div className="container mx-auto px-4 md:px-6 text-center">
-            <Card variant="plus" className="max-w-3xl mx-auto bg-card">
-              <CardContent>
-                 <h2 className="text-3xl font-headline font-bold text-white mb-4">
-                    Our Sacred Mission
-                  </h2>
-                  <blockquote className="mx-auto text-xl text-white/80 font-script italic">
-                    &ldquo;To inspire believers to embrace divine encounters through visual
-                    ministry—transforming hearts with prophetic insight, worship, and
-                    heartfelt prayer.&rdquo;
-                  </blockquote>
-              </CardContent>
-            </Card>
-        </div>
-      </section>
+      <MissionStatement />
 
       <SocialMedia />
     </main>

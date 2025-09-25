@@ -1,3 +1,4 @@
+
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
@@ -5,6 +6,7 @@ import { Badge } from '@/components/ui/badge';
 import { SocialMedia } from '@/components/page/social-media';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { getAssetPath } from '@/lib/utils';
+import { MissionStatement } from '@/components/page/mission-statement';
 
 const testimonials = [
   {
@@ -131,16 +133,7 @@ export default function TestimonialsPage() {
       </section>
 
        {/* Mission Restatement */}
-      <section className="w-full py-20 md:py-28 bg-background">
-        <div className="container mx-auto px-4 md:px-6 text-center">
-          <h2 className="text-3xl font-headline font-bold text-white mb-4">
-            Our Sacred Mission
-          </h2>
-          <blockquote className="max-w-3xl mx-auto text-xl text-white/80 italic">
-            &ldquo;To declare God’s faithfulness through testimonies of miraculous transformation, inspiring a community to walk in divine promise and purpose.&rdquo;
-          </blockquote>
-        </div>
-      </section>
+       <MissionStatement />
 
       <SocialMedia />
     </main>

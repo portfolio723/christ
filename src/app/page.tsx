@@ -1,3 +1,4 @@
+
 import { VideoReels } from '@/components/page/video-reels';
 import { SocialMedia } from '@/components/page/social-media';
 import { Newsletter } from '@/components/page/newsletter';

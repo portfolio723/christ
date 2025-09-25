@@ -1,3 +1,4 @@
+
 import {
   Heart,
   BookOpen,
@@ -25,6 +26,7 @@ import { Separator } from '@/components/ui/separator';
 import { GlowingEffect } from '@/components/ui/glowing-effect';
 import { cn, getAssetPath } from '@/lib/utils';
 import { Card, CardContent } from '@/components/ui/card';
+import { MissionStatement } from '@/components/page/mission-statement';
 
 const StatCard = ({
   icon,
@@ -323,6 +325,7 @@ export default function AboutPage() {
           </div>
         </section>
       </div>
+      <MissionStatement />
     </main>
   );
 }
