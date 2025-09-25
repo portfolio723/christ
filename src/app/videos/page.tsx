@@ -100,7 +100,7 @@ export default function VideoMinistryPage() {
         />
         <div className="absolute inset-0 bg-black/60" />
         <div className="relative z-10 p-4 container mx-auto px-4 md:px-6">
-          <h1 className="text-4xl md:text-6xl font-headline font-bold mb-4 tracking-tight max-w-3xl mx-auto">
+          <h1 className="text-4xl md:text-6xl font-headline font-bold mb-4 tracking-tight max-w-2xl mx-auto">
             Broken vessels will spark more when they are touched by JUSES
           </h1>
         </div>
