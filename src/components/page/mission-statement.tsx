@@ -25,10 +25,8 @@ export function MissionStatement() {
           Our Mission
         </h2>
         <p className="mx-auto max-w-3xl text-white/80 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed mt-6">
-          To empower individuals to discover their{' '}
-          <GlowText>divine purpose</GlowText> and live a life of prosperity,
-          faith, and <GlowText>spiritual abundance</GlowText> through the
-          teachings of the scripture.
+          God mends broken hearts into mighty wings to soar 🦋 His purpose is to
+          strengthen us from the inside out 💪🏻 In Jesus&apos; name 🕊️
         </p>
         <div className="mt-12 max-w-4xl mx-auto">
           <Card variant="plus" className="bg-card">
