@@ -27,7 +27,7 @@ export function Header() {
             className="flex items-center gap-2 font-headline text-2xl font-bold text-white"
           >
             <span>
-              God<span className="text-accent">s</span>spiritsays
+              God<span className="text-accent">s</span>spiritsays 🕊️
             </span>
           </Link>
 
