@@ -1,6 +1,4 @@
 
-import { getAssetPath } from '@/lib/utils';
-
 export function VideoHero() {
   return (
     <section
@@ -8,7 +6,7 @@ export function VideoHero() {
       className="relative h-screen w-full flex flex-col items-center justify-center text-center text-white overflow-hidden"
     >
       <video
-        src={getAssetPath('/butterflies.mp4')}
+        src="/butterflies.mp4"
         autoPlay
         muted
         loop
