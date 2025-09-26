@@ -40,7 +40,7 @@ export function Hero() {
             width={160}
             height={160}
             className={cn(
-              'object-cover border-4 border-white/10',
+              'object-cover border-4 border-white',
               profileDp.id === 'profile-dp' &&
                 'rounded-full'
             )}
