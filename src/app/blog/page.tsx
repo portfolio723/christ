@@ -80,31 +80,6 @@ const BlogPage = () => {
       </section>
 
       <main className="container mx-auto px-4 py-16">
-        {/* Featured Prophetic Word */}
-        <section className="mb-16 text-center">
-          <div className="bg-card p-8 rounded-lg shadow-lg border border-border">
-            <h3 className="text-2xl font-bold text-accent">
-              &quot;The Season of Divine Acceleration Has Begun&quot;
-            </h3>
-            <p className="text-sm text-white/70 mt-2">
-              Prophetic Word | March 20, 2024 | 8 min read
-            </p>
-            <p className="mt-4 text-lg text-white/80">
-              The Lord is saying: &quot;What I have been preparing in secret, I
-              am now bringing into the open. This is the season where time
-              itself bends to My will, and what would normally take years will
-              happen in months. Do not be surprised by the suddenness of My
-              movement in your life...&quot;
-            </p>
-            <Link
-              href="#"
-              className="inline-block mt-6 text-accent font-bold hover:underline"
-            >
-              Read Full Prophetic Word →
-            </Link>
-          </div>
-        </section>
-
         {/* Latest Spiritual Insights */}
         <section className="mb-16 py-16">
           <div className="container mx-auto px-4 md:px-6">
