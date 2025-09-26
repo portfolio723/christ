@@ -47,12 +47,10 @@ export default function AboutPage() {
         <section id="connect" className="text-center">
           <blockquote className="max-w-3xl mx-auto mb-8">
             <p className="font-script text-2xl md:text-3xl text-white/90 italic">
-              &ldquo;For I know the plans I have for you,&rdquo; declares the
-              Lord, &ldquo;plans to prosper you and not to harm you, to give
-              you hope and a future.&rdquo;
+              &ldquo;I will make you majestic forever, a source of joy for every generation&rdquo;
             </p>
             <footer className="mt-2 text-lg font-headline text-white/60">
-              Jeremiah 29:11
+              Isaiah 60:15
             </footer>
           </blockquote>
           <div className="flex flex-wrap justify-center gap-4">
