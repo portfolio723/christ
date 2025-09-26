@@ -30,15 +30,9 @@ export default function Home() {
       {/* Live Broadcast Section */}
       <section
         id="live-broadcast"
-        className="w-full py-20 md:py-28 bg-background"
+        className="w-full h-screen flex items-center justify-center"
       >
-        <div className="container mx-auto px-4 md:px-6 text-center">
-          <h2 className="text-3xl font-headline font-bold text-white mb-4">
-            Live Broadcast
-          </h2>
-          <p className="text-white/80 max-w-2xl mx-auto mb-8">
-            Join our live sessions for powerful teachings, worship, and prophetic ministry. Tune in and be blessed.
-          </p>
+        <div className="w-full h-full">
           <VideoPlayerDemo src="/oh.mp4" />
         </div>
       </section>
