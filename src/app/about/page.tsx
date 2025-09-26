@@ -257,6 +257,8 @@ export default function AboutPage() {
           </div>
         </section>
 
+        <MissionStatement />
+
         <Separator className="my-16 bg-border" />
 
         <section id="connect" className="text-center">
@@ -298,7 +300,6 @@ export default function AboutPage() {
           </div>
         </section>
       </div>
-      <MissionStatement />
     </main>
   );
 }
