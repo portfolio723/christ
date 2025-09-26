@@ -152,34 +152,6 @@ const BlogPage = () => {
           </div>
         </section>
 
-        {/* Blog Categories */}
-        <section className="mb-16">
-          <h2 className="text-3xl font-bold text-center mb-8 font-headline">
-            BLOG CATEGORIES
-          </h2>
-          <div className="flex flex-wrap justify-center gap-4">
-            {[
-              '🔮 Prophetic Words',
-              '📖 Biblical Teaching',
-              '🙏 Prayer & Intercession',
-              '💝 Devotional Insights',
-              '🌟 Supernatural Encounters',
-              '🌍 Global Intercession',
-              '👑 Identity in Christ',
-              '💼 Marketplace Ministry',
-              '👨‍👩‍👧‍👦 Family & Relationships',
-              '🎓 Spiritual Growth',
-            ].map((category) => (
-              <button
-                key={category}
-                className="bg-card hover:bg-accent text-white font-bold py-2 px-4 rounded-full border border-border transition-colors"
-              >
-                {category}
-              </button>
-            ))}
-          </div>
-        </section>
-
         <Cta4
           title="💌 NEVER MISS A DIVINE WORD"
           description="Subscribe to receive prophetic insights, biblical teachings, and spiritual encouragement delivered directly to your heart."
