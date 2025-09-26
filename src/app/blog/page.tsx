@@ -152,20 +152,6 @@ const BlogPage = () => {
           </div>
         </section>
 
-        <Cta4
-          title="💌 NEVER MISS A DIVINE WORD"
-          description="Subscribe to receive prophetic insights, biblical teachings, and spiritual encouragement delivered directly to your heart."
-          buttonText="Subscribe Now"
-          buttonUrl="#"
-          items={[
-            'Fresh prophetic words and spiritual insights',
-            'Biblical study guides and devotional content',
-            'Prayer focuses and intercession guides',
-            'Upcoming ministry events and announcements',
-            'Exclusive content not available on the blog',
-          ]}
-        />
-
         {/* Community Discussion */}
         <section className="text-center">
           <h2 className="text-3xl font-bold mb-4 font-headline">
