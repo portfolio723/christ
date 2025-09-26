@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { Inter, Playfair_Display, Dancing_Script } from 'next/font/google';
+import { Inter, Playfair_Display, Dancing_Script, Yesteryear } from 'next/font/google';
 import './globals.css';
 import { Toaster } from '@/components/ui/toaster';
 import { Header } from '@/components/page/header';
@@ -23,6 +23,13 @@ const fontScript = Dancing_Script({
   variable: '--font-script',
 });
 
+const fontYesteryear = Yesteryear({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-yesteryear',
+  weight: '400',
+});
+
 export const metadata: Metadata = {
   title: 'Godspirit',
   description: 'She prospers in all that she does. Psalms 1:3',
@@ -41,6 +48,7 @@ export default function RootLayout({
           fontBody.variable,
           fontHeadline.variable,
           fontScript.variable,
+          fontYesteryear.variable
         )}
       >
         <Header />

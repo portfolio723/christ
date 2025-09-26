@@ -14,6 +14,7 @@ export default {
         body: ['var(--font-body)', ...fontFamily.sans],
         headline: ['var(--font-headline)', ...fontFamily.serif],
         script: ['var(--font-script)', ...fontFamily.serif],
+        yesteryear: ['var(--font-yesteryear)', ...fontFamily.serif],
         code: ['monospace'],
       },
       colors: {
