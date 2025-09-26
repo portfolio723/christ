@@ -73,7 +73,7 @@ export default function TestimonialsPage() {
         />
         <div className="absolute inset-0 bg-black/60" />
         <div className="relative z-10 p-4 container mx-auto px-4 md:px-6">
-          <h1 className="text-4xl md:text-6xl font-headline font-bold mb-4 tracking-tight">
+          <h1 className="text-5xl md:text-7xl font-script mb-4 tracking-tight">
             Hearts Joined with GOD
           </h1>
           <p className="max-w-3xl mx-auto text-lg md:text-xl text-white/80">
