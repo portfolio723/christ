@@ -55,7 +55,7 @@ export function Hero() {
           <span className="relative inline-block mx-1">
             s
           </span>
-          piritsays
+          piritsays 🕊️
         </h1>
         <div className="relative mt-4">
           <GradualSpacing
