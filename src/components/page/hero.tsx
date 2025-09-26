@@ -57,7 +57,7 @@ export function Hero() {
           </span>
           piritsays 🕊️
         </h1>
-        <div className="relative mt-4">
+        <div className="relative mt-4 flex flex-col items-center">
           <GradualSpacing
             text="“She prospers in all that she does”"
             className="font-script italic text-3xl md:text-4xl"
@@ -70,10 +70,10 @@ export function Hero() {
               <Crown className="w-8 h-8 transform -rotate-12 animate-pulse" />
             </span>
           </GradualSpacing>
+           <p className="text-lg font-headline italic text-white/80 mt-4">
+              &mdash; Psalms 1:3
+            </p>
         </div>
-        <p className="text-lg font-headline italic text-white/80 mt-4">
-          &mdash; Psalms 1:3
-        </p>
       </div>
       <div className="absolute bottom-5 left-1/2 -translate-x-1/2">
         <a href="#reels" aria-label="Scroll down to reels">
