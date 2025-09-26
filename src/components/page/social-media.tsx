@@ -1,8 +1,9 @@
+
 import {
   Instagram,
   Youtube,
   Facebook,
-  BotMessageSquare as Threads,
+  Twitter,
   type LucideIcon,
 } from 'lucide-react';
 import { Card } from '@/components/ui/card';
@@ -42,12 +43,12 @@ const socialPlatforms: SocialPlatform[] = [
     color: 'group-hover:text-[#1877F2]',
   },
   {
-    name: 'Threads',
-    Icon: Threads,
+    name: 'Twitter',
+    Icon: Twitter,
     handle: '@godsspiritsays',
     followers: '320k Followers',
     url: '#',
-    color: 'group-hover:text-white',
+    color: 'group-hover:text-[#1DA1F2]',
   },
 ];
 
