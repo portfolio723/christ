@@ -57,10 +57,10 @@ export default function AboutPage() {
           </blockquote>
           <div className="flex flex-wrap justify-center gap-4">
             <a
-              href="mailto:hello@godsspiritsays.com"
+              href="mailto:godspiritsays@gmail.com"
               className="inline-flex items-center gap-2 bg-primary/20 text-white px-4 py-2 rounded-lg hover:bg-primary transition-colors"
             >
-              <Mail className="w-5 h-5" /> hello@godsspiritsays.com
+              <Mail className="w-5 h-5" /> godspiritsays@gmail.com
             </a>
             <a
               href="tel:+15557729669"
