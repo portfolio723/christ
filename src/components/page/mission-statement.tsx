@@ -24,7 +24,7 @@ export function MissionStatement() {
         <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-4xl md:text-5xl text-white">
           Our Mission
         </h2>
-        <p className="mx-auto max-w-3xl text-white/80 md:text-6xl mt-6 font-mea-culpa text-5xl">
+        <p className="mx-auto max-w-4xl text-white/80 md:text-6xl mt-6 font-mea-culpa text-5xl">
           God mends broken hearts into mighty wings to soar 🦋 His purpose is to
           strengthen us from the inside out 💪🏻 In Jesus&apos; name 🕊️
         </p>
