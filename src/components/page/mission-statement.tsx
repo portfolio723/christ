@@ -34,7 +34,7 @@ export function MissionStatement() {
               <div className="text-white text-left space-y-4 font-body text-xl md:text-2xl">
                 <p>
                   In the name of JESUS CHRIST, greetings 🌸 Beloved, the only
-                  purpose 🎯 I launched this channel is to tell you what
+                  purpose 🎯 I launched this website is to tell you what
                   GOD&apos;S SPIRIT Says 🕊️ by using me to uplift and
                   strengthen your inner man 💪🏼 And enable you to pull
                   yourself up internally strong first. Physiologic issues will
