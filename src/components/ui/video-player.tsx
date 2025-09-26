@@ -1,7 +1,7 @@
 
 "use client";
 
-import React, { useRef, useState } from "react";
+import React, { useRef, useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Play, Pause, Volume2, Volume1, VolumeX } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
@@ -46,16 +46,30 @@ return (
 );
 };
 
-const VideoPlayer = ({ src, className }: { src: string, className?: string }) => {
+const VideoPlayer = ({ src, className, autoPlay = true, muted = true }: { src: string, className?: string, autoPlay?: boolean, muted?: boolean }) => {
 const videoRef = useRef<HTMLVideoElement>(null);
-const [isPlaying, setIsPlaying] = useState(false);
-const [volume, setVolume] = useState(1);
+const [isPlaying, setIsPlaying] = useState(autoPlay);
+const [volume, setVolume] = useState(muted ? 0 : 1);
 const [progress, setProgress] = useState(0);
-const [isMuted, setIsMuted] = useState(false);
+const [isMuted, setIsMuted] = useState(muted);
 const [playbackSpeed, setPlaybackSpeed] = useState(1);
 const [showControls, setShowControls] = useState(false);
 const [currentTime, setCurrentTime] = useState(0);
 const [duration, setDuration] = useState(0);
+
+useEffect(() => {
+    if (videoRef.current) {
+        videoRef.current.muted = isMuted;
+    }
+}, [isMuted]);
+
+useEffect(() => {
+    // if autoplay is true, we want to start playing the video.
+    if(autoPlay && videoRef.current){
+        videoRef.current.play();
+        setIsPlaying(true)
+    }
+},[autoPlay])
 
 const togglePlay = () => {
   if (videoRef.current) {
@@ -135,6 +149,10 @@ return (
       onTimeUpdate={handleTimeUpdate}
       src={src}
       onClick={togglePlay}
+      autoPlay={autoPlay}
+      muted={muted}
+      playsInline
+      loop
     />
 
     <AnimatePresence>
@@ -200,7 +218,7 @@ return (
 
                 <div className="w-24">
                   <CustomSlider
-                    value={volume * 100}
+                    value={isMuted ? 0 : volume * 100}
                     onChange={handleVolumeChange}
                   />
                 </div>
