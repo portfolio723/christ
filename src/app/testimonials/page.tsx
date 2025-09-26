@@ -77,7 +77,7 @@ export default function TestimonialsPage() {
             Hearts Joined with GOD
           </h1>
           <p className="max-w-3xl mx-auto text-lg md:text-xl text-white/80">
-            Hear real stories of divine breakthrough, healing, and purpose from our community.
+            Come hear the true stories our blog shares, of their inward spirits encouraged by knowing GOD's deep, measureless love.
           </p>
         </div>
       </section>
