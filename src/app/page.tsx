@@ -39,7 +39,7 @@ export default function Home() {
           <p className="text-white/80 max-w-2xl mx-auto mb-8">
             Join our live sessions for powerful teachings, worship, and prophetic ministry. Tune in and be blessed.
           </p>
-          <VideoPlayerDemo />
+          <VideoPlayerDemo src="/oh.mp4" />
         </div>
       </section>
       <SocialMedia />
