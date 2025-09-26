@@ -3,7 +3,7 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
-import { Menu, X, Crown } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
 
@@ -26,7 +26,6 @@ export function Header() {
             href="/"
             className="flex items-center gap-2 font-headline text-2xl font-bold text-white"
           >
-            <Crown className="w-6 h-6 text-accent" />
             <span>
               God<span className="text-accent">s</span>spiritsays
             </span>
