@@ -40,13 +40,13 @@ export function Hero() {
             width={160}
             height={160}
             className={cn(
-              'object-cover border-4 border-primary',
+              'object-cover border-4 border-white/10',
               profileDp.id === 'profile-dp' &&
                 'rounded-full'
             )}
             data-ai-hint={profileDp.imageHint}
             style={{
-              boxShadow: '0 0 40px hsl(var(--primary)), 0 0 10px #000',
+              boxShadow: '0 0 40px rgba(255,255,255,0.5), 0 0 10px #000',
             }}
           />
         </div>
