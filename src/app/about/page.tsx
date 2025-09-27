@@ -29,7 +29,7 @@ export default function AboutPage() {
             <p className="font-condiment text-2xl md:text-3xl text-white/90">
               &ldquo;Myself and my own young lady, everywhere I send you, you shall go, and whatever I command you shall speak&rdquo;
             </p>
-            <footer className="mt-2 text-lg font-headline text-white/60">
+            <footer className="mt-2 text-lg font-allison text-white/60">
               Jeremiah 1:5
             </footer>
           </blockquote>
