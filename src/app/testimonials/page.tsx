@@ -76,7 +76,7 @@ export default function TestimonialsPage() {
           <h1 className="text-5xl md:text-7xl font-allison mb-4 tracking-tight">
             Hearts Joined with GOD
           </h1>
-          <p className="max-w-3xl mx-auto text-lg md:text-xl text-white/80">
+          <p className="max-w-3xl mx-auto text-3xl md:text-4xl text-white/80 font-allison">
             Come hear the true stories our blog shares, of their inward spirits encouraged by knowing GOD's deep, measureless love.
           </p>
         </div>
