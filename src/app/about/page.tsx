@@ -27,7 +27,7 @@ export default function AboutPage() {
           </h1>
           <blockquote className="max-w-3xl mx-auto">
             <p className="font-condiment text-2xl md:text-3xl text-white/90">
-              &ldquo;Myself and my own young lady, everywhere I send you, you shall go, and whatever I command you shall speak&rdquo;
+              &ldquo;Before I formed you in the womb, I KNEW YOU and approved of you as my chosen instrument And before you were born, I consecrated you TO MYSELF AS MY OWN young lady, everywhere I send you, you shall go, and whatever I command you shall speak&rdquo;
             </p>
             <footer className="mt-2 text-lg font-allison text-white/60">
               Jeremiah 1:5
