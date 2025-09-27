@@ -20,6 +20,7 @@ export default {
         'lavishly-yours': ['var(--font-lavishly-yours)', ...fontFamily.serif],
         'oleo-script': ['var(--font-oleo-script)', ...fontFamily.serif],
         condiment: ['var(--font-condiment)', ...fontFamily.serif],
+        'great-vibes': ['var(--font-great-vibes)', ...fontFamily.serif],
         code: ['monospace'],
       },
       colors: {

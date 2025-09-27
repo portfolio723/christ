@@ -22,8 +22,8 @@ export default function AboutPage() {
         />
         <div className="absolute inset-0 bg-black/60" />
         <div className="relative z-10 p-4 container mx-auto px-4 md:px-6">
-          <h1 className="text-4xl md:text-6xl font-headline font-bold text-white mb-4 tracking-tight">
-            Walking in Divine Calling
+          <h1 className="text-4xl md:text-6xl font-great-vibes font-bold text-white mb-4 tracking-tight">
+            Chose to go as GOD's purpose
           </h1>
           <blockquote className="max-w-3xl mx-auto">
             <p className="font-condiment text-2xl md:text-3xl text-white/90">
