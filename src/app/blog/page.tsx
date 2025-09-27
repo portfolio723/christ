@@ -66,7 +66,7 @@ const BlogPage = () => {
           <h1 className="text-5xl md:text-7xl font-bold font-headline">
             The Spirit&apos;s Voice
           </h1>
-          <p className="text-lg mt-2 text-white/80 font-bonheur-royale font-bold">
+          <p className="text-xl md:text-2xl mt-4 text-white/80 font-bonheur-royale font-bold">
             <em>
               &quot;Though SHE fall, SHE shall not be utterly cast down; for JEHOVAH UPHOLDS HER with HIS hand &quot;
             </em>{' '}
