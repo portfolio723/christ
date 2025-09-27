@@ -73,8 +73,9 @@ export default function TestimonialsPage() {
         />
         <div className="absolute inset-0 bg-black/60" />
         <div className="relative z-10 p-4 container mx-auto px-4 md:px-6">
-          <h1 className="text-5xl md:text-7xl font-allison mb-4 tracking-tight">
+          <h1 className="text-5xl md:text-7xl font-allison mb-4 tracking-tight flex items-center justify-center">
             Hearts Joined with GOD
+            <Image src="/hii.png" alt="icon" width={64} height={64} className="ml-2" />
           </h1>
           <p className="max-w-3xl mx-auto text-3xl md:text-4xl text-white/80 font-allison">
             Come hear the true stories our blog shares, of their inward spirits encouraged by knowing GOD's deep, measureless love.
