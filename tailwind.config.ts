@@ -16,6 +16,8 @@ export default {
         script: ['var(--font-script)', ...fontFamily.serif],
         yesteryear: ['var(--font-yesteryear)', ...fontFamily.serif],
         'mea-culpa': ['var(--font-mea-culpa)', ...fontFamily.serif],
+        allison: ['var(--font-allison)', ...fontFamily.serif],
+        'lavishly-yours': ['var(--font-lavishly-yours)', ...fontFamily.serif],
         code: ['monospace'],
       },
       colors: {
