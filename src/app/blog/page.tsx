@@ -70,7 +70,7 @@ const BlogPage = () => {
             <em>
               &quot;Though SHE fall, SHE shall not be utterly cast down; for JEHOVAH UPHOLDS HER with HIS hand &quot;
             </em>{' '}
-            - John 16:13
+            - Psalms 37:24
           </p>
         </div>
       </section>
