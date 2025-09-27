@@ -30,7 +30,7 @@ export default function AboutPage() {
               &ldquo;Before I formed you in the womb, I KNEW YOU and approved of you as my chosen instrument And before you were born, I consecrated you TO MYSELF AS MY OWN young lady, everywhere I send you, you shall go, and whatever I command you shall speak&rdquo;
             </p>
             <footer className="mt-2 text-lg font-allison text-white/60">
-              Jeremiah 1:5
+              Jeremiah 1:4-5,7
             </footer>
           </blockquote>
         </div>
