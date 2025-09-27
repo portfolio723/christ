@@ -40,8 +40,7 @@ export function Hero() {
             width={160}
             height={160}
             className={cn(
-              'object-cover border-4 border-white',
-              'rounded-full'
+              'object-cover border-4 border-white rounded-full'
             )}
             data-ai-hint={profileDp.imageHint}
             style={{
