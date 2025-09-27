@@ -35,7 +35,7 @@ export function Hero() {
       <div className="relative z-10 flex flex-col items-center p-4">
         <div className="relative mb-6">
           <Image
-            src={profileDp.imageUrl}
+            src="/media.jpeg"
             alt={profileDp.description}
             width={160}
             height={160}
