@@ -46,7 +46,7 @@ export default function AboutPage() {
 
         <section id="connect" className="text-center">
           <blockquote className="max-w-3xl mx-auto mb-8">
-            <p className="font-yesteryear text-4xl md:text-5xl text-white/90">
+            <p className="font-allison text-4xl md:text-5xl text-white/90">
               &ldquo;I will make you majestic forever, a source of joy for every generation&rdquo;
             </p>
             <footer className="mt-2 text-lg font-headline text-white/60">
