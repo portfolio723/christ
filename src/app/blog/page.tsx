@@ -66,9 +66,6 @@ const BlogPage = () => {
           <h1 className="text-5xl md:text-7xl font-bold font-headline">
             The Spirit&apos;s Voice
           </h1>
-          <p className="text-2xl md:text-3xl italic mt-4 font-script">
-            Prophetic Insights & Biblical Truth
-          </p>
           <p className="text-lg mt-2 text-white/80">
             <em>
               &quot;But when he, the Spirit of truth, comes, he will guide you
