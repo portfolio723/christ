@@ -19,6 +19,7 @@ export default {
         allison: ['var(--font-allison)', ...fontFamily.serif],
         'lavishly-yours': ['var(--font-lavishly-yours)', ...fontFamily.serif],
         'oleo-script': ['var(--font-oleo-script)', ...fontFamily.serif],
+        condiment: ['var(--font-condiment)', ...fontFamily.serif],
         code: ['monospace'],
       },
       colors: {

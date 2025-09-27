@@ -26,10 +26,8 @@ export default function AboutPage() {
             Walking in Divine Calling
           </h1>
           <blockquote className="max-w-3xl mx-auto">
-            <p className="font-script text-2xl md:text-3xl text-white/90 italic">
-              &ldquo;Before I formed you in the womb I knew you, before you
-              were born I set you apart; I appointed you as a prophet to the
-              nations.&rdquo;
+            <p className="font-condiment text-2xl md:text-3xl text-white/90">
+              &ldquo;Myself and my own young lady, everywhere I send you, you shall go, and whatever I command you shall speak&rdquo;
             </p>
             <footer className="mt-2 text-lg font-headline text-white/60">
               Jeremiah 1:5
