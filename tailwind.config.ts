@@ -21,6 +21,7 @@ export default {
         'oleo-script': ['var(--font-oleo-script)', ...fontFamily.serif],
         condiment: ['var(--font-condiment)', ...fontFamily.serif],
         'great-vibes': ['var(--font-great-vibes)', ...fontFamily.serif],
+        'bonheur-royale': ['var(--font-bonheur-royale)', ...fontFamily.serif],
         code: ['monospace'],
       },
       colors: {
