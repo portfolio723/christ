@@ -68,8 +68,7 @@ const BlogPage = () => {
           </h1>
           <p className="text-lg mt-2 text-white/80">
             <em>
-              &quot;But when he, the Spirit of truth, comes, he will guide you
-              into all the truth.&quot;
+              &quot;Though SHE fall, SHE shall not be utterly cast down; for JEHOVAH UPHOLDS HER with HIS hand &quot;
             </em>{' '}
             - John 16:13
           </p>
