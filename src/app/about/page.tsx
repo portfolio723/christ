@@ -47,7 +47,7 @@ export default function AboutPage() {
             <p className="font-allison text-4xl md:text-5xl text-white/90">
               &ldquo;I will make you majestic forever, a source of joy for every generation&rdquo;
             </p>
-            <footer className="mt-2 text-lg font-headline text-white/60">
+            <footer className="mt-2 text-lg font-allison text-white/60">
               Isaiah 60:15
             </footer>
           </blockquote>
