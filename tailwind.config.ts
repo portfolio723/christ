@@ -18,6 +18,7 @@ export default {
         'mea-culpa': ['var(--font-mea-culpa)', ...fontFamily.serif],
         allison: ['var(--font-allison)', ...fontFamily.serif],
         'lavishly-yours': ['var(--font-lavishly-yours)', ...fontFamily.serif],
+        'oleo-script': ['var(--font-oleo-script)', ...fontFamily.serif],
         code: ['monospace'],
       },
       colors: {

@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { Inter, Playfair_Display, Dancing_Script, Yesteryear, Mea_Culpa, Allison, Lavishly_Yours } from 'next/font/google';
+import { Inter, Playfair_Display, Dancing_Script, Yesteryear, Mea_Culpa, Allison, Lavishly_Yours, Oleo_Script } from 'next/font/google';
 import './globals.css';
 import { Toaster } from '@/components/ui/toaster';
 import { Header } from '@/components/page/header';
@@ -51,6 +51,13 @@ const fontLavishlyYours = Lavishly_Yours({
   weight: '400',
 });
 
+const fontOleoScript = Oleo_Script({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-oleo-script',
+  weight: ['400', '700'],
+});
+
 export const metadata: Metadata = {
   title: 'Godspirit',
   description: 'She prospers in all that she does. Psalms 1:3',
@@ -72,7 +79,8 @@ export default function RootLayout({
           fontYesteryear.variable,
           fontMeaCulpa.variable,
           fontAllison.variable,
-          fontLavishlyYours.variable
+          fontLavishlyYours.variable,
+          fontOleoScript.variable
         )}
       >
         <Header />
