@@ -76,7 +76,7 @@ export default function ContactPage() {
                       Phone Support
                     </h3>
                     <p className="text-white/70">
-                      Mon-Fri, 9 AM–6 PM EST for a direct connection.
+                      Mon-Fri, 9 AM–6 PM IST for a direct connection.
                     </p>
                     <a href="tel:+18005557729" className="text-accent hover:underline">
                       +1 (800) 555-PRAY
@@ -91,7 +91,7 @@ export default function ContactPage() {
                     </h3>
                     <p className="text-white/70">
                       Join our weekly online prayer meetings every Wednesday &
-                      Sunday at 7 PM EST.
+                      Sunday at 7 PM IST.
                     </p>
                     <a href="#" className="text-accent hover:underline">
                       Join Live Session
