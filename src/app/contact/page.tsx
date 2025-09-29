@@ -70,20 +70,6 @@ export default function ContactPage() {
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
-                  <Phone className="w-8 h-8 text-primary mt-1" />
-                  <div>
-                    <h3 className="text-xl font-bold text-white">
-                      Phone Support
-                    </h3>
-                    <p className="text-white/70">
-                      Mon-Fri, 9 AM–6 PM IST for a direct connection.
-                    </p>
-                    <a href="tel:+18005557729" className="text-accent hover:underline">
-                      +1 (800) 555-PRAY
-                    </a>
-                  </div>
-                </div>
-                <div className="flex items-start gap-4">
                   <MessageSquare className="w-8 h-8 text-primary mt-1" />
                   <div>
                     <h3 className="text-xl font-bold text-white">
