@@ -145,20 +145,6 @@ export default function ContactPage() {
         </div>
       </section>
 
-      {/* Mission Restatement */}
-      <section className="w-full py-20 md:py-28 bg-background">
-        <div className="container mx-auto px-4 md:px-6 text-center">
-          <h2 className="text-3xl font-headline font-bold text-white mb-4">
-            Our Sacred Mission
-          </h2>
-          <blockquote className="max-w-3xl mx-auto text-xl text-white/80 italic">
-            &ldquo;To intercede, counsel, and partner with believers
-            worldwide—bringing God’s healing, hope, and purpose to every
-            need.&rdquo;
-          </blockquote>
-        </div>
-      </section>
-
       <SocialMedia />
     </main>
   );
