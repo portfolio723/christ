@@ -30,7 +30,7 @@ export default function ContactPage() {
           </h1>
           <blockquote className="max-w-3xl mx-auto">
             <p className="font-script text-2xl md:text-3xl text-white/90 italic">
-              &ldquo;He heals the brokenhearted and binds up their wounds.&rdquo;
+              &ldquo;I urge, then, first of all, that petitions, prayers,intercession, and thanksgiving be made for all people for kings and all those in authority, that we may live peaceful and quiet lives in all godliness and holiness.&rdquo;
             </p>
             <footer className="mt-2 text-lg font-headline text-white/60">
               Psalm 147:3
