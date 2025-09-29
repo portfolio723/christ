@@ -203,7 +203,7 @@ export default function VideoMinistryPage() {
           <h2 className="text-3xl font-headline font-bold text-white mb-4">
             Never Miss a New Video
           </h2>
-          <p className="font-cookie text-2xl text-white/80 max-w-xl mx-auto mb-8">
+          <p className="font-cookie text-3xl text-white/80 max-w-xl mx-auto mb-8">
             A warm welcome always to our YOUTube Home, and give all your ears for whatever and whenever the soothing god&apos;s spirit says.
           </p>
           <Button
