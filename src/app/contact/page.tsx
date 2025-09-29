@@ -1,3 +1,4 @@
+
 import {
   Mail,
   Phone,
@@ -61,10 +62,10 @@ export default function ContactPage() {
                       Available 24/7 for all your prayer needs.
                     </p>
                     <a
-                      href="mailto:prayer@godsspiritsays.com"
+                      href="mailto:godspiritsays@gmail.com"
                       className="text-accent hover:underline"
                     >
-                      prayer@godsspiritsays.com
+                      godspiritsays@gmail.com
                     </a>
                   </div>
                 </div>
