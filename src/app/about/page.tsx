@@ -7,6 +7,7 @@ import {
 } from 'lucide-react';
 import { Separator } from '@/components/ui/separator';
 import { MissionStatement } from '@/components/page/mission-statement';
+import { SocialMedia } from '@/components/page/social-media';
 
 export default function AboutPage() {
   return (
@@ -36,6 +37,7 @@ export default function AboutPage() {
         </div>
       </header>
       <MissionStatement />
+      <SocialMedia />
     </main>
   );
 }
