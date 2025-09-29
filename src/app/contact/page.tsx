@@ -26,7 +26,7 @@ export default function ContactPage() {
         />
         <div className="relative z-10 p-4 container mx-auto px-4 md:px-6">
           <h1 className="text-4xl md:text-6xl font-headline font-bold mb-4 tracking-tight">
-            Connect & Receive Prayer
+            Prayer and intercession is our first call
           </h1>
           <blockquote className="max-w-3xl mx-auto">
             <p className="font-alex-brush text-3xl md:text-4xl text-white/90">
