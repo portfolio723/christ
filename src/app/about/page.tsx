@@ -36,8 +36,7 @@ export default function AboutPage() {
           </blockquote>
         </div>
       </header>
-      <MissionStatement />
-      <SocialMedia />
+      <MissionStatement showImage={false} />
     </main>
   );
 }
