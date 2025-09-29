@@ -55,7 +55,7 @@ export default function ContactPage() {
                 <div className="flex items-start gap-4">
                   <Mail className="w-8 h-8 text-primary mt-1" />
                   <div>
-                    <h3 className="text-xl font-bold text-white">
+                    <h3 className="text-3xl font-love-light text-white">
                       Always whisper out your prayers to us through email .
                     </h3>
                     <p className="text-white/70 font-love-light text-2xl">
