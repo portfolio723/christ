@@ -1,3 +1,4 @@
+
 'use client';
 
 import { motion } from 'framer-motion';
@@ -88,7 +89,7 @@ export function MissionStatement({ videoSrc = "/gg.mp4", showImage = true }: { v
         )}
 
         <div className="mt-12 max-w-4xl mx-auto">
-          <div className="text-white text-left space-y-4 font-oleo-script text-xl md:text-2xl p-6 bg-card/50 border border-dashed border-zinc-400 dark:border-zinc-700 relative rounded-lg">
+          <div className="text-white text-left space-y-4 font-oleo-script text-xl md:text-2xl p-6 bg-card/50 relative rounded-lg">
             <p>
               In the name of JESUS CHRIST, greetings 🌸 Beloved, the only
               purpose 🎯 I launched this website is to tell you what
