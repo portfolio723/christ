@@ -174,7 +174,7 @@ const BlogPage = () => {
           </ShineBorder>
         </section>
       </main>
-      <MissionStatement />
+      <MissionStatement showImage={false} />
     </div>
   );
 };
