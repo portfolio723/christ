@@ -85,8 +85,8 @@ export default function ContactPage() {
       >
         <div className="container mx-auto px-4 md:px-6">
           <div className="max-w-2xl mx-auto text-center mb-12">
-            <h2 className="text-3xl font-headline font-bold text-white">
-              Send Your Request
+            <h2 className="text-3xl font-arizonia font-bold text-white">
+              Make your petition
             </h2>
           </div>
           <form className="max-w-2xl mx-auto space-y-6">

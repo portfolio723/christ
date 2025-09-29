@@ -28,6 +28,7 @@ export default {
         'love-light': ['var(--font-love-light)', ...fontFamily.serif],
         'alex-brush': ['var(--font-alex-brush)', ...fontFamily.serif],
         hurricane: ['var(--font-hurricane)', ...fontFamily.serif],
+        arizonia: ['var(--font-arizonia)', ...fontFamily.serif],
         code: ['monospace'],
       },
       colors: {
