@@ -93,7 +93,7 @@ export function SocialMedia() {
                     <p className="text-sm text-white/60">{platform.handle}</p>
                   </div>
                 </div>
-                <p className="font-bold text-white mt-4 text-2xl">
+                <p className="font-mrs-saint-delafield text-white mt-4 text-4xl">
                   {platform.followers}
                 </p>
               </Card>

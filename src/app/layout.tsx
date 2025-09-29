@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { Inter, Playfair_Display, Dancing_Script, Yesteryear, Mea_Culpa, Allison, Lavishly_Yours, Oleo_Script, Condiment, Great_Vibes, Bonheur_Royale } from 'next/font/google';
+import { Inter, Playfair_Display, Dancing_Script, Yesteryear, Mea_Culpa, Allison, Lavishly_Yours, Oleo_Script, Condiment, Great_Vibes, Bonheur_Royale, Mrs_Saint_Delafield } from 'next/font/google';
 import './globals.css';
 import { Toaster } from '@/components/ui/toaster';
 import { Header } from '@/components/page/header';
@@ -79,6 +79,13 @@ const fontBonheurRoyale = Bonheur_Royale({
   weight: '400',
 });
 
+const fontMrsSaintDelafield = Mrs_Saint_Delafield({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-mrs-saint-delafield',
+  weight: '400',
+});
+
 export const metadata: Metadata = {
   title: 'Godspirit',
   description: 'She prospers in all that she does. Psalms 1:3',
@@ -104,7 +111,8 @@ export default function RootLayout({
           fontOleoScript.variable,
           fontCondiment.variable,
           fontGreatVibes.variable,
-          fontBonheurRoyale.variable
+          fontBonheurRoyale.variable,
+          fontMrsSaintDelafield.variable
         )}
       >
         <Header />

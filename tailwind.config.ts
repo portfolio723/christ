@@ -22,6 +22,7 @@ export default {
         condiment: ['var(--font-condiment)', ...fontFamily.serif],
         'great-vibes': ['var(--font-great-vibes)', ...fontFamily.serif],
         'bonheur-royale': ['var(--font-bonheur-royale)', ...fontFamily.serif],
+        'mrs-saint-delafield': ['var(--font-mrs-saint-delafield)', ...fontFamily.serif],
         code: ['monospace'],
       },
       colors: {
