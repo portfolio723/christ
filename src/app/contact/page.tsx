@@ -69,21 +69,6 @@ export default function ContactPage() {
                     </a>
                   </div>
                 </div>
-                <div className="flex items-start gap-4">
-                  <MessageSquare className="w-8 h-8 text-primary mt-1" />
-                  <div>
-                    <h3 className="text-xl font-bold text-white">
-                      Live Prayer Sessions
-                    </h3>
-                    <p className="text-white/70">
-                      Join our weekly online prayer meetings every Wednesday &
-                      Sunday at 7 PM IST.
-                    </p>
-                    <a href="#" className="text-accent hover:underline">
-                      Join Live Session
-                    </a>
-                  </div>
-                </div>
               </div>
             </div>
 
