@@ -59,12 +59,6 @@ export default function AboutPage() {
               <Mail className="w-5 h-5" /> godspiritsays@gmail.com
             </a>
             <a
-              href="tel:+15557729669"
-              className="inline-flex items-center gap-2 bg-primary/20 text-white px-4 py-2 rounded-lg hover:bg-primary transition-colors"
-            >
-              <Phone className="w-5 h-5" /> +1 (555) PRAY-NOW
-            </a>
-            <a
               href="#"
               className="inline-flex items-center gap-2 bg-primary/20 text-white px-4 py-2 rounded-lg hover:bg-primary transition-colors"
             >
