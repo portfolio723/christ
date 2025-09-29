@@ -32,7 +32,7 @@ export default function ContactPage() {
             <p className="font-alex-brush text-3xl md:text-4xl text-white/90">
               &ldquo;I urge, then, first of all, that petitions, prayers,intercession, and thanksgiving be made for all people for kings and all those in authority, that we may live peaceful and quiet lives in all godliness and holiness.&rdquo;
             </p>
-            <footer className="mt-2 text-lg font-alex-brush text-white/60">
+            <footer className="mt-2 text-xl font-alex-brush text-white/60">
               1 Timothy 2:1-2
             </footer>
           </blockquote>
