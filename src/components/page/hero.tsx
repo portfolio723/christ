@@ -58,7 +58,7 @@ export function Hero() {
         <div className="relative mt-4 flex flex-col items-center">
           <GradualSpacing
             text="“She prospers in all that she does”"
-            className="font-lavishly-yours italic text-4xl md:text-5xl font-semibold"
+            className="font-lavishly-yours italic text-5xl md:text-6xl font-semibold"
             framerProps={{
               hidden: { opacity: 0, y: 20 },
               visible: { opacity: 1, y: 0 },

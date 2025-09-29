@@ -38,7 +38,29 @@ export default function AboutPage() {
 
       <div className="container mx-auto px-4 md:px-6 py-12 md:py-24">
         
-        <MissionStatement />
+        <div className="text-white text-left space-y-4 font-oleo-script text-xl md:text-2xl p-6 relative rounded-lg">
+            <p>
+              In the name of JESUS CHRIST, greetings 🌸 Beloved, the only
+              purpose 🎯 I launched this website is to tell you what
+              GOD&apos;S SPIRIT Says 🕊️ by using me to uplift and
+              strengthen your inner man 💪🏼 And enable you to pull
+              yourself up internally strong first. Physiologic issues will
+              automatically be resolved once we have healed ❤️‍🩹
+              inwardly.
+            </p>
+            <p>
+              Yes beloved 💙... Our mighty GOD will change our every broken
+              heart piece to turn into mighty butterfly wings 🦋 to fly
+              high 🕊️ And He will use every sharpened broken piece that
+              converts it into massive strong butterfly wings. Even if your
+              broken heart 💔 pieces pierced him and drew blood... 🔴
+            </p>
+            <p>
+              By the way, one more affirmation! ⚡ Instead of hitting the
+              millions of subscribers, my main goal in using Jesus&apos;
+              name is for his love to reach the hearts of the millions 🤗🎀
+            </p>
+          </div>
 
         <Separator className="my-16 bg-border" />
 
