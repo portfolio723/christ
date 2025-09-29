@@ -23,6 +23,7 @@ export default {
         'great-vibes': ['var(--font-great-vibes)', ...fontFamily.serif],
         'bonheur-royale': ['var(--font-bonheur-royale)', ...fontFamily.serif],
         'mrs-saint-delafield': ['var(--font-mrs-saint-delafield)', ...fontFamily.serif],
+        cookie: ['var(--font-cookie)', ...fontFamily.serif],
         code: ['monospace'],
       },
       colors: {
