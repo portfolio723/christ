@@ -2,7 +2,7 @@
 import { VideoReels } from '@/components/page/video-reels';
 import { SocialMedia } from '@/components/page/social-media';
 import { Newsletter } from '@/components/page/newsletter';
-import { MissionStatement } from '@/components/page/mission-statement';
+import { HomeMissionStatement } from '@/components/page/home-mission-statement';
 import { VideoPlayerDemo } from '@/components/ui/video-player-demo';
 
 export default function Home() {
@@ -26,7 +26,7 @@ export default function Home() {
         </div>
       </section>
       <VideoReels />
-      <MissionStatement />
+      <HomeMissionStatement />
       {/* Live Broadcast Section */}
       <section
         id="live-broadcast"
