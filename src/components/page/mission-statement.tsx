@@ -3,7 +3,7 @@
 import { motion } from 'framer-motion';
 import Image from 'next/image';
 
-export function MissionStatement() {
+export function MissionStatement({ videoSrc = "/gg.mp4" }: { videoSrc?: string }) {
   const GlowText = ({ children }: { children: React.ReactNode }) => (
     <span
       className="text-accent"
@@ -19,7 +19,7 @@ export function MissionStatement() {
       className="relative w-full py-20 md:py-32 bg-background text-white"
     >
       <video
-        src="/gg.mp4"
+        src={videoSrc}
         autoPlay
         muted
         loop

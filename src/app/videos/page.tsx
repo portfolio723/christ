@@ -20,7 +20,7 @@ import {
 } from '@/components/ui/carousel';
 import { SocialMedia } from '@/components/page/social-media';
 import { Hero } from '@/components/page/hero';
-import { MissionStatement } from '@/components/page/mission-statement';
+import { VideoMissionStatement } from '@/components/page/video-mission-statement';
 import { VideoPlayerDemo } from '@/components/ui/video-player-demo';
 
 const featuredVideos = [
@@ -224,8 +224,8 @@ export default function VideoMinistryPage() {
         </div>
       </section>
 
-      {/* Mission Restatement */}
-      <MissionStatement />
+       {/* Mission Restatement */}
+       <VideoMissionStatement />
 
       <SocialMedia />
     </main>
