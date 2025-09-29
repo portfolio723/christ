@@ -174,7 +174,7 @@ const BlogPage = () => {
           </ShineBorder>
         </section>
       </main>
-      <MissionStatement showImage={false} />
+      <MissionStatement showImage={false} videoSrc="/ww.mp4" />
     </div>
   );
 };
