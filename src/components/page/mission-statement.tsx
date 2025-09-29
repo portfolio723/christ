@@ -1,6 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 
 export function MissionStatement() {
   const GlowText = ({ children }: { children: React.ReactNode }) => (
@@ -66,6 +67,18 @@ export function MissionStatement() {
             🕊️
           </motion.span>
         </p>
+
+        <div className="my-12 flex justify-center">
+          <Image
+            src="/Testi.jpeg"
+            alt="A beautiful butterfly"
+            width={400}
+            height={400}
+            className="rounded-full object-cover border-4 border-primary shadow-lg"
+            data-ai-hint="beautiful butterfly"
+          />
+        </div>
+
         <div className="mt-12 max-w-4xl mx-auto">
           <div className="text-white text-left space-y-4 font-oleo-script text-xl md:text-2xl p-6 bg-card border border-dashed border-zinc-400 dark:border-zinc-700 relative rounded-lg">
             <p>
