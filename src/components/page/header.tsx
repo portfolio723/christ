@@ -6,6 +6,7 @@ import Link from 'next/link';
 import { Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
+import { motion } from 'framer-motion';
 
 const navLinks = [
   { href: '/', label: 'Home' },
@@ -18,13 +19,14 @@ const navLinks = [
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
+  const [hasMounted, setHasMounted] = useState(false);
 
   useEffect(() => {
+    setHasMounted(true);
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 10);
     };
 
-    // Set initial scroll state after mount
     handleScroll();
 
     window.addEventListener('scroll', handleScroll);
@@ -37,7 +39,9 @@ export function Header() {
     <header
       className={cn(
         'fixed top-0 left-0 w-full z-50 transition-all duration-300',
-        isScrolled ? 'bg-background/80 backdrop-blur-sm border-b border-border' : 'bg-transparent border-b border-transparent'
+        hasMounted && isScrolled
+          ? 'bg-background/80 backdrop-blur-sm border-b border-border'
+          : 'bg-transparent border-b border-transparent'
       )}
     >
       <div className="container mx-auto px-4 md:px-6">
@@ -47,7 +51,19 @@ export function Header() {
             className="flex items-center gap-2 font-headline text-2xl font-bold text-white"
           >
             <span>
-              God<span className="text-accent">s</span>spiritsays 🕊️
+              God<span className="text-accent">s</span>spiritsays{' '}
+              <motion.span
+                animate={{ y: [0, -4, 0], rotate: [0, 2, 0, -2, 0] }}
+                transition={{
+                  duration: 2.5,
+                  repeat: Infinity,
+                  repeatType: 'loop',
+                  ease: 'easeInOut',
+                }}
+                className="inline-block"
+              >
+                🕊️
+              </motion.span>
             </span>
           </Link>
 
