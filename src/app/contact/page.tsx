@@ -137,17 +137,6 @@ export default function ContactPage() {
                     </address>
                   </div>
                 </div>
-                 <div className="flex items-start gap-4">
-                  <BookUser className="w-8 h-8 text-primary mt-1" />
-                  <div>
-                    <h3 className="text-xl font-bold text-white">
-                     Frequently Asked Questions
-                    </h3>
-                     <a href="#" className="text-accent hover:underline">
-                       How quickly do we respond? Do we charge for services?
-                    </a>
-                  </div>
-                </div>
               </div>
             </div>
           </div>
