@@ -24,6 +24,9 @@ export function Header() {
       setIsScrolled(window.scrollY > 10);
     };
 
+    // Set initial scroll state after mount
+    handleScroll();
+
     window.addEventListener('scroll', handleScroll);
     return () => {
       window.removeEventListener('scroll', handleScroll);
