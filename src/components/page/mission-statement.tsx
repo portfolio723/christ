@@ -16,13 +16,19 @@ export function MissionStatement() {
   return (
     <section
       id="mission"
-      className="w-full py-20 md:py-32 bg-background"
-      style={{
-        backgroundImage:
-          'radial-gradient(circle at top left, hsla(270, 50%, 20%, 0.3), transparent 30%)',
-      }}
+      className="relative w-full py-20 md:py-32 bg-background text-white"
     >
-      <div className="container mx-auto px-4 md:px-6 text-center">
+      <video
+        src="/gg.mp4"
+        autoPlay
+        muted
+        loop
+        playsInline
+        className="absolute top-0 left-0 w-full h-full object-cover"
+      />
+      <div className="absolute inset-0 bg-black/70" />
+
+      <div className="relative z-10 container mx-auto px-4 md:px-6 text-center">
         <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-4xl md:text-5xl text-white">
           Our Mission
         </h2>
@@ -80,7 +86,7 @@ export function MissionStatement() {
         </div>
 
         <div className="mt-12 max-w-4xl mx-auto">
-          <div className="text-white text-left space-y-4 font-oleo-script text-xl md:text-2xl p-6 bg-card border border-dashed border-zinc-400 dark:border-zinc-700 relative rounded-lg">
+          <div className="text-white text-left space-y-4 font-oleo-script text-xl md:text-2xl p-6 bg-card/50 border border-dashed border-zinc-400 dark:border-zinc-700 relative rounded-lg">
             <p>
               In the name of JESUS CHRIST, greetings 🌸 Beloved, the only
               purpose 🎯 I launched this website is to tell you what
