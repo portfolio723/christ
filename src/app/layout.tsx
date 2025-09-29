@@ -1,5 +1,6 @@
+
 import type { Metadata } from 'next';
-import { Inter, Playfair_Display, Dancing_Script, Yesteryear, Mea_Culpa, Allison, Lavishly_Yours, Oleo_Script, Condiment, Great_Vibes, Bonheur_Royale, Mrs_Saint_Delafield, Cookie, Love_Light } from 'next/font/google';
+import { Inter, Playfair_Display, Dancing_Script, Yesteryear, Mea_Culpa, Allison, Lavishly_Yours, Oleo_Script, Condiment, Great_Vibes, Bonheur_Royale, Mrs_Saint_Delafield, Cookie, Love_Light, Alex_Brush } from 'next/font/google';
 import './globals.css';
 import { Toaster } from '@/components/ui/toaster';
 import { Header } from '@/components/page/header';
@@ -100,6 +101,13 @@ const fontLoveLight = Love_Light({
   weight: '400',
 });
 
+const fontAlexBrush = Alex_Brush({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-alex-brush',
+  weight: '400',
+});
+
 export const metadata: Metadata = {
   title: 'Godspirit',
   description: 'She prospers in all that she does. Psalms 1:3',
@@ -128,7 +136,8 @@ export default function RootLayout({
           fontBonheurRoyale.variable,
           fontMrsSaintDelafield.variable,
           fontCookie.variable,
-          fontLoveLight.variable
+          fontLoveLight.variable,
+          fontAlexBrush.variable
         )}
       >
         <Header />

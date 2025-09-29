@@ -29,7 +29,7 @@ export default function ContactPage() {
             Connect & Receive Prayer
           </h1>
           <blockquote className="max-w-3xl mx-auto">
-            <p className="font-script text-2xl md:text-3xl text-white/90 italic">
+            <p className="font-alex-brush text-3xl md:text-4xl text-white/90">
               &ldquo;I urge, then, first of all, that petitions, prayers,intercession, and thanksgiving be made for all people for kings and all those in authority, that we may live peaceful and quiet lives in all godliness and holiness.&rdquo;
             </p>
             <footer className="mt-2 text-lg font-headline text-white/60">

@@ -1,3 +1,4 @@
+
 import type { Config } from 'tailwindcss';
 import { fontFamily } from 'tailwindcss/defaultTheme';
 
@@ -25,6 +26,7 @@ export default {
         'mrs-saint-delafield': ['var(--font-mrs-saint-delafield)', ...fontFamily.serif],
         cookie: ['var(--font-cookie)', ...fontFamily.serif],
         'love-light': ['var(--font-love-light)', ...fontFamily.serif],
+        'alex-brush': ['var(--font-alex-brush)', ...fontFamily.serif],
         code: ['monospace'],
       },
       colors: {
