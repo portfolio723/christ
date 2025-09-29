@@ -74,7 +74,7 @@ export function MissionStatement() {
             alt="A beautiful butterfly"
             width={400}
             height={400}
-            className="rounded-full object-cover border-4 border-primary shadow-lg"
+            className="rounded-lg object-cover border-4 border-primary shadow-lg"
             data-ai-hint="beautiful butterfly"
           />
         </div>
