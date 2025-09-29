@@ -29,7 +29,7 @@ export default function AboutPage() {
             <p className="font-condiment text-2xl md:text-3xl text-white/90">
               &ldquo;Before I formed you in the womb, I KNEW YOU and approved of you as my chosen instrument And before you were born, I consecrated you TO MYSELF AS MY OWN young lady, everywhere I send you, you shall go, and whatever I command you shall speak&rdquo;
             </p>
-            <footer className="mt-2 text-2xl font-allison text-white/60">
+            <footer className="mt-2 text-2xl md:text-3xl font-allison text-white/60">
               Jeremiah 1:4-5,7
             </footer>
           </blockquote>
@@ -47,7 +47,7 @@ export default function AboutPage() {
             <p className="font-allison text-4xl md:text-5xl text-white/90">
               &ldquo;I will make you majestic forever, a source of joy for every generation&rdquo;
             </p>
-            <footer className="mt-2 text-2xl font-allison text-white/60">
+            <footer className="mt-2 text-2xl md:text-3xl font-allison text-white/60">
               Isaiah 60:15
             </footer>
           </blockquote>
