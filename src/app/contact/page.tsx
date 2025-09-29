@@ -88,43 +88,7 @@ export default function ContactPage() {
             </div>
 
             {/* Column 2: Ministry Inquiries */}
-            <div className="space-y-8">
-              <h2 className="text-3xl font-headline font-bold text-white border-b-2 border-primary pb-2">
-                Ministry Inquiries
-              </h2>
-              <div className="space-y-6">
-                <div className="flex items-start gap-4">
-                  <Mail className="w-8 h-8 text-primary mt-1" />
-                  <div>
-                    <h3 className="text-xl font-bold text-white">
-                      General & Speaking Inquiries
-                    </h3>
-                    <p className="text-white/70">
-                      For partnerships and speaking engagements.
-                    </p>
-                    <a
-                      href="mailto:hello@godsspiritsays.com"
-                      className="text-accent hover:underline"
-                    >
-                      hello@godsspiritsays.com
-                    </a>
-                  </div>
-                </div>
-                <div className="flex items-start gap-4">
-                  <BookUser className="w-8 h-8 text-primary mt-1" />
-                  <div>
-                    <h3 className="text-xl font-bold text-white">
-                      Mailing Address
-                    </h3>
-                    <address className="text-white/70 not-italic">
-                      Godsspiritsays Ministry
-                      <br />
-                      123 Faith Avenue, Atlanta, GA 30309
-                    </address>
-                  </div>
-                </div>
-              </div>
-            </div>
+            
           </div>
         </div>
       </section>
