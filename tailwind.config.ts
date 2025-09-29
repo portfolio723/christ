@@ -27,6 +27,7 @@ export default {
         cookie: ['var(--font-cookie)', ...fontFamily.serif],
         'love-light': ['var(--font-love-light)', ...fontFamily.serif],
         'alex-brush': ['var(--font-alex-brush)', ...fontFamily.serif],
+        hurricane: ['var(--font-hurricane)', ...fontFamily.serif],
         code: ['monospace'],
       },
       colors: {
