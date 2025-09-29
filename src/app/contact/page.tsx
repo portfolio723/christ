@@ -58,8 +58,8 @@ export default function ContactPage() {
                     <h3 className="text-xl font-bold text-white">
                       Always whisper out your prayers to us through email .
                     </h3>
-                    <p className="text-white/70">
-                      Available 24/7 for all your prayer needs.
+                    <p className="text-white/70 font-love-light text-2xl">
+                      we will lay them at our DAD&apos;s feet and intercede for you.
                     </p>
                     <a
                       href="mailto:godspiritsays@gmail.com"

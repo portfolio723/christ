@@ -24,6 +24,7 @@ export default {
         'bonheur-royale': ['var(--font-bonheur-royale)', ...fontFamily.serif],
         'mrs-saint-delafield': ['var(--font-mrs-saint-delafield)', ...fontFamily.serif],
         cookie: ['var(--font-cookie)', ...fontFamily.serif],
+        'love-light': ['var(--font-love-light)', ...fontFamily.serif],
         code: ['monospace'],
       },
       colors: {
