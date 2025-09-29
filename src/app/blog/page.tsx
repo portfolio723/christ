@@ -59,6 +59,7 @@ const BlogPage = () => {
           muted
           loop
           playsInline
+          preload="auto"
           className="absolute top-0 left-0 w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-black/60" />
