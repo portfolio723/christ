@@ -1,5 +1,7 @@
+'use client';
 
 import { Card, CardContent } from '@/components/ui/card';
+import { motion } from 'framer-motion';
 
 export function MissionStatement() {
   const GlowText = ({ children }: { children: React.ReactNode }) => (
@@ -25,8 +27,45 @@ export function MissionStatement() {
           Our Mission
         </h2>
         <p className="mx-auto max-w-4xl text-white/80 md:text-6xl mt-6 font-mea-culpa text-5xl">
-          God mends broken hearts into mighty wings to soar 🦋 His purpose is to
-          strengthen us from the inside out 💪🏻 In Jesus&apos; name 🕊️
+          God mends broken hearts into mighty wings to soar{' '}
+          <motion.span
+            animate={{ y: [0, -5, 0], scale: [1, 1.1, 1], rotate: [0, 5, -5, 0] }}
+            transition={{
+              duration: 3,
+              repeat: Infinity,
+              repeatType: 'loop',
+              ease: 'easeInOut',
+            }}
+            className="inline-block"
+          >
+            🦋
+          </motion.span>{' '}
+          His purpose is to strengthen us from the inside out{' '}
+          <motion.span
+            animate={{ scale: [1, 1.15, 1] }}
+            transition={{
+              duration: 1.5,
+              repeat: Infinity,
+              repeatType: 'loop',
+              ease: 'easeInOut',
+            }}
+            className="inline-block"
+          >
+            💪🏻
+          </motion.span>{' '}
+          In Jesus&apos; name{' '}
+          <motion.span
+            animate={{ y: [0, -4, 0], rotate: [0, 2, 0, -2, 0] }}
+            transition={{
+              duration: 2.5,
+              repeat: Infinity,
+              repeatType: 'loop',
+              ease: 'easeInOut',
+            }}
+            className="inline-block"
+          >
+            🕊️
+          </motion.span>
         </p>
         <div className="mt-12 max-w-4xl mx-auto">
           <Card variant="plus" className="bg-card">
