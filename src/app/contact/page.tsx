@@ -33,7 +33,7 @@ export default function ContactPage() {
               &ldquo;I urge, then, first of all, that petitions, prayers,intercession, and thanksgiving be made for all people for kings and all those in authority, that we may live peaceful and quiet lives in all godliness and holiness.&rdquo;
             </p>
             <footer className="mt-2 text-lg font-headline text-white/60">
-              Psalm 147:3
+              1 Timothy 2:1-2
             </footer>
           </blockquote>
         </div>
