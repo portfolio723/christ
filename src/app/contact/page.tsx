@@ -56,7 +56,7 @@ export default function ContactPage() {
                   <Mail className="w-8 h-8 text-primary mt-1" />
                   <div>
                     <h3 className="text-xl font-bold text-white">
-                      Email Prayer Line
+                      Always whisper out your prayers to us through email .
                     </h3>
                     <p className="text-white/70">
                       Available 24/7 for all your prayer needs.
