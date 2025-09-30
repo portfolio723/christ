@@ -133,7 +133,7 @@ export default function TestimonialsPage() {
       </section>
 
        {/* Mission Restatement */}
-       <MissionStatement imageSrc="/christ/Testi.jpeg" />
+       <MissionStatement imageSrc="/christ/Testi.jpeg" showImage={false} />
 
       <SocialMedia />
     </main>
