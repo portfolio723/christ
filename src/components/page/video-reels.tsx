@@ -70,7 +70,7 @@ export function VideoReels() {
         <div className="container mx-auto px-4 md:px-6">
           <div className="flex flex-col items-center text-center space-y-4 mb-12">
             <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-4xl md:text-5xl text-white">
-              Words of Wisdom
+              From The Wellspring
             </h2>
             <p className="max-w-[600px] text-white/80 md:text-xl">
               Explore our latest video reels for daily inspiration and spiritual
