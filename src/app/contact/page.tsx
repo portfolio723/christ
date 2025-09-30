@@ -49,7 +49,7 @@ export default function ContactPage() {
             {/* Column 1: Prayer & Support */}
             <div className="space-y-8">
               <h2 className="text-3xl font-headline font-bold text-white border-b-2 border-primary pb-2">
-                Prayer & Support
+                ASK FOR PRAYER
               </h2>
               <div className="space-y-6">
                 <div className="flex items-start gap-4">
