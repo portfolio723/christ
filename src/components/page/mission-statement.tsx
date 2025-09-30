@@ -1,17 +1,31 @@
-
 'use client';
 
 import { motion } from 'framer-motion';
 import Image from 'next/image';
 
-export function MissionStatement({ videoSrc, showImage = true }: { videoSrc?: string, showImage?: boolean }) {
-
+export function MissionStatement({
+  videoSrc,
+  showImage = true,
+  imageSrc,
+}: {
+  videoSrc?: string;
+  showImage?: boolean;
+  imageSrc?: string;
+}) {
   return (
     <section
       id="mission"
       className="relative w-full py-20 md:py-32 bg-background text-white"
     >
-      {videoSrc && (
+      {imageSrc && (
+        <Image
+          src={imageSrc}
+          alt="Mission background"
+          fill
+          className="object-cover"
+        />
+      )}
+      {videoSrc && !imageSrc && (
         <video
           src={videoSrc}
           autoPlay
