@@ -4,21 +4,23 @@
 import { motion } from 'framer-motion';
 import Image from 'next/image';
 
-export function MissionStatement({ videoSrc = "/christ/gg.mp4", showImage = true }: { videoSrc?: string, showImage?: boolean }) {
+export function MissionStatement({ videoSrc, showImage = true }: { videoSrc?: string, showImage?: boolean }) {
 
   return (
     <section
       id="mission"
       className="relative w-full py-20 md:py-32 bg-background text-white"
     >
-      <video
-        src={videoSrc}
-        autoPlay
-        muted
-        loop
-        playsInline
-        className="absolute top-0 left-0 w-full h-full object-cover"
-      />
+      {videoSrc && (
+        <video
+          src={videoSrc}
+          autoPlay
+          muted
+          loop
+          playsInline
+          className="absolute top-0 left-0 w-full h-full object-cover"
+        />
+      )}
       <div className="absolute inset-0 bg-black/70" />
 
       <div className="relative z-10 container mx-auto px-4 md:px-6 text-center">
