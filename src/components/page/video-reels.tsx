@@ -73,7 +73,7 @@ export function VideoReels() {
               From The Wellspring
             </h2>
             <p className="max-w-[600px] text-white/80 md:text-2xl font-fasthand">
-              "Listen for His voice". Be encouraged and watch our latest video teachings.
+              &quot;Listen for His voice&quot;. Be encouraged and watch our latest video teachings.
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
