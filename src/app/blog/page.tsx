@@ -10,7 +10,6 @@ import {
   CarouselPrevious,
 } from '@/components/ui/carousel';
 import { ShineBorder, Timeline } from '@/components/ui/shine-border';
-import { Cta4 } from '@/components/ui/cta-4';
 import { MissionStatement } from '@/components/page/mission-statement';
 
 const spiritualInsights = [

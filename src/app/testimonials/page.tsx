@@ -78,7 +78,7 @@ export default function TestimonialsPage() {
             <Image src="/hii.png" alt="icon" width={64} height={64} className="ml-2" />
           </h1>
           <p className="max-w-3xl mx-auto text-3xl md:text-4xl text-white/80 font-allison">
-            Come hear the true stories our blog shares, of their inward spirits encouraged by knowing GOD's deep, measureless love.
+            Come hear the true stories our blog shares, of their inward spirits encouraged by knowing GOD&apos;s deep, measureless love.
           </p>
         </div>
       </section>

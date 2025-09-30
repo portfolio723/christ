@@ -5,14 +5,6 @@ import { motion } from 'framer-motion';
 import Image from 'next/image';
 
 export function MissionStatement({ videoSrc = "/gg.mp4", showImage = true }: { videoSrc?: string, showImage?: boolean }) {
-  const GlowText = ({ children }: { children: React.ReactNode }) => (
-    <span
-      className="text-accent"
-      style={{ filter: 'drop-shadow(0 0 6px hsl(var(--accent) / 0.8))' }}
-    >
-      {children}
-    </span>
-  );
 
   return (
     <section
