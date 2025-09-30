@@ -65,7 +65,7 @@ export function SocialMedia() {
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex flex-col items-center text-center space-y-4 mb-12">
           <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-4xl md:text-5xl text-white">
-            Stay Connected
+            Remain In The Vine
           </h2>
           <p className="max-w-[600px] text-white/80 md:text-xl">
             Follow the journey and join our vibrant community on social media.
