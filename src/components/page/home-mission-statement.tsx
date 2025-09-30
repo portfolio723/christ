@@ -11,7 +11,7 @@ export function HomeMissionStatement() {
       className="relative w-full py-20 md:py-32 bg-background text-white"
     >
       <Image
-        src="/obg.jpeg"
+        src="/christ/obg.jpeg"
         alt="Mission background"
         fill
         className="object-cover"

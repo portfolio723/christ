@@ -64,7 +64,7 @@ export default function TestimonialsPage() {
       {/* Hero Section */}
       <section className="relative h-screen w-full flex flex-col items-center justify-center text-center overflow-hidden">
         <video
-          src="/test.mp4"
+          src="/christ/test.mp4"
           autoPlay
           muted
           loop
@@ -75,7 +75,7 @@ export default function TestimonialsPage() {
         <div className="relative z-10 p-4 container mx-auto px-4 md:px-6">
           <h1 className="text-5xl md:text-7xl font-allison mb-4 tracking-tight flex items-center justify-center">
             Hearts Joined with GOD
-            <Image src="/hii.png" alt="icon" width={64} height={64} className="ml-2" />
+            <Image src="/christ/hii.png" alt="icon" width={64} height={64} className="ml-2" />
           </h1>
           <p className="max-w-3xl mx-auto text-3xl md:text-4xl text-white/80 font-allison">
             Come hear the true stories our blog shares, of their inward spirits encouraged by knowing GOD&apos;s deep, measureless love.

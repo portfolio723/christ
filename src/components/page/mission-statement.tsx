@@ -4,7 +4,7 @@
 import { motion } from 'framer-motion';
 import Image from 'next/image';
 
-export function MissionStatement({ videoSrc = "/gg.mp4", showImage = true }: { videoSrc?: string, showImage?: boolean }) {
+export function MissionStatement({ videoSrc = "/christ/gg.mp4", showImage = true }: { videoSrc?: string, showImage?: boolean }) {
 
   return (
     <section
@@ -70,7 +70,7 @@ export function MissionStatement({ videoSrc = "/gg.mp4", showImage = true }: { v
         {showImage && (
           <div className="my-12 flex justify-center">
             <Image
-              src="/Testi.jpeg"
+              src="/christ/Testi.jpeg"
               alt="A beautiful butterfly"
               width={400}
               height={400}

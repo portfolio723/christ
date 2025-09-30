@@ -53,7 +53,7 @@ const BlogPage = () => {
       {/* Hero Section */}
       <section className="relative h-screen flex items-center justify-center text-center">
         <video
-          src="/blog.mp4"
+          src="/christ/blog.mp4"
           autoPlay
           muted
           loop
@@ -173,7 +173,7 @@ const BlogPage = () => {
           </ShineBorder>
         </section>
       </main>
-      <MissionStatement showImage={false} videoSrc="/ww.mp4" />
+      <MissionStatement showImage={false} videoSrc="/christ/ww.mp4" />
     </div>
   );
 };

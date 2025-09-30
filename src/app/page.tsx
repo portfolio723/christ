@@ -11,7 +11,7 @@ export default function Home() {
       {/* Hero Section from former videos page */}
       <section className="relative h-screen w-full flex flex-col items-center justify-center text-center overflow-hidden">
         <video
-          src="/butterflies.mp4"
+          src="/christ/butterflies.mp4"
           autoPlay
           muted
           loop
@@ -33,7 +33,7 @@ export default function Home() {
         className="w-full py-20 md:py-32 flex items-center justify-center"
       >
         <div className="container mx-auto px-4 md:px-6">
-          <VideoPlayerDemo src="/oh.mp4" />
+          <VideoPlayerDemo src="/christ/oh.mp4" />
         </div>
       </section>
       <SocialMedia />
