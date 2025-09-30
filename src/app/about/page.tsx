@@ -32,7 +32,7 @@ export default function AboutPage() {
           </blockquote>
         </div>
       </header>
-      <MissionStatement showImage={false} />
+      <MissionStatement videoSrc="/christ/gg.mp4" showImage={false} />
       <SocialMedia />
     </main>
   );
