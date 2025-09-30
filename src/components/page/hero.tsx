@@ -68,7 +68,7 @@ export function Hero() {
               <Crown className="w-8 h-8 transform -rotate-12 animate-pulse" />
             </span>
           </GradualSpacing>
-           <p className="text-xl font-lavishly-yours italic text-white/80 mt-4">
+           <p className="text-3xl font-lavishly-yours italic text-white/80 mt-4">
               &mdash; Psalms 1:3
             </p>
         </div>
