@@ -30,6 +30,7 @@ export default {
         hurricane: ['var(--font-hurricane)', ...fontFamily.serif],
         arizonia: ['var(--font-arizonia)', ...fontFamily.serif],
         fasthand: ['var(--font-fasthand)', ...fontFamily.serif],
+        'mr-dafoe': ['var(--font-mr-dafoe)', ...fontFamily.serif],
         code: ['monospace'],
       },
       colors: {
