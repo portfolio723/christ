@@ -22,7 +22,7 @@ const socialPlatforms: SocialPlatform[] = [
     name: 'Instagram',
     Icon: Instagram,
     handle: '@godsspiritsays',
-    followers: 'Root deep . Rise radiant',
+    followers: 'Root deep. Rise radiant',
     url: 'https://www.instagram.com/godsspiritsays/',
     color: 'group-hover:text-[#E4405F]',
   },
