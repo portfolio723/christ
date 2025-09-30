@@ -58,7 +58,7 @@ export default function ContactPage() {
                     <h3 className="text-3xl font-love-light text-white font-bold">
                       Always whisper out your prayers to us through email .
                     </h3>
-                    <p className="text-white/70 font-love-light text-2xl font-bold">
+                    <p className="text-white font-love-light text-2xl font-bold">
                       we will lay them at our DAD&apos;s feet and intercede for you.
                     </p>
                     <a
