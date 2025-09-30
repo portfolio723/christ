@@ -68,7 +68,7 @@ export function SocialMedia() {
             Remain In The Vine
           </h2>
           <p className="max-w-[600px] text-white/80 md:text-xl">
-            Follow the journey and join our vibrant community on social media.
+            Stay connected to the branch to get nourishment continually.
           </p>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
