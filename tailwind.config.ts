@@ -29,6 +29,7 @@ export default {
         'alex-brush': ['var(--font-alex-brush)', ...fontFamily.serif],
         hurricane: ['var(--font-hurricane)', ...fontFamily.serif],
         arizonia: ['var(--font-arizonia)', ...fontFamily.serif],
+        fasthand: ['var(--font-fasthand)', ...fontFamily.serif],
         code: ['monospace'],
       },
       colors: {

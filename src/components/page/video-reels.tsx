@@ -72,9 +72,8 @@ export function VideoReels() {
             <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-4xl md:text-5xl text-white">
               From The Wellspring
             </h2>
-            <p className="max-w-[600px] text-white/80 md:text-xl">
-              Explore our latest video reels for daily inspiration and spiritual
-              guidance.
+            <p className="max-w-[600px] text-white/80 md:text-2xl font-fasthand">
+              "Listen for His voice". Be encouraged and watch our latest video teachings.
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
