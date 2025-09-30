@@ -37,6 +37,7 @@ export default function AboutPage() {
         </div>
       </header>
       <MissionStatement showImage={false} />
+      <SocialMedia />
     </main>
   );
 }
