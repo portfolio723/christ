@@ -155,9 +155,7 @@ const BlogPage = () => {
             Fruitful Dialogue
           </h2>
           <p className="mb-6 text-white/80">
-            Join our growing community of believers who discuss spiritual
-            insights, share testimonies, and support each other&apos;s faith
-            journey.
+            Your place to connect, share, and grow. Engage in conversations that deepen faith through shared testimony and mutual support.
           </p>
           <ShineBorder
             borderWidth={3}
@@ -214,5 +212,3 @@ const BlogPage = () => {
 };
 
 export default BlogPage;
-
-    
