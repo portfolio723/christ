@@ -4,6 +4,7 @@ import { Input } from '@/components/ui/input';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Mail } from 'lucide-react';
 import FeatureSection from '@/components/ui/feature-section';
+import Image from 'next/image';
 
 export function Newsletter() {
 
@@ -11,17 +12,16 @@ export function Newsletter() {
     <section
       id="newsletter"
       className="w-full py-20 md:py-32 relative"
-      style={{
-        background: 'linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%)',
-      }}
     >
-      <div
-        className="absolute top-0 left-0 w-full h-px"
-        style={{
-          background: 'linear-gradient(90deg, transparent, hsl(var(--primary)), hsl(var(--accent)), transparent)',
-        }}
+      <Image
+        src="/christ/op.jpeg"
+        alt="Newsletter background"
+        fill
+        className="object-cover"
+        data-ai-hint="spiritual background"
       />
-      <div className="container mx-auto px-4 md:px-6">
+      <div className="absolute inset-0 bg-black/70" />
+      <div className="relative z-10 container mx-auto px-4 md:px-6">
         <div className="grid gap-12 lg:grid-cols-2 lg:gap-24 items-center">
           <div className="space-y-6 relative">
             <Mail className="w-16 h-16 text-primary absolute -top-12 -left-8 opacity-20 transform -rotate-12 animate-float" />
