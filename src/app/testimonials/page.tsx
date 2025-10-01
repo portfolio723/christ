@@ -124,7 +124,7 @@ export default function TestimonialsPage() {
             Leave a Mark of Grace
           </h2>
           <p className="text-white/80 max-w-xl mx-auto mb-8">
-            Your testimony could ignite hope and faith in others—submit today.
+            Your testimony is a fingerprint of God&apos;s work. You never know whose faith is waiting for a story like yours.So drop a pebble of your testimony and watch the ripples of faith spread.
           </p>
           <Button size="lg" className="bg-primary hover:bg-primary/90 font-bold">
             Submit Your Testimony
