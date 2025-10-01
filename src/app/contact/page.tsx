@@ -16,14 +16,16 @@ export default function ContactPage() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center bg-background text-white">
       {/* Header Section */}
-      <section className="relative w-full py-20 md:py-32 flex flex-col items-center justify-center text-center bg-card/50">
-        <div
-          className="absolute inset-0"
-          style={{
-            backgroundImage:
-              'radial-gradient(ellipse at 50% 30%, hsla(270, 50%, 20%, 0.3), transparent 70%)',
-          }}
+      <section className="relative w-full h-screen flex flex-col items-center justify-center text-center text-white overflow-hidden">
+        <video
+          src="/christ/sd.mp4"
+          autoPlay
+          muted
+          loop
+          playsInline
+          className="absolute top-0 left-0 w-full h-full object-cover"
         />
+        <div className="absolute inset-0 bg-black/60" />
         <div className="relative z-10 p-4 container mx-auto px-4 md:px-6">
           <h1 className="text-4xl md:text-6xl font-headline font-bold mb-4 tracking-tight">
             Prayer and intercession is our first call
@@ -59,7 +61,7 @@ export default function ContactPage() {
                       Always whisper out your prayers to us through email .
                     </h3>
                     <p className="text-white font-love-light text-2xl font-bold">
-                      we will lay them at our DAD&apos;s feet and intercede for you.
+                      we will lay them at our DAD's feet and intercede for you.
                     </p>
                     <a
                       href="mailto:godspiritsays@gmail.com"
