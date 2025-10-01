@@ -25,7 +25,7 @@ export function Newsletter() {
           <div className="space-y-6 relative">
             <Mail className="w-16 h-16 text-primary absolute -top-12 -left-8 opacity-20 transform -rotate-12 animate-float" />
             <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-4xl md:text-5xl text-white">
-              Join the Flock
+              Dwell in His Heart
             </h2>
             <FeatureSection />
           </div>
@@ -57,7 +57,7 @@ export function Newsletter() {
                        boxShadow: '0 4px 14px hsla(var(--primary), 0.3)',
                     }}
                   >
-                    Yes, I&apos;m In!
+                    Yes, I'm In!
                   </Button>
                 </form>
                 <p className="text-xs text-white/50 mt-4 text-center">
