@@ -135,7 +135,7 @@ interface Event {
 const timeline = [
   {
     label: "Anchor in Christ",
-    message: "Encourage and build up others with grace and truth.",
+    message: "HIS truth is our compass.",
     icon: {
       name: Heart,
       textColor: "text-red-500",
@@ -143,9 +143,9 @@ const timeline = [
     },
   },
   {
-    label: "Share Testimonies",
+    label: "Speak with love",
     message:
-      "Share stories of God's goodness to inspire and strengthen faith.",
+      "Kindness is always the Goal.",
     icon: {
       name: Send,
       textColor: "text-amber-500",
@@ -153,8 +153,8 @@ const timeline = [
     },
   },
   {
-    label: "Prayer Support",
-    message: "Ask for prayer and offer to pray for one another in the community.",
+    label: "Share faith stories",
+    message: "Our story matters by someone's survival guide.",
     icon: {
       name: Check,
       textColor: "text-blue-500",
@@ -162,8 +162,8 @@ const timeline = [
     },
   },
   {
-    label: "Stay Focused on Christ",
-    message: "Keep all discussions and interactions centered on Jesus.",
+    label: "Hearts in prayer",
+    message: "Your burden is our burden. It becomes our prayer.",
     icon: {
       name: Repeat,
       textColor: "text-green-500",
