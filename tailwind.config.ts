@@ -31,6 +31,7 @@ export default {
         arizonia: ['var(--font-arizonia)', ...fontFamily.serif],
         fasthand: ['var(--font-fasthand)', ...fontFamily.serif],
         'mr-dafoe': ['var(--font-mr-dafoe)', ...fontFamily.serif],
+        'pinyon-script': ['var(--font-pinyon-script)', ...fontFamily.serif],
         code: ['monospace'],
       },
       colors: {
