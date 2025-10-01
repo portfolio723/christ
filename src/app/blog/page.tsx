@@ -211,7 +211,7 @@ const BlogPage = () => {
               <p>
                 For the days you wonder if it will always be this way... 😥
                 That&apos;s when I remind you: Not one word I have spoken over your
-                life has been forgotten. 🫠🥹 Everything is unfolding in my
+                life has been forgotten. Everything is unfolding in my
                 proper timing.⏳✨
               </p>
               <p>
@@ -219,7 +219,8 @@ const BlogPage = () => {
                 IT. 🕊️
               </p>
               <p>
-                I&apos;M STILL HERE, AND I HAVEN&apos;T FORGOTTEN YOU. ❤️🫂 —GOD
+                I&apos;M STILL HERE, AND I HAVEN&apos;T FORGOTTEN YOU. ❤️
+                —GOD
               </p>
             </div>
           </div>
