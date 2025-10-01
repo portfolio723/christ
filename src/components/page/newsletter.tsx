@@ -57,7 +57,7 @@ export function Newsletter() {
                        boxShadow: '0 4px 14px hsla(var(--primary), 0.3)',
                     }}
                   >
-                    Receive Wisdom
+                    Yes, I&apos;m In!
                   </Button>
                 </form>
                 <p className="text-xs text-white/50 mt-4 text-center">
