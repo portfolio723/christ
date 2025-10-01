@@ -39,7 +39,7 @@ const socialPlatforms: SocialPlatform[] = [
     Icon: Send,
     handle: 'GodsspiritSaysOfficial',
     followers: 'Go in. Glow out',
-    url: '#',
+    url: 'https://t.me/godsspiritsays',
     color: 'group-hover:text-[#229ED9]',
   },
   {
