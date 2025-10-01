@@ -81,29 +81,30 @@ export function VideoReels() {
               if (!reel) return null;
               return (
                 <DialogTrigger key={reel.id} asChild>
-                  <Card
-                    onClick={() => setSelectedReel(reel)}
-                    className="group overflow-hidden rounded-none border-2 border-transparent bg-card transition-all duration-300 hover:border-primary hover:shadow-2xl hover:shadow-primary/20 transform hover:-translate-y-2 cursor-pointer"
-                  >
-                    <CardContent className="p-0">
-                      <div className="relative aspect-video">
-                        <Image
-                          src={reel.imageUrl}
-                          alt={reel.description}
-                          fill
-                          className="object-cover transition-transform duration-300 group-hover:scale-105"
-                          data-ai-hint={reel.imageHint}
-                        />
-                        <div className="absolute inset-0 bg-black/30 group-hover:bg-black/50 transition-colors" />
-                        <div className="absolute inset-0 flex items-center justify-center">
-                          <PlayCircle className="w-16 h-16 text-white/70 group-hover:text-white group-hover:scale-110 transition-all" />
+                  <div onClick={() => setSelectedReel(reel)} className="cursor-pointer">
+                    <Card
+                      className="group overflow-hidden rounded-none border-2 border-transparent bg-card transition-all duration-300 hover:border-primary hover:shadow-2xl hover:shadow-primary/20 transform hover:-translate-y-2"
+                    >
+                      <CardContent className="p-0">
+                        <div className="relative aspect-video">
+                          <Image
+                            src={reel.imageUrl}
+                            alt={reel.description}
+                            fill
+                            className="object-cover transition-transform duration-300 group-hover:scale-105"
+                            data-ai-hint={reel.imageHint}
+                          />
+                          <div className="absolute inset-0 bg-black/30 group-hover:bg-black/50 transition-colors" />
+                          <div className="absolute inset-0 flex items-center justify-center">
+                            <PlayCircle className="w-16 h-16 text-white/70 group-hover:text-white group-hover:scale-110 transition-all" />
+                          </div>
                         </div>
-                      </div>
-                      <div className="p-4">
-                        <p className="text-white/80">{reel.description}</p>
-                      </div>
-                    </CardContent>
-                  </Card>
+                        <div className="p-4">
+                          <p className="text-white/80">{reel.description}</p>
+                        </div>
+                      </CardContent>
+                    </Card>
+                  </div>
                 </DialogTrigger>
               );
             })}
