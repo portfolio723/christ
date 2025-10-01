@@ -190,6 +190,7 @@ const BlogPage = () => {
             The promise he made
           </h2>
           <p className="mt-4 text-xl md:text-2xl text-white/80">I will not leave you until I have done what i have promised you</p>
+          <p className="text-lg md:text-xl text-white/60 mt-2">Genesis 28:15</p>
           <div className="mt-12 max-w-4xl mx-auto">
             <div className="text-white text-left space-y-4 font-mr-dafoe text-2xl md:text-3xl p-6 bg-card/10 backdrop-blur-sm relative rounded-lg">
               <p>A rainbow—His signature in the clouds. 🌈</p>
