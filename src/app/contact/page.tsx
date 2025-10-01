@@ -1,11 +1,8 @@
 
 import {
   Mail,
-  Phone,
-  MessageSquare,
   Send,
   Paperclip,
-  BookUser,
 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
@@ -61,7 +58,7 @@ export default function ContactPage() {
                       Always whisper out your prayers to us through email .
                     </h3>
                     <p className="text-white font-love-light text-2xl font-bold">
-                      we will lay them at our DAD's feet and intercede for you.
+                      we will lay them at our DAD&apos;s feet and intercede for you.
                     </p>
                     <a
                       href="mailto:godspiritsays@gmail.com"
