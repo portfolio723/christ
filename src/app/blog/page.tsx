@@ -91,8 +91,10 @@ const BlogPage = () => {
                     Ready to water your roots?
                   </h2>
                   <p className="text-white/70 mt-2 max-w-xl">
-                    Explore articles that delve deeper into scripture, offer
-                    practical wisdom, and encourage a closer walk with God.
+                    Find resources to deepen your faith with every read.
+                  </p>
+                  <p className="text-white/70 mt-2 max-w-xl">
+                    Explore articles that help you dig deeper into Scripture, live out its wisdom, and walk closer to GOD each day.
                   </p>
                 </div>
                 <div className="hidden md:flex">
