@@ -120,10 +120,10 @@ export default function TestimonialsPage() {
       {/* Call to Share Section */}
       <section className="w-full py-20 md:py-28 text-center bg-card/50 border-y border-border">
         <div className="container mx-auto px-4 md:px-6">
-          <h2 className="text-3xl font-headline font-bold text-white mb-4">
+          <h2 className="text-3xl font-engagement font-bold text-white mb-4 text-5xl">
             Leave a Mark of Grace
           </h2>
-          <p className="text-white/80 max-w-xl mx-auto mb-8">
+          <p className="text-white/80 max-w-xl mx-auto mb-8 font-the-nautigal text-4xl">
             Your testimony is a fingerprint of God&apos;s work. You never know whose faith is waiting for a story like yours.So drop a pebble of your testimony and watch the ripples of faith spread.
           </p>
           <Button size="lg" className="bg-primary hover:bg-primary/90 font-bold">

@@ -32,6 +32,8 @@ export default {
         fasthand: ['var(--font-fasthand)', ...fontFamily.serif],
         'mr-dafoe': ['var(--font-mr-dafoe)', ...fontFamily.serif],
         'pinyon-script': ['var(--font-pinyon-script)', ...fontFamily.serif],
+        engagement: ['var(--font-engagement)', ...fontFamily.serif],
+        'the-nautigal': ['var(--font-the-nautigal)', ...fontFamily.serif],
         code: ['monospace'],
       },
       colors: {

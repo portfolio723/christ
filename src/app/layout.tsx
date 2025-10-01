@@ -1,6 +1,6 @@
 
 import type { Metadata } from 'next';
-import { Inter, Playfair_Display, Dancing_Script, Yesteryear, Mea_Culpa, Allison, Lavishly_Yours, Oleo_Script, Condiment, Great_Vibes, Bonheur_Royale, Mrs_Saint_Delafield, Cookie, Love_Light, Alex_Brush, Hurricane, Arizonia, Fasthand, Mr_Dafoe, Pinyon_Script } from 'next/font/google';
+import { Inter, Playfair_Display, Dancing_Script, Yesteryear, Mea_Culpa, Allison, Lavishly_Yours, Oleo_Script, Condiment, Great_Vibes, Bonheur_Royale, Mrs_Saint_Delafield, Cookie, Love_Light, Alex_Brush, Hurricane, Arizonia, Fasthand, Mr_Dafoe, Pinyon_Script, Engagement, The_Nautigal } from 'next/font/google';
 import './globals.css';
 import { Toaster } from '@/components/ui/toaster';
 import { Header } from '@/components/page/header';
@@ -143,6 +143,21 @@ const fontPinyonScript = Pinyon_Script({
   weight: '400',
 });
 
+const fontEngagement = Engagement({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-engagement',
+  weight: '400',
+});
+
+const fontTheNautigal = The_Nautigal({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-the-nautigal',
+  weight: ['400', '700'],
+});
+
+
 export const metadata: Metadata = {
   title: 'Godspirit',
   description: 'She prospers in all that she does. Psalms 1:3',
@@ -177,7 +192,9 @@ export default function RootLayout({
           fontArizonia.variable,
           fontFasthand.variable,
           fontMrDafoe.variable,
-          fontPinyonScript.variable
+          fontPinyonScript.variable,
+          fontEngagement.variable,
+          fontTheNautigal.variable
         )}
       >
         <Header />
