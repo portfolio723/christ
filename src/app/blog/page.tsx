@@ -191,37 +191,23 @@ const BlogPage = () => {
           </h2>
           <div className="mt-12 max-w-4xl mx-auto">
             <div className="text-white text-left space-y-4 font-mr-dafoe text-2xl md:text-3xl p-6 bg-card/10 backdrop-blur-sm relative rounded-lg">
-              <p>
-                A rainbow—His signature in the clouds. 🌈 And the meaning was
-                clear: &quot;My promise stands: &apos;Never Again.&apos; ✋ The
-                chapter of your past is closed; its pain will not be repeated. 📖⛔
-                I have drawn a line in eternity; what was will not be. ✍️ I have
-                decreed it.👑 This is my covenant:I am here for you.&quot; 🫂🤍
-              </p>
-              <p>
-                Yet, my soul has a holy hunger. 😔 I wanted to hear from his
-                heart again,so I waited, barely, until one fine day, he spoke
-                again, deeper still, and he satisfied my inner chamber with
-                happy gigglings. 😊💖
-              </p>
-              <p>
-                And this is what he said: A promise is for the moments when your
-                heart starts to forget what I&apos;ve spoken. 💭
-              </p>
-              <p>
-                For the days you wonder if it will always be this way... 😥
-                That&apos;s when I remind you: Not one word I have spoken over your
-                life has been forgotten. Everything is unfolding in my
-                proper timing.⏳✨
-              </p>
-              <p>
-                YOU DON&apos;T HAVE TO CARRY THE WEIGHT OF HOW. I SAID IT. I WILL DO
-                IT. 🕊️
-              </p>
-              <p>
-                I&apos;M STILL HERE, AND I HAVEN&apos;T FORGOTTEN YOU. ❤️
-                —GOD
-              </p>
+              <p>A rainbow—His signature in the clouds. 🌈 And the meaning was clear:</p>
+
+<p>&quot;My promise stands: &apos;Never Again.&apos; ✋ The chapter of your past is closed; its pain will not be repeated. 📖⛔ I have drawn a line in eternity; what was will not be. ✍️ I have decreed it.👑 This is my covenant:I am here for you.&quot; 🫂🤍</p>
+
+<p>Yet, my soul has a holy hunger. 😔 I wanted to hear from his heart again,so I waited, barely, until one fine day, he spoke again, deeper still, and he satisfied my inner chamber with happy gigglings. 😊💖</p>
+
+<p>And this is what he said:</p>
+
+<p>A promise is for the moments when your heart starts to forget what I&apos;ve spoken. 💭</p>
+
+<p>For the days you wonder if it will always be this way... 😥</p>
+
+<p>That&apos;s when I remind you: Not one word I have spoken over your life has been forgotten. Everything is unfolding in my proper timing.⏳✨</p>
+
+<p>YOU DON&apos;T HAVE TO CARRY THE WEIGHT OF HOW. I SAID IT. I WILL DO IT. 🕊️</p>
+
+<p>I&apos;M STILL HERE, AND I HAVEN&apos;T FORGOTTEN YOU. ❤️ —GOD</p>
             </div>
           </div>
         </div>
