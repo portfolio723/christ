@@ -1,3 +1,4 @@
+
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
@@ -57,7 +58,7 @@ export function Newsletter() {
                        boxShadow: '0 4px 14px hsla(var(--primary), 0.3)',
                     }}
                   >
-                    Yes, I'm In!
+                    Yes, I&apos;m In!
                   </Button>
                 </form>
                 <p className="text-xs text-white/50 mt-4 text-center">
