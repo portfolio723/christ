@@ -101,18 +101,18 @@ export function SocialMedia() {
               aria-label={`Follow on ${platform.name}`}
             >
               <Card className="bg-card p-6 rounded-xl border-border group-hover:border-primary transition-all duration-300 transform group-hover:-translate-y-2 group-hover:shadow-2xl group-hover:shadow-primary/20 h-full">
-                <div className="flex items-center gap-4">
+                <div className="flex flex-col items-center text-center">
                   <platform.Icon
                     className={`w-10 h-10 text-primary transition-colors duration-300 group-hover:scale-110 group-hover:animate-pulse ${platform.color}`}
                   />
-                  <div>
+                  <div className='mt-4'>
                     <h3 className="font-bold text-lg text-white">
                       {platform.name}
                     </h3>
                     <p className="text-sm text-white/60">{platform.handle}</p>
                   </div>
                 </div>
-                <p className="font-hurricane text-white mt-4 text-4xl">
+                <p className="font-hurricane text-white mt-4 text-4xl text-center">
                   {platform.followers}
                 </p>
               </Card>
