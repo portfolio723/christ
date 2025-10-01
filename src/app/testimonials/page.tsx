@@ -121,7 +121,7 @@ export default function TestimonialsPage() {
       <section className="w-full py-20 md:py-28 text-center bg-card/50 border-y border-border">
         <div className="container mx-auto px-4 md:px-6">
           <h2 className="text-3xl font-headline font-bold text-white mb-4">
-            Share Your Story
+            Leave a Mark of Grace
           </h2>
           <p className="text-white/80 max-w-xl mx-auto mb-8">
             Your testimony could ignite hope and faith in others—submit today.
