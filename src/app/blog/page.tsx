@@ -88,7 +88,7 @@ const BlogPage = () => {
               <div className="flex justify-between items-center mb-8">
                 <div>
                   <h2 className="text-3xl md:text-4xl font-headline font-bold text-white">
-                    Spiritual Insights
+                    Ready to water your roots?
                   </h2>
                   <p className="text-white/70 mt-2 max-w-xl">
                     Explore articles that delve deeper into scripture, offer
@@ -212,3 +212,5 @@ const BlogPage = () => {
 };
 
 export default BlogPage;
+
+    
