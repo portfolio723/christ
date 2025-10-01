@@ -136,7 +136,7 @@ interface Event {
 
 const timeline = [
   {
-    label: "Speak in Love",
+    label: "Anchor in Christ",
     message: "Encourage and build up others with grace and truth.",
     icon: {
       name: Heart,
@@ -175,5 +175,3 @@ const timeline = [
 ] satisfies Event[];
 
 export { ShineBorder };
-
-    
