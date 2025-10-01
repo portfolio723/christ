@@ -13,28 +13,28 @@ import {
 
 const tasks = [
   {
-    title: "Weekly prophetic insights",
-    subtitle: "Divine revelations for your week",
+    title: "Discover His Character",
+    subtitle: "Meet the Person behind the stories.",
     icon: <Heart className="w-4 h-4" />,
   },
   {
-    title: "Exclusive Bible study guides",
-    subtitle: "Deeper understanding of the Word",
+    title: "Immerse in His Love",
+    subtitle: "Rest in who He says you are.",
     icon: <BookOpen className="w-4 h-4" />,
   },
   {
-    title: "Early access to new videos",
-    subtitle: "Be the first to watch new teachings",
+    title: "Glimpses of His Heart",
+    subtitle: "See His compassion and longing for you.",
     icon: <Video className="w-4 h-4" />,
   },
   {
-    title: "Personal prayer support",
-    subtitle: "Community connection and prayer",
+    title: "Hear His Whisper",
+    subtitle: "Exclusive content on what God's Spirit is saying.",
     icon: <Users className="w-4 h-4" />,
   },
   {
-    title: "Exclusive Content",
-    subtitle: "Blessings just for our subscribers",
+    title: "See Our Heart First",
+    subtitle: "We share our newest videos with you before anyone else.",
     icon: <Gift className="w-4 h-4" />,
   },
 ];
