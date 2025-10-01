@@ -1,4 +1,5 @@
 
+import Image from 'next/image';
 import {
   Instagram,
   Youtube,
@@ -71,13 +72,12 @@ export function SocialMedia() {
       id="connect"
       className="relative w-full py-20 md:py-32 bg-card/50 overflow-hidden"
     >
-      <video
-        src="/christ/xx.mp4"
-        autoPlay
-        muted
-        loop
-        playsInline
-        className="absolute top-0 left-0 w-full h-full object-cover -z-10"
+      <Image
+        src="/christ/it.jpeg"
+        alt="Social media background"
+        fill
+        className="object-cover -z-10"
+        data-ai-hint="spiritual abstract"
       />
       <div className="absolute inset-0 bg-black/70 -z-10" />
 
