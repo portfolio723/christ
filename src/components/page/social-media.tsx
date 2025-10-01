@@ -56,13 +56,19 @@ export function SocialMedia() {
   return (
     <section
       id="connect"
-      className="w-full py-20 md:py-32 bg-card/50"
-      style={{
-        backgroundImage:
-          'radial-gradient(circle at bottom right, hsla(270, 50%, 20%, 0.2), transparent 30%)',
-      }}
+      className="relative w-full py-20 md:py-32 bg-card/50 overflow-hidden"
     >
-      <div className="container mx-auto px-4 md:px-6">
+      <video
+        src="/christ/xx.mp4"
+        autoPlay
+        muted
+        loop
+        playsInline
+        className="absolute top-0 left-0 w-full h-full object-cover -z-10"
+      />
+      <div className="absolute inset-0 bg-black/70 -z-10" />
+
+      <div className="relative z-10 container mx-auto px-4 md:px-6">
         <div className="flex flex-col items-center text-center space-y-4 mb-12">
           <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-4xl md:text-5xl text-white">
             Remain In The Vine
