@@ -23,47 +23,11 @@ export function HomeMissionStatement() {
         <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-4xl md:text-5xl">
           His Vision, Our mission
         </h2>
-        <p className="mx-auto max-w-4xl text-white/80 md:text-6xl mt-6 font-mea-culpa text-5xl">
-          God mends broken hearts into mighty wings to soar{' '}
-          <motion.span
-            animate={{ y: [0, -5, 0], scale: [1, 1.1, 1], rotate: [0, 5, -5, 0] }}
-            transition={{
-              duration: 3,
-              repeat: Infinity,
-              repeatType: 'loop',
-              ease: 'easeInOut',
-            }}
-            className="inline-block"
-          >
-            🦋
-          </motion.span>{' '}
-          His purpose is to strengthen us from the inside out{' '}
-          <motion.span
-            animate={{ scale: [1, 1.15, 1] }}
-            transition={{
-              duration: 1.5,
-              repeat: Infinity,
-              repeatType: 'loop',
-              ease: 'easeInOut',
-            }}
-            className="inline-block"
-          >
-            💪🏻
-          </motion.span>{' '}
-          In Jesus&apos; name{' '}
-          <motion.span
-            animate={{ y: [0, -4, 0], rotate: [0, 2, 0, -2, 0] }}
-            transition={{
-              duration: 2.5,
-              repeat: Infinity,
-              repeatType: 'loop',
-              ease: 'easeInOut',
-            }}
-            className="inline-block"
-          >
-            🕊️
-          </motion.span>
-        </p>
+        <div className="mx-auto max-w-4xl text-white/80 md:text-5xl mt-6 font-mea-culpa text-4xl space-y-4">
+          <p>She...She is zero without her God… But to her God, she is everything 💖</p>
+          <p>So, you came here to read about me, right? 💭 There’s nothing about me worth highlighting without Him ✨</p>
+          <p>That’s why—instead of lifting up my name— I’d rather echo what His heart says about me 💞</p>
+        </div>
 
         <div className="mt-12 max-w-4xl mx-auto">
           <div className="text-white text-left space-y-4 font-oleo-script text-xl md:text-2xl p-6 bg-card/10 backdrop-blur-sm relative rounded-lg">
