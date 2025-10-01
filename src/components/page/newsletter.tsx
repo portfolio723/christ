@@ -33,7 +33,7 @@ export function Newsletter() {
             <Card className="w-full max-w-md bg-card border-primary/50 shadow-2xl shadow-primary/20 transition-all hover:shadow-primary/30">
               <CardHeader>
                 <CardTitle className="text-center font-headline text-2xl text-white">
-                  Subscribe for Blessings
+                  Stay Connected in JESUS
                 </CardTitle>
               </CardHeader>
               <CardContent>
