@@ -62,12 +62,20 @@ export function VideoReels() {
   };
 
   return (
-    <section id="reels" className="w-full py-20 md:py-32 bg-background">
+    <section id="reels" className="relative w-full py-20 md:py-32 bg-background">
+      <Image
+        src="/christ/nb.jpeg"
+        alt="Wellspring background"
+        fill
+        className="object-cover"
+        data-ai-hint="spiritual wellspring"
+      />
+      <div className="absolute inset-0 bg-black/70" />
       <Dialog
         open={!!selectedReel}
         onOpenChange={(isOpen) => !isOpen && setSelectedReel(null)}
       >
-        <div className="container mx-auto px-4 md:px-6">
+        <div className="relative z-10 container mx-auto px-4 md:px-6">
           <div className="flex flex-col items-center text-center space-y-4 mb-12">
             <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-4xl md:text-5xl text-white">
               From The Wellspring
