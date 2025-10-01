@@ -8,9 +8,28 @@ import {
 } from 'lucide-react';
 import { Card } from '@/components/ui/card';
 
+const ThreadsIcon = (props: React.SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    {...props}
+  >
+    <path d="M12 8.5A3.5 3.5 0 0 0 8.5 12h7A3.5 3.5 0 0 0 12 8.5Z" />
+    <path d="M12 15.5a3.5 3.5 0 0 1 3.5-3.5h-7a3.5 3.5 0 0 1 3.5 3.5Z" />
+  </svg>
+);
+
+
 type SocialPlatform = {
   name: string;
-  Icon: LucideIcon;
+  Icon: LucideIcon | ((props: React.SVGProps<SVGSVGElement>) => JSX.Element);
   handle: string;
   followers: string;
   url: string;
@@ -50,6 +69,14 @@ const socialPlatforms: SocialPlatform[] = [
     url: 'https://x.com/godsspiritsays',
     color: 'group-hover:text-[#1DA1F2]',
   },
+  {
+    name: 'Threads',
+    Icon: ThreadsIcon,
+    handle: '@godsspiritsays',
+    followers: 'Weave words. Witness wonders.',
+    url: 'https://www.threads.net/@godsspiritsays',
+    color: 'group-hover:text-black dark:group-hover:text-white',
+  },
 ];
 
 export function SocialMedia() {
@@ -77,7 +104,7 @@ export function SocialMedia() {
             Stay connected to the branch to get nourishment continually. 🍇
           </p>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6">
           {socialPlatforms.map((platform) => (
             <a
               key={platform.name}
