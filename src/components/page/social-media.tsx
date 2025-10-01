@@ -2,7 +2,7 @@
 import {
   Instagram,
   Youtube,
-  Facebook,
+  Send,
   Twitter,
   type LucideIcon,
 } from 'lucide-react';
@@ -35,12 +35,12 @@ const socialPlatforms: SocialPlatform[] = [
     color: 'group-hover:text-[#FF0000]',
   },
   {
-    name: 'Facebook',
-    Icon: Facebook,
+    name: 'Telegram',
+    Icon: Send,
     handle: 'GodsspiritSaysOfficial',
     followers: 'Go in. Glow out',
     url: '#',
-    color: 'group-hover:text-[#1877F2]',
+    color: 'group-hover:text-[#229ED9]',
   },
   {
     name: 'Twitter',
