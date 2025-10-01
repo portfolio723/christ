@@ -187,7 +187,7 @@ const BlogPage = () => {
         <div className="absolute inset-0 bg-black/70" />
         <div className="relative z-10 container mx-auto px-4 md:px-6 text-center">
           <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-4xl md:text-5xl text-white">
-            His Vision, Our mission
+            The promise he made
           </h2>
           <div className="mt-12 max-w-4xl mx-auto">
             <div className="text-white text-left space-y-4 font-mr-dafoe text-2xl md:text-3xl p-6 bg-card/10 backdrop-blur-sm relative rounded-lg">
