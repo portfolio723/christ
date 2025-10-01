@@ -39,7 +39,7 @@ export function MissionStatement({
 
       <div className="relative z-10 container mx-auto px-4 md:px-6 text-center">
         <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-4xl md:text-5xl text-white">
-          Our Mission
+          His Vision, Our mission
         </h2>
         <p className="mx-auto max-w-4xl text-white/80 md:text-6xl mt-6 font-mea-culpa text-5xl">
           God mends broken hearts into mighty wings to soar{' '}
@@ -98,9 +98,7 @@ export function MissionStatement({
 
         <div className="mt-12 max-w-4xl mx-auto">
           <div className="text-white text-left space-y-4 font-oleo-script text-xl md:text-2xl p-6 bg-card/10 backdrop-blur-sm relative rounded-lg">
-            <p>
-              In the name of JESUS CHRIST, greetings 🌸
-            </p>
+            <p>In the name of JESUS CHRIST, greetings 🌸</p>
             <p>
                Beloved, the only
               purpose 🎯 I launched this website is to tell you what
