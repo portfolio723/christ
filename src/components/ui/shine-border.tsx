@@ -99,9 +99,7 @@ export function TimelineEvent({
         ) : null}
       </div>
       <div className="mt-1 flex flex-1 flex-col gap-1">
-        <div className="flex items-center justify-between gap-4">
-          <p className="text-lg font-semibold">{label}</p>
-        </div>
+        <p className="text-lg font-semibold">{label}</p>
         <p className="text-xs text-muted-foreground">{message}</p>
       </div>
     </div>
