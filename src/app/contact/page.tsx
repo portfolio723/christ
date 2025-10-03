@@ -24,14 +24,14 @@ export default function ContactPage() {
         />
         <div className="absolute inset-0 bg-black/60" />
         <div className="relative z-10 p-4 container mx-auto px-4 md:px-6">
-          <h1 className="text-4xl md:text-6xl font-headline font-bold mb-4 tracking-tight">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-headline font-bold mb-4 tracking-tight">
             Prayer and intercession is our first call
           </h1>
           <blockquote className="max-w-3xl mx-auto">
-            <p className="font-alex-brush text-3xl md:text-4xl text-white/90">
+            <p className="font-alex-brush text-2xl md:text-3xl lg:text-4xl text-white/90">
               &ldquo;I urge, then, first of all, that petitions, prayers,intercession, and thanksgiving be made for all people for kings and all those in authority, that we may live peaceful and quiet lives in all godliness and holiness.&rdquo;
             </p>
-            <footer className="mt-2 text-xl font-alex-brush text-white/60">
+            <footer className="mt-2 text-lg md:text-xl font-alex-brush text-white/60">
               1 Timothy 2:1-2
             </footer>
           </blockquote>
