@@ -9,14 +9,14 @@ import {
 } from 'lucide-react';
 import { Card } from '@/components/ui/card';
 
-const ThreadsIcon = (props: React.SVGProps<SVGSVGElement>) => (
+const ThreadsIcon = (props: React.HTMLProps<HTMLSpanElement>) => (
   <span {...props} style={{ fontSize: '24px', fontWeight: 'bold' }}>@</span>
 );
 
 
 type SocialPlatform = {
   name: string;
-  Icon: LucideIcon | ((props: React.SVGProps<SVGSVGElement>) => JSX.Element);
+  Icon: LucideIcon | ((props: React.HTMLProps<HTMLSpanElement>) => JSX.Element);
   handle: string;
   followers: string;
   url: string;
