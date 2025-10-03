@@ -70,18 +70,9 @@ export function SocialMedia() {
   return (
     <section
       id="connect"
-      className="relative w-full py-20 md:py-32 bg-card/50 overflow-hidden"
+      className="w-full py-20 md:py-32"
     >
-      <Image
-        src="/christ/it.jpeg"
-        alt="Social media background"
-        fill
-        className="object-cover -z-10"
-        data-ai-hint="spiritual abstract"
-      />
-      <div className="absolute inset-0 bg-black/70 -z-10" />
-
-      <div className="relative z-10 container mx-auto px-4 md:px-6">
+      <div className="container mx-auto px-4 md:px-6">
         <div className="flex flex-col items-center text-center space-y-4 mb-12">
           <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-4xl md:text-5xl text-white">
             Remain In The Vine
