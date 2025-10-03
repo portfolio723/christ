@@ -80,9 +80,18 @@ export default function ContactPage() {
       {/* Contact Form Section */}
       <section
         id="contact-form"
-        className="w-full py-20 md:py-28 bg-card/50 border-y border-border"
+        className="relative w-full py-20 md:py-28 border-y border-border overflow-hidden"
       >
-        <div className="container mx-auto px-4 md:px-6">
+        <video
+          src="/christ/aa.mp4"
+          autoPlay
+          muted
+          loop
+          playsInline
+          className="absolute top-0 left-0 w-full h-full object-cover"
+        />
+        <div className="absolute inset-0 bg-black/70" />
+        <div className="relative z-10 container mx-auto px-4 md:px-6">
           <div className="max-w-2xl mx-auto text-center mb-12">
             <h2 className="text-5xl font-arizonia font-bold text-white">
               Make your petition
@@ -93,26 +102,26 @@ export default function ContactPage() {
                <Input
                 type="text"
                 placeholder="Your Name"
-                className="bg-input border-border focus:ring-primary"
+                className="bg-input/80 border-border focus:ring-primary"
                 aria-label="Your Name"
                 />
               <Input
                 type="email"
                 placeholder="Your Email"
-                className="bg-input border-border focus:ring-primary"
+                className="bg-input/80 border-border focus:ring-primary"
                 aria-label="Your Email"
               />
              </div>
             <Input
               type="text"
               placeholder="Subject (e.g., Prayer, Testimony, Inquiry)"
-              className="bg-input border-border focus:ring-primary"
+              className="bg-input/80 border-border focus:ring-primary"
               aria-label="Subject"
             />
             <Textarea
               placeholder="Write your message or prayer request here..."
               rows={8}
-              className="bg-input border-border focus:ring-primary"
+              className="bg-input/80 border-border focus:ring-primary"
               aria-label="Your Message"
             />
             <div className="flex items-center justify-between">
