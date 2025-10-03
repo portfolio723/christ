@@ -148,9 +148,11 @@ const BlogPage = () => {
             </Carousel>
           </div>
         </section>
-
-        {/* Community Discussion */}
-        <section className="relative text-center py-20 md:py-32 -mx-4">
+      </main>
+      
+      {/* Community Discussion */}
+      <div className="w-full">
+        <section className="relative text-center py-20 md:py-32">
           <video
             src="/christ/cx.mp4"
             autoPlay
@@ -182,7 +184,8 @@ const BlogPage = () => {
             </ShineBorder>
           </div>
         </section>
-      </main>
+      </div>
+
       <section
         id="mission"
         className="relative w-full py-20 md:py-32 bg-background text-white"
