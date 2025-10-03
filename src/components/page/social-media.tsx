@@ -70,9 +70,17 @@ export function SocialMedia() {
   return (
     <section
       id="connect"
-      className="w-full py-20 md:py-32"
+      className="relative w-full py-20 md:py-32"
     >
-      <div className="container mx-auto px-4 md:px-6">
+      <Image
+        src="/christ/it.jpeg"
+        alt="Social media background"
+        fill
+        className="object-cover"
+        data-ai-hint="spiritual background pattern"
+      />
+      <div className="absolute inset-0 bg-black/70" />
+      <div className="relative z-10 container mx-auto px-4 md:px-6">
         <div className="flex flex-col items-center text-center space-y-4 mb-12">
           <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-4xl md:text-5xl text-white">
             Remain In The Vine
@@ -91,7 +99,7 @@ export function SocialMedia() {
               className="group"
               aria-label={`Follow on ${platform.name}`}
             >
-              <Card className="bg-card p-6 rounded-xl border-border group-hover:border-primary transition-all duration-300 transform group-hover:-translate-y-2 group-hover:shadow-2xl group-hover:shadow-primary/20 h-full">
+              <Card className="bg-card/50 backdrop-blur-sm p-6 rounded-xl border-border group-hover:border-primary transition-all duration-300 transform group-hover:-translate-y-2 group-hover:shadow-2xl group-hover:shadow-primary/20 h-full">
                 <div className="flex flex-col items-center text-center">
                   <platform.Icon
                     className={`w-10 h-10 text-primary transition-colors duration-300 group-hover:scale-110 group-hover:animate-pulse ${platform.color}`}
