@@ -198,8 +198,16 @@ export default function VideoMinistryPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="w-full py-20 md:py-28 text-center bg-card/50 border-t border-border">
-        <div className="container mx-auto px-4 md:px-6">
+      <section className="relative w-full py-20 md:py-28 text-center border-t border-border">
+        <Image
+          src="/christ/qq.jpeg"
+          alt="Subscribe background"
+          fill
+          className="object-cover"
+          data-ai-hint="spiritual abstract"
+        />
+        <div className="absolute inset-0 bg-black/70" />
+        <div className="relative z-10 container mx-auto px-4 md:px-6">
           <h2 className="text-3xl font-headline font-bold text-white mb-4">
             Never Miss a New Video
           </h2>
