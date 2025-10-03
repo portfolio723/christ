@@ -151,18 +151,9 @@ const BlogPage = () => {
       </main>
       
       {/* Community Discussion */}
-      <div className="w-full">
-        <section className="relative text-center py-20 md:py-32">
-          <video
-            src="/christ/cx.mp4"
-            autoPlay
-            muted
-            loop
-            playsInline
-            className="absolute top-0 left-0 w-full h-full object-cover"
-          />
-          <div className="absolute inset-0 bg-black/70" />
-          <div className="relative z-10 container mx-auto px-4">
+      <div className="w-full bg-background">
+        <section className="text-center py-20 md:py-32">
+          <div className="container mx-auto px-4">
             <h2 className="text-3xl font-bold mb-4 font-headline">
               Fruitful Dialogue
             </h2>
@@ -226,3 +217,5 @@ const BlogPage = () => {
 };
 
 export default BlogPage;
+
+    
