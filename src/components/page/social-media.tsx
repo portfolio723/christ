@@ -61,7 +61,7 @@ const socialPlatforms: SocialPlatform[] = [
     Icon: ThreadsIcon,
     handle: '@godsspiritsays',
     followers: 'Weave words. Witness wonders.',
-    url: 'https://www.threads.net/@godsspiritsays',
+    url: 'https://www.threads.com/@godsspiritsays',
     color: 'group-hover:text-black dark:group-hover:text-white',
   },
 ];
