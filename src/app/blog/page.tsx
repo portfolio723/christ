@@ -150,26 +150,37 @@ const BlogPage = () => {
         </section>
 
         {/* Community Discussion */}
-        <section className="text-center">
-          <h2 className="text-3xl font-bold mb-4 font-headline">
-            Fruitful Dialogue
-          </h2>
-          <p className="mb-6 text-white/80 font-pinyon-script text-4xl">
-            Your place to connect, share, and grow. Engage in conversations that deepen faith through shared testimony and mutual support.
-          </p>
-          <ShineBorder
-            borderWidth={3}
-            className="border bg-white/5 shadow-2xl backdrop-blur-md dark:bg-black/5"
-            color={["#663399", "#ffed4a", "#663399"]}
-          >
-            <div className="p-10">
-              <h1 className="my-8 text-2xl md:text-2xl text-center">
-                How We Engage
-              </h1>
-              <Timeline />
-            </div>
-            <div className="absolute inset-0 -z-10 rounded-full bg-background opacity-40 blur-xl" />
-          </ShineBorder>
+        <section className="relative text-center py-20 md:py-32 -mx-4">
+          <video
+            src="/christ/cx.mp4"
+            autoPlay
+            muted
+            loop
+            playsInline
+            className="absolute top-0 left-0 w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-black/70" />
+          <div className="relative z-10 container mx-auto px-4">
+            <h2 className="text-3xl font-bold mb-4 font-headline">
+              Fruitful Dialogue
+            </h2>
+            <p className="mb-6 text-white/80 font-pinyon-script text-4xl">
+              Your place to connect, share, and grow. Engage in conversations that deepen faith through shared testimony and mutual support.
+            </p>
+            <ShineBorder
+              borderWidth={3}
+              className="border bg-white/5 shadow-2xl backdrop-blur-md dark:bg-black/5"
+              color={["#663399", "#ffed4a", "#663399"]}
+            >
+              <div className="p-10">
+                <h1 className="my-8 text-2xl md:text-2xl text-center">
+                  How We Engage
+                </h1>
+                <Timeline />
+              </div>
+              <div className="absolute inset-0 -z-10 rounded-full bg-background opacity-40 blur-xl" />
+            </ShineBorder>
+          </div>
         </section>
       </main>
       <section
