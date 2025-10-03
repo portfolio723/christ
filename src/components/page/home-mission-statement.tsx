@@ -20,9 +20,9 @@ export function HomeMissionStatement() {
       <div className="absolute inset-0 bg-black/70" />
 
       <div className="relative z-10 container mx-auto px-4 md:px-6 text-center">
-        <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-4xl md:text-5xl">
-          His Vision, Our mission
-        </h2>
+        <h3 className="text-3xl font-headline font-bold tracking-tighter sm:text-4xl md:text-5xl">
+          My Daughter &quot;You, and only you, before anybody. &quot;
+        </h3>
         <div className="mx-auto max-w-4xl text-white/80 md:text-5xl mt-6 font-mea-culpa text-4xl space-y-4">
           <p>She...She is zero without her God… But to her God, she is everything 💖</p>
           <p>So, you came here to read about me, right? 💭 There’s nothing about me worth highlighting without Him ✨</p>
