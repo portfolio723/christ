@@ -171,16 +171,25 @@ const BlogPage = () => {
             </p>
             <ShineBorder
               borderWidth={3}
-              className="border bg-white/5 shadow-2xl backdrop-blur-md dark:bg-black/5"
+              className="border bg-white/5 shadow-2xl backdrop-blur-md dark:bg-black/5 relative"
               color={["#663399", "#ffed4a", "#663399"]}
             >
-              <div className="p-10">
+              <div
+                className="absolute inset-0 -z-10"
+                style={{
+                  backgroundImage: "url('/christ/ed.jpeg')",
+                  backgroundSize: 'cover',
+                  backgroundPosition: 'center',
+                }}
+              />
+              <div className="absolute inset-0 -z-10 bg-black/50" />
+              <div className="p-10 relative">
                 <h1 className="my-8 text-2xl md:text-2xl text-center">
                   How We Engage
                 </h1>
                 <Timeline />
               </div>
-              <div className="absolute inset-0 -z-10 rounded-full bg-background opacity-40 blur-xl" />
+              <div className="absolute inset-0 -z-20 rounded-full bg-background opacity-40 blur-xl" />
             </ShineBorder>
           </div>
         </section>
