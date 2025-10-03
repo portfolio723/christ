@@ -49,6 +49,7 @@ export function HomeMissionStatement() {
             <p>My touch will never bring you pain.</p>
             <p>I love you for who you are,</p>
             <p>expecting nothing in return—unlike the world.</p>
+            <p>Recall the love I have done for you on the cross.</p>
             <p>Choose My love, and live for Me.</p>
             <p>I will do more than you can possibly imagine 💫</p>
             <p>I want you closer than you dare to believe.</p>
