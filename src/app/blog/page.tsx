@@ -151,7 +151,7 @@ const BlogPage = () => {
       </main>
       
       {/* Community Discussion */}
-      <div className="w-full bg-background relative">
+      <div className="w-full bg-background relative overflow-hidden">
         <video
           src="/christ/cx.mp4"
           autoPlay
