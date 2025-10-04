@@ -64,7 +64,7 @@ export function VideoReels() {
   return (
     <section id="reels" className="relative w-full py-20 md:py-32 bg-background">
       <Image
-        src="/christ/nb.jpeg"
+        src="/christ/tr.jpeg"
         alt="Wellspring background"
         fill
         className="object-cover"
