@@ -200,7 +200,7 @@ export default function VideoMinistryPage() {
       {/* CTA Section */}
       <section className="relative w-full py-20 md:py-28 text-center border-t border-border">
         <Image
-          src="/christ/qq.jpeg"
+          src="/christ/fd.jpeg"
           alt="Subscribe background"
           fill
           className="object-cover"
