@@ -174,15 +174,6 @@ const BlogPage = () => {
               className="border bg-white/5 shadow-2xl backdrop-blur-md dark:bg-black/5 relative"
               color={["#663399", "#ffed4a", "#663399"]}
             >
-              <div
-                className="absolute inset-0 -z-10"
-                style={{
-                  backgroundImage: "url('/christ/ed.jpeg')",
-                  backgroundSize: 'cover',
-                  backgroundPosition: 'center',
-                }}
-              />
-              <div className="absolute inset-0 -z-10 bg-black/50" />
               <div className="p-10 relative">
                 <h1 className="my-8 text-2xl md:text-2xl text-center">
                   How We Engage
