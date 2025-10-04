@@ -118,8 +118,16 @@ export default function TestimonialsPage() {
       </section>
       
       {/* Call to Share Section */}
-      <section className="w-full py-20 md:py-28 text-center bg-card/50 border-y border-border">
-        <div className="container mx-auto px-4 md:px-6">
+      <section className="relative w-full py-20 md:py-28 text-center border-y border-border">
+        <Image
+          src="/christ/ed.jpeg"
+          alt="Grace background"
+          fill
+          className="object-cover"
+          data-ai-hint="spiritual abstract"
+        />
+        <div className="absolute inset-0 bg-black/70" />
+        <div className="relative z-10 container mx-auto px-4 md:px-6">
           <h2 className="text-3xl font-engagement font-bold text-white mb-4 text-5xl">
             Leave a Mark of Grace
           </h2>
