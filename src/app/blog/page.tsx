@@ -153,7 +153,7 @@ const BlogPage = () => {
       {/* Community Discussion */}
       <div className="w-full bg-background relative">
         <video
-          src="/christ/ww.mp4"
+          src="/christ/cg.mp4"
           autoPlay
           muted
           loop
