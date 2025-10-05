@@ -58,17 +58,44 @@ export default function AboutPage() {
 
           <div className="mt-12 max-w-4xl mx-auto">
             <div className="text-white text-left space-y-4 font-oleo-script text-xl md:text-2xl p-6 bg-card/10 backdrop-blur-sm relative rounded-lg">
-              <p>A rainbow—His signature in the clouds. 🌈</p>
-              <p>And the meaning was clear:</p>
-              <p>&quot;My promise stands: &apos;Never Again.&apos; ✋ The chapter of your past is closed; its pain will not be repeated. 📖⛔ I have drawn a line in eternity; what was will not be. ✍️ I have decreed it.👑 This is my covenant:I am here for you.&quot;🤍 <span className="font-bold text-sm">edi</span></p>
-              <p>Yet, my soul has a holy hunger. 😔 I wanted to hear from his heart again,so I waited, barely, until one fine day, he spoke again, deeper still, and he satisfied my inner chamber with happy gigglings. 😊💖</p>
-              <p>And this is what he said:</p>
-              <p>A promise is for the moments when your heart starts to forget what I&apos;ve spoken. 💭</p>
-              <p>For the days you wonder if it will always be this way... 😥</p>
-              <p>That&apos;s when I remind you: Not one word I have spoken over your life has been forgotten. Everything is unfolding in my proper timing.⏳✨</p>
-              <p>YOU DON&apos;T HAVE TO CARRY THE WEIGHT OF HOW. I SAID IT. I WILL DO IT. 🕊️</p>
-              <p>I&apos;M STILL HERE, AND I HAVEN&apos;T FORGOTTEN YOU. ❤️</p>
-              <p>—GOD</p>
+              <p>My Letter to My Princess… 💌</p>
+              <br />
+              <p>Oh, my sweet doe, you are so precious to Me 💖</p>
+              <p>I love you, and My hand is upon you.</p>
+              <p>I will lay you down in green pastures</p>
+              <p>and raise you up as a woman for the nations.</p>
+              <br />
+              <p>You came here to rest under My wings—</p>
+              <p>the wings of Jehovah 💗</p>
+              <p>I will never disappoint you,</p>
+              <p>My graceful deer.</p>
+              <br />
+              <p>You are more important to Me than you realize…</p>
+              <p>More than you want Me—</p>
+              <p>I wanted you more than you have ever imagined 💞</p>
+              <br />
+              <p>Yes, My woman, I love you</p>
+              <p>simply because I love you.</p>
+              <br />
+              <p>My love will never wound you.</p>
+              <p>My touch will never bring you pain.</p>
+              <br />
+              <p>I love you for who you are,</p>
+              <p>expecting nothing in return—unlike the world.</p>
+              <p>Recall the love I have done for you on the cross.</p>
+              <p>Choose My love, and live for Me.</p>
+              <p>I will do more than you can possibly imagine 💫</p>
+              <br />
+              <p>I want you closer than you dare to believe.</p>
+              <br />
+              <p>I AM your God. Always.</p>
+              <p>I have no regrets in choosing you.</p>
+              <p>Yes. None.</p>
+              <br />
+              <p>That is enough for now, Princess…</p>
+              <p>I must close this scroll of My heart here!!!</p>
+              <p>Otherwise, the world will hear</p>
+              <p>all the secrets it holds about you… 😉💕</p>
             </div>
           </div>
         </div>
