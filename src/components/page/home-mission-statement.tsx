@@ -21,45 +21,33 @@ export function HomeMissionStatement() {
 
       <div className="relative z-10 container mx-auto px-4 md:px-6 text-center">
         <h3 className="text-3xl font-headline font-bold tracking-tighter sm:text-4xl md:text-5xl">
-          My Daughter &quot;You, and only you, before anybody. &quot;
+          Our Mission
         </h3>
         <div className="mx-auto max-w-4xl text-white/80 md:text-5xl mt-6 font-mea-culpa text-4xl space-y-4">
-          <p>She...She is zero without her God… But to her God, she is everything 💖</p>
-          <p>So, you came here to read about me, right? 💭 There’s nothing about me worth highlighting without Him ✨</p>
-          <p>That’s why—instead of lifting up my name— I’d rather echo what His heart says about me 💞</p>
+          <p>God mends broken hearts into mighty wings to soar 🦋 His purpose is to strengthen us from the inside out 💪 In Jesus' name 🕊️</p>
         </div>
 
         <div className="mt-12 max-w-4xl mx-auto">
           <div className="text-white text-left space-y-4 font-oleo-script text-xl md:text-2xl p-6 bg-card/10 backdrop-blur-sm relative rounded-lg">
-            <p className="font-bold text-2xl md:text-3xl">My Letter to My Princess… 💌</p>
-            <p>Oh, my sweet doe, you are so precious to Me 💖</p>
-            <p>I love you, and My hand is upon you.</p>
-            <p>I will lay you down in green pastures</p>
-            <p>and raise you up as a woman for the nations.</p>
-            <p>You came here to rest under My wings—</p>
-            <p>the wings of Jehovah 💗</p>
-            <p>I will never disappoint you,</p>
-            <p>My graceful deer.</p>
-            <p>You are more important to Me than you realize…</p>
-            <p>More than you want Me—</p>
-            <p>I wanted you more than you have ever imagined 💞</p>
-            <p>Yes, My woman, I love you</p>
-            <p>simply because I love you.</p>
-            <p>My love will never wound you.</p>
-            <p>My touch will never bring you pain.</p>
-            <p>I love you for who you are,</p>
-            <p>expecting nothing in return—unlike the world.</p>
-            <p>Recall the love I have done for you on the cross.</p>
-            <p>Choose My love, and live for Me.</p>
-            <p>I will do more than you can possibly imagine 💫</p>
-            <p>I want you closer than you dare to believe.</p>
-            <p>I AM your God. Always.</p>
-            <p>I have no regrets in choosing you.</p>
-            <p>Yes. None.</p>
-            <p>That is enough for now, Princess…</p>
-            <p>I must close this scroll of My heart here!!!</p>
-            <p>Otherwise, the world will hear</p>
-            <p>all the secrets it holds about you… 😉💕</p>
+            <p>
+              In the name of JESUS CHRIST, greetings 🌸 Beloved, the only
+              purpose 💝 I launched this website is to tell you what GOD&apos;S
+              SPIRIT Says 🕊️ for us to uplift and strengthen your inner man 💪
+              And enable us to internally strong first. Physiologic issues will
+              automatically be resolved once we have healed 💝 inwardly.
+            </p>
+            <p>
+              Yes beloved 💙... Our mighty GOD will change our every broken
+              heart piece to turn into mighty butterfly wings 🦋 to fly high
+              🕊️ And He will use every sharpened broken piece that converts it
+              into massive strong butterfly wings. Even if your broken heart 💔
+              pieces pierced him and drew blood... 🔴
+            </p>
+            <p>
+              By the way, one more affirmation! ⚡ Instead of hitting the
+              millions of subscribers, my main goal in using Jesus&apos; name is for
+              his love to reach the hearts of the millions 🏠🙏
+            </p>
           </div>
         </div>
       </div>
