@@ -7,10 +7,12 @@ export function MissionStatement({
   videoSrc,
   showImage = true,
   imageSrc,
+  heading,
 }: {
   videoSrc?: string;
   showImage?: boolean;
   imageSrc?: string;
+  heading?: string;
 }) {
   return (
     <section
@@ -39,7 +41,7 @@ export function MissionStatement({
 
       <div className="relative z-10 container mx-auto px-4 md:px-6 text-center">
         <h3 className="text-3xl font-headline font-bold tracking-tighter sm:text-4xl md:text-5xl text-white">
-          My Daughter &quot;You, and only you, before anybody. &quot;
+          {heading || `My Daughter "You, and only you, before anybody. "`}
         </h3>
         <div className="mx-auto max-w-4xl text-white/80 md:text-5xl mt-6 font-mea-culpa text-4xl space-y-4">
           <p>She...She is zero without her God… But to her God, she is everything 💖</p>
