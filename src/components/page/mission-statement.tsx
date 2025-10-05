@@ -46,7 +46,7 @@ export function MissionStatement({
         </h3>
         <div className="mx-auto max-w-4xl text-white/80 md:text-5xl mt-6 font-mea-culpa text-4xl space-y-4">
           {isTestimonialPage ? (
-            <p>God mends broken hearts into mighty wings to soar 🦋 His purpose is to strengthen us from the inside out 💪 In Jesus' name 🕊️</p>
+            <p>God mends broken hearts into mighty wings to soar 🦋 His purpose is to strengthen us from the inside out 💪 In Jesus&apos; name 🕊️</p>
           ) : (
             <>
               <p>She...She is zero without her God… But to her God, she is everything 💖</p>

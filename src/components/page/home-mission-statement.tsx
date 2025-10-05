@@ -1,7 +1,6 @@
 
 'use client';
 
-import { motion } from 'framer-motion';
 import Image from 'next/image';
 
 export function HomeMissionStatement() {
@@ -24,7 +23,7 @@ export function HomeMissionStatement() {
           Our Mission
         </h3>
         <div className="mx-auto max-w-4xl text-white/80 md:text-5xl mt-6 font-mea-culpa text-4xl space-y-4">
-          <p>God mends broken hearts into mighty wings to soar 🦋 His purpose is to strengthen us from the inside out 💪 In Jesus' name 🕊️</p>
+          <p>God mends broken hearts into mighty wings to soar 🦋 His purpose is to strengthen us from the inside out 💪 In Jesus&apos; name 🕊️</p>
         </div>
 
         <div className="mt-12 max-w-4xl mx-auto">
