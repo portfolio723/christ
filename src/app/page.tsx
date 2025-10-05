@@ -27,15 +27,6 @@ export default function Home() {
       </section>
       <VideoReels />
       <HomeMissionStatement />
-      {/* Live Broadcast Section */}
-      <section
-        id="live-broadcast"
-        className="w-full py-20 md:py-32 flex items-center justify-center"
-      >
-        <div className="container mx-auto px-4 md:px-6">
-          <VideoPlayerDemo src="/christ/oh.mp4" />
-        </div>
-      </section>
       <SocialMedia />
       <Newsletter />
     </main>
