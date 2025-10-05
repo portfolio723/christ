@@ -224,7 +224,7 @@ const BlogPage = () => {
               <p>That&apos;s when I remind you:</p>
               <p>Not one word I have spoken over your life has been forgotten. Everything is unfolding in my proper timing.⏳✨</p>
               <p className="font-oleo-script">YOU DON&apos;T HAVE TO CARRY THE WEIGHT OF HOW. I SAID IT. I WILL DO IT. 🕊️</p>
-              <p>I&apos;M STILL HERE, AND I HAVEN&apos;T FORGOTTEN YOU ❤️</p>
+              <p className="font-oleo-script">I&apos;M STILL HERE, AND I HAVEN&apos;T FORGOTTEN YOU ❤️</p>
               <p>—GOD</p>
             </div>
           </div>
