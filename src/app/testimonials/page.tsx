@@ -127,10 +127,10 @@ export default function TestimonialsPage() {
         />
         <div className="absolute inset-0 bg-black/70" />
         <div className="relative z-10 container mx-auto px-4 md:px-6">
-          <h2 className="text-3xl font-engagement font-bold text-white mb-4 text-5xl">
+          <h2 className="text-4xl md:text-5xl font-engagement font-bold text-white mb-4">
             Leave a Mark of Grace
           </h2>
-          <p className="text-white/80 max-w-xl mx-auto mb-8 font-the-nautigal text-4xl">
+          <p className="text-white/80 max-w-xl mx-auto mb-8 font-the-nautigal text-3xl md:text-4xl">
             Your testimony is a fingerprint of God&apos;s work. You never know whose faith is waiting for a story like yours.So drop a pebble of your testimony and watch the ripples of faith spread.
           </p>
           <Button size="lg" className="bg-primary hover:bg-primary/90 font-bold">
@@ -156,11 +156,11 @@ export default function TestimonialsPage() {
           <h3 className="text-3xl font-headline font-bold tracking-tighter sm:text-4xl md:text-5xl text-white">
             His Vision, Our Mission
           </h3>
-          <div className="mx-auto max-w-4xl text-white/80 md:text-5xl mt-6 font-mea-culpa text-4xl space-y-4">
+          <div className="mx-auto max-w-4xl text-white/80 md:text-5xl mt-6 font-mea-culpa text-3xl md:text-4xl space-y-4">
             <p>God mends broken hearts into mighty wings to soar 🦋 His purpose is to strengthen us from the inside out 💪 In Jesus&apos; name 🕊️</p>
           </div>
           <div className="mt-12 max-w-4xl mx-auto">
-            <div className="text-white text-left space-y-4 font-oleo-script text-xl md:text-2xl p-6 bg-card/10 backdrop-blur-sm relative rounded-lg">
+            <div className="text-white text-left space-y-4 font-oleo-script text-lg md:text-2xl p-4 md:p-6 bg-card/10 backdrop-blur-sm relative rounded-lg">
               <p>
                 In the name of JESUS CHRIST, greetings 🌸
               </p>

@@ -85,7 +85,7 @@ export function SocialMedia() {
           <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-4xl md:text-5xl text-white">
             Remain In The Vine
           </h2>
-          <p className="max-w-[600px] text-white/80 md:text-xl">
+          <p className="max-w-[600px] text-white/80 text-lg md:text-xl">
             Stay connected to the branch to get nourishment continually. 🍇
           </p>
         </div>
@@ -99,19 +99,19 @@ export function SocialMedia() {
               className="group"
               aria-label={`Follow on ${platform.name}`}
             >
-              <Card className="bg-card/50 backdrop-blur-sm p-6 rounded-xl border-border group-hover:border-primary transition-all duration-300 transform group-hover:-translate-y-2 group-hover:shadow-2xl group-hover:shadow-primary/20 h-full">
+              <Card className="bg-card/50 backdrop-blur-sm p-4 md:p-6 rounded-xl border-border group-hover:border-primary transition-all duration-300 transform group-hover:-translate-y-2 group-hover:shadow-2xl group-hover:shadow-primary/20 h-full">
                 <div className="flex flex-col items-center text-center">
                   <platform.Icon
-                    className={`w-10 h-10 text-primary transition-colors duration-300 group-hover:scale-110 group-hover:animate-pulse ${platform.color}`}
+                    className={`w-8 h-8 md:w-10 md:h-10 text-primary transition-colors duration-300 group-hover:scale-110 group-hover:animate-pulse ${platform.color}`}
                   />
                   <div className='mt-4'>
-                    <h3 className="font-bold text-lg text-white">
+                    <h3 className="font-bold text-base md:text-lg text-white">
                       {platform.name}
                     </h3>
-                    <p className="text-sm text-white/60">{platform.handle}</p>
+                    <p className="text-xs md:text-sm text-white/60 break-all">{platform.handle}</p>
                   </div>
                 </div>
-                <p className="font-hurricane text-white mt-4 text-4xl text-center">
+                <p className="font-hurricane text-white mt-4 text-3xl md:text-4xl text-center">
                   {platform.followers}
                 </p>
               </Card>

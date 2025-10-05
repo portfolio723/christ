@@ -80,7 +80,7 @@ export function VideoReels() {
             <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-4xl md:text-5xl text-white">
               From The Wellspring
             </h2>
-            <p className="max-w-[600px] text-white/80 md:text-2xl font-fasthand">
+            <p className="max-w-[600px] text-white/80 text-2xl md:text-2xl font-fasthand">
               &quot;Listen for His voice&quot;. Be encouraged and watch our latest video teachings.
             </p>
           </div>
@@ -91,7 +91,7 @@ export function VideoReels() {
                 <DialogTrigger key={reel.id} asChild>
                   <div onClick={() => setSelectedReel(reel)} className="cursor-pointer">
                     <Card
-                      className="group overflow-hidden rounded-none border-2 border-transparent bg-card transition-all duration-300 hover:border-primary hover:shadow-2xl hover:shadow-primary/20 transform hover:-translate-y-2"
+                      className="group overflow-hidden rounded-lg border-2 border-transparent bg-card transition-all duration-300 hover:border-primary hover:shadow-2xl hover:shadow-primary/20 transform hover:-translate-y-2"
                     >
                       <CardContent className="p-0">
                         <div className="relative aspect-video">
@@ -128,7 +128,7 @@ export function VideoReels() {
         </div>
 
         {selectedReel && (
-          <DialogContent className="max-w-3xl p-0 bg-card border-primary/50">
+          <DialogContent className="max-w-3xl p-0 bg-card border-primary/50 w-[90vw] rounded-lg">
             <DialogHeader className="p-4">
               <DialogTitle className="text-white">
                 {selectedReel.description}

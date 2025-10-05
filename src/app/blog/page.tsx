@@ -86,8 +86,8 @@ const BlogPage = () => {
               }}
               className="w-full"
             >
-              <div className="flex justify-between items-center mb-8">
-                <div>
+              <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-8">
+                <div className="mb-6 md:mb-0">
                   <h2 className="text-3xl md:text-4xl font-headline font-bold text-white">
                     Ready to water your roots?
                   </h2>
@@ -98,7 +98,7 @@ const BlogPage = () => {
                     Explore articles that help you dig deeper into Scripture, live out its wisdom, and walk closer to GOD each day.
                   </p>
                 </div>
-                <div className="hidden md:flex">
+                <div className="flex w-full md:w-auto justify-center md:justify-end">
                   <CarouselPrevious className="static -left-4 text-white" />
                   <CarouselNext className="static -right-4 ml-2 text-white" />
                 </div>
@@ -107,7 +107,7 @@ const BlogPage = () => {
                 {spiritualInsights.map((insight) => (
                   <CarouselItem
                     key={insight.id}
-                    className="md:basis-1/2 lg:basis-1/4"
+                    className="basis-full sm:basis-1/2 lg:basis-1/4"
                   >
                     <Link href="#" className="group">
                       <Card className="overflow-hidden border-none bg-transparent">
@@ -142,10 +142,6 @@ const BlogPage = () => {
                   </CarouselItem>
                 ))}
               </CarouselContent>
-              <div className="md:hidden mt-4 flex justify-center">
-                <CarouselPrevious className="static -left-4 text-white" />
-                <CarouselNext className="static -right-4 ml-2 text-white" />
-              </div>
             </Carousel>
           </div>
         </section>
@@ -167,7 +163,7 @@ const BlogPage = () => {
             <h2 className="text-3xl font-bold mb-4 font-headline">
               Fruitful Dialogue
             </h2>
-            <p className="mb-6 text-white/80 font-pinyon-script text-4xl">
+            <p className="mb-6 text-white/80 font-pinyon-script text-3xl md:text-4xl">
               Your place to connect, share, and grow. Engage in conversations that deepen faith through shared testimony and mutual support.
             </p>
             <ShineBorder
@@ -175,7 +171,7 @@ const BlogPage = () => {
               className="border bg-white/5 shadow-2xl backdrop-blur-md dark:bg-black/5 relative"
               color={["#663399", "#ffed4a", "#663399"]}
             >
-              <div className="p-10 relative">
+              <div className="p-6 md:p-10 relative">
                 <h1 className="my-8 text-2xl md:text-2xl text-center">
                   How We Engage
                 </h1>
@@ -204,11 +200,11 @@ const BlogPage = () => {
           <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-4xl md:text-5xl text-white">
             The promise he made
           </h2>
-          <p className="mt-4 text-2xl font-pinyon-script text-white/80">
+          <p className="mt-4 text-xl md:text-2xl font-pinyon-script text-white/80">
             I will not leave you until I have done what i have promised you &mdash; Genesis 28:15
           </p>
           <div className="mt-12 max-w-4xl mx-auto">
-            <div className="text-white text-left space-y-4 font-mr-dafoe text-2xl md:text-3xl p-6 bg-card/10 backdrop-blur-sm relative rounded-lg">
+            <div className="text-white text-left space-y-4 font-mr-dafoe text-xl md:text-3xl p-4 md:p-6 bg-card/10 backdrop-blur-sm relative rounded-lg">
               <p>A rainbow—His signature in the clouds. 🌈</p>
               <p>And the meaning was clear:</p>
               <p>&quot;My promise stands: &apos;Never Again.&apos; ✋</p>

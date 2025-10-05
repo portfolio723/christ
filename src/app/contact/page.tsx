@@ -52,17 +52,17 @@ export default function ContactPage() {
               </h2>
               <div className="space-y-6">
                 <div className="flex items-start gap-4">
-                  <Mail className="w-8 h-8 text-primary mt-1" />
+                  <Mail className="w-8 h-8 text-primary mt-1 flex-shrink-0" />
                   <div>
-                    <h3 className="text-3xl font-love-light text-white font-bold">
+                    <h3 className="text-2xl md:text-3xl font-love-light text-white font-bold">
                       Always whisper out your prayers to us through email .
                     </h3>
-                    <p className="text-white font-love-light text-2xl font-bold">
+                    <p className="text-xl md:text-2xl text-white font-love-light font-bold">
                       we will lay them at our DAD&apos;s feet and intercede for you.
                     </p>
                     <a
                       href="mailto:godspiritsays@gmail.com"
-                      className="text-accent hover:underline"
+                      className="text-accent hover:underline break-all"
                     >
                       godspiritsays@gmail.com
                     </a>
@@ -93,7 +93,7 @@ export default function ContactPage() {
         <div className="absolute inset-0 bg-black/70" />
         <div className="relative z-10 container mx-auto px-4 md:px-6">
           <div className="max-w-2xl mx-auto text-center mb-12">
-            <h2 className="text-5xl font-arizonia font-bold text-white">
+            <h2 className="text-4xl md:text-5xl font-arizonia font-bold text-white">
               Make your petition
             </h2>
           </div>
@@ -124,13 +124,13 @@ export default function ContactPage() {
               className="bg-input/80 border-border focus:ring-primary"
               aria-label="Your Message"
             />
-            <div className="flex items-center justify-between">
+            <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
               <label htmlFor="file-upload" className="flex items-center gap-2 text-sm text-white/70 cursor-pointer hover:text-white">
                 <Paperclip className="w-4 h-4" />
                 Attach File (optional)
                 <input id="file-upload" type="file" className="hidden"/>
               </label>
-              <Button type="submit" size="lg" className="bg-primary hover:bg-primary/90 font-bold">
+              <Button type="submit" size="lg" className="bg-primary hover:bg-primary/90 font-bold w-full sm:w-auto">
                 Send Request <Send className="ml-2 w-4 h-4" />
               </Button>
             </div>

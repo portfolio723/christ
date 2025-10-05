@@ -58,7 +58,7 @@ export function Hero() {
         <div className="relative mt-4 flex flex-col items-center">
           <GradualSpacing
             text="“She prospers in all that she does”"
-            className="font-lavishly-yours italic text-5xl md:text-6xl font-semibold"
+            className="font-lavishly-yours italic text-4xl md:text-6xl font-semibold"
             framerProps={{
               hidden: { opacity: 0, y: 20 },
               visible: { opacity: 1, y: 0 },
@@ -68,7 +68,7 @@ export function Hero() {
               <Crown className="w-8 h-8 transform -rotate-12 animate-pulse" />
             </span>
           </GradualSpacing>
-           <p className="text-3xl font-lavishly-yours italic text-white/80 mt-4">
+           <p className="text-2xl md:text-3xl font-lavishly-yours italic text-white/80 mt-4">
               &mdash; Psalms 1:3
             </p>
         </div>

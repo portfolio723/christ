@@ -19,7 +19,7 @@ export default function Home() {
         />
         <div className="absolute inset-0 bg-black/60" />
         <div className="relative z-10 p-4 container mx-auto px-4 md:px-6">
-          <h1 className="text-4xl md:text-6xl font-yesteryear mb-4 tracking-tight max-w-2xl mx-auto">
+          <h1 className="text-3xl md:text-6xl font-yesteryear mb-4 tracking-tight max-w-4xl mx-auto">
             &quot;Broken vessels will spark more when they are touched by Jesus&quot;
           </h1>
         </div>
@@ -42,14 +42,14 @@ export default function Home() {
           <h3 className="text-3xl font-headline font-bold tracking-tighter sm:text-4xl md:text-5xl">
             His Vision, Our Mission
           </h3>
-          <div className="mx-auto max-w-4xl text-white/80 md:text-5xl mt-6 font-mea-culpa text-4xl space-y-4">
+          <div className="mx-auto max-w-4xl text-white/80 md:text-5xl mt-6 font-mea-culpa text-3xl md:text-4xl space-y-4">
             <p>
               God mends broken hearts into mighty wings to soar 🦋 His purpose is to strengthen us from the inside out 💪 In Jesus&apos; name 🕊️
             </p>
           </div>
 
           <div className="mt-12 max-w-4xl mx-auto">
-            <div className="text-white text-left space-y-4 text-xl md:text-2xl p-6 bg-card/10 backdrop-blur-sm relative rounded-lg">
+            <div className="text-white text-left space-y-4 text-xl md:text-2xl p-4 md:p-6 bg-card/10 backdrop-blur-sm relative rounded-lg">
               <p className="font-mea-culpa text-3xl">His Love... A Letter to Your Heart</p>
               <div className="font-arizonia text-2xl md:text-3xl space-y-4">
                 <p>My dear, Let me tell you something your soul needs to remember.</p>
