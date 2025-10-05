@@ -1,4 +1,3 @@
-
 'use client';
 
 import Image from 'next/image';
@@ -8,11 +7,13 @@ export function MissionStatement({
   showImage = true,
   imageSrc,
   heading,
+  isTestimonialPage = false,
 }: {
   videoSrc?: string;
   showImage?: boolean;
   imageSrc?: string;
   heading?: string;
+  isTestimonialPage?: boolean;
 }) {
   return (
     <section
@@ -44,9 +45,15 @@ export function MissionStatement({
           {heading || `My Daughter "You, and only you, before anybody. "`}
         </h3>
         <div className="mx-auto max-w-4xl text-white/80 md:text-5xl mt-6 font-mea-culpa text-4xl space-y-4">
-          <p>She...She is zero without her God… But to her God, she is everything 💖</p>
-          <p>So, you came here to read about me, right? 💭 There’s nothing about me worth highlighting without Him ✨</p>
-          <p>That’s why—instead of lifting up my name— I’d rather echo what His heart says about me 💞</p>
+          {isTestimonialPage ? (
+            <p>God mends broken hearts into mighty wings to soar 🦋 His purpose is to strengthen us from the inside out 💪 In Jesus' name 🕊️</p>
+          ) : (
+            <>
+              <p>She...She is zero without her God… But to her God, she is everything 💖</p>
+              <p>So, you came here to read about me, right? 💭 There’s nothing about me worth highlighting without Him ✨</p>
+              <p>That’s why—instead of lifting up my name— I’d rather echo what His heart says about me 💞</p>
+            </>
+          )}
         </div>
 
         {showImage && (
