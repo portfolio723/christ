@@ -203,6 +203,9 @@ const BlogPage = () => {
           <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-4xl md:text-5xl text-white">
             The promise he made
           </h2>
+          <p className="mt-4 text-2xl font-pinyon-script text-white/80">
+            I will not leave you until I have done what i have promised you &mdash; Genesis 28:15
+          </p>
           <div className="mt-12 max-w-4xl mx-auto">
             <div className="text-white text-left space-y-4 font-mr-dafoe text-2xl md:text-3xl p-6 bg-card/10 backdrop-blur-sm relative rounded-lg">
               <p>A rainbow—His signature in the clouds. 🌈</p>
@@ -231,3 +234,5 @@ const BlogPage = () => {
 };
 
 export default BlogPage;
+
+    
