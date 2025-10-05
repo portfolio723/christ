@@ -50,7 +50,7 @@ export default function Home() {
 
           <div className="mt-12 max-w-4xl mx-auto">
             <div className="text-white text-left space-y-4 font-oleo-script text-xl md:text-2xl p-6 bg-card/10 backdrop-blur-sm relative rounded-lg">
-              <p>His Love... A Letter to Your Heart</p>
+              <p className="font-mea-culpa text-3xl">His Love... A Letter to Your Heart</p>
               <p>My dear, Let me tell you something your soul needs to remember.</p>
               <p>What is the love of God?</p>
               <p>What would he have done?</p>
