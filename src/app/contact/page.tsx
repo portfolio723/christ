@@ -41,7 +41,7 @@ export default function ContactPage() {
       {/* Contact Methods Section */}
       <section
         id="contact-methods"
-        className="w-full py-20 md:py-28 bg-background"
+        className="w-full pt-10 pb-20 md:pt-14 md:pb-28 bg-background"
       >
         <div className="container mx-auto px-4 md:px-6">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16">
