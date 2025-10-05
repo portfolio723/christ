@@ -50,16 +50,10 @@ export default function Home() {
 
           <div className="mt-12 max-w-4xl mx-auto">
             <div className="text-white text-left space-y-4 font-oleo-script text-xl md:text-2xl p-6 bg-card/10 backdrop-blur-sm relative rounded-lg">
-              <p>A rainbow—His signature in the clouds. 🌈</p>
-              <p>And the meaning was clear:</p>
-              <p>&quot;My promise stands: &apos;Never Again.&apos; ✋ The chapter of your past is closed; its pain will not be repeated. 📖⛔ I have drawn a line in eternity; what was will not be. ✍️ I have decreed it.👑 This is my covenant:I am here for you.&quot; <span className="font-bold text-sm">edi</span> 🫂🤍</p>
-              <p>Yet, my soul has a holy hunger. 😔 I wanted to hear from his heart again,so I waited, barely, until one fine day, he spoke again, deeper still, and he satisfied my inner chamber with happy gigglings. 😊💖</p>
-              <p>And this is what he said:</p>
-              <p>A promise is for the moments when your heart starts to forget what I&apos;ve spoken. 💭</p>
-              <p>For the days you wonder if it will always be this way... 😥</p>
-              <p>That&apos;s when I remind you: Not one word I have spoken over your life has been forgotten. Everything is unfolding in my proper timing.⏳✨</p>
-              <p>YOU DON&apos;T HAVE TO CARRY THE WEIGHT OF HOW. I SAID IT. I WILL DO IT. 🕊️</p>
-              <p>I&apos;M STILL HERE, AND I HAVEN&apos;T FORGOTTEN YOU. ❤️ —GOD</p>
+              <p>In the name of JESUS CHRIST, greetings 🌸</p>
+              <p>Beloved, the only purpose 💝 I launched this website is to tell you what GOD&apos;S SPIRIT Says 🕊️ for us to uplift and strengthen your inner man 💪 And enable us to internally strong first. Physiologic issues will automatically be resolved once we have healed 💝 inwardly.</p>
+              <p>Yes beloved 💙... Our mighty GOD will change our every broken heart piece to turn into mighty butterfly wings 🦋 to fly high 🕊️ And He will use every sharpened broken piece that converts it into massive strong butterfly wings. Even if your broken heart 💔 pieces pierced him and drew blood... 🔴</p>
+              <p>By the way, one more affirmation! ⚡ Instead of hitting the millions of subscribers, my main goal in using Jesus&apos; name is for his love to reach the hearts of the millions 🏠🙏</p>
             </div>
           </div>
         </div>
