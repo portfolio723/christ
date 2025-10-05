@@ -10,6 +10,7 @@ import {
   CarouselPrevious,
 } from '@/components/ui/carousel';
 import { ShineBorder, Timeline } from '@/components/ui/shine-border';
+import { SocialMedia } from '@/components/page/social-media';
 
 const spiritualInsights = [
   {
@@ -229,10 +230,9 @@ const BlogPage = () => {
           </div>
         </div>
       </section>
+      <SocialMedia />
     </div>
   );
 };
 
 export default BlogPage;
-
-    
