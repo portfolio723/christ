@@ -161,7 +161,7 @@ export default function TestimonialsPage() {
           </div>
           <div className="mt-12 max-w-4xl mx-auto">
             <div className="text-white text-left space-y-4 font-oleo-script text-lg md:text-2xl p-4 md:p-6 bg-card/10 backdrop-blur-sm relative rounded-lg">
-              <p>And...HER love note to her DAD ✍️</p>
+              <p className='font-lavishly-yours text-3xl md:text-4xl'>And...HER love note to her DAD ✍️</p>
               <br />
               <p>Jesus, my love...་༘࿐✨</p>
               <br />
