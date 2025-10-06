@@ -72,9 +72,9 @@ export default function TestimonialsPage() {
         />
         <div className="absolute inset-0 bg-black/60" />
         <div className="relative z-10 p-4 container mx-auto px-4 md:px-6">
-          <h1 className="text-5xl md:text-7xl font-allison mb-4 tracking-tight flex items-center justify-center">
+          <h1 className="text-5xl md:text-7xl font-allison mb-4 tracking-tight flex flex-col sm:flex-row items-center justify-center">
             Hearts Joined with GOD
-            <Image src="/christ/hii.png" alt="icon" width={64} height={64} className="ml-2" />
+            <Image src="/christ/hii.png" alt="icon" width={64} height={64} className="ml-0 sm:ml-2 mt-2 sm:mt-0" />
           </h1>
           <p className="max-w-3xl mx-auto text-3xl md:text-4xl text-white/80 font-allison">
             Come hear the true stories our blog shares, of their inward spirits encouraged by knowing GOD&apos;s deep, measureless love.
@@ -162,23 +162,25 @@ export default function TestimonialsPage() {
           <div className="mt-12 max-w-4xl mx-auto">
             <div className="text-white text-left space-y-4 font-oleo-script text-lg md:text-2xl p-4 md:p-6 bg-card/10 backdrop-blur-sm relative rounded-lg">
               <p className='font-lavishly-yours text-3xl md:text-4xl'>And...HER love note to her DAD ✍️</p>
-              <br />
-              <p>Jesus, my love...་༘࿐✨</p>
-              <br />
-              <p>I can&apos;t think of my life without you. And I can&apos;t accept myself without you.</p>
-              <p>If my presence doesn&apos;t look like you, I don&apos;t really agree to be like myself...</p>
-              <br />
-              <p>Every second I want you inside me. ヅ</p>
-              <br />
-              <p>And you know , my Jesus !?</p>
-              <p>They made a comment You have beautiful eyes. I answered, &quot;Yes, those are... because they always cry for my JEHOVAH.&quot;😚</p>
-              <br />
-              <p>And I know and I always see your smiles always fall upon me and you anointed my lips with a permenant Joy of you 🥰</p>
-              <br />
-              <p>I believe I&apos;m your one and only delight❤️‍🔥</p>
-              <br />
-              <p>I know you love the world SO much</p>
-              <p>But, i have known you love me TOO much and anyone is after me 😉🤍</p>
+              <div className="font-bonheur-royale text-xl md:text-3xl space-y-4">
+                <br />
+                <p>Jesus, my love...་༘࿐✨</p>
+                <br />
+                <p>I can&apos;t think of my life without you. And I can&apos;t accept myself without you.</p>
+                <p>If my presence doesn&apos;t look like you, I don&apos;t really agree to be like myself...</p>
+                <br />
+                <p>Every second I want you inside me. ヅ</p>
+                <br />
+                <p>And you know , my Jesus !?</p>
+                <p>They made a comment You have beautiful eyes. I answered, &quot;Yes, those are... because they always cry for my JEHOVAH.&quot;😚</p>
+                <br />
+                <p>And I know and I always see your smiles always fall upon me and you anointed my lips with a permenant Joy of you 🥰</p>
+                <br />
+                <p>I believe I&apos;m your one and only delight❤️‍🔥</p>
+                <br />
+                <p>I know you love the world SO much</p>
+                <p>But, i have known you love me TOO much and anyone is after me 😉🤍</p>
+              </div>
             </div>
           </div>
         </div>
