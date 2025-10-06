@@ -93,10 +93,10 @@ export default function VideoMinistryPage() {
       {/* Featured Video Gallery */}
       <section
         id="featured-videos"
-        className="w-full py-20 md:py-28 bg-background"
+        className="w-full py-16 md:py-28 bg-background"
       >
         <div className="container mx-auto px-4 md:px-6">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
             {featuredVideos.map((video) => (
               <Card
                 key={video.id}
@@ -121,7 +121,7 @@ export default function VideoMinistryPage() {
                   </Badge>
                 </CardHeader>
                 <CardContent className="p-4">
-                  <h3 className="font-headline text-xl font-bold text-white mb-2">
+                  <h3 className="font-headline text-lg md:text-xl font-bold text-white mb-2">
                     {video.title}
                   </h3>
                   <p className="text-white/70 text-sm mb-4">
@@ -137,7 +137,7 @@ export default function VideoMinistryPage() {
       {/* Series & Playlists Section */}
       <section
         id="series"
-        className="w-full py-20 md:py-28 bg-card/50 border-y border-border"
+        className="w-full py-16 md:py-28 bg-card/50 border-y border-border"
       >
         <div className="container mx-auto px-4 md:px-6">
           <h3 className="text-3xl font-headline font-bold text-center mb-12">
@@ -167,7 +167,7 @@ export default function VideoMinistryPage() {
                           data-ai-hint={series.thumbnailHint}
                         />
                         <div className="absolute inset-0 bg-black/60 flex flex-col justify-end p-4">
-                          <h4 className="font-headline text-xl md:text-2xl font-bold text-white">
+                          <h4 className="font-headline text-lg md:text-xl font-bold text-white">
                             {series.title}
                           </h4>
                           <p className="text-white/80 text-sm">
@@ -197,7 +197,7 @@ export default function VideoMinistryPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="relative w-full py-20 md:py-28 text-center border-t border-border">
+      <section className="relative w-full py-16 md:py-28 text-center border-t border-border">
         <Image
           src="/christ/fd.jpeg"
           alt="Subscribe background"
@@ -207,7 +207,7 @@ export default function VideoMinistryPage() {
         />
         <div className="absolute inset-0 bg-black/70" />
         <div className="relative z-10 container mx-auto px-4 md:px-6">
-          <h2 className="text-3xl font-headline font-bold text-white mb-4">
+          <h2 className="text-3xl md:text-4xl font-headline font-bold text-white mb-4">
             Never Miss a New Video
           </h2>
           <p className="font-cookie text-2xl md:text-3xl text-white/80 max-w-xl mx-auto mb-8">
@@ -247,9 +247,9 @@ export default function VideoMinistryPage() {
 
         <div className="relative z-10 container mx-auto px-4 md:px-6 text-center">
           <h3 className="text-3xl font-headline font-bold tracking-tighter sm:text-4xl md:text-5xl text-white">
-            His Vision, Our Mission
+            His Love... A Letter to Your Heart
           </h3>
-          <div className="mx-auto max-w-4xl text-white/80 md:text-5xl mt-6 font-mea-culpa text-3xl md:text-4xl space-y-4">
+          <div className="mx-auto max-w-4xl text-white/80 md:text-xl mt-6 font-mea-culpa text-lg md:text-2xl space-y-4">
             <p>She...She is zero without her God… But to her God, she is everything 💖</p>
             <p>So, you came here to read about me, right? 💭 There’s nothing about me worth highlighting without Him ✨</p>
             <p>That’s why—instead of lifting up my name— I’d rather echo what His heart says about me 💞</p>
@@ -277,7 +277,7 @@ export default function VideoMinistryPage() {
                 <p>The Father, He gave His most precious Son—for you.</p>
                 <br />
                 <p>because His heart could not bear eternity without you.</p>
-                <p>It was the ultimate act of a Father&apos;s heart crying out, "I must have my child back."</p>
+                <p>It was the ultimate act of a Father&apos;s heart crying out, &quot;I must have my child back.&quot;</p>
                 <br />
                 <br />
                 <p>Then Jesus...oh, Jesus&apos; love</p>
@@ -289,18 +289,18 @@ export default function VideoMinistryPage() {
                 <br />
                 <p>And now the Holy Spirit...</p>
                 <p>The Spirit&apos;s love is so intimate, so tender, that He doesn&apos;t just walk beside you. He has made your heart His Home. He breathes inside your prayers. He sings over you in the night. He is the quiet, unshakable presence that whispers,</p>
-                <p>"You are never, ever alone."</p>
+                <p>&quot;You are never, ever alone.&quot;</p>
                 <br />
                 <p>People say love is God.</p>
                 <p>No.</p>
-                <p>"God is love".It is his nature.</p>
+                <p>&quot;God is love&quot;.It is his nature.</p>
                 <p>Every heartbeat of heaven beats for you.</p>
                 <br />
                 <p>And sometimes...sometimes, in the quiet moments when I feel the weight of this love… that love wraps around my broken places...It burns with one eternal question, the only one I&apos;ll need to ask when I finally see Him face to face:</p>
                 <br />
                 <br />
                 <p>how unworthy I am...</p>
-                <p>"Jesus... why? Why did You love me with a love this fierce? This relent? This mighty?"</p>
+                <p>&quot;Jesus... why? Why did You love me with a love this fierce? This relent? This mighty?&quot;</p>
                 <br />
                 <p>I may never understand it fully.</p>
                 <p>But I will spend my life embraced by it.</p>
