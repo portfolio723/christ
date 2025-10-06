@@ -250,7 +250,7 @@ export default function VideoMinistryPage() {
             His Love... A Letter to Your Heart
           </h3>
           <div className="mx-auto max-w-4xl text-white/80 md:text-xl mt-6 font-mea-culpa text-lg md:text-2xl space-y-4">
-            <p>She...She is zero without her God… But to her God, she is everything 💖</p>
+            
             <p>So, you came here to read about me, right? 💭 There’s nothing about me worth highlighting without Him ✨</p>
             <p>That’s why—instead of lifting up my name— I’d rather echo what His heart says about me 💞</p>
           </div>
