@@ -47,7 +47,7 @@ export default function AboutPage() {
         <div className="absolute inset-0 bg-black/70" />
 
         <div className="relative z-10 container mx-auto px-4 md:px-6 text-center">
-          <div className="mx-auto max-w-4xl text-white md:text-5xl mt-6 font-mea-culpa text-3xl md:text-4xl space-y-4">
+          <div className="mx-auto max-w-4xl text-white md:text-5xl mt-6 font-mea-culpa text-4xl md:text-5xl space-y-4">
             
             <p>So, you came here to read about me, right? 💭 There’s nothing about me worth highlighting without Him ✨</p>
             <p>That’s why—instead of lifting up my name— I’d rather echo what His heart says about me 💞</p>
