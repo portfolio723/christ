@@ -249,12 +249,7 @@ export default function VideoMinistryPage() {
           <h3 className="text-3xl font-headline font-bold tracking-tighter sm:text-4xl md:text-5xl text-white">
             His Love... A Letter to Your Heart
           </h3>
-          <div className="mx-auto max-w-4xl text-white/80 md:text-xl mt-6 font-mea-culpa text-lg md:text-2xl space-y-4">
-            
-            <p>So, you came here to read about me, right? 💭 There’s nothing about me worth highlighting without Him ✨</p>
-            <p>That’s why—instead of lifting up my name— I’d rather echo what His heart says about me 💞</p>
-          </div>
-
+          
           <div className="mt-12 max-w-4xl mx-auto">
             <div className="text-white text-left space-y-4 font-oleo-script text-xl md:text-2xl p-6 bg-card/10 backdrop-blur-sm relative rounded-lg">
               <p className="font-mea-culpa text-4xl md:text-5xl">His Love... A Letter to Your Heart</p>
