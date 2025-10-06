@@ -23,7 +23,7 @@ export default function AboutPage() {
             Chose to go as GOD&apos;s purpose
           </h1>
           <blockquote className="max-w-3xl mx-auto">
-            <p className="font-condiment text-xl md:text-3xl text-white/90">
+            <p className="font-condiment text-xl md:text-3xl lg:text-4xl text-white/90">
               &ldquo;Before I formed you in the womb, I KNEW YOU and approved of you as my chosen instrument And before you were born, I consecrated you TO MYSELF AS MY OWN young lady, everywhere I send you, you shall go, and whatever I command you shall speak&rdquo;
             </p>
             <footer className="mt-2 text-xl md:text-3xl font-allison text-white/60">
@@ -47,17 +47,17 @@ export default function AboutPage() {
         <div className="absolute inset-0 bg-black/70" />
 
         <div className="relative z-10 container mx-auto px-4 md:px-6 text-center">
-          <h3 className="text-3xl font-headline font-bold tracking-tighter sm:text-4xl md:text-5xl text-white">
-            My Daughter &quot;You, and only you, before anybody. &quot;
-          </h3>
-          <div className="mx-auto max-w-4xl text-white/80 md:text-5xl mt-6 font-mea-culpa text-3xl md:text-4xl space-y-4">
+          <div className="mx-auto max-w-4xl text-white md:text-5xl mt-6 font-mea-culpa text-3xl md:text-4xl space-y-4">
             
             <p>So, you came here to read about me, right? 💭 There’s nothing about me worth highlighting without Him ✨</p>
             <p>That’s why—instead of lifting up my name— I’d rather echo what His heart says about me 💞</p>
           </div>
+          <h3 className="text-3xl font-headline font-bold tracking-tighter sm:text-4xl md:text-5xl text-white/70 mt-8">
+            My Daughter &quot;You, and only you, before anybody. &quot;
+          </h3>
 
           <div className="mt-12 max-w-4xl mx-auto">
-            <div className="text-white text-left space-y-4 font-oleo-script text-lg md:text-2xl p-4 md:p-6 bg-card/10 backdrop-blur-sm relative rounded-lg">
+            <div className="text-white text-left space-y-4 font-oleo-script text-lg md:text-2xl p-6 md:p-8 bg-card/10 backdrop-blur-sm relative rounded-lg">
               <p>My Letter to My Princess… 💌</p>
               <br />
               <p>Oh, my sweet doe, you are so precious to Me 💖</p>
