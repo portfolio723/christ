@@ -4,6 +4,8 @@ import type {NextConfig} from 'next';
 const nextConfig: NextConfig = {
   output: 'export',
   trailingSlash: true,
+  // Remove basePath and assetPrefix for custom domain
+  
   typescript: {
     ignoreBuildErrors: true,
   },
@@ -32,7 +34,7 @@ const nextConfig: NextConfig = {
         pathname: '/**',
       },
       {
-        protocol: 'https' ,
+        protocol: 'https',
         hostname: 'picsum.photos',
         port: '',
         pathname: '/**',
