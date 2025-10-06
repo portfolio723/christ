@@ -43,9 +43,9 @@ export default function Home() {
             His Vision, Our Mission
           </h3>
           <div className="mx-auto max-w-4xl text-white/80 md:text-5xl mt-6 font-mea-culpa text-3xl md:text-4xl space-y-4">
-            <p>
-              God mends broken hearts into mighty wings to soar 🦋 His purpose is to strengthen us from the inside out 💪 In Jesus&apos; name 🕊️
-            </p>
+            <p>God mends broken hearts into mighty wings to soar 🦋</p>
+            <p>His purpose is to strengthen us from the inside out 💪</p>
+            <p>In Jesus&apos; name 🕊️</p>
           </div>
 
           <div className="mt-12 max-w-4xl mx-auto">
