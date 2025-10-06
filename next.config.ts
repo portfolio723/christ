@@ -1,13 +1,9 @@
 
 import type {NextConfig} from 'next';
 
-const basePath = '/christ';
-
 const nextConfig: NextConfig = {
   output: 'export',
   trailingSlash: true,
-  basePath,
-  assetPrefix: `${basePath}/`,
   typescript: {
     ignoreBuildErrors: true,
   },
