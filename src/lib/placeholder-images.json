@@ -9,7 +9,7 @@
     {
       "id": "profile-dp",
       "description": "A monarch butterfly on a white flower, symbolizing transformation.",
-      "imageUrl": "/christ/media.jpeg",
+      "imageUrl": "/media.jpeg",
       "imageHint": "butterfly transformation"
     },
     {
@@ -31,7 +31,7 @@
       "description": "A Path of Light",
       "imageUrl": "https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?q=80&w=1080",
       "imageHint": "light rays",
-      "videoSrc": "/christ/reel-3.mp4"
+      "videoSrc": "/reel-3.mp4"
     },
     {
       "id": "testimonial-1",

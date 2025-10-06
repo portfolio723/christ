@@ -199,7 +199,7 @@ export default function VideoMinistryPage() {
       {/* CTA Section */}
       <section className="relative w-full py-16 md:py-28 text-center border-t border-border">
         <Image
-          src="/christ/fd.jpeg"
+          src="/fd.jpeg"
           alt="Subscribe background"
           fill
           className="object-cover"
@@ -236,7 +236,7 @@ export default function VideoMinistryPage() {
         className="relative w-full py-20 md:py-32 bg-background text-white"
       >
         <video
-          src="/christ/vv.mp4"
+          src="/vv.mp4"
           autoPlay
           muted
           loop

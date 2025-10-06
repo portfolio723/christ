@@ -53,7 +53,7 @@ const BlogPage = () => {
       {/* Hero Section */}
       <section className="relative h-screen flex items-center justify-center text-center">
         <video
-          src="/christ/blog.mp4"
+          src="/blog.mp4"
           autoPlay
           muted
           loop
@@ -150,7 +150,7 @@ const BlogPage = () => {
       {/* Community Discussion */}
       <div className="w-full bg-background relative">
         <video
-          src="/christ/cg.mp4"
+          src="/cg.mp4"
           autoPlay
           muted
           loop
@@ -188,7 +188,7 @@ const BlogPage = () => {
         className="relative w-full py-20 md:py-32 bg-background text-white"
       >
         <video
-          src="/christ/ww.mp4"
+          src="/ww.mp4"
           autoPlay
           muted
           loop

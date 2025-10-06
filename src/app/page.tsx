@@ -10,7 +10,7 @@ export default function Home() {
       {/* Hero Section from former videos page */}
       <section className="relative h-screen w-full flex flex-col items-center justify-center text-center overflow-hidden">
         <video
-          src="/christ/butterflies.mp4"
+          src="/butterflies.mp4"
           autoPlay
           muted
           loop
@@ -30,7 +30,7 @@ export default function Home() {
         className="relative w-full py-20 md:py-32 bg-background text-white"
       >
         <Image
-          src="/christ/obg.jpeg"
+          src="/obg.jpeg"
           alt="Mission background"
           fill
           className="object-cover"
