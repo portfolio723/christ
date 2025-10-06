@@ -48,9 +48,14 @@ export default function AboutPage() {
 
         <div className="relative z-10 container mx-auto px-4 md:px-6 text-center">
           <div className="mx-auto max-w-4xl text-white md:text-5xl mt-6 font-mea-culpa text-4xl md:text-5xl space-y-4">
-            
-            <p>So, you came here to read about me, right? 💭 There’s nothing about me worth highlighting without Him ✨</p>
-            <p>That’s why—instead of lifting up my name— I’d rather echo what His heart says about me 💞</p>
+            <p>She...She is zero without her God…</p>
+            <p>But to her God, she is everything 💖</p>
+            <br />
+            <p>So, you came here to read about me, right? 💭</p>
+            <p>There’s nothing about me worth highlighting without Him ✨</p>
+            <br />
+            <p>That’s why—instead of lifting up my name—</p>
+            <p>I’d rather echo what His heart says about me 💞</p>
           </div>
           <h3 className="text-3xl font-headline font-bold tracking-tighter sm:text-4xl md:text-5xl text-white/70 mt-8">
             My Daughter &quot;You, and only you, before anybody. &quot;
