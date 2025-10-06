@@ -50,7 +50,7 @@ export default function Home() {
               <p>In the name of JESUS CHRIST, greetings 🌸</p>
               <p>Beloved, the only purpose 💝 I launched this website is to tell you what GOD&apos;S SPIRIT Says 🕊️ for us to uplift and strengthen your inner man 💪 And enable us to internally strong first. Physiologic issues will automatically be resolved once we have healed 💝 inwardly.</p>
               <p>Yes beloved 💙... Our mighty GOD will change our every broken heart piece to turn into mighty butterfly wings 🦋 to fly high 🕊️ And He will use every sharpened broken piece that converts it into massive strong butterfly wings. Even if your broken heart 💔 pieces pierced him and drew blood... 🔴</p>
-              <p>By the way, one more affirmation!⚡ instead of hitting the millions of subscribers, my main goal in using Jesus' name is for his love to reach the hearts of the millions 🤗🎀</p>
+              <p>By the way, one more affirmation!⚡ instead of hitting the millions of subscribers, my main goal in using Jesus&apos; name is for his love to reach the hearts of the millions 🤗🎀</p>
             </div>
           </div>
         </div>

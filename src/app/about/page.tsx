@@ -1,9 +1,5 @@
 
-import {
-  Mail,
-} from 'lucide-react';
 import { SocialMedia } from '@/components/page/social-media';
-import Image from 'next/image';
 
 export default function AboutPage() {
   return (
