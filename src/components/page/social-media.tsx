@@ -73,7 +73,7 @@ export function SocialMedia() {
       className="relative w-full py-20 md:py-32"
     >
       <Image
-        src="/christ/it.jpeg"
+        src="/it.jpeg"
         alt="Social media background"
         fill
         className="object-cover"

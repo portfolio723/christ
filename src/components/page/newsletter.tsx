@@ -14,7 +14,7 @@ export function Newsletter() {
       className="w-full py-20 md:py-32 relative"
     >
       <Image
-        src="/christ/op.jpeg"
+        src="/op.jpeg"
         alt="Newsletter background"
         fill
         className="object-cover"
