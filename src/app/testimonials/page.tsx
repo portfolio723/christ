@@ -161,18 +161,24 @@ export default function TestimonialsPage() {
           </div>
           <div className="mt-12 max-w-4xl mx-auto">
             <div className="text-white text-left space-y-4 font-oleo-script text-lg md:text-2xl p-4 md:p-6 bg-card/10 backdrop-blur-sm relative rounded-lg">
-              <p>
-                In the name of JESUS CHRIST, greetings 🌸
-              </p>
-              <p>
-                Beloved, the only purpose 💝 I launched this website is to tell you what GOD&apos;S SPIRIT Says 🕊️ for us to uplift and strengthen your inner man 💪 And enable us to internally strong first. Physiologic issues will automatically be resolved once we have healed 💝 inwardly.
-              </p>
-              <p>
-                Yes beloved 💙... Our mighty GOD will change our every broken heart piece to turn into mighty butterfly wings 🦋 to fly high 🕊️ And He will use every sharpened broken piece that converts it into massive strong butterfly wings. Even if your broken heart 💔 pieces pierced him and drew blood... 🔴
-              </p>
-              <p>
-                By the way, one more affirmation! ⚡ Instead of hitting the millions of subscribers, my main goal in using Jesus&apos; name is for his love to reach the hearts of the millions 🏠🙏
-              </p>
+              <p>And...HER love note to her DAD ✍️</p>
+              <br />
+              <p>Jesus, my love...་༘࿐✨</p>
+              <br />
+              <p>I can&apos;t think of my life without you. And I can&apos;t accept myself without you.</p>
+              <p>If my presence doesn&apos;t look like you, I don&apos;t really agree to be like myself...</p>
+              <br />
+              <p>Every second I want you inside me. ヅ</p>
+              <br />
+              <p>And you know , my Jesus !?</p>
+              <p>They made a comment You have beautiful eyes. I answered, &quot;Yes, those are... because they always cry for my JEHOVAH.&quot;😚</p>
+              <br />
+              <p>And I know and I always see your smiles always fall upon me and you anointed my lips with a permenant Joy of you 🥰</p>
+              <br />
+              <p>I believe I&apos;m your one and only delight❤️‍🔥</p>
+              <br />
+              <p>I know you love the world SO much</p>
+              <p>But, i have known you love me TOO much and anyone is after me 😉🤍</p>
             </div>
           </div>
         </div>
