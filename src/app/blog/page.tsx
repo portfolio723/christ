@@ -15,7 +15,7 @@ import { SocialMedia } from '@/components/page/social-media';
 const spiritualInsights = [
   {
     id: 'insight-1',
-    title: '5 Keys to Spiritual Growth',
+    title: 'Fishing no longer for fish, but for a sign straining for God\'s attention in the silent, empty deep🎣',
     category: 'Faith',
     image:
       'https://images.unsplash.com/photo-1499209974431-9dddcece7f88?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8c3Bpcml0dWFsfGVufDB8fDB8fHww',
