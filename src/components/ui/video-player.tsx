@@ -46,7 +46,7 @@ return (
 );
 };
 
-const VideoPlayer = ({ src, className, autoPlay = true, muted = true }: { src: string, className?: string, autoPlay?: boolean, muted?: boolean }) => {
+const VideoPlayer = ({ src, className, autoPlay = false, muted = false }: { src: string, className?: string, autoPlay?: boolean, muted?: boolean }) => {
 const videoRef = useRef<HTMLVideoElement>(null);
 const [isPlaying, setIsPlaying] = useState(autoPlay);
 const [volume, setVolume] = useState(muted ? 0 : 1);
@@ -66,8 +66,13 @@ useEffect(() => {
 useEffect(() => {
     // if autoplay is true, we want to start playing the video.
     if(autoPlay && videoRef.current){
-        videoRef.current.play();
-        setIsPlaying(true)
+        const playPromise = videoRef.current.play();
+        if (playPromise !== undefined) {
+          playPromise.catch(error => {
+            console.error("Autoplay was prevented:", error);
+            setIsPlaying(false);
+          });
+        }
     }
 },[autoPlay])
 
@@ -152,7 +157,11 @@ return (
       autoPlay={autoPlay}
       muted={muted}
       playsInline
-      loop
+      onLoadedMetadata={() => {
+        if(videoRef.current) {
+            setDuration(videoRef.current.duration);
+        }
+      }}
     />
 
     <AnimatePresence>

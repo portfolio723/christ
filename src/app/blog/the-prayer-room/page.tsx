@@ -1,5 +1,6 @@
 
 import { SocialMedia } from '@/components/page/social-media';
+import VideoPlayer from '@/components/ui/video-player';
 
 export default function ThePrayerRoomPage() {
   return (
@@ -22,6 +23,8 @@ export default function ThePrayerRoomPage() {
       </div>
       <article className="py-12">
         <div className="container mx-auto px-4 md:px-6 max-w-3xl prose prose-invert prose-lg md:prose-xl prose-p:text-white/80 prose-strong:text-white">
+            <VideoPlayer src="https://videos.pexels.com/video-files/30333849/13003128_2560_1440_25fps.mp4" autoPlay={false} muted={false} />
+            <br />
             <p><strong>PRAY, PRAY, and PRAY....🧎🏻‍♀️</strong></p>
             <br />
             <p>What, <strong>PRAY</strong>? And what do we <strong>PRAY</strong> for?</p>
