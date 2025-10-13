@@ -161,6 +161,9 @@ const fontTheNautigal = The_Nautigal({
 export const metadata: Metadata = {
   title: 'Godspirit',
   description: 'She prospers in all that she does. Psalms 1:3',
+  icons: {
+    icon: '/fav.png',
+  },
 };
 
 export default function RootLayout({
