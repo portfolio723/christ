@@ -16,10 +16,10 @@ export default function ThePrayerRoomPage() {
         <div className="absolute inset-0 bg-black/70" />
         <div className="relative container mx-auto px-4 md:px-6 max-w-4xl text-center">
             <h1 className="text-4xl md:text-5xl font-bold font-headline mb-4">
-            The Prayer Room 🛐
+            Fishing no longer for fish, but for a sign straining for God&apos;s attention in the silent, empty deep🎣
             </h1>
             <p className="text-lg md:text-xl text-white/80 font-script">
-                Fishing no longer for fish, but for a sign straining for God&apos;s attention in the silent, empty deep🎣
+                The Prayer Room 🛐
             </p>
         </div>
       </div>
