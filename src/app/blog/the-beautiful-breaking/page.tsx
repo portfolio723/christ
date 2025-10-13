@@ -54,7 +54,7 @@ export default function TheBeautifulBreakingPage() {
             <p>And one more thing,  if He does not break you, it is not a sign of His love. But when He breaks you, He invests His entire focus on you. He cannot and will not leave you for a minute, not even a single second. 𝗬𝗼𝘂 𝗮𝗿𝗲 𝘁𝗵𝗲 𝘀𝗼𝗹𝗲 𝗼𝗯𝗷𝗲𝗰𝘁 𝗼𝗳 𝗛𝗶𝘀 𝗿𝗲𝗳𝗶𝗻𝗶𝗻𝗴 𝗮𝘁𝘁𝗲𝗻𝘁𝗶𝗼𝗻. How honoured we are!🙌</p>
             <br />
             <p>So do not fear, beloved 💙</p>
-            <p>You are held securely in the 𝐥𝐢𝐯𝐢𝐧𝐠 𝐅𝐚𝐭𝐡𝐞𝐫'𝐬 𝐡𝐚𝐧𝐝𝐬 🤲🫶 And listen closely, dear one: 𝗛𝗲 𝘄𝗶𝗹𝗹 𝗻𝗼𝘁 𝗹𝗲𝗮𝗱 𝘆𝗼𝘂 𝗮𝗻𝘆𝘄𝗵𝗲𝗿𝗲 𝘁𝗵𝗮𝘁 𝗛𝗶𝘀 𝗴𝗿𝗮𝗰𝗲 𝗵𝗮𝘀 𝗻𝗼𝘁 𝗮𝗹𝗿𝗲𝗮𝗱𝘆 𝗴𝗼𝗻𝗲 𝗯𝗲𝗳𝗼𝗿𝗲 𝘆𝗼𝘂 🌸</p>
+            <p>You are held securely in the 𝐥𝐢𝐯𝐢𝐧𝐠 𝐅𝐚𝐭𝐡𝐞𝐫&apos;s 𝐡𝐚𝐧𝐝𝐬 🤲🫶 And listen closely, dear one: 𝗛𝗲 𝘄𝗶𝗹𝗹 𝗻𝗼𝘁 𝗹𝗲𝗮𝗱 𝘆𝗼𝘂 𝗮𝗻𝘆𝘄𝗵𝗲𝗿𝗲 𝘁𝗵𝗮𝘁 𝗛𝗶𝘀 𝗴𝗿𝗮𝗰𝗲 𝗵𝗮𝘀 𝗻𝗼𝘁 𝗮𝗹𝗿𝗲𝗮𝗱𝘆 𝗴𝗼𝗻𝗲 𝗯𝗲𝗳𝗼𝗿𝗲 𝘆𝗼𝘂 🌸</p>
             <br />
             <p>𝐇𝐚𝐥𝐥𝐞𝐥𝐮𝐣𝐚𝐡 indeed 🙌</p>
         </div>
