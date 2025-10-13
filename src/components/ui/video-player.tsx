@@ -139,7 +139,7 @@ const setSpeed = (speed: number) => {
 return (
   <motion.div
     className={cn(
-        "relative w-full mx-auto rounded-xl overflow-hidden bg-[#11111198] shadow-[0_0_20px_rgba(0,0,0,0.2)] backdrop-blur-sm aspect-video",
+        "relative w-full mx-auto rounded-xl overflow-hidden bg-[#11111198] shadow-[0_0_20px_rgba(0,0,0,0.2)] backdrop-blur-sm aspect-[9/16]",
         className
     )}
     initial={{ opacity: 0, y: 20 }}
