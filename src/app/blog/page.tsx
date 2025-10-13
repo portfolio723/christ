@@ -24,7 +24,7 @@ const spiritualInsights = [
   },
   {
     id: 'insight-2',
-    title: 'Unlocking the Parables',
+    title: '💔✨ The Beautiful Breaking in his massive, tender hands ✨🕊️',
     category: 'Scripture',
     href: '#',
     image:
