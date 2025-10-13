@@ -17,6 +17,7 @@ const spiritualInsights = [
     id: 'insight-1',
     title: 'Fishing no longer for fish, but for a sign straining for God\'s attention in the silent, empty deep🎣',
     category: 'Faith',
+    href: '/blog/the-prayer-room',
     image:
       'https://images.unsplash.com/photo-1499209974431-9dddcece7f88?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8c3Bpcml0dWFsfGVufDB8fDB8fHww',
     imageHint: 'spiritual path',
@@ -25,6 +26,7 @@ const spiritualInsights = [
     id: 'insight-2',
     title: 'Unlocking the Parables',
     category: 'Scripture',
+    href: '#',
     image:
       'https://images.unsplash.com/photo-1523878291631-87283277f717?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8amVzdXN8ZW58MHx8MHx8fDA%3D',
     imageHint: 'jesus statue',
@@ -33,6 +35,7 @@ const spiritualInsights = [
     id: 'insight-3',
     title: 'Finding Your Divine Purpose',
     category: 'Purpose',
+    href: '#',
     image:
       'https://images.unsplash.com/photo-1454789548928-9efd52dc4031?q=80&w=1080',
     imageHint: 'person purpose',
@@ -41,6 +44,7 @@ const spiritualInsights = [
     id: 'insight-4',
     title: 'The Power of Forgiveness',
     category: 'Healing',
+    href: '#',
     image:
       'https://plus.unsplash.com/premium_photo-1683133593455-814352d8f6d0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Zm9yZ2l2ZW5lc3N8ZW58MHx8MHx8fDA%3D',
     imageHint: 'forgiveness light',
@@ -109,7 +113,7 @@ const BlogPage = () => {
                     key={insight.id}
                     className="basis-full sm:basis-1/2 lg:basis-1/4"
                   >
-                    <Link href="#" className="group">
+                    <Link href={insight.href} className="group">
                       <Card className="overflow-hidden border-none bg-transparent">
                         <CardContent className="relative aspect-[3/4] p-0">
                           {insight.image && (
