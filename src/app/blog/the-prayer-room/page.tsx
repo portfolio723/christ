@@ -5,15 +5,7 @@ import VideoPlayer from '@/components/ui/video-player';
 export default function ThePrayerRoomPage() {
   return (
     <main className="bg-background text-white min-h-screen">
-      <div className="relative pt-32 pb-20">
-        <video
-          src="/blog.mp4"
-          autoPlay
-          muted
-          loop
-          playsInline
-          className="absolute top-0 left-0 w-full h-full object-cover"
-        />
+      <div className="relative pt-48 pb-20 bg-background">
         <div className="absolute inset-0 bg-black/70" />
         <div className="relative container mx-auto px-4 md:px-6 max-w-4xl text-center">
             <h1 className="text-4xl md:text-5xl font-bold font-headline mb-4">
