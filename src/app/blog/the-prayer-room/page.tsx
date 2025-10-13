@@ -15,7 +15,11 @@ export default function ThePrayerRoomPage() {
       </div>
       <article className="py-12">
         <div className="container mx-auto px-4 md:px-6 max-w-3xl prose prose-invert prose-lg md:prose-xl prose-p:text-white/80 prose-strong:text-white">
-            <VideoPlayer src="/b1.mp4" autoPlay={false} muted={false} />
+            <div className="flex justify-center">
+              <div className="w-full max-w-sm">
+                <VideoPlayer src="/b1.mp4" autoPlay={false} muted={false} />
+              </div>
+            </div>
             <br />
             <p><strong>PRAY, PRAY, and PRAY....🧎🏻‍♀️</strong></p>
             <br />
