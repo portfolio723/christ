@@ -18,9 +18,6 @@ export default function ThePrayerRoomPage() {
             <h1 className="text-4xl md:text-5xl font-bold font-headline mb-4">
             Fishing no longer for fish, but for a sign straining for God&apos;s attention in the silent, empty deep🎣
             </h1>
-            <p className="text-lg md:text-xl text-white/80 font-script">
-                The Prayer Room 🛐
-            </p>
         </div>
       </div>
       <article className="py-12">
