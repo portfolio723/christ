@@ -26,7 +26,7 @@ const spiritualInsights = [
     id: 'insight-2',
     title: '💔✨ The Beautiful Breaking in his massive, tender hands ✨🕊️',
     category: 'Scripture',
-    href: '#',
+    href: '/blog/the-beautiful-breaking',
     image:
       'https://images.unsplash.com/photo-1523878291631-87283277f717?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8amVzdXN8ZW58MHx8MHx8fDA%3D',
     imageHint: 'jesus statue',
