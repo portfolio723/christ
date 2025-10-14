@@ -1,6 +1,12 @@
 
 import { SocialMedia } from '@/components/page/social-media';
 import VideoPlayer from '@/components/ui/video-player';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'The Beautiful Breaking',
+  description: 'He lifts us up high, only to allow us to fall. Understand the beautiful, fierce, and loving process of being broken and remade in His hands for His glory.',
+};
 
 export default function TheBeautifulBreakingPage() {
   return (

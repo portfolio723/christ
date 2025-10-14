@@ -21,6 +21,12 @@ import {
 import { SocialMedia } from '@/components/page/social-media';
 import { Hero } from '@/components/page/hero';
 import { VideoPlayerDemo } from '@/components/ui/video-player-demo';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Video Ministry',
+  description: 'Experience God’s presence through powerful video teachings, prophetic words, worship sessions, and transformational testimonies. Watch and be encouraged today.',
+};
 
 const featuredVideos = [
   {

@@ -11,6 +11,13 @@ import {
 } from '@/components/ui/carousel';
 import { ShineBorder, Timeline } from '@/components/ui/shine-border';
 import { SocialMedia } from '@/components/page/social-media';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Blog | The Spirit\'s Voice',
+  description: 'Explore articles that help you dig deeper into Scripture, live out its wisdom, and walk closer with GOD. Find resources to deepen your faith with every read.',
+};
+
 
 const spiritualInsights = [
   {

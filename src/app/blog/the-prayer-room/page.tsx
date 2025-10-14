@@ -1,6 +1,12 @@
 
 import { SocialMedia } from '@/components/page/social-media';
 import VideoPlayer from '@/components/ui/video-player';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'The Prayer Room',
+  description: 'Feeling unheard? Discover how, like Peter, your most desperate prayers in the silent deep are seen by God. The abundance always comes in the morning.',
+};
 
 export default function ThePrayerRoomPage() {
   return (

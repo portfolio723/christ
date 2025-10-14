@@ -159,8 +159,11 @@ const fontTheNautigal = The_Nautigal({
 
 
 export const metadata: Metadata = {
-  title: 'Godspirit',
-  description: 'She prospers in all that she does. Psalms 1:3',
+  title: {
+    default: 'Godsspiritsays | She Prospers in All That She Does',
+    template: '%s | Godsspiritsays',
+  },
+  description: 'A spiritual resource for encouragement, faith, and hearing what God\'s Spirit says. Explore video teachings, blog posts, and testimonies to deepen your walk with God.',
   icons: {
     icon: '/fav.png',
   },

@@ -5,6 +5,12 @@ import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { SocialMedia } from '@/components/page/social-media';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Testimonies | Hearts Joined with GOD',
+  description: 'Read true stories of healing, breakthrough, deliverance, and restoration. See how God\'s deep, measureless love has encouraged and transformed inward spirits.',
+};
 
 const testimonials = [
   {

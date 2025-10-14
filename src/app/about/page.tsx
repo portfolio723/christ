@@ -1,5 +1,11 @@
 
 import { SocialMedia } from '@/components/page/social-media';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'About Godsspiritsays',
+  description: 'Learn about the mission and heart behind Godsspiritsays. Discover the story of choosing God\'s purpose and read a letter from His heart to yours. She is zero without her God.',
+};
 
 export default function AboutPage() {
   return (
