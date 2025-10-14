@@ -33,8 +33,7 @@ const spiritualInsights = [
     title: '💔✨ The Beautiful Breaking in his massive, tender hands ✨🕊️',
     category: 'Scripture',
     href: '/blog/the-beautiful-breaking',
-    image:
-      'https://images.unsplash.com/photo-1523878291631-87283277f717?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8amVzdXN8ZW58MHx8MHx8fDA%3D',
+    image: '/bg2.jpeg',
     imageHint: 'jesus statue',
   },
   {
@@ -42,8 +41,7 @@ const spiritualInsights = [
     title: "Saving is huge, but His forgiveness is what truly changes us. Don't skip reading the description, lovelies.",
     category: 'Purpose',
     href: '/blog/forgiveness',
-    image:
-      'https://images.unsplash.com/photo-1454789548928-9efd52dc4031?q=80&w=1080',
+    image: '/bg3.jpeg',
     imageHint: 'person purpose',
   },
   {
@@ -51,8 +49,7 @@ const spiritualInsights = [
     title: "Not only does HE CARE...!, HE will keep your tear drops💦 in his bottle like a jewel 💎Psalms 56:8 ✨",
     category: 'Healing',
     href: '/blog/he-cares',
-    image:
-      'https://plus.unsplash.com/premium_photo-1683133593455-814352d8f6d0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Zm9yZ2l2ZW5lc3N8ZW58MHx8MHx8fDA%3D',
+    image: '/bg4.jpeg',
     imageHint: 'forgiveness light',
   },
 ];
