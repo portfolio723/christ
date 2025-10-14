@@ -40,9 +40,9 @@ const spiritualInsights = [
   },
   {
     id: 'insight-3',
-    title: 'Saving is huge, but His forgiveness is what truly changes us. Don\'t skip reading the description, lovelies.',
+    title: "Saving is huge, but His forgiveness is what truly changes us. Don't skip reading the description, lovelies.",
     category: 'Purpose',
-    href: '#',
+    href: '/blog/forgiveness',
     image:
       'https://images.unsplash.com/photo-1454789548928-9efd52dc4031?q=80&w=1080',
     imageHint: 'person purpose',
