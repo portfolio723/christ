@@ -23,7 +23,7 @@ const spiritualInsights = [
   {
     id: 'insight-1',
     title: 'Fishing no longer for fish, but for a sign straining for God\'s attention in the silent, empty deep🎣',
-    category: 'Faith',
+    category: 'Abundance',
     href: '/blog/the-prayer-room',
     image: '/bg1.jpeg',
     imageHint: 'spiritual path',
