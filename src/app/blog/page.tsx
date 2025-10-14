@@ -40,7 +40,7 @@ const spiritualInsights = [
   },
   {
     id: 'insight-3',
-    title: 'Finding Your Divine Purpose',
+    title: 'Saving is huge, but His forgiveness is what truly changes us. Don\'t skip reading the description, lovelies.',
     category: 'Purpose',
     href: '#',
     image:
