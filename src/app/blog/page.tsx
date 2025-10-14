@@ -31,7 +31,7 @@ const spiritualInsights = [
   {
     id: 'insight-2',
     title: '💔✨ The Beautiful Breaking in his massive, tender hands ✨🕊️',
-    category: 'Scripture',
+    category: 'Break to Remake',
     href: '/blog/the-beautiful-breaking',
     image: '/bg2.jpeg',
     imageHint: 'jesus statue',
@@ -39,7 +39,7 @@ const spiritualInsights = [
   {
     id: 'insight-3',
     title: "Saving is huge, but His forgiveness is what truly changes us. Don't skip reading the description, lovelies.",
-    category: 'Purpose',
+    category: 'Renewed',
     href: '/blog/forgiveness',
     image: '/bg3.jpeg',
     imageHint: 'person purpose',
@@ -47,7 +47,7 @@ const spiritualInsights = [
   {
     id: 'insight-4',
     title: "Not only does HE CARE...!, HE will keep your tear drops💦 in his bottle like a jewel 💎Psalms 56:8 ✨",
-    category: 'Healing',
+    category: 'No Unseen',
     href: '/blog/he-cares',
     image: '/bg4.jpeg',
     imageHint: 'forgiveness light',
