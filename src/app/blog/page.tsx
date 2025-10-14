@@ -49,7 +49,7 @@ const spiritualInsights = [
   },
   {
     id: 'insight-4',
-    title: 'The Power of Forgiveness',
+    title: "Not only does HE CARE...!, HE will keep your tear drops💦 in his bottle like a jewel 💎Psalms 56:8 ✨",
     category: 'Healing',
     href: '#',
     image:
@@ -243,3 +243,5 @@ const BlogPage = () => {
 };
 
 export default BlogPage;
+
+    
