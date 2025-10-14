@@ -40,7 +40,7 @@ export default function Home() {
 
         <div className="relative z-10 container mx-auto px-4 md:px-6 text-center">
           <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-4xl md:text-5xl text-white mb-8">
-            His Vision, My Vision
+            His Vision, My Mission
           </h2>
           <div className="mx-auto max-w-4xl text-white/80 md:text-5xl mt-6 font-mea-culpa text-3xl md:text-4xl space-y-4">
             <p>God mends broken hearts into mighty wings to soar 🦋</p>
