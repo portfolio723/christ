@@ -1,4 +1,3 @@
-
 'use client';
 
 import Image from 'next/image';
@@ -22,7 +21,7 @@ const featuredVideos = [
   {
     id: 'video-1',
     title:
-      "By the way, Breaking is not the end but the opening for a life with 𝐆𝐎𝐃 👑",
+      'By the way, Breaking is not the end but the opening for a life with 𝐆𝐎𝐃 👑',
     description: `Our wing breaks. 💔
 And we are left standing in the silence that follows. 
 We don't even try. We’re almost afraid to look too closely and 
@@ -477,7 +476,7 @@ export default function VideoMinistryPage() {
                 </p>
                 <br />
                 <br />
-                <p>Then Jesus...oh, Jesus' love</p>
+                <p>Then Jesus...oh, Jesus&apos; love</p>
                 <p>He saw you across time and chose the cross.</p>
                 <p>
                   He willingly embraced the cross... not just for the world, but
@@ -540,5 +539,3 @@ export default function VideoMinistryPage() {
     </main>
   );
 }
-
-    
