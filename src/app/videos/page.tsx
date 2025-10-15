@@ -39,7 +39,7 @@ const featuredVideos = [
   },
   {
     id: 'video-2',
-    title: 'A Word for the Season',
+    title: 'We will lose control in the presence of HIS love ❤️‍🔥',
     description: 'A timely and encouraging prophetic word to navigate the current times.',
     category: 'Prophetic',
     thumbnail: 'https://images.unsplash.com/photo-1496587373035-e5bc5b692a77?q=80&w=2070&auto=format&fit=crop',
