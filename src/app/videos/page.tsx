@@ -4,7 +4,7 @@
 import Image from 'next/image';
 import { PlayCircle, Youtube } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import { Card, CardContent, CardHeader, CardFooter } from '@/components/ui/card';
+import { Card, CardContent, CardHeader } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import {
   Carousel,
@@ -16,14 +16,6 @@ import {
 import { SocialMedia } from '@/components/page/social-media';
 import { Hero } from '@/components/page/hero';
 import { VideoPlayerDemo } from '@/components/ui/video-player-demo';
-import { useState } from 'react';
-import {
-  Dialog,
-  DialogContent,
-  DialogHeader,
-  DialogTitle,
-} from '@/components/ui/dialog';
-import VideoPlayer from '@/components/ui/video-player';
 import Link from 'next/link';
 
 const featuredVideos = [
@@ -239,8 +231,6 @@ Until next time...`,
   },
 ];
 
-type FeaturedVideo = (typeof featuredVideos)[0];
-
 const videoSeries = [
   {
     title: 'Prophetic Prayer Series',
@@ -285,7 +275,6 @@ const videoSeries = [
 ];
 
 export default function VideoMinistryPage() {
-  const [selectedVideo, setSelectedVideo] = useState<FeaturedVideo | null>(null);
   
   return (
     <main className="flex min-h-screen flex-col items-center justify-center bg-background text-white">

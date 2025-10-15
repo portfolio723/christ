@@ -2,13 +2,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { Card, CardContent, CardFooter } from '@/components/ui/card';
-import {
-  Carousel,
-  CarouselContent,
-  CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
-} from '@/components/ui/carousel';
 import { ShineBorder, Timeline } from '@/components/ui/shine-border';
 import { SocialMedia } from '@/components/page/social-media';
 import type { Metadata } from 'next';
