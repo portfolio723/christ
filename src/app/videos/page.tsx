@@ -310,7 +310,7 @@ export default function VideoMinistryPage() {
                         src={video.thumbnail}
                         alt={video.title}
                         fill
-                        className="object-contain transition-transform duration-300 group-hover:scale-105"
+                        className="object-cover transition-transform duration-300 group-hover:scale-105"
                         data-ai-hint={video.thumbnailHint}
                         sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                       />
@@ -551,3 +551,5 @@ export default function VideoMinistryPage() {
     </main>
   );
 }
+
+    
