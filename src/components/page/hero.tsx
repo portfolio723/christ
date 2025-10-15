@@ -33,7 +33,7 @@ export function Hero() {
         }}
       />
       <div className="relative z-10 flex flex-col items-center p-4">
-        <div className="relative mb-6">
+        <div className="relative mb-4 md:mb-6">
           <Image
             src="/Media.jpeg"
             alt={profileDp.description}
@@ -41,7 +41,7 @@ export function Hero() {
             height={160}
             priority
             className={cn(
-              'object-cover border-4 border-white rounded-full'
+              'object-cover border-4 border-white rounded-full w-32 h-32 md:w-40 md:h-40'
             )}
             data-ai-hint={profileDp.imageHint}
             style={{
@@ -49,7 +49,7 @@ export function Hero() {
             }}
           />
         </div>
-        <h1 className="font-headline text-4xl md:text-6xl font-bold">
+        <h1 className="font-headline text-4xl sm:text-5xl md:text-6xl font-bold">
           God
           <span className="relative inline-block mx-1">
             s
@@ -69,7 +69,7 @@ export function Hero() {
               <Crown className="w-8 h-8 transform -rotate-12 animate-pulse" />
             </span>
           </GradualSpacing>
-           <p className="text-2xl md:text-3xl font-lavishly-yours italic text-white/80 mt-4">
+           <p className="text-2xl md:text-3xl font-lavishly-yours italic text-white/80 mt-2 md:mt-4">
               &mdash; Psalms 1:3
             </p>
         </div>

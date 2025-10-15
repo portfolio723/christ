@@ -28,7 +28,7 @@ export default function AboutPage() {
             <p className="font-condiment text-xl md:text-3xl lg:text-4xl text-white/90">
               &ldquo;Before I formed you in the womb, I KNEW YOU and approved of you as my chosen instrument And before you were born, I consecrated you TO MYSELF AS MY OWN young lady, everywhere I send you, you shall go, and whatever I command you shall speak&rdquo;
             </p>
-            <footer className="mt-2 text-xl md:text-3xl font-allison text-white/60">
+            <footer className="mt-2 text-lg md:text-2xl lg:text-3xl font-allison text-white/60">
               Jeremiah 1:4-5,7
             </footer>
           </blockquote>
@@ -49,7 +49,7 @@ export default function AboutPage() {
         <div className="absolute inset-0 bg-black/70" />
 
         <div className="relative z-10 container mx-auto px-4 md:px-6 text-center">
-          <div className="mx-auto max-w-4xl text-white md:text-5xl mt-6 font-mea-culpa text-4xl md:text-5xl space-y-4">
+          <div className="mx-auto max-w-4xl text-white md:text-5xl mt-6 font-mea-culpa text-3xl md:text-4xl space-y-4">
             <p>She...She is zero without her God…</p>
             <p>But to her God, she is everything 💖</p>
             <br />
@@ -59,7 +59,7 @@ export default function AboutPage() {
             <p>That’s why—instead of lifting up my name—</p>
             <p>I’d rather echo what His heart says about me 💞</p>
           </div>
-          <h3 className="text-3xl font-headline font-bold tracking-tighter sm:text-4xl md:text-5xl text-white/70 mt-8">
+          <h3 className="text-3xl sm:text-4xl md:text-5xl font-headline font-bold tracking-tighter text-white/70 mt-8">
             My Daughter &quot;You, and only you, before anybody. &quot;
           </h3>
 

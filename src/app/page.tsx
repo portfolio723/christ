@@ -19,7 +19,7 @@ export default function Home() {
         />
         <div className="absolute inset-0 bg-black/60" />
         <div className="relative z-10 p-4 container mx-auto px-4 md:px-6">
-          <h1 className="text-3xl md:text-6xl font-yesteryear mb-4 tracking-tight max-w-4xl mx-auto">
+          <h1 className="text-3xl sm:text-4xl md:text-6xl font-yesteryear mb-4 tracking-tight max-w-4xl mx-auto">
             &quot;Broken vessels will spark more when they are touched by Jesus&quot;
           </h1>
         </div>
@@ -49,7 +49,7 @@ export default function Home() {
           </div>
 
           <div className="mt-12 max-w-4xl mx-auto">
-            <div className="text-white text-left space-y-4 font-oleo-script text-lg md:text-2xl p-4 md:p-8 bg-card/10 backdrop-blur-sm relative rounded-lg">
+            <div className="text-white text-left space-y-4 font-oleo-script text-lg md:text-xl p-6 md:p-8 bg-card/10 backdrop-blur-sm relative rounded-lg">
               <p>In the name of JESUS CHRIST, greetings 🌸</p>
               <p>Beloved, the only purpose 💝 I launched this website is to tell you what GOD&apos;S SPIRIT Says 🕊️ for us to uplift and strengthen your inner man 💪 And enable us to internally strong first. Physiologic issues will automatically be resolved once we have healed 💝 inwardly.</p>
               <p>Yes beloved 💙... Our mighty GOD will change our every broken heart piece to turn into mighty butterfly wings 🦋 to fly high 🕊️ And He will use every sharpened broken piece that converts it into massive strong butterfly wings. Even if your broken heart 💔 pieces pierced him and drew blood... 🔴</p>

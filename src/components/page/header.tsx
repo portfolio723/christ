@@ -1,4 +1,3 @@
-
 'use client';
 
 import { useState, useEffect } from 'react';
@@ -88,8 +87,8 @@ export function Header() {
             </Button>
             <Button
               variant="ghost"
-              size="icon"
-              className="md:hidden text-white"
+              size="lg"
+              className="md:hidden text-white h-11 w-11 p-0"
               onClick={() => setIsMenuOpen(!isMenuOpen)}
               aria-label="Toggle menu"
             >
@@ -107,12 +106,12 @@ export function Header() {
         )}
       >
         <div className="container mx-auto px-4 md:px-6 py-8">
-          <nav className="flex flex-col items-center gap-8">
+          <nav className="flex flex-col items-center gap-4">
             {navLinks.map((link) => (
               <Link
                 key={link.href}
                 href={link.href}
-                className="text-xl text-white/80 hover:text-white transition-colors"
+                className="text-2xl text-white/80 hover:text-white transition-colors w-full text-center py-2 rounded-md"
                 onClick={() => setIsMenuOpen(false)}
               >
                 {link.label}
@@ -120,7 +119,8 @@ export function Header() {
             ))}
             <Button
               asChild
-              className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-bold"
+              size="lg"
+              className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-bold mt-4"
               onClick={() => setIsMenuOpen(false)}
             >
               <Link href="/contact">Contact</Link>
