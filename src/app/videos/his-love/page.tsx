@@ -9,6 +9,7 @@ export const metadata: Metadata = {
 };
 
 export default function HisLovePage() {
+  const videoSrc = ""; // Empty string for now
   return (
     <main className="bg-background text-white min-h-screen">
       <div className="relative pt-48 pb-20 bg-background">
@@ -21,11 +22,13 @@ export default function HisLovePage() {
       </div>
       <article className="py-12">
         <div className="container mx-auto px-4 md:px-6 max-w-3xl prose prose-invert prose-lg md:prose-xl prose-p:text-white/80 prose-strong:text-white">
-            <div className="flex justify-center">
-              <div className="w-full max-w-sm">
-                <VideoPlayer src="" autoPlay={false} muted={false} />
+            {videoSrc && (
+              <div className="flex justify-center">
+                <div className="w-full max-w-sm">
+                  <VideoPlayer src={videoSrc} autoPlay={false} muted={false} />
+                </div>
               </div>
-            </div>
+            )}
             <br />
             <p style={{ whiteSpace: 'pre-wrap' }}>
 {`Don't ask who loved you.. 
