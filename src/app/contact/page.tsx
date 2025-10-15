@@ -50,15 +50,15 @@ export default function ContactPage() {
         className="w-full pt-10 pb-20 md:pt-14 md:pb-28 bg-background"
       >
         <div className="container mx-auto px-4 md:px-6">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16">
+          <div className="flex justify-center">
             {/* Column 1: Prayer & Support */}
-            <div className="space-y-8">
-              <h2 className="text-3xl font-headline font-bold text-white border-b-2 border-primary pb-2">
+            <div className="space-y-8 text-center max-w-2xl">
+              <h2 className="text-3xl font-headline font-bold text-white border-b-2 border-primary pb-2 inline-block">
                 ASK FOR PRAYER
               </h2>
               <div className="space-y-6">
-                <div className="flex items-start gap-4">
-                  <Mail className="w-8 h-8 text-primary mt-1 flex-shrink-0" />
+                <div className="flex flex-col items-center gap-4 text-center">
+                  <Mail className="w-12 h-12 text-primary" />
                   <div>
                     <h3 className="text-2xl md:text-3xl font-love-light text-white font-bold">
                       Always whisper out your prayers to us through email .
@@ -68,7 +68,7 @@ export default function ContactPage() {
                     </p>
                     <a
                       href="mailto:godspiritsays@gmail.com"
-                      className="text-accent hover:underline break-all"
+                      className="text-accent hover:underline break-all text-lg md:text-xl"
                     >
                       godspiritsays@gmail.com
                     </a>
@@ -76,9 +76,6 @@ export default function ContactPage() {
                 </div>
               </div>
             </div>
-
-            {/* Column 2: Ministry Inquiries */}
-            
           </div>
         </div>
       </section>
