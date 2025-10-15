@@ -131,9 +131,6 @@ export default function VideoMinistryPage() {
                   <div className="absolute inset-0 flex items-center justify-center">
                     <PlayCircle className="w-16 h-16 text-white/70 group-hover:text-white group-hover:scale-110 transition-all" />
                   </div>
-                  <Badge className="absolute top-3 left-3 bg-primary/80 backdrop-blur-sm">
-                    {video.category}
-                  </Badge>
                 </CardHeader>
                 <CardContent className="p-4 md:p-6">
                   <h3 className="font-headline text-lg md:text-xl font-bold text-white mb-2">
