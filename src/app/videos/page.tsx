@@ -31,7 +31,7 @@ export const metadata: Metadata = {
 const featuredVideos = [
   {
     id: 'video-1',
-    title: 'The Unshakeable Kingdom',
+    title: 'By the way, Breaking is not the end but the opening for a life with 𝐆𝐎𝐃 👑',
     description: 'Discover the stability and security found only in God’s eternal kingdom.',
     category: 'Sermon',
     thumbnail: 'https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?q=80&w=2072&auto=format&fit=crop',
