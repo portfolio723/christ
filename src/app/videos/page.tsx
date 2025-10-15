@@ -100,7 +100,7 @@ You 🫵🏻 felt like there was no need to turn to look at the world, and you d
   },
   {
     id: 'video-3',
-    title: 'Intercession for Breakthrough',
+    title: 'Fasting is not something we do to God. It is something God does in us.🛐✨',
     description: 'Join in a powerful time of prayer for breakthrough in your life and family.',
     thumbnail: 'https://images.unsplash.com/photo-1528731708534-816fe59f90cb?q=80&w=2070&auto=format&fit=crop',
     thumbnailHint: 'praying hands',
