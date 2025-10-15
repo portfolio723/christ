@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 };
 
 export default function FastingPage() {
-  const videoSrc = ""; // Empty string for now
+  const videoSrc = "/vd3.mp4";
   return (
     <main className="bg-background text-white min-h-screen">
       <div className="relative pt-48 pb-20 bg-background">
