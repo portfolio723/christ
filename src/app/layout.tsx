@@ -176,6 +176,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="dark">
+      <head>
+        <link rel="preload" href="/butterflies.mp4" as="video" type="video/mp4" />
+        <link rel="preload" href="/hero.mp4" as="video" type="video/mp4" />
+        <link rel="preload" href="/eagle.mp4" as="video" type="video/mp4" />
+        <link rel="preload" href="/blog.mp4" as="video" type="video/mp4" />
+        <link rel="preload" href="/test.mp4" as="video" type="video/mp4" />
+        <link rel="preload" href="/sd.mp4" as="video" type="video/mp4" />
+      </head>
       <body
         className={cn(
           'font-body antialiased',
