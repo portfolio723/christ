@@ -108,7 +108,7 @@ export default function AboutPage() {
         </div>
       </section>
       <SocialMedia />
-      <div className="bg-background w-full py-20">
+      <div className="bg-background w-full py-20 md:py-24">
         <blockquote className="container mx-auto px-4 md:px-6 max-w-3xl text-center">
           <p className="font-pinyon-script text-3xl md:text-4xl lg:text-5xl text-white/90">
             &ldquo;I will make you majestic forever, a source of joy for every generation&rdquo;

@@ -38,7 +38,7 @@ const spiritualInsights = [
   },
   {
     id: 'insight-3',
-    title: "Saving is huge, but His forgiveness is what truly changes us. Don't skip reading the description, lovelies.",
+    title: 'Saving is huge, but His forgiveness is what truly changes us. Don\'t skip reading the description, lovelies.',
     category: 'Renewed',
     href: '/blog/forgiveness',
     image: '/bg3.jpeg',
@@ -46,7 +46,7 @@ const spiritualInsights = [
   },
   {
     id: 'insight-4',
-    title: "Not only does HE CARE...!, HE will keep your tear drops💦 in his bottle like a jewel 💎Psalms 56:8 ✨",
+    title: 'Not only does HE CARE...!, HE will keep your tear drops💦 in his bottle like a jewel 💎Psalms 56:8 ✨',
     category: 'No Unseen',
     href: '/blog/he-cares',
     image: '/bg4.jpeg',
@@ -114,7 +114,7 @@ const BlogPage = () => {
                 {spiritualInsights.map((insight) => (
                   <CarouselItem
                     key={insight.id}
-                    className="basis-full sm:basis-1/2 lg:basis-1/4"
+                    className="basis-full sm:basis-1/2 lg:basis-1/3"
                   >
                     <Link href={insight.href} className="group">
                       <Card className="overflow-hidden border-none bg-transparent">

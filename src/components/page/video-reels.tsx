@@ -1,3 +1,4 @@
+
 'use client';
 import Image from 'next/image';
 import { Card, CardContent } from '@/components/ui/card';
@@ -107,7 +108,7 @@ export function VideoReels() {
                             <PlayCircle className="w-16 h-16 text-white/70 group-hover:text-white group-hover:scale-110 transition-all" />
                           </div>
                         </div>
-                        <div className="p-4">
+                        <div className="p-4 md:p-6">
                           <p className="text-white/80">{reel.description}</p>
                         </div>
                       </CardContent>

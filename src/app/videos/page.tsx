@@ -126,7 +126,7 @@ export default function VideoMinistryPage() {
                     {video.category}
                   </Badge>
                 </CardHeader>
-                <CardContent className="p-4">
+                <CardContent className="p-4 md:p-6">
                   <h3 className="font-headline text-lg md:text-xl font-bold text-white mb-2">
                     {video.title}
                   </h3>
@@ -257,7 +257,7 @@ export default function VideoMinistryPage() {
           </h3>
           
           <div className="mt-12 max-w-4xl mx-auto">
-            <div className="text-white text-left space-y-4 font-oleo-script text-xl md:text-2xl p-6 bg-card/10 backdrop-blur-sm relative rounded-lg">
+            <div className="text-white text-left space-y-4 font-oleo-script text-xl md:text-2xl p-6 md:p-8 bg-card/10 backdrop-blur-sm relative rounded-lg">
               <div className="font-arizonia text-2xl md:text-3xl space-y-4">
                 <br />
                 <p>My dear, Let me tell you something your soul needs to remember.</p>

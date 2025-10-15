@@ -160,7 +160,7 @@ export default function TestimonialsPage() {
 
         <div className="relative z-10 container mx-auto px-4 md:px-6 text-center">
           <div className="mt-12 max-w-4xl mx-auto">
-            <div className="text-white text-left space-y-4 font-oleo-script text-lg md:text-2xl p-4 md:p-6 bg-card/10 backdrop-blur-sm relative rounded-lg">
+            <div className="text-white text-left space-y-4 font-oleo-script text-lg md:text-2xl p-6 md:p-8 bg-card/10 backdrop-blur-sm relative rounded-lg">
               <p className='font-lavishly-yours text-3xl md:text-4xl'>And...HER love note to her DAD ✍️</p>
               <div className="font-bonheur-royale text-xl md:text-3xl space-y-4">
                 <br />
