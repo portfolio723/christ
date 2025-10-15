@@ -72,7 +72,7 @@ He knows how to reconstruct 🏘
 What has been beyond repair. 
  
 It begins the moment you dare to place the pieces in His hands. 🤍`,
-    thumbnail: 'https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?q=80&w=2072&auto=format&fit=crop',
+    thumbnail: '/vd1.jpeg',
     thumbnailHint: 'open bible',
   },
   {
@@ -95,7 +95,7 @@ You 🫵🏻 felt like there was no need to turn to look at the world, and you d
 ఒక్కసారి తండ్రి ప్రేమను రుచి చూడు...🤤❤️ 
  
 నేను పందెం వేస్తున్నాను, నువ్వు 🫵🏻 ప్రపంచము  వైపు చూడటానికి కూడా అవసరం లేదని భావింస్తావు  మరియు "నువ్వు నన్ను ప్రేమిస్తున్నావా?" అని అడగాలని కూడా అనుకోవు 🤷‍♀️`,
-    thumbnail: 'https://images.unsplash.com/photo-1496587373035-e5bc5b692a77?q=80&w=2070&auto=format&fit=crop',
+    thumbnail: '/vd2.jpeg',
     thumbnailHint: 'light through clouds',
   },
   {
@@ -225,7 +225,7 @@ Cause He allows the trap only to pull us out 💪✨
 So, stay anointed, warrior. 🕊️⚔️
 
 Until next time...`,
-    thumbnail: 'https://images.unsplash.com/photo-1528731708534-816fe59f90cb?q=80&w=2070&auto=format&fit=crop',
+    thumbnail: '/vd3.jpeg',
     thumbnailHint: 'praying hands',
   },
 ];
@@ -461,7 +461,7 @@ export default function VideoMinistryPage() {
                 <p>The Father, He gave His most precious Son—for you.</p>
                 <br />
                 <p>because His heart could not bear eternity without you.</p>
-                <p>It was the ultimate act of a Father's heart crying out, &quot;I must have my child back.&quot;</p>
+                <p>It was the ultimate act of a Father's heart crying out, "I must have my child back."</p>
                 <br />
                 <br />
                 <p>Then Jesus...oh, Jesus' love</p>
@@ -473,18 +473,18 @@ export default function VideoMinistryPage() {
                 <br />
                 <p>And now the Holy Spirit...</p>
                 <p>The Spirit's love is so intimate, so tender, that He doesn't just walk beside you. He has made your heart His Home. He breathes inside your prayers. He sings over you in the night. He is the quiet, unshakable presence that whispers,</p>
-                <p>&quot;You are never, ever alone.&quot;</p>
+                <p>"You are never, ever alone."</p>
                 <br />
                 <p>People say love is God.</p>
                 <p>No.</p>
-                <p>&quot;God is love&quot;.It is his nature.</p>
+                <p>"God is love".It is his nature.</p>
                 <p>Every heartbeat of heaven beats for you.</p>
                 <br />
                 <p>And sometimes...sometimes, in the quiet moments when I feel the weight of this love… that love wraps around my broken places...It burns with one eternal question, the only one I'll need to ask when I finally see Him face to face:</p>
                 <br />
                 <br />
                 <p>how unworthy I am...</p>
-                <p>&quot;Jesus... why? Why did You love me with a love this fierce? This relent? This mighty?&quot;</p>
+                <p>"Jesus... why? Why did You love me with a love this fierce? This relent? This mighty?"</p>
                 <br />
                 <p>I may never understand it fully.</p>
                 <p>But I will spend my life embraced by it.</p>
