@@ -1,7 +1,7 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
-import { Card, CardContent } from '@/components/ui/card';
+import { Card, CardContent, CardFooter } from '@/components/ui/card';
 import {
   Carousel,
   CarouselContent,
@@ -12,6 +12,7 @@ import {
 import { ShineBorder, Timeline } from '@/components/ui/shine-border';
 import { SocialMedia } from '@/components/page/social-media';
 import type { Metadata } from 'next';
+import { Badge } from '@/components/ui/badge';
 
 export const metadata: Metadata = {
   title: 'Blog | The Spirit\'s Voice',
@@ -27,6 +28,10 @@ const spiritualInsights = [
     href: '/blog/the-prayer-room',
     image: '/bg1.jpeg',
     imageHint: 'spiritual path',
+    author: 'Godsspiritsays',
+    date: 'Oct 10, 2024',
+    readTime: '5 min read',
+    description: "When prayer feels like casting into an empty sea, remember you're not alone. Discover how your most desperate cries are heard, even in the silence."
   },
   {
     id: 'insight-2',
@@ -35,14 +40,22 @@ const spiritualInsights = [
     href: '/blog/the-beautiful-breaking',
     image: '/bg2.jpeg',
     imageHint: 'jesus statue',
+    author: 'Godsspiritsays',
+    date: 'Oct 9, 2024',
+    readTime: '4 min read',
+    description: "He lifts us high, only to let us fall. Understand the beautiful, fierce, and loving process of being broken and remade in His hands for His glory."
   },
   {
     id: 'insight-3',
-    title: 'Saving is huge, but His forgiveness is what truly changes us. Don\'t skip reading the description, lovelies.',
+    title: 'Saving is huge, but His forgiveness is what truly changes us.',
     category: 'Renewed',
     href: '/blog/forgiveness',
     image: '/bg3.jpeg',
     imageHint: 'person purpose',
+    author: 'Godsspiritsays',
+    date: 'Oct 8, 2024',
+    readTime: '3 min read',
+    description: "His forgiveness changes our hearts, which changes our actions. Our GOD is a forgiver. He will forgive all of our old mistakes, errors, and stubborn habits."
   },
   {
     id: 'insight-4',
@@ -51,6 +64,22 @@ const spiritualInsights = [
     href: '/blog/he-cares',
     image: '/bg4.jpeg',
     imageHint: 'forgiveness light',
+    author: 'Godsspiritsays',
+    date: 'Oct 7, 2024',
+    readTime: '3 min read',
+    description: "He not only notices our tears, He collects them. Discover how God treasures your feelings and holds your pain tenderly. Your tears are safe with Him."
+  },
+  {
+    id: 'insight-5',
+    title: 'The Unfailing Promise',
+    category: 'Faith',
+    href: '#',
+    image: 'https://picsum.photos/seed/blog5/600/400',
+    imageHint: 'rainbow sky',
+    author: 'Godsspiritsays',
+    date: 'Oct 6, 2024',
+    readTime: '4 min read',
+    description: "A promise is for the moments when your heart starts to forget. For the days you wonder... That's when He reminds you: Not one word has been forgotten."
   },
 ];
 
@@ -82,74 +111,53 @@ const BlogPage = () => {
         </div>
       </section>
 
-      <main className="container mx-auto px-4 py-16">
+      <main className="container mx-auto px-4 py-16 md:py-24">
         {/* Latest Spiritual Insights */}
-        <section className="mb-16 py-16">
-          <div className="container mx-auto px-4 md:px-6">
-            <Carousel
-              opts={{
-                align: 'start',
-                loop: true,
-              }}
-              className="w-full"
-            >
-              <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-8">
-                <div className="mb-6 md:mb-0">
-                  <h2 className="text-3xl md:text-4xl font-headline font-bold text-white">
-                    Ready to water your roots?
-                  </h2>
-                  <p className="text-white/70 mt-2 max-w-xl">
-                    Find resources to deepen your faith with every read.
-                  </p>
-                  <p className="text-white/70 mt-2 max-w-xl">
-                    Explore articles that help you dig deeper into Scripture, live out its wisdom, and walk closer to GOD each day.
-                  </p>
-                </div>
-                <div className="flex w-full md:w-auto justify-center md:justify-end">
-                  <CarouselPrevious className="static -left-4 text-white" />
-                  <CarouselNext className="static -right-4 ml-2 text-white" />
-                </div>
-              </div>
-              <CarouselContent>
-                {spiritualInsights.map((insight) => (
-                  <CarouselItem
-                    key={insight.id}
-                    className="basis-full sm:basis-1/2 lg:basis-1/3"
-                  >
-                    <Link href={insight.href} className="group">
-                      <Card className="overflow-hidden border-none bg-transparent">
-                        <CardContent className="relative aspect-[3/4] p-0">
-                          {insight.image && (
-                            <Image
-                              src={insight.image}
-                              alt={insight.title}
-                              fill
-                              className="object-cover rounded-lg transition-transform duration-300 group-hover:scale-105"
-                              data-ai-hint={insight.imageHint}
-                            />
-                          )}
-                          <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent" />
-                          <div className="absolute bottom-0 left-0 p-4">
-                            <span className="inline-block bg-accent/80 text-accent-foreground text-xs font-semibold px-2 py-1 rounded-full mb-2">
-                              {insight.category}
-                            </span>
-                            <h3 className="font-headline text-lg font-bold text-white">
-                              {insight.title}
-                            </h3>
-                            <p className="text-white/80 mt-2 flex items-center">
-                              Read more{' '}
-                              <span className="ml-2 transition-transform group-hover:translate-x-1">
-                                →
-                              </span>
-                            </p>
-                          </div>
-                        </CardContent>
-                      </Card>
-                    </Link>
-                  </CarouselItem>
-                ))}
-              </CarouselContent>
-            </Carousel>
+        <section className="mb-16">
+           <div className="text-center mb-12">
+              <h2 className="text-3xl md:text-4xl font-headline font-bold text-white">
+                Ready to water your roots?
+              </h2>
+              <p className="text-white/70 mt-2 max-w-2xl mx-auto">
+                Explore articles that help you dig deeper into Scripture, live out its wisdom, and walk closer to GOD each day.
+              </p>
+            </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {spiritualInsights.map((insight) => (
+              <Link key={insight.id} href={insight.href} className="group flex">
+                <Card className="w-full flex flex-col bg-card border-border hover:border-primary transition-shadow duration-300 shadow-md hover:shadow-primary/20 rounded-xl overflow-hidden">
+                   {insight.image && (
+                      <div className="relative aspect-video overflow-hidden">
+                        <Image
+                          src={insight.image}
+                          alt={insight.title}
+                          fill
+                          className="object-cover transition-transform duration-300 group-hover:scale-105"
+                          data-ai-hint={insight.imageHint}
+                        />
+                      </div>
+                    )}
+                  <CardContent className="p-6 flex-grow flex flex-col">
+                    <div className="flex items-center gap-4 text-xs text-white/60 mb-3">
+                       <Badge variant="outline" className="border-primary/50 text-primary">{insight.category}</Badge>
+                       <span>{insight.readTime}</span>
+                    </div>
+                    <h3 className="font-headline text-xl font-bold text-white mb-2 flex-grow">
+                      {insight.title}
+                    </h3>
+                     <p className="text-white/70 text-sm mb-4">
+                      {insight.description}
+                    </p>
+                  </CardContent>
+                  <CardFooter className="p-6 pt-0 mt-auto text-xs text-white/60 flex justify-between">
+                     <div>
+                        <p className="font-semibold text-white/80">{insight.author}</p>
+                     </div>
+                     <p>{insight.date}</p>
+                  </CardFooter>
+                </Card>
+              </Link>
+            ))}
           </div>
         </section>
       </main>
