@@ -75,7 +75,7 @@ It begins the moment you dare to place the pieces in His hands. 🤍`,
     thumbnailHint: 'open bible',
     videoSrc: '/vd1.mp4',
     href: '/videos/breaking-is-not-the-end',
-    category: 'Restoration',
+    category: 'Fracture meets Grace',
   },
   {
     id: 'video-2',
@@ -101,7 +101,7 @@ You 🫵🏻 felt like there was no need to turn to look at the world, and you d
     thumbnailHint: 'light through clouds',
     videoSrc: '',
     href: '/videos/his-love',
-    category: 'Love',
+    category: 'The sweetest habit',
   },
   {
     id: 'video-3',
@@ -235,7 +235,7 @@ Until next time...`,
     thumbnailHint: 'praying hands',
     videoSrc: '',
     href: '/videos/fasting',
-    category: 'Intimacy',
+    category: 'In His Grip & Grace',
   },
 ];
 
