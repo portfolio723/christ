@@ -4,7 +4,7 @@
 import Image from 'next/image';
 import { PlayCircle, Youtube } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import { Card, CardContent, CardHeader } from '@/components/ui/card';
+import { Card, CardContent, CardHeader, CardFooter } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import {
   Carousel,
@@ -16,7 +16,6 @@ import {
 import { SocialMedia } from '@/components/page/social-media';
 import { Hero } from '@/components/page/hero';
 import { VideoPlayerDemo } from '@/components/ui/video-player-demo';
-import type { Metadata } from 'next';
 import { useState } from 'react';
 import {
   Dialog,
@@ -25,11 +24,7 @@ import {
   DialogTitle,
 } from '@/components/ui/dialog';
 import VideoPlayer from '@/components/ui/video-player';
-
-// export const metadata: Metadata = {
-//   title: 'Video Ministry',
-//   description: 'Experience God’s presence through powerful video teachings, prophetic words, worship sessions, and transformational testimonies. Watch and be encouraged today.',
-// };
+import Link from 'next/link';
 
 const featuredVideos = [
   {
@@ -79,6 +74,8 @@ It begins the moment you dare to place the pieces in His hands. 🤍`,
     thumbnail: '/vd1.jpeg',
     thumbnailHint: 'open bible',
     videoSrc: '/vd1.mp4',
+    href: '/videos/breaking-is-not-the-end',
+    category: 'Restoration',
   },
   {
     id: 'video-2',
@@ -103,6 +100,8 @@ You 🫵🏻 felt like there was no need to turn to look at the world, and you d
     thumbnail: '/vd2.jpeg',
     thumbnailHint: 'light through clouds',
     videoSrc: '',
+    href: '/videos/his-love',
+    category: 'Love',
   },
   {
     id: 'video-3',
@@ -235,6 +234,8 @@ Until next time...`,
     thumbnail: '/vd3.jpeg',
     thumbnailHint: 'praying hands',
     videoSrc: '',
+    href: '/videos/fasting',
+    category: 'Intimacy',
   },
 ];
 
@@ -292,21 +293,16 @@ export default function VideoMinistryPage() {
       <Hero />
 
       {/* Featured Video Gallery */}
-      <Dialog
-        open={!!selectedVideo}
-        onOpenChange={(isOpen) => !isOpen && setSelectedVideo(null)}
+      <section
+        id="featured-videos"
+        className="w-full py-16 md:py-28 bg-background"
       >
-        <section
-          id="featured-videos"
-          className="w-full py-16 md:py-28 bg-background"
-        >
-          <div className="container mx-auto px-4 md:px-6">
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
-              {featuredVideos.map((video) => (
+        <div className="container mx-auto px-4 md:px-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+            {featuredVideos.map((video) => (
+              <Link key={video.id} href={video.href} className="group flex">
                 <Card
-                  key={video.id}
-                  onClick={() => video.videoSrc && setSelectedVideo(video)}
-                  className="group overflow-hidden bg-card border-border transition-all duration-300 hover:border-primary hover:shadow-2xl hover:shadow-primary/20 transform hover:-translate-y-2 rounded-lg cursor-pointer"
+                  className="w-full flex flex-col bg-card border-border hover:border-primary transition-shadow duration-300 shadow-md hover:shadow-primary/20 rounded-xl overflow-hidden"
                 >
                   <CardHeader className="p-0 relative aspect-video">
                     {video.thumbnail && (
@@ -319,38 +315,26 @@ export default function VideoMinistryPage() {
                         sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                       />
                     )}
-                    <div className="absolute inset-0 bg-black/40 group-hover:bg-black/60 transition-colors" />
-                    <div className="absolute inset-0 flex items-center justify-center">
-                      <PlayCircle className="w-16 h-16 text-white/70 group-hover:text-white group-hover:scale-110 transition-all" />
-                    </div>
+                     <div className="absolute inset-0 bg-black/40 group-hover:bg-black/60 transition-colors" />
+                      <div className="absolute inset-0 flex items-center justify-center">
+                        <PlayCircle className="w-16 h-16 text-white/70 group-hover:text-white group-hover:scale-110 transition-all" />
+                      </div>
                   </CardHeader>
-                  <CardContent className="p-4 md:p-6">
-                    <h3 className="font-headline text-lg md:text-xl font-bold text-white mb-2">
+                  <CardContent className="p-6 flex-grow flex flex-col">
+                     <div className="flex items-center gap-4 text-xs text-white/60 mb-3">
+                       <Badge variant="outline" className="border-primary/50 text-primary">{video.category}</Badge>
+                    </div>
+                    <h3 className="font-headline text-lg md:text-xl font-bold text-white mb-2 flex-grow">
                       {video.title}
                     </h3>
-                    <p
-                      className="text-white/70 text-sm mb-4"
-                      style={{ whiteSpace: 'pre-wrap' }}
-                    >
-                      {video.description}
-                    </p>
                   </CardContent>
                 </Card>
-              ))}
-            </div>
+              </Link>
+            ))}
           </div>
-        </section>
-        {selectedVideo && selectedVideo.videoSrc && (
-          <DialogContent className="max-w-3xl p-0 bg-card border-primary/50 w-[90vw] rounded-lg">
-            <DialogHeader className="p-4">
-              <DialogTitle className="text-white">
-                {selectedVideo.title}
-              </DialogTitle>
-            </DialogHeader>
-            <VideoPlayer src={selectedVideo.videoSrc} autoPlay />
-          </DialogContent>
-        )}
-      </Dialog>
+        </div>
+      </section>
+
       {/* Series & Playlists Section */}
       <section
         id="series"
@@ -567,5 +551,3 @@ export default function VideoMinistryPage() {
     </main>
   );
 }
-
-    
