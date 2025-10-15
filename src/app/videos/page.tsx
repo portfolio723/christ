@@ -1,15 +1,10 @@
 
+'use client';
+
 import Image from 'next/image';
-import {
-  PlayCircle,
-  Youtube,
-} from 'lucide-react';
+import { PlayCircle, Youtube } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import {
-  Card,
-  CardContent,
-  CardHeader,
-} from '@/components/ui/card';
+import { Card, CardContent, CardHeader } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import {
   Carousel,
@@ -22,16 +17,25 @@ import { SocialMedia } from '@/components/page/social-media';
 import { Hero } from '@/components/page/hero';
 import { VideoPlayerDemo } from '@/components/ui/video-player-demo';
 import type { Metadata } from 'next';
+import { useState } from 'react';
+import {
+  Dialog,
+  DialogContent,
+  DialogHeader,
+  DialogTitle,
+} from '@/components/ui/dialog';
+import VideoPlayer from '@/components/ui/video-player';
 
-export const metadata: Metadata = {
-  title: 'Video Ministry',
-  description: 'Experience God’s presence through powerful video teachings, prophetic words, worship sessions, and transformational testimonies. Watch and be encouraged today.',
-};
+// export const metadata: Metadata = {
+//   title: 'Video Ministry',
+//   description: 'Experience God’s presence through powerful video teachings, prophetic words, worship sessions, and transformational testimonies. Watch and be encouraged today.',
+// };
 
 const featuredVideos = [
   {
     id: 'video-1',
-    title: 'By the way, Breaking is not the end but the opening for a life with 𝐆𝐎𝐃 👑',
+    title:
+      "By the way, Breaking is not the end but the opening for a life with 𝐆𝐎𝐃 👑",
     description: `Our wing breaks. 💔
 And we are left standing in the silence that follows. 
 We don't even try. We’re almost afraid to look too closely and 
@@ -74,6 +78,7 @@ What has been beyond repair.
 It begins the moment you dare to place the pieces in His hands. 🤍`,
     thumbnail: '/vd1.jpeg',
     thumbnailHint: 'open bible',
+    videoSrc: '/vd1.mp4',
   },
   {
     id: 'video-2',
@@ -97,10 +102,12 @@ You 🫵🏻 felt like there was no need to turn to look at the world, and you d
 నేను పందెం వేస్తున్నాను, నువ్వు 🫵🏻 ప్రపంచము  వైపు చూడటానికి కూడా అవసరం లేదని భావింస్తావు  మరియు "నువ్వు నన్ను ప్రేమిస్తున్నావా?" అని అడగాలని కూడా అనుకోవు 🤷‍♀️`,
     thumbnail: '/vd2.jpeg',
     thumbnailHint: 'light through clouds',
+    videoSrc: '',
   },
   {
     id: 'video-3',
-    title: 'Fasting is not something we do to God. It is something God does in us.🛐✨',
+    title:
+      'Fasting is not something we do to God. It is something God does in us.🛐✨',
     description: ` 
 Have you heard, beloved?
 
@@ -227,8 +234,11 @@ So, stay anointed, warrior. 🕊️⚔️
 Until next time...`,
     thumbnail: '/vd3.jpeg',
     thumbnailHint: 'praying hands',
+    videoSrc: '',
   },
 ];
+
+type FeaturedVideo = (typeof featuredVideos)[0];
 
 const videoSeries = [
   {
@@ -274,53 +284,73 @@ const videoSeries = [
 ];
 
 export default function VideoMinistryPage() {
+  const [selectedVideo, setSelectedVideo] = useState<FeaturedVideo | null>(null);
+  
   return (
     <main className="flex min-h-screen flex-col items-center justify-center bg-background text-white">
       {/* Hero Section from former home page */}
       <Hero />
 
       {/* Featured Video Gallery */}
-      <section
-        id="featured-videos"
-        className="w-full py-16 md:py-28 bg-background"
+      <Dialog
+        open={!!selectedVideo}
+        onOpenChange={(isOpen) => !isOpen && setSelectedVideo(null)}
       >
-        <div className="container mx-auto px-4 md:px-6">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
-            {featuredVideos.map((video) => (
-              <Card
-                key={video.id}
-                className="group overflow-hidden bg-card border-border transition-all duration-300 hover:border-primary hover:shadow-2xl hover:shadow-primary/20 transform hover:-translate-y-2 rounded-lg"
-              >
-                <CardHeader className="p-0 relative aspect-video">
-                  {video.thumbnail && (
-                    <Image
-                      src={video.thumbnail}
-                      alt={video.title}
-                      fill
-                      className="object-cover transition-transform duration-300 group-hover:scale-105"
-                      data-ai-hint={video.thumbnailHint}
-                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                    />
-                  )}
-                  <div className="absolute inset-0 bg-black/40 group-hover:bg-black/60 transition-colors" />
-                  <div className="absolute inset-0 flex items-center justify-center">
-                    <PlayCircle className="w-16 h-16 text-white/70 group-hover:text-white group-hover:scale-110 transition-all" />
-                  </div>
-                </CardHeader>
-                <CardContent className="p-4 md:p-6">
-                  <h3 className="font-headline text-lg md:text-xl font-bold text-white mb-2">
-                    {video.title}
-                  </h3>
-                  <p className="text-white/70 text-sm mb-4" style={{ whiteSpace: 'pre-wrap' }}>
-                    {video.description}
-                  </p>
-                </CardContent>
-              </Card>
-            ))}
+        <section
+          id="featured-videos"
+          className="w-full py-16 md:py-28 bg-background"
+        >
+          <div className="container mx-auto px-4 md:px-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+              {featuredVideos.map((video) => (
+                <Card
+                  key={video.id}
+                  onClick={() => video.videoSrc && setSelectedVideo(video)}
+                  className="group overflow-hidden bg-card border-border transition-all duration-300 hover:border-primary hover:shadow-2xl hover:shadow-primary/20 transform hover:-translate-y-2 rounded-lg cursor-pointer"
+                >
+                  <CardHeader className="p-0 relative aspect-video">
+                    {video.thumbnail && (
+                      <Image
+                        src={video.thumbnail}
+                        alt={video.title}
+                        fill
+                        className="object-contain transition-transform duration-300 group-hover:scale-105"
+                        data-ai-hint={video.thumbnailHint}
+                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                      />
+                    )}
+                    <div className="absolute inset-0 bg-black/40 group-hover:bg-black/60 transition-colors" />
+                    <div className="absolute inset-0 flex items-center justify-center">
+                      <PlayCircle className="w-16 h-16 text-white/70 group-hover:text-white group-hover:scale-110 transition-all" />
+                    </div>
+                  </CardHeader>
+                  <CardContent className="p-4 md:p-6">
+                    <h3 className="font-headline text-lg md:text-xl font-bold text-white mb-2">
+                      {video.title}
+                    </h3>
+                    <p
+                      className="text-white/70 text-sm mb-4"
+                      style={{ whiteSpace: 'pre-wrap' }}
+                    >
+                      {video.description}
+                    </p>
+                  </CardContent>
+                </Card>
+              ))}
+            </div>
           </div>
-        </div>
-      </section>
-
+        </section>
+        {selectedVideo && selectedVideo.videoSrc && (
+          <DialogContent className="max-w-3xl p-0 bg-card border-primary/50 w-[90vw] rounded-lg">
+            <DialogHeader className="p-4">
+              <DialogTitle className="text-white">
+                {selectedVideo.title}
+              </DialogTitle>
+            </DialogHeader>
+            <VideoPlayer src={selectedVideo.videoSrc} autoPlay />
+          </DialogContent>
+        )}
+      </Dialog>
       {/* Series & Playlists Section */}
       <section
         id="series"
@@ -353,7 +383,7 @@ export default function VideoMinistryPage() {
                           height={series.height}
                           className="object-cover aspect-video w-full"
                           data-ai-hint={series.thumbnailHint}
-                           sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                         />
                         <div className="absolute inset-0 bg-black/60 flex flex-col justify-end p-4">
                           <h4 className="font-headline text-lg md:text-xl font-bold text-white">
@@ -374,7 +404,7 @@ export default function VideoMinistryPage() {
           </Carousel>
         </div>
       </section>
-      
+
       {/* Live Broadcast Section */}
       <section
         id="live-broadcast"
@@ -401,7 +431,8 @@ export default function VideoMinistryPage() {
             Never Miss a New Video
           </h2>
           <p className="font-cookie text-2xl md:text-3xl text-white/80 max-w-xl mx-auto mb-8">
-            A warm welcome always to our YOUTube Home, and give all your ears for whatever and whenever the soothing god's spirit says.
+            A warm welcome always to our YOUTube Home, and give all your ears
+            for whatever and whenever the soothing god&apos;s spirit says.
           </p>
           <Button
             size="lg"
@@ -420,8 +451,8 @@ export default function VideoMinistryPage() {
         </div>
       </section>
 
-       {/* Mission Restatement */}
-       <section
+      {/* Mission Restatement */}
+      <section
         id="videos-mission"
         className="relative w-full py-20 md:py-32 bg-background text-white"
       >
@@ -439,52 +470,86 @@ export default function VideoMinistryPage() {
           <h3 className="text-3xl font-headline font-bold tracking-tighter sm:text-4xl md:text-5xl text-white">
             His Love... A Letter to Your Heart
           </h3>
-          
+
           <div className="mt-12 max-w-4xl mx-auto">
             <div className="text-white text-left space-y-4 font-oleo-script text-xl md:text-2xl p-6 md:p-8 bg-card/10 backdrop-blur-sm relative rounded-lg">
               <div className="font-arizonia text-2xl md:text-3xl space-y-4">
                 <br />
-                <p>My dear, Let me tell you something your soul needs to remember.</p>
+                <p>
+                  My dear, Let me tell you something your soul needs to remember.
+                </p>
                 <p>What is the love of God?</p>
                 <p>What would he have done?</p>
                 <br />
                 <p>Listen...</p>
                 <br />
                 <p>You were His first thought.</p>
-                <p>Before oceans,before mountains, before light, He saw you.</p>
+                <p>
+                  Before oceans,before mountains, before light, He saw you.
+                </p>
                 <p>And He loved you.</p>
                 <br />
-                <p>You were the joy set before Him, the treasure He longed for.</p>
+                <p>
+                  You were the joy set before Him, the treasure He longed for.
+                </p>
                 <br />
                 <p>do you know what he did?</p>
                 <br />
                 <p>The Father, He gave His most precious Son—for you.</p>
                 <br />
                 <p>because His heart could not bear eternity without you.</p>
-                <p>It was the ultimate act of a Father's heart crying out, "I must have my child back."</p>
+                <p>
+                  It was the ultimate act of a Father&apos;s heart crying out,
+                  &quot;I must have my child back.&quot;
+                </p>
                 <br />
                 <br />
                 <p>Then Jesus...oh, Jesus' love</p>
                 <p>He saw you across time and chose the cross.</p>
-                <p>He willingly embraced the cross... not just for the world, but for you.</p>
-                <p>is a mighty, roaring flood that could not be contained by heaven's gates. It shattered the grave. It broke hell's chains. He didn't just die for you.He devoured death for you.</p>
+                <p>
+                  He willingly embraced the cross... not just for the world, but
+                  for you.
+                </p>
+                <p>
+                  is a mighty, roaring flood that could not be contained by
+                  heaven&apos;s gates. It shattered the grave. It broke
+                  hell&apos;s chains. He didn&apos;t just die for you.He
+                  devoured death for you.
+                </p>
                 <p>His heart thundered:</p>
-                <p>I will have my child. I will fight for my child. I will give everything to my child.</p>
+                <p>
+                  I will have my child. I will fight for my child. I will give
+                  everything to my child.
+                </p>
                 <br />
                 <p>And now the Holy Spirit...</p>
-                <p>The Spirit's love is so intimate, so tender, that He doesn't just walk beside you. He has made your heart His Home. He breathes inside your prayers. He sings over you in the night. He is the quiet, unshakable presence that whispers,</p>
-                <p>"You are never, ever alone."</p>
+                <p>
+                  The Spirit&apos;s love is so intimate, so tender, that He
+                  doesn&apos;t just walk beside you. He has made your heart His
+                  Home. He breathes inside your prayers. He sings over you in
+                  the night. He is the quiet, unshakable presence that
+                  whispers,
+                </p>
+                <p>&quot;You are never, ever alone.&quot;</p>
                 <br />
                 <p>People say love is God.</p>
                 <p>No.</p>
-                <p>"God is love".It is his nature.</p>
+                <p>&quot;God is love&quot;.It is his nature.</p>
                 <p>Every heartbeat of heaven beats for you.</p>
                 <br />
-                <p>And sometimes...sometimes, in the quiet moments when I feel the weight of this love… that love wraps around my broken places...It burns with one eternal question, the only one I'll need to ask when I finally see Him face to face:</p>
+                <p>
+                  And sometimes...sometimes, in the quiet moments when I feel
+                  the weight of this love… that love wraps around my broken
+                  places...It burns with one eternal question, the only one
+                  I&apos;ll need to ask when I finally see Him face to face:
+                </p>
                 <br />
                 <br />
                 <p>how unworthy I am...</p>
-                <p>"Jesus... why? Why did You love me with a love this fierce? This relent? This mighty?"</p>
+                <p>
+                  &quot;Jesus... why? Why did You love me with a love this
+                  fierce? This relent? This mighty?&quot;
+                </p>
                 <br />
                 <p>I may never understand it fully.</p>
                 <p>But I will spend my life embraced by it.</p>
@@ -502,3 +567,5 @@ export default function VideoMinistryPage() {
     </main>
   );
 }
+
+    
