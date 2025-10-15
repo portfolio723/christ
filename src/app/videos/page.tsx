@@ -63,6 +63,8 @@ const videoSeries = [
     thumbnail:
       'https://images.unsplash.com/photo-1628258334105-2a0b3d6ef5f3?q=80&w=1080',
     thumbnailHint: 'abstract data',
+    width: 1080,
+    height: 607,
   },
   {
     title: 'Divine Encounters',
@@ -71,6 +73,8 @@ const videoSeries = [
     thumbnail:
       'https://images.unsplash.com/photo-1588406320565-9fa6d9901d1d?q=80&w=1080',
     thumbnailHint: 'light rays',
+    width: 1080,
+    height: 607,
   },
   {
     title: 'Biblical Foundations',
@@ -79,6 +83,8 @@ const videoSeries = [
     thumbnail:
       'https://images.unsplash.com/photo-1506880018603-34cf5717f185?q=80&w=1080',
     thumbnailHint: 'old bible',
+    width: 1080,
+    height: 720,
   },
   {
     title: 'Worship Sessions',
@@ -87,6 +93,8 @@ const videoSeries = [
     thumbnail:
       'https://images.unsplash.com/photo-1524230659264-445c73a258be?q=80&w=1080',
     thumbnailHint: 'singing crowd',
+    width: 1080,
+    height: 720,
   },
 ];
 
@@ -116,6 +124,7 @@ export default function VideoMinistryPage() {
                       fill
                       className="object-cover transition-transform duration-300 group-hover:scale-105"
                       data-ai-hint={video.thumbnailHint}
+                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                     />
                   )}
                   <div className="absolute inset-0 bg-black/40 group-hover:bg-black/60 transition-colors" />
@@ -164,13 +173,15 @@ export default function VideoMinistryPage() {
                 >
                   <div className="p-1">
                     <Card className="overflow-hidden border-border group rounded-lg">
-                      <CardContent className="p-0 relative aspect-video">
+                      <CardContent className="p-0 relative">
                         <Image
                           src={series.thumbnail}
                           alt={series.title}
-                          fill
-                          className="object-cover"
+                          width={series.width}
+                          height={series.height}
+                          className="object-cover aspect-video w-full"
                           data-ai-hint={series.thumbnailHint}
+                           sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                         />
                         <div className="absolute inset-0 bg-black/60 flex flex-col justify-end p-4">
                           <h4 className="font-headline text-lg md:text-xl font-bold text-white">
@@ -210,6 +221,7 @@ export default function VideoMinistryPage() {
           fill
           className="object-cover"
           data-ai-hint="spiritual abstract"
+          sizes="100vw"
         />
         <div className="absolute inset-0 bg-black/70" />
         <div className="relative z-10 container mx-auto px-4 md:px-6">
