@@ -101,7 +101,130 @@ You 🫵🏻 felt like there was no need to turn to look at the world, and you d
   {
     id: 'video-3',
     title: 'Fasting is not something we do to God. It is something God does in us.🛐✨',
-    description: 'Join in a powerful time of prayer for breakthrough in your life and family.',
+    description: ` 
+Have you heard, beloved?
+
+Fasting is a sacred step.
+
+We fast for many reasons
+
+for breakthroughs,✨
+
+for healing,🌿
+
+for needs only heaven can meet.🌄
+ 
+But there is another fast, one called by God, appointed in God's calendar,🗓️
+
+born in God's season.🌱
+
+This is the fast of true intimacy with Him.💞
+ 
+In this fast, the Holy Spirit 🕊️ Himself performs surgery on our spirit. He allows us to face every old temptation to train us, to kill the cocktail emotions of flesh and spirit mixed up🚫🍸
+ 
+In this fast…
+
+We walk right up to the edge of the sharp swords.⚔️
+
+We entered, almost fell into the cyclone of temptation🌪️, and He will pull us out.🙌
+
+Again, He pulls us in,🙌🙌
+
+Again, He pulls us out.🙌🙌🙌
+ 
+Again and again, this ring cycle continues, day after day.
+ 
+It stumbles us. It makes us tremble.
+
+Our own flesh rises on us like a wave,🌊
+
+lifts us to the top of the hill⛰️…
+
+only to push us off.
+
+And He allows it.
+
+He allows the beating.
+
+He allows the rattling.
+
+He allows us to feel broken, exposed almost condemned.
+ 
+Why?
+
+Is he playing some kind of game with us?🎭
+ 
+No, beloved.
+
+Listen closely:
+
+He isn’t playing games
+
+He’s building warriors⚔️🔥
+ 
+Yes, we are warriors, 🛡️
+
+Yet we almost forget.
+
+Our anger rages like a sunburn toward Him☀️🔥
+
+because He allows us to go through it all.
+
+Our hearts cry out,💔
+
+Yet our hearts forget:
+ 
+From where does this strength come?
+
+Is it our own?
+
+Is this unshakable perseverance ours?
+
+Born from our own discipline 💪,
+
+our own courage?
+ 
+No, dear.❤️
+ 
+It is His grace.✨🕊️
+
+We must call upon His grace.
+
+He secretly holds us in it.
+ 
+Every time He allows us to face the edge,
+
+He cuts away the part of us
+
+Every time He pulls us out,
+
+He teaches our hands to hold His 👑🙌
+
+He’s not letting us fall 
+
+He’s teaching us how to rise.
+
+Not letting us drown 
+
+but showing us our eyes stay fixed on Him.💖
+
+This isn’t punishment.
+
+It’s holy training ⚒️🕊️
+
+and the "TRAINING GROUND NAME IS FASTING"🔥
+
+where human weakness 
+
+Finally blends and meets GODLY strength. ✨
+ 
+Do not fear the trap — Go boldly
+
+Cause He allows the trap only to pull us out 💪✨
+ 
+So, stay anointed, warrior. 🕊️⚔️
+
+Until next time...`,
     thumbnail: 'https://images.unsplash.com/photo-1528731708534-816fe59f90cb?q=80&w=2070&auto=format&fit=crop',
     thumbnailHint: 'praying hands',
   },
@@ -278,7 +401,7 @@ export default function VideoMinistryPage() {
             Never Miss a New Video
           </h2>
           <p className="font-cookie text-2xl md:text-3xl text-white/80 max-w-xl mx-auto mb-8">
-            A warm welcome always to our YOUTube Home, and give all your ears for whatever and whenever the soothing god&apos;s spirit says.
+            A warm welcome always to our YOUTube Home, and give all your ears for whatever and whenever the soothing god's spirit says.
           </p>
           <Button
             size="lg"
@@ -338,18 +461,18 @@ export default function VideoMinistryPage() {
                 <p>The Father, He gave His most precious Son—for you.</p>
                 <br />
                 <p>because His heart could not bear eternity without you.</p>
-                <p>It was the ultimate act of a Father&apos;s heart crying out, &quot;I must have my child back.&quot;</p>
+                <p>It was the ultimate act of a Father's heart crying out, &quot;I must have my child back.&quot;</p>
                 <br />
                 <br />
-                <p>Then Jesus...oh, Jesus&apos; love</p>
+                <p>Then Jesus...oh, Jesus' love</p>
                 <p>He saw you across time and chose the cross.</p>
                 <p>He willingly embraced the cross... not just for the world, but for you.</p>
-                <p>is a mighty, roaring flood that could not be contained by heaven&apos;s gates. It shattered the grave. It broke hell&apos;s chains. He didn&apos;t just die for you.He devoured death for you.</p>
+                <p>is a mighty, roaring flood that could not be contained by heaven's gates. It shattered the grave. It broke hell's chains. He didn't just die for you.He devoured death for you.</p>
                 <p>His heart thundered:</p>
                 <p>I will have my child. I will fight for my child. I will give everything to my child.</p>
                 <br />
                 <p>And now the Holy Spirit...</p>
-                <p>The Spirit&apos;s love is so intimate, so tender, that He doesn&apos;t just walk beside you. He has made your heart His Home. He breathes inside your prayers. He sings over you in the night. He is the quiet, unshakable presence that whispers,</p>
+                <p>The Spirit's love is so intimate, so tender, that He doesn't just walk beside you. He has made your heart His Home. He breathes inside your prayers. He sings over you in the night. He is the quiet, unshakable presence that whispers,</p>
                 <p>&quot;You are never, ever alone.&quot;</p>
                 <br />
                 <p>People say love is God.</p>
@@ -357,7 +480,7 @@ export default function VideoMinistryPage() {
                 <p>&quot;God is love&quot;.It is his nature.</p>
                 <p>Every heartbeat of heaven beats for you.</p>
                 <br />
-                <p>And sometimes...sometimes, in the quiet moments when I feel the weight of this love… that love wraps around my broken places...It burns with one eternal question, the only one I&apos;ll need to ask when I finally see Him face to face:</p>
+                <p>And sometimes...sometimes, in the quiet moments when I feel the weight of this love… that love wraps around my broken places...It burns with one eternal question, the only one I'll need to ask when I finally see Him face to face:</p>
                 <br />
                 <br />
                 <p>how unworthy I am...</p>
