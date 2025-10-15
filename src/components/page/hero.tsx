@@ -39,6 +39,7 @@ export function Hero() {
             alt={profileDp.description}
             width={160}
             height={160}
+            priority
             className={cn(
               'object-cover border-4 border-white rounded-full'
             )}
