@@ -160,7 +160,7 @@ const fontTheNautigal = The_Nautigal({
 
 export const metadata: Metadata = {
   title: {
-    default: 'Godsspiritsays | She Prospers in All That She Does',
+    default: 'Godsspiritsays',
     template: '%s | Godsspiritsays',
   },
   description: 'A spiritual resource for encouragement, faith, and hearing what God\'s Spirit says. Explore video teachings, blog posts, and testimonies to deepen your walk with God.',
