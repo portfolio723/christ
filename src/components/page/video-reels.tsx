@@ -14,13 +14,14 @@ import {
 } from '@/components/ui/dialog';
 import { useState } from 'react';
 
-const reels = PlaceHolderImages.filter(
+const reelsData = PlaceHolderImages.filter(
   (img) => img.id.startsWith('reel-') && img.videoSrc
 ).map((r) => r as VideoReel);
 
-reels.unshift({
-  id: 'reel-0',
-  description: `Listen!
+const reels: VideoReel[] = [
+  {
+    id: 'reel-0-new',
+    description: `Listen!
 
 In a basket of fruits, there are both fresh and rotten ones.
 
@@ -39,10 +40,12 @@ Yes, He restores what the world calls wasted
 and turns our rotten lives into something sweet and new.
  
 That’s God.❤️🍎✨`,
-  imageUrl: '/hv1.jpeg',
-  imageHint: 'restored soul',
-  videoSrc: 'https://www.youtube.com/watch?v=LXb3EKWsInQ'
-})
+    imageUrl: '/hv1.jpeg',
+    imageHint: 'restored soul',
+    videoSrc: 'https://www.youtube.com/watch?v=LXb3EKWsInQ',
+  },
+  ...reelsData,
+];
 
 
 function YouTubeEmbed({ videoId }: { videoId: string }) {
@@ -113,9 +116,9 @@ export function VideoReels() {
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-            {reels.map((reel) => {
+            {reels.map((reel, index) => {
               if (!reel) return null;
-              const isFirstReel = reel.id === 'reel-0';
+              const isFirstReel = index === 0;
               return (
                 <DialogTrigger key={reel.id} asChild>
                   <div onClick={() => setSelectedReel(reel)} className="cursor-pointer">
