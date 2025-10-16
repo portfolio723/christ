@@ -20,7 +20,25 @@ const reels = PlaceHolderImages.filter(
 
 reels.unshift({
   id: 'reel-0',
-  description: 'He Restores My Soul',
+  description: `Listen!
+
+In a basket of fruits, there are both fresh and rotten ones.
+
+People always choose fresh fruits.
+ 
+But God? 
+
+He chooses the rotten one.
+ 
+That rejected, spoiled, unwanted fruit, thrown-away fruit, "Do you know who that fruit is?
+
+That is you. That is me.
+ 
+Yes, He restores what the world calls wasted
+
+and turns our rotten lives into something sweet and new.
+ 
+That’s God.❤️🍎✨`,
   imageUrl: '/hv1.jpeg',
   imageHint: 'restored soul',
   videoSrc: 'https://www.youtube.com/watch?v=LXb3EKWsInQ'
@@ -105,7 +123,7 @@ export function VideoReels() {
                       className="group overflow-hidden rounded-lg border-2 border-transparent bg-card transition-all duration-300 hover:border-primary hover:shadow-2xl hover:shadow-primary/20 transform hover:-translate-y-2"
                     >
                       <CardContent className="p-0">
-                        <div className="relative aspect-video">
+                        <div className="relative aspect-[9/16]">
                           <Image
                             src={reel.imageUrl}
                             alt={reel.description}
@@ -121,7 +139,7 @@ export function VideoReels() {
                           )}
                         </div>
                         <div className="p-4 md:p-6">
-                          <p className="text-white/80">{reel.description}</p>
+                          <p className="text-white/80 whitespace-pre-wrap">{reel.description}</p>
                         </div>
                       </CardContent>
                     </Card>
