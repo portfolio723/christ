@@ -64,9 +64,9 @@ const spiritualInsights = [
   },
   {
     id: 'insight-5',
-    title: 'Marriage is not about being perfect. It\'s becoming the image of Christ †💍💐👰🏻‍♀️🤵🏻† 🕊️',
+    title: "Marriage is not about being perfect. It's becoming the image of Christ †💍💐👰🏻‍♀️🤵🏻† 🕊️",
     category: 'Faith',
-    href: '#',
+    href: '/blog/marriage',
     image: '/bg5.jpeg',
     imageHint: 'rainbow sky',
     author: 'Godsspiritsays',
