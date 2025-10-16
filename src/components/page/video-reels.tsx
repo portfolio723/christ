@@ -1,4 +1,3 @@
-
 'use client';
 import Image from 'next/image';
 import { Card, CardContent } from '@/components/ui/card';
@@ -14,38 +13,9 @@ import {
 } from '@/components/ui/dialog';
 import { useState } from 'react';
 
-const reelsData = PlaceHolderImages.filter(
+const reels: VideoReel[] = PlaceHolderImages.filter(
   (img) => img.id.startsWith('reel-') && img.videoSrc
 ).map((r) => r as VideoReel);
-
-const reels: VideoReel[] = [
-  {
-    id: 'reel-0-new',
-    description: `Listen!
-
-In a basket of fruits, there are both fresh and rotten ones.
-
-People always choose fresh fruits.
- 
-But God? 
-
-He chooses the rotten one.
- 
-That rejected, spoiled, unwanted fruit, thrown-away fruit, "Do you know who that fruit is?
-
-That is you. That is me.
- 
-Yes, He restores what the world calls wasted
-
-and turns our rotten lives into something sweet and new.
- 
-That’s God.❤️🍎✨`,
-    imageUrl: '/hv1.jpeg',
-    imageHint: 'restored soul',
-    videoSrc: 'https://www.youtube.com/watch?v=LXb3EKWsInQ',
-  },
-  ...reelsData,
-];
 
 
 function YouTubeEmbed({ videoId }: { videoId: string }) {
@@ -116,9 +86,8 @@ export function VideoReels() {
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-            {reels.map((reel, index) => {
+            {reels.map((reel) => {
               if (!reel) return null;
-              const isFirstReel = index === 0;
               return (
                 <DialogTrigger key={reel.id} asChild>
                   <div onClick={() => setSelectedReel(reel)} className="cursor-pointer">
@@ -126,7 +95,7 @@ export function VideoReels() {
                       className="group overflow-hidden rounded-lg border-2 border-transparent bg-card transition-all duration-300 hover:border-primary hover:shadow-2xl hover:shadow-primary/20 transform hover:-translate-y-2"
                     >
                       <CardContent className="p-0">
-                        <div className="relative aspect-[9/16]">
+                        <div className="relative aspect-video">
                           <Image
                             src={reel.imageUrl}
                             alt={reel.description}
@@ -135,11 +104,9 @@ export function VideoReels() {
                             data-ai-hint={reel.imageHint}
                           />
                           <div className="absolute inset-0 bg-black/30 group-hover:bg-black/50 transition-colors" />
-                          {!isFirstReel && (
-                            <div className="absolute inset-0 flex items-center justify-center">
-                              <PlayCircle className="w-16 h-16 text-white/70 group-hover:text-white group-hover:scale-110 transition-all" />
-                            </div>
-                          )}
+                          <div className="absolute inset-0 flex items-center justify-center">
+                            <PlayCircle className="w-16 h-16 text-white/70 group-hover:text-white group-hover:scale-110 transition-all" />
+                          </div>
                         </div>
                         <div className="p-4 md:p-6">
                           <p className="text-white/80 whitespace-pre-wrap">{reel.description}</p>
