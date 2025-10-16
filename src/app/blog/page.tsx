@@ -74,6 +74,18 @@ const spiritualInsights = [
     readTime: '4 min read',
     description: "A promise is for the moments when your heart starts to forget. For the days you wonder... That's when He reminds you: Not one word has been forgotten."
   },
+  {
+    id: 'insight-6',
+    title: "Pray🙏🏻!!! Because it's the breath of our life ❤️‍🔥",
+    category: 'Prayful',
+    href: '/blog/pray',
+    image: '/bg6.jpeg',
+    imageHint: 'hands praying',
+    author: 'Godsspiritsays',
+    date: 'Oct 11, 2024',
+    readTime: '3 min read',
+    description: "Discover the power and intimacy of prayer. It's more than words; it's the very breath of a life connected to God."
+  },
 ];
 
 const BlogPage = () => {
@@ -240,3 +252,5 @@ const BlogPage = () => {
 };
 
 export default BlogPage;
+
+    
