@@ -18,6 +18,15 @@ const reels = PlaceHolderImages.filter(
   (img) => img.id.startsWith('reel-') && img.videoSrc
 ).map((r) => r as VideoReel);
 
+reels.unshift({
+  id: 'reel-0',
+  description: 'He Restores My Soul',
+  imageUrl: '/hv1.jpeg',
+  imageHint: 'restored soul',
+  videoSrc: 'https://www.youtube.com/watch?v=LXb3EKWsInQ'
+})
+
+
 function YouTubeEmbed({ videoId }: { videoId: string }) {
   return (
     <div className="aspect-video w-full">
