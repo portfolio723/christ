@@ -1,9 +1,7 @@
-
-
 import VideoPlayer from "@/components/ui/video-player"
 
-const VideoPlayerDemo = ({ src = "/rare.mp4", autoPlay = true, muted = true }: { src?: string, autoPlay?: boolean, muted?: boolean }) => {
-    return <VideoPlayer src={src} className="w-full h-full" autoPlay={autoPlay} muted={muted} />
+const VideoPlayerDemo = () => {
+    return <VideoPlayer src="https://videos.pexels.com/video-files/30333849/13003128_2560_1440_25fps.mp4"/>
 }
 
 export { VideoPlayerDemo }
