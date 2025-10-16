@@ -67,7 +67,7 @@ const spiritualInsights = [
     title: 'The Unfailing Promise',
     category: 'Faith',
     href: '#',
-    image: 'https://picsum.photos/seed/blog5/600/400',
+    image: '/bg5.jpeg',
     imageHint: 'rainbow sky',
     author: 'Godsspiritsays',
     date: 'Oct 6, 2024',
