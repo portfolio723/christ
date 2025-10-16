@@ -134,14 +134,6 @@ export function VideoReels() {
 
             })}
           </div>
-          <div className="mt-12 text-center">
-            <Button
-              size="lg"
-              className="bg-primary hover:bg-primary/90 text-primary-foreground font-bold"
-            >
-              Watch More
-            </Button>
-          </div>
         </div>
 
         {selectedReel && selectedReel.videoSrc && (
