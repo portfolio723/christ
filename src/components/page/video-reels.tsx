@@ -3,7 +3,6 @@ import Image from 'next/image';
 import { Card, CardContent } from '@/components/ui/card';
 import { PlayCircle } from 'lucide-react';
 import { PlaceHolderImages, type ImagePlaceholder } from '@/lib/placeholder-images';
-import { Button } from '@/components/ui/button';
 import {
   Dialog,
   DialogContent,
@@ -12,10 +11,21 @@ import {
   DialogTrigger,
 } from '@/components/ui/dialog';
 import { useState } from 'react';
+import { cn } from '@/lib/utils';
 
-const reels: ImagePlaceholder[] = PlaceHolderImages.filter(
-  (img) => img.id.startsWith('reel-')
-).slice(0, 3); // Take first 3 reels
+
+const firstReel: ImagePlaceholder = {
+  id: 'reel-0',
+  description: "Listen!\n\nIn a basket of fruits, there are both fresh and rotten ones.\n\nPeople always choose fresh fruits.\n \nBut God? \n\nHe chooses the rotten one.\n \nThat rejected, spoiled, unwanted fruit, thrown-away fruit, \"Do you know who that fruit is?\n\nThat is you. That is me.\n \nYes, He restores what the world calls wasted\n\nand turns our rotten lives into something sweet and new.\n \nThat’s God.❤️🍎✨",
+  imageUrl: "/hv1.jpeg",
+  imageHint: "restored soul"
+};
+
+const otherReels: ImagePlaceholder[] = PlaceHolderImages.filter(
+  (img) => ['reel-1', 'reel-2'].includes(img.id)
+); 
+
+const reels = [firstReel, ...otherReels];
 
 
 function YouTubeEmbed({ videoId }: { videoId: string }) {
@@ -62,16 +72,18 @@ export function VideoReels() {
     return null;
   };
 
-  const renderCardContent = (reel: ImagePlaceholder) => (
+  const renderCardContent = (reel: ImagePlaceholder, isFirstReel: boolean) => (
     <Card
-      className="group overflow-hidden rounded-lg border-2 border-transparent bg-card transition-all duration-300 hover:border-primary hover:shadow-2xl hover:shadow-primary/20 transform hover:-translate-y-2"
+      className="group overflow-hidden rounded-lg border-2 border-transparent bg-card transition-all duration-300 hover:border-primary hover:shadow-2xl hover:shadow-primary/20 transform hover:-translate-y-2 h-full flex flex-col"
     >
-      <CardContent className="p-0">
-        <div className="relative aspect-video">
+      <CardContent className="p-0 flex-grow flex flex-col">
+        <div className={cn("relative", isFirstReel ? "" : "aspect-video")}>
           <Image
             src={reel.imageUrl}
             alt={reel.description}
-            fill
+            width={isFirstReel ? 600 : undefined}
+            height={isFirstReel ? 800 : undefined}
+            fill={!isFirstReel}
             className="object-cover transition-transform duration-300 group-hover:scale-105"
             data-ai-hint={reel.imageHint}
           />
@@ -84,8 +96,8 @@ export function VideoReels() {
             </>
           )}
         </div>
-        <div className="p-4 md:p-6">
-          <p className="text-white/80 whitespace-pre-wrap">{reel.description}</p>
+        <div className="p-4 md:p-6 flex-grow flex flex-col">
+          <p className="text-white/80 whitespace-pre-wrap flex-grow">{reel.description}</p>
         </div>
       </CardContent>
     </Card>
@@ -114,21 +126,25 @@ export function VideoReels() {
               &quot;Listen for His voice&quot;. Be encouraged and watch our latest video teachings.
             </p>
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-            {reels.map((reel) => {
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 items-start">
+            {reels.map((reel, index) => {
               if (!reel) return null;
+
+              const isFirstReel = index === 0;
+              const cardContent = renderCardContent(reel, isFirstReel);
+
               if (reel.videoSrc) {
                 return (
                   <DialogTrigger key={reel.id} asChild>
-                    <div onClick={() => setSelectedReel(reel)} className="cursor-pointer">
-                      {renderCardContent(reel)}
+                    <div onClick={() => setSelectedReel(reel)} className="cursor-pointer h-full">
+                      {cardContent}
                     </div>
                   </DialogTrigger>
                 );
               }
               return (
-                 <div key={reel.id} className="cursor-default">
-                    {renderCardContent(reel)}
+                 <div key={reel.id} className="cursor-default h-full">
+                    {cardContent}
                  </div>
               )
 
