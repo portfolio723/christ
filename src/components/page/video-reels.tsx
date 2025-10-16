@@ -91,9 +91,6 @@ export function VideoReels() {
           {reel.videoSrc && (
             <>
               <div className="absolute inset-0 bg-black/30 group-hover:bg-black/50 transition-colors" />
-              <div className="absolute inset-0 flex items-center justify-center">
-                <PlayCircle className="w-16 h-16 text-white/70 group-hover:text-white group-hover:scale-110 transition-all" />
-              </div>
             </>
           )}
         </div>
