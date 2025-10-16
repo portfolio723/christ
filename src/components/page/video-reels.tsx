@@ -2,7 +2,7 @@
 import Image from 'next/image';
 import { Card, CardContent } from '@/components/ui/card';
 import { PlayCircle } from 'lucide-react';
-import { PlaceHolderImages, type VideoReel } from '@/lib/placeholder-images';
+import { PlaceHolderImages, type ImagePlaceholder } from '@/lib/placeholder-images';
 import { Button } from '@/components/ui/button';
 import {
   Dialog,
@@ -13,9 +13,9 @@ import {
 } from '@/components/ui/dialog';
 import { useState } from 'react';
 
-const reels: VideoReel[] = PlaceHolderImages.filter(
-  (img) => img.id.startsWith('reel-') && img.videoSrc
-).map((r) => r as VideoReel);
+const reels: ImagePlaceholder[] = PlaceHolderImages.filter(
+  (img) => img.id.startsWith('reel-')
+).slice(0, 3); // Take first 3 reels
 
 
 function YouTubeEmbed({ videoId }: { videoId: string }) {
@@ -42,7 +42,7 @@ function LocalVideo({ src }: { src: string }) {
 }
 
 export function VideoReels() {
-  const [selectedReel, setSelectedReel] = useState<VideoReel | null>(null);
+  const [selectedReel, setSelectedReel] = useState<ImagePlaceholder | null>(null);
 
   const getYoutubeVideoId = (url: string) => {
     try {
@@ -62,6 +62,35 @@ export function VideoReels() {
     return null;
   };
 
+  const renderCardContent = (reel: ImagePlaceholder) => (
+    <Card
+      className="group overflow-hidden rounded-lg border-2 border-transparent bg-card transition-all duration-300 hover:border-primary hover:shadow-2xl hover:shadow-primary/20 transform hover:-translate-y-2"
+    >
+      <CardContent className="p-0">
+        <div className="relative aspect-video">
+          <Image
+            src={reel.imageUrl}
+            alt={reel.description}
+            fill
+            className="object-cover transition-transform duration-300 group-hover:scale-105"
+            data-ai-hint={reel.imageHint}
+          />
+          {reel.videoSrc && (
+            <>
+              <div className="absolute inset-0 bg-black/30 group-hover:bg-black/50 transition-colors" />
+              <div className="absolute inset-0 flex items-center justify-center">
+                <PlayCircle className="w-16 h-16 text-white/70 group-hover:text-white group-hover:scale-110 transition-all" />
+              </div>
+            </>
+          )}
+        </div>
+        <div className="p-4 md:p-6">
+          <p className="text-white/80 whitespace-pre-wrap">{reel.description}</p>
+        </div>
+      </CardContent>
+    </Card>
+  )
+
   return (
     <section id="reels" className="relative w-full py-20 md:py-32 bg-background">
       <Image
@@ -73,7 +102,7 @@ export function VideoReels() {
       />
       <div className="absolute inset-0 bg-black/70" />
       <Dialog
-        open={!!selectedReel}
+        open={!!(selectedReel && selectedReel.videoSrc)}
         onOpenChange={(isOpen) => !isOpen && setSelectedReel(null)}
       >
         <div className="relative z-10 container mx-auto px-4 md:px-6">
@@ -88,34 +117,21 @@ export function VideoReels() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
             {reels.map((reel) => {
               if (!reel) return null;
+              if (reel.videoSrc) {
+                return (
+                  <DialogTrigger key={reel.id} asChild>
+                    <div onClick={() => setSelectedReel(reel)} className="cursor-pointer">
+                      {renderCardContent(reel)}
+                    </div>
+                  </DialogTrigger>
+                );
+              }
               return (
-                <DialogTrigger key={reel.id} asChild>
-                  <div onClick={() => setSelectedReel(reel)} className="cursor-pointer">
-                    <Card
-                      className="group overflow-hidden rounded-lg border-2 border-transparent bg-card transition-all duration-300 hover:border-primary hover:shadow-2xl hover:shadow-primary/20 transform hover:-translate-y-2"
-                    >
-                      <CardContent className="p-0">
-                        <div className="relative aspect-video">
-                          <Image
-                            src={reel.imageUrl}
-                            alt={reel.description}
-                            fill
-                            className="object-cover transition-transform duration-300 group-hover:scale-105"
-                            data-ai-hint={reel.imageHint}
-                          />
-                          <div className="absolute inset-0 bg-black/30 group-hover:bg-black/50 transition-colors" />
-                          <div className="absolute inset-0 flex items-center justify-center">
-                            <PlayCircle className="w-16 h-16 text-white/70 group-hover:text-white group-hover:scale-110 transition-all" />
-                          </div>
-                        </div>
-                        <div className="p-4 md:p-6">
-                          <p className="text-white/80 whitespace-pre-wrap">{reel.description}</p>
-                        </div>
-                      </CardContent>
-                    </Card>
-                  </div>
-                </DialogTrigger>
-              );
+                 <div key={reel.id} className="cursor-default">
+                    {renderCardContent(reel)}
+                 </div>
+              )
+
             })}
           </div>
           <div className="mt-12 text-center">
