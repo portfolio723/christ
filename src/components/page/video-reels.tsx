@@ -1,7 +1,6 @@
 'use client';
 import Image from 'next/image';
 import { Card, CardContent } from '@/components/ui/card';
-import { PlayCircle } from 'lucide-react';
 import { PlaceHolderImages, type ImagePlaceholder } from '@/lib/placeholder-images';
 import {
   Dialog,
