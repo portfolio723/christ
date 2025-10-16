@@ -132,7 +132,7 @@ const BlogPage = () => {
               <Link key={insight.id} href={insight.href} className="group flex">
                 <Card className="w-full flex flex-col bg-card border-border hover:border-primary transition-shadow duration-300 shadow-md hover:shadow-primary/20 rounded-xl overflow-hidden">
                    {insight.image && (
-                      <div className="relative aspect-video overflow-hidden">
+                      <div className="relative h-64 overflow-hidden">
                         <Image
                           src={insight.image}
                           alt={insight.title}
