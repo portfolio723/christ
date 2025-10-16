@@ -12,6 +12,7 @@ import {
 } from '@/components/ui/dialog';
 import { useState } from 'react';
 import { cn } from '@/lib/utils';
+import VideoPlayer from '@/components/ui/video-player';
 
 
 const firstReel: ImagePlaceholder = {
@@ -45,8 +46,8 @@ function YouTubeEmbed({ videoId }: { videoId: string }) {
 
 function LocalVideo({ src }: { src: string }) {
   return (
-    <div className="aspect-video w-full">
-      <video src={src} controls autoPlay className="w-full h-full" />
+    <div className="w-full">
+      <VideoPlayer src={src} autoPlay />
     </div>
   );
 }
@@ -82,7 +83,7 @@ export function VideoReels() {
             src={reel.imageUrl}
             alt={reel.description}
             width={isFirstReel ? 600 : undefined}
-            height={isFirstReel ? 800 : undefined}
+            height={isFirstReel ? 1067 : undefined}
             fill={!isFirstReel}
             className="object-cover transition-transform duration-300 group-hover:scale-105"
             data-ai-hint={reel.imageHint}
@@ -153,9 +154,9 @@ export function VideoReels() {
         </div>
 
         {selectedReel && selectedReel.videoSrc && (
-          <DialogContent className="max-w-3xl p-0 bg-card border-primary/50 w-[90vw] rounded-lg">
+          <DialogContent className="max-w-md p-0 bg-card border-primary/50 w-[90vw] rounded-lg">
             <DialogHeader className="p-4">
-              <DialogTitle className="text-white">
+              <DialogTitle className="text-white text-sm font-normal">
                 {selectedReel.description}
               </DialogTitle>
             </DialogHeader>
