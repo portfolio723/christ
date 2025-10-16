@@ -27,7 +27,9 @@ export default function PrayPage() {
               </div>
             </div>
             <br />
-            {/* Article content will go here */}
+            <p>Thank you for coming to see the description 🤗</p>
+            <br />
+            <p>However, see, lovelies, what the 𝐆𝐨𝐝&apos;𝐬𝐬𝐩𝐢𝐫𝐢𝐭 𝐬𝐚𝐲𝐬 in the description is... ✨ 𝐏𝐫𝐚𝐲, 𝐩𝐫𝐚𝐲, 𝐚𝐧𝐝 𝐩𝐫𝐚𝐲...🙌🏻👏🏽</p>
         </div>
       </article>
       <SocialMedia />
