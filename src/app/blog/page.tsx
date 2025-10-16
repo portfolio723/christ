@@ -64,7 +64,7 @@ const spiritualInsights = [
   },
   {
     id: 'insight-5',
-    title: 'The Unfailing Promise',
+    title: 'Marriage is not about being perfect. It\'s becoming the image of Christ †💍💐👰🏻‍♀️🤵🏻† 🕊️',
     category: 'Faith',
     href: '#',
     image: '/bg5.jpeg',
