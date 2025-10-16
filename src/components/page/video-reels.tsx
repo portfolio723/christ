@@ -97,6 +97,7 @@ export function VideoReels() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
             {reels.map((reel) => {
               if (!reel) return null;
+              const isFirstReel = reel.id === 'reel-0';
               return (
                 <DialogTrigger key={reel.id} asChild>
                   <div onClick={() => setSelectedReel(reel)} className="cursor-pointer">
@@ -113,9 +114,11 @@ export function VideoReels() {
                             data-ai-hint={reel.imageHint}
                           />
                           <div className="absolute inset-0 bg-black/30 group-hover:bg-black/50 transition-colors" />
-                          <div className="absolute inset-0 flex items-center justify-center">
-                            <PlayCircle className="w-16 h-16 text-white/70 group-hover:text-white group-hover:scale-110 transition-all" />
-                          </div>
+                          {!isFirstReel && (
+                            <div className="absolute inset-0 flex items-center justify-center">
+                              <PlayCircle className="w-16 h-16 text-white/70 group-hover:text-white group-hover:scale-110 transition-all" />
+                            </div>
+                          )}
                         </div>
                         <div className="p-4 md:p-6">
                           <p className="text-white/80">{reel.description}</p>
@@ -137,7 +140,7 @@ export function VideoReels() {
           </div>
         </div>
 
-        {selectedReel && (
+        {selectedReel && selectedReel.videoSrc && (
           <DialogContent className="max-w-3xl p-0 bg-card border-primary/50 w-[90vw] rounded-lg">
             <DialogHeader className="p-4">
               <DialogTitle className="text-white">
