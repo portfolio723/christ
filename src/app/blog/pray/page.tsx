@@ -1,6 +1,6 @@
 
 import { SocialMedia } from '@/components/page/social-media';
-import Image from 'next/image';
+import VideoPlayer from '@/components/ui/video-player';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -23,7 +23,7 @@ export default function PrayPage() {
         <div className="container mx-auto px-4 md:px-6 max-w-3xl prose prose-invert prose-lg md:prose-xl prose-p:text-white/80 prose-strong:text-white">
             <div className="flex justify-center">
               <div className="w-full max-w-sm">
-                <Image src="/bg6.jpeg" alt="Pray" width={600} height={400} className="rounded-lg" />
+                <VideoPlayer src="/bg6.mp4" autoPlay={false} muted={false} />
               </div>
             </div>
             <br />
