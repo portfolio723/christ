@@ -210,6 +210,56 @@ export default function RootLayout({
         <link rel="preload" href="/blog.mp4" as="video" type="video/mp4" />
         <link rel="preload" href="/test.mp4" as="video" type="video/mp4" />
         <link rel="preload" href="/sd.mp4" as="video" type="video/mp4" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              "@id": "https://godsspiritsays.com/#organization",
+              "name": "God's Spirit Says",
+              "alternateName": "GodsspiritSays",
+              "url": "https://godsspiritsays.com",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://godsspiritsays.com/obg.jpeg",
+                "width": 1200,
+                "height": 630,
+                "caption": "God's Spirit Says - Christian Ministry Logo"
+              },
+              "description": "A Christian ministry dedicated to spiritual encouragement, inner healing, and strengthening believers through God's word and teaching videos.",
+              "foundingDate": "2024",
+              "founder": {
+                "@type": "Person",
+                "name": "Ministry Founder Name"
+              },
+              "email": "godsspiritsays@gmail.com",
+              "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Hyderabad",
+                "addressRegion": "Telangana",
+                "addressCountry": "IN"
+              },
+              "sameAs": [
+                "https://www.youtube.com/@GodsspiritSays",
+                "https://t.me/GodsspiritSaysOfficial",
+                "https://www.threads.com/@godsspiritsays",
+                "https://www.instagram.com/godsspiritsays",
+                "https://x.com/godsspiritsays"
+              ],
+              "contactPoint": {
+                "@type": "ContactPoint",
+                "contactType": "Ministry Support",
+                "availableLanguage": ["English"],
+                "email": "godsspiritsays@gmail.com"
+              },
+              "areaServed": {
+                "@type": "Place",
+                "name": "Worldwide"
+              }
+            })
+          }}
+        />
       </head>
       <body
         className={cn(
