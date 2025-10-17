@@ -5,6 +5,7 @@ import './globals.css';
 import { Toaster } from '@/components/ui/toaster';
 import { Header } from '@/components/page/header';
 import { cn } from '@/lib/utils';
+import Script from 'next/script';
 
 const fontBody = Inter({
   subsets: ['latin'],
@@ -203,6 +204,15 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark">
       <head>
+        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-QG6T0V9CYB"></Script>
+        <Script id="google-analytics">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-QG6T0V9CYB');
+          `}
+        </Script>
         <meta name="google-site-verification" content="zjlJZ97nJErhI_mgAEgGU-PifACNukcCwgoZo6Khifc" />
         <link rel="preload" href="/butterflies.mp4" as="video" type="video/mp4" />
         <link rel="preload" href="/hero.mp4" as="video" type="video/mp4" />
