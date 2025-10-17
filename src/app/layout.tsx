@@ -177,6 +177,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark">
       <head>
+        <meta name="google-site-verification" content="zjlJZ97nJErhI_mgAEgGU-PifACNukcCwgoZo6Khifc" />
         <link rel="preload" href="/butterflies.mp4" as="video" type="video/mp4" />
         <link rel="preload" href="/hero.mp4" as="video" type="video/mp4" />
         <link rel="preload" href="/eagle.mp4" as="video" type="video/mp4" />
