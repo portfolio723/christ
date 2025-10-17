@@ -260,6 +260,32 @@ export default function RootLayout({
             })
           }}
         />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              "@id": "https://godsspiritsays.com/#website",
+              "url": "https://godsspiritsays.com",
+              "name": "God's Spirit Says - Broken vessels will spark more when touched by Jesus",
+              "alternateName": "GodsspiritSays",
+              "description": "Spiritual encouragement, inner healing, and Christian teaching to uplift and strengthen your inner man through Jesus Christ.",
+              "inLanguage": "en-US",
+              "publisher": {
+                "@id": "https://godsspiritsays.com/#organization"
+              },
+              "potentialAction": {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://godsspiritsays.com/search?q={search_term_string}"
+                },
+                "query-input": "required name=search_term_string"
+              }
+            })
+          }}
+        />
       </head>
       <body
         className={cn(
