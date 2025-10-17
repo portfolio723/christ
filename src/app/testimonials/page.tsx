@@ -80,7 +80,7 @@ export default function TestimonialsPage() {
         <div className="relative z-10 p-4 container mx-auto px-4 md:px-6">
           <h1 className="text-5xl md:text-7xl font-allison mb-4 tracking-tight flex flex-col sm:flex-row items-center justify-center">
             Hearts Joined with GOD
-            <Image src="/hii.png" alt="icon" width={64} height={64} className="ml-0 sm:ml-2 mt-2 sm:mt-0" />
+            <Image src="/hii.png" alt="A small heart icon with a plus sign, symbolizing joined hearts" width={64} height={64} className="ml-0 sm:ml-2 mt-2 sm:mt-0" />
           </h1>
           <p className="max-w-3xl mx-auto text-3xl md:text-4xl text-white/80 font-allison">
             Come hear the true stories our blog shares, of their inward spirits encouraged by knowing GOD&apos;s deep, measureless love.
@@ -104,7 +104,7 @@ export default function TestimonialsPage() {
                   {testimonial.image && (
                      <Image
                         src={testimonial.image}
-                        alt={testimonial.name}
+                        alt={`Portrait of ${testimonial.name}, who shared a testimony.`}
                         width={56}
                         height={56}
                         className="rounded-full object-cover"
@@ -126,7 +126,7 @@ export default function TestimonialsPage() {
       <section className="relative w-full py-20 md:py-28 text-center border-y border-border">
         <Image
           src="/ed.jpeg"
-          alt="Grace background"
+          alt="A background of graceful, spiritual light patterns inviting users to share their story."
           fill
           className="object-cover"
           data-ai-hint="spiritual abstract"
@@ -152,7 +152,7 @@ export default function TestimonialsPage() {
       >
         <Image
           src="/Testi.jpeg"
-          alt="Mission background"
+          alt="A tranquil and spiritual background for the 'love note' section."
           fill
           className="object-cover"
         />

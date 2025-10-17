@@ -296,7 +296,7 @@ export default function VideoMinistryPage() {
                     {video.thumbnail && (
                       <Image
                         src={video.thumbnail}
-                        alt={video.title}
+                        alt={`Thumbnail for the video titled "${video.title}"`}
                         fill
                         className="object-cover transition-transform duration-300 group-hover:scale-105"
                         data-ai-hint={video.thumbnailHint}
@@ -350,7 +350,7 @@ export default function VideoMinistryPage() {
                       <CardContent className="p-0 relative">
                         <Image
                           src={series.thumbnail}
-                          alt={series.title}
+                          alt={`Thumbnail for the video series titled "${series.title}"`}
                           width={series.width}
                           height={series.height}
                           className="object-cover aspect-video w-full"
@@ -391,7 +391,7 @@ export default function VideoMinistryPage() {
       <section className="relative w-full py-16 md:py-28 text-center border-t border-border">
         <Image
           src="/fd.jpeg"
-          alt="Subscribe background"
+          alt="Abstract background with flowing lights, inviting users to subscribe."
           fill
           className="object-cover"
           data-ai-hint="spiritual abstract"

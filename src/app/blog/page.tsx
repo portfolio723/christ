@@ -135,7 +135,7 @@ const BlogPage = () => {
                       <div className="relative h-80 overflow-hidden">
                         <Image
                           src={insight.image}
-                          alt={insight.title}
+                          alt={`A decorative image for the blog post titled "${insight.title}"`}
                           fill
                           className="object-cover transition-transform duration-300 group-hover:scale-105"
                           data-ai-hint={insight.imageHint}
@@ -258,4 +258,3 @@ export default BlogPage;
     
 
     
-

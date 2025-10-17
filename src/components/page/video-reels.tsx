@@ -80,7 +80,7 @@ export function VideoReels() {
         <div className={cn("relative", isFirstReel ? "" : "aspect-video")}>
           <Image
             src={reel.imageUrl}
-            alt={reel.description}
+            alt={reel.description.split('\n')[0]}
             width={isFirstReel ? 600 : undefined}
             height={isFirstReel ? 1067 : undefined}
             fill={!isFirstReel}
@@ -104,7 +104,7 @@ export function VideoReels() {
     <section id="reels" className="relative w-full py-20 md:py-32 bg-background">
       <Image
         src="/christ/tr.jpeg"
-        alt="Wellspring background"
+        alt="A spiritual background of a wellspring, symbolizing a source of life and encouragement."
         fill
         className="object-cover"
         data-ai-hint="spiritual wellspring"

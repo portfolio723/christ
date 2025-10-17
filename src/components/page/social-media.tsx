@@ -74,7 +74,7 @@ export function SocialMedia() {
     >
       <Image
         src="/it.jpeg"
-        alt="Social media background"
+        alt="A spiritual background pattern symbolizing interconnectedness."
         fill
         className="object-cover"
         data-ai-hint="spiritual background pattern"

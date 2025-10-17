@@ -31,7 +31,7 @@ export default function Home() {
       >
         <Image
           src="/obg.jpeg"
-          alt="Mission background"
+          alt="A spiritual background with a glowing cross, representing the mission's vision."
           fill
           className="object-cover"
           data-ai-hint="spiritual background"

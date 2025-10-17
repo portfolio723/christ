@@ -15,7 +15,7 @@ export function Newsletter() {
     >
       <Image
         src="/op.jpeg"
-        alt="Newsletter background"
+        alt="A spiritual background with ethereal light, inviting users to subscribe."
         fill
         className="object-cover"
         data-ai-hint="spiritual background"

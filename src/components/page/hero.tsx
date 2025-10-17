@@ -36,7 +36,7 @@ export function Hero() {
         <div className="relative mb-4 md:mb-6">
           <Image
             src="/Media.jpeg"
-            alt={profileDp.description}
+            alt="Profile picture for Godsspiritsays, featuring a monarch butterfly on a flower."
             width={160}
             height={160}
             priority
