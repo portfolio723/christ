@@ -168,6 +168,28 @@ export const metadata: Metadata = {
     template: '%s | Godsspiritsays',
   },
   description: 'Find encouragement and faith through video teachings, blog posts, and testimonies. Deepen your walk with God and hear what His Spirit says.',
+  openGraph: {
+    title: 'Godsspiritsays: Encouragement, Faith & Hearing God\'s Voice',
+    description: 'Find encouragement and faith through video teachings, blog posts, and testimonies. Deepen your walk with God and hear what His Spirit says.',
+    url: 'https://godsspiritsays.com',
+    siteName: 'Godsspiritsays',
+    images: [
+      {
+        url: 'https://godsspiritsays.com/obg.jpeg',
+        width: 1200,
+        height: 630,
+      },
+    ],
+    locale: 'en_US',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Godsspiritsays: Encouragement, Faith & Hearing God\'s Voice',
+    description: 'Find encouragement and faith through video teachings, blog posts, and testimonies. Deepen your walk with God and hear what His Spirit says.',
+    creator: '@godsspiritsays',
+    images: ['https://godsspiritsays.com/obg.jpeg'],
+  },
   icons: {
     icon: '/fav.png',
   },
