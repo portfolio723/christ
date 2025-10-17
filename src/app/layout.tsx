@@ -163,7 +163,7 @@ export const metadata: Metadata = {
     default: 'Godsspiritsays',
     template: '%s | Godsspiritsays',
   },
-  description: 'A spiritual resource for encouragement, faith, and hearing what God\'s Spirit says. Explore video teachings, blog posts, and testimonies to deepen your walk with God.',
+  description: 'Find encouragement and faith through video teachings, blog posts, and testimonies. Deepen your walk with God and hear what His Spirit says.',
   icons: {
     icon: '/fav.png',
   },
