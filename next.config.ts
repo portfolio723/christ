@@ -1,18 +1,23 @@
 import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
-  output: 'export', // Required for static export
+  // CRITICAL: Enable static export for GitHub Pages
+  output: 'export',
   
-  // Add basePath ONLY if deploying to GitHub Pages subdirectory
-  // Remove this line if using custom domain (godsspiritsays.com)
-  // basePath: '/christ',
+  // DO NOT USE basePath for custom domains
+  // basePath is ONLY for github.io/repo-name URLs
+  // basePath: '/christ', // ❌ REMOVE THIS
   
+  // Disable image optimization (required for static export)
   images: {
-    unoptimized: true, // Required for static export
+    unoptimized: true,
   },
   
-  // Disable trailing slashes for Hostinger compatibility
+  // Optional: Add trailing slashes for better compatibility
   trailingSlash: true,
+  
+  // Optional: Disable server features
+  reactStrictMode: true,
 };
 
 export default nextConfig;
