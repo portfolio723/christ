@@ -71,7 +71,7 @@ const CardContent = React.forwardRef<
 ))
 CardContent.displayName = "CardContent"
 
-const DotsPattern = ({ title, description, children, content }: CardProps & { content: React.ReactNode }) => {
+const DotsPattern = ({ content }: { content: React.ReactNode }) => {
   const sharedClasses =
     "rounded-full outline outline-8 dark:outline-gray-950 sm:my-6 md:my-8 size-1 my-4 outline-gray-50 bg-green-400"
    return (
@@ -207,73 +207,47 @@ const Card = React.forwardRef<HTMLDivElement, CardProps>(
     );
 
     const InnerContent = () => {
-      if (variant === "dots") return <DotsPattern title={title} description={description} content={content}>{children}</DotsPattern>
-      if (variant === "gradient") return <GradientLines content={content} />
-      if (variant === "plus") return <PlusIcons />
-      if (variant === "corners") return <CornerBorders />
-      return null
+      if (variant === "plus") return <PlusIcons />;
+      if (variant === "corners") return <CornerBorders />;
+      return null;
+    };
+
+    if (variant === "dots") {
+      return (
+        <div ref={ref} className={cn(cardVariants({ variant, className }))} {...props}>
+          <DotsPattern content={content} />
+        </div>
+      );
     }
 
-     if (variant === "dots") {
+    if (variant === "inner") {
       return (
-        <div
-          ref={ref}
-          className={cn(cardVariants({ variant, className }))}
-          {...props}
-        >
-          <div className="absolute left-0 top-4 -z-0 h-px w-full bg-zinc-400 dark:bg-zinc-700 sm:top-6 md:top-8" />
-          <div className="absolute bottom-4 left-0 z-0 h-px w-full bg-zinc-400 dark:bg-zinc-700 sm:bottom-6 md:bottom-8" />
-          <div className="relative w-full border-x border-zinc-400 dark:border-zinc-700">
-            <div className="absolute z-0 grid h-full w-full items-center">
-              <section className="absolute z-0 grid h-full w-full grid-cols-2 place-content-between">
-                <div className="rounded-full outline outline-8 dark:outline-gray-950 sm:my-6 md:my-8 size-1 my-4 outline-gray-50 bg-green-400 -translate-x-[2.5px]" />
-                <div className="rounded-full outline outline-8 dark:outline-gray-950 sm:my-6 md:my-8 size-1 my-4 outline-gray-50 bg-green-400 translate-x-[2.5px] place-self-end" />
-                <div className="rounded-full outline outline-8 dark:outline-gray-950 sm:my-6 md:my-8 size-1 my-4 outline-gray-50 bg-green-400 -translate-x-[2.5px]" />
-                <div className="rounded-full outline outline-8 dark:outline-gray-950 sm:my-6 md:my-8 size-1 my-4 outline-gray-50 bg-green-400 translate-x-[2.5px] place-self-end" />
-              </section>
-            </div>
-            <div className="relative z-20 mx-auto py-8">{content}</div>
-          </div>
-        </div>
-      )
-    }
-     if (variant === "inner") {
-      return (
-        <div
-          ref={ref}
-          className={cn(cardVariants({ variant, className }))}
-          {...props}
-        >
+        <div ref={ref} className={cn(cardVariants({ variant, className }))} {...props}>
           <div className="border rounded-sm bg-gradient-to-br from-white to-zinc-200/60 border-zinc-300 shadow-[2px_0_8px_rgba(0,_0,_0,_0.15)] dark:from-zinc-950 dark:to-zinc-900/60 dark:border-zinc-900/50 dark:shadow-inner">
             {content}
           </div>
         </div>
-      )
+      );
     }
-     if (variant === "gradient") {
+    
+    if (variant === "gradient") {
       return (
-        <div
-          ref={ref}
-          className={cn(cardVariants({ variant, className }))}
-          {...props}
-        >
-          <GradientLines content={content}/>
+        <div ref={ref} className={cn(cardVariants({ variant, className }))} {...props}>
+          <GradientLines content={content} />
         </div>
-      )
+      );
     }
-     return (
-      <div
-        ref={ref}
-        className={cn(cardVariants({ variant, className }))}
-        {...props}
-      >
+
+    return (
+      <div ref={ref} className={cn(cardVariants({ variant, className }))} {...props}>
         <InnerContent />
         {content}
       </div>
-    )
-  },
-)
-Card.displayName = "Card"
+    );
+  }
+);
+Card.displayName = "Card";
+
 
 const CardHeader = React.forwardRef<
   HTMLDivElement,
