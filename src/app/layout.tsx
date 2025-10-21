@@ -233,7 +233,7 @@ export default function RootLayout({
               "url": "https://godsspiritsays.com",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://godsspiritsays.com/obg.jpeg",
+                "url": "https://godsspiritsays.com/fav.ico",
                 "width": 1200,
                 "height": 630,
                 "caption": "God's Spirit Says - Christian Ministry Logo"
