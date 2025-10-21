@@ -1,4 +1,4 @@
-import data from './placeholder-images.json' assert { type: 'json' };
+import data from '@/lib/placeholder-images.json' assert { type: 'json' };
 
 export type ImagePlaceholder = {
   id: string;
