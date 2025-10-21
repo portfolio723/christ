@@ -192,7 +192,7 @@ export const metadata: Metadata = {
     images: ['https://godsspiritsays.com/obg.jpeg'],
   },
   icons: {
-    icon: '/fav.pn',
+    icon: '/fav.png',
   },
 };
 
@@ -220,7 +220,7 @@ export default function RootLayout({
         <link rel="preload" href="/blog.mp4" as="video" type="video/mp4" />
         <link rel="preload" href="/test.mp4" as="video" type="video/mp4" />
         <link rel="preload" href="/sd.mp4" as="video" type="video/mp4" />
-        <link rel="icon" type="image/x-icon" sizes="any" href="/favicon.ico" />
+        <link rel="icon" type="image/x-icon" sizes="any" href="/fav.png" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -233,7 +233,7 @@ export default function RootLayout({
               "url": "https://godsspiritsays.com",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://godsspiritsays.com/favicon.ico",
+                "url": "https://godsspiritsays.com/fav.png",
                 "width": 1200,
                 "height": 630,
                 "caption": "God's Spirit Says - Christian Ministry Logo"
