@@ -168,7 +168,7 @@ export const metadata: Metadata = {
     default: 'Godsspiritsays: Encouragement, Faith & Hearing God\'s Voice',
     template: '%s | Godsspiritsays',
   },
-  description: 'Find encouragement and faith through video teachings, blog posts, and testimonies. Deepen your walk with God and hear what His Spirit says.',
+  description: 'A spiritual resource for encouragement, faith, and hearing what God\'s Spirit says. Explore video teachings, blog posts, and testimonies to deepen your walk with God.',
   openGraph: {
     title: 'Godsspiritsays: Encouragement, Faith & Hearing God\'s Voice',
     description: 'Find encouragement and faith through video teachings, blog posts, and testimonies. Deepen your walk with God and hear what His Spirit says.',
@@ -192,7 +192,7 @@ export const metadata: Metadata = {
     images: ['https://godsspiritsays.com/obg.jpeg'],
   },
   icons: {
-    icon: '/fav.png',
+    icon: '/favicon.ico',
   },
 };
 
@@ -220,7 +220,7 @@ export default function RootLayout({
         <link rel="preload" href="/blog.mp4" as="video" type="video/mp4" />
         <link rel="preload" href="/test.mp4" as="video" type="video/mp4" />
         <link rel="preload" href="/sd.mp4" as="video" type="video/mp4" />
-        <link rel="icon" type="image/png" sizes="any" href="/fav.png" />
+        <link rel="icon" type="image/x-icon" sizes="any" href="/favicon.ico" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -332,3 +332,5 @@ export default function RootLayout({
     </html>
   );
 }
+
+    
