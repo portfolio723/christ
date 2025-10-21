@@ -27,7 +27,53 @@ export default function BeautifullyShatteredPage() {
               </div>
             </div>
             <br />
-            <p>Content coming soon...</p>
+            <p><strong>Beloved 💙</strong></p>
+            <br />
+            <p>&quot;The diamond Character will not come to you until 𝐆𝐎𝐃 press you through 𝐡𝐢𝐬 tests and you cannot learn by yourself until 𝐇𝐄 allows you&quot;.</p>
+            <br />
+            <p>An olive 🫒 understands the value of its oil ⚱️ only after being pressed.</p>
+            <br />
+            <p>A grape 🍇 recognises the sweetness of its wine 🍷only when crushed.</p>
+            <br />
+            <p>A diamond 💎 knows its true worth under pressure ✨</p>
+            <br />
+            <p>Gold 🌕 knows that when she burns in flames 🧈🔥, her purity is exposed🪄✨</p>
+            <br />
+            <p>The sculpture 🪨 knows if it endures the sculptor&apos;s chisel strokes ⛏️ how beautifully he will shape it👸</p>
+            <br />
+            <p>And your broken heart 💔?
+            It understands that only the 𝐅𝐚𝐭𝐡𝐞𝐫&apos;s 𝐥𝐨𝐯𝐞 🫧💗✨ can rebuild it...❤️‍🩹🎀🌷</p>
+            <br />
+            <p>Likewiseִֶָ ִֶָ🦋</p>
+            <p>Your anointing 🔥 knows that the more you are crushed in 𝐆𝐎𝐃&apos;s hands, the more you form in 𝐂𝐇𝐑𝐈𝐒𝐓 👑 the more fragrant you become 🌸</p>
+            <br />
+            <p>𝐀𝐋𝐋𝐄𝐋𝐔𝐉𝐀𝐇 🙏 🙌</p>
+            <br />
+            <hr className="my-8 border-primary/50" />
+            <br />
+            <div className="text-lg" lang="te">
+              <p><strong>ప్రియమైన 💙</strong></p>
+              <br />
+              <p>&quot; దేవుడు పరీక్షల ద్వారా మనల్ని ఒత్తిడి చేసే వరకు వజ్ర పాత్ర మనకు రాదు మరియు దేవుడు మనల్ని అనుమతించే వరకు మనకే మనం నేర్చుకోలేమూ&quot;.</p>
+              <br />
+              <p>ఆలివ్ దాని నూనె విలువను ⚱️ నొక్కబడిన తర్వాత మాత్రమే అర్థం చేసుకుంటుంది.</p>
+              <br />
+              <p> ద్రాక్ష 🍇 దాని వైన్ యొక్క తీపిని గుర్తిస్తుంది 🍷 నలిగినప్పుడు మాత్రమే.</p>
+              <br />
+              <p>వజ్రం 💎 ఒత్తిడిలో దాని నిజమైన విలువను తెలుసుకుంటుంది ✨</p>
+              <br />
+              <p>బంగారం 🌕 కి తెలుసు, అది మంటల్లో కాలిపోయినప్పుడు, దాని స్వచ్ఛత బయటపడుతుందని 🧈🔥</p>
+              <br />
+              <p>శిల్పి ఉలి దెబ్బలను యెంత తట్టుకుంటే అంత అందంగా రూపింపబడుతుంది అని ఆ శిల్పానికి తెలుసు 👸</p>
+              <br />
+              <p>మరియు మన విరిగి నలిగిన హృదయం 💔?
+              మన పరలోకపు తండ్రి 🫧💗✨ మాత్రమే దానిని పునర్నిర్మించగలడని అది అర్థం చేసుకుంటుంది...❤️‍🩹🎀🌷</p>
+              <br />
+              <p>అలాగే ִֶָ🦋</p>
+              <p>నీ అభిషేకానికి 🔥 తెలుసు, నీవు తండ్రి చేతుల్లో ఎంతగా నలిగిపోతావో, అంతగా నీవు క్రీస్తు 👑 రూపు లోకి ఏర్పడతావని 🌸</p>
+              <br />
+              <p>హల్లెలూయా 🙏 🙌</p>
+            </div>
         </div>
       </article>
       <SocialMedia />
