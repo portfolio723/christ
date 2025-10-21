@@ -192,7 +192,7 @@ export const metadata: Metadata = {
     images: ['https://godsspiritsays.com/obg.jpeg'],
   },
   icons: {
-    icon: '/favicon.ico',
+    icon: '/fav.pn',
   },
 };
 

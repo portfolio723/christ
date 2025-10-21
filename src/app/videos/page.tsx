@@ -424,7 +424,6 @@ export default function VideoMinistryPage() {
           loop
           playsInline
           className="absolute top-0 left-0 w-full h-full object-cover"
-          alt="A tranquil video background representing God's love."
         />
         <div className="absolute inset-0 bg-black/70" />
 
