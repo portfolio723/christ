@@ -98,6 +98,18 @@ const spiritualInsights = [
     readTime: '3 min read',
     description: "Discover the profound sweetness in the sacrifice of Jesus. His love, poured out for all, brings salvation and new life to millions."
   },
+  {
+    id: 'insight-8',
+    title: 'Dared to be beautifully shattered in HIS hands 🙌',
+    category: 'Surrender',
+    href: '/blog/beautifully-shattered',
+    image: '/bg8.jpeg',
+    imageHint: 'potters hands',
+    author: 'Godsspiritsays',
+    date: 'Oct 13, 2024',
+    readTime: '3 min read',
+    description: "Embrace the process of being broken and remade by God. Discover the beauty in surrender and the strength found in His hands."
+  },
 ];
 
 const BlogPage = () => {
