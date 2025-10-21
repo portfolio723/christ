@@ -176,7 +176,7 @@ export const metadata: Metadata = {
     siteName: 'Godsspiritsays',
     images: [
       {
-        url: 'https://godsspiritsays.com/obg.jpeg',
+        url: 'https://godsspiritsays.com/fav.png',
         width: 1200,
         height: 630,
       },
