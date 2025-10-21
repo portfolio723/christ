@@ -72,12 +72,12 @@ export function VideoReels() {
     return null;
   };
 
-  const renderCardContent = (reel: ImagePlaceholder) => (
+  const renderCardContent = (reel: ImagePlaceholder, isFirstReel: boolean) => (
     <Card
       className="group overflow-hidden rounded-lg border-2 border-transparent bg-card transition-all duration-300 hover:border-primary hover:shadow-2xl hover:shadow-primary/20 transform hover:-translate-y-2 h-full flex flex-col"
     >
       <CardContent className="p-0 flex-grow flex flex-col">
-        <div className={cn("relative", isFirstReel ? "" : "aspect-video")}>
+        <div className={cn("relative", isFirstReel ? "aspect-[9/16] sm:aspect-auto" : "aspect-video")}>
           <Image
             src={reel.imageUrl}
             alt={reel.description.split('\n')[0]}
@@ -122,10 +122,11 @@ export function VideoReels() {
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 items-start">
-            {reels.map((reel) => {
+            {reels.map((reel, index) => {
               if (!reel) return null;
-
-              const cardContent = renderCardContent(reel);
+              
+              const isFirstReel = index === 0;
+              const cardContent = renderCardContent(reel, isFirstReel);
 
               if (reel.videoSrc) {
                 return (
