@@ -1,4 +1,3 @@
-
 'use client';
 import Image from 'next/image';
 import { Card, CardContent } from '@/components/ui/card';
@@ -18,7 +17,7 @@ import VideoPlayer from '@/components/ui/video-player';
 const firstReel: ImagePlaceholder = {
   id: 'reel-0',
   description: "Listen!\n\nIn a basket of fruits, there are both fresh and rotten ones.\n\nPeople always choose fresh fruits.\n \nBut God? \n\nHe chooses the rotten one.\n \nThat rejected, spoiled, unwanted fruit, thrown-away fruit, \"Do you know who that fruit is?\n\nThat is you. That is me.\n \nYes, He restores what the world calls wasted\n\nand turns our rotten lives into something sweet and new.\n \nThat’s God.❤️🍎✨",
-  imageUrl: "hv1.jpeg",
+  imageUrl: "/hv1.jpeg",
   imageHint: "restored soul"
 };
 
@@ -102,7 +101,7 @@ export function VideoReels() {
   return (
     <section id="reels" className="relative w-full py-20 md:py-32 bg-background">
       <Image
-        src="christ/tr.jpeg"
+        src="/tr.jpeg"
         alt="A spiritual background of a wellspring, symbolizing a source of life and encouragement."
         fill
         className="object-cover"

@@ -1,7 +1,7 @@
 
 import type { Metadata } from 'next';
 import { Inter, Playfair_Display, Dancing_Script, Yesteryear, Mea_Culpa, Allison, Lavishly_Yours, Oleo_Script, Condiment, Great_Vibes, Bonheur_Royale, Mrs_Saint_Delafield, Cookie, Love_Light, Alex_Brush, Hurricane, Arizonia, Fasthand, Mr_Dafoe, Pinyon_Script, Engagement, The_Nautigal } from 'next/font/google';
-import '@/app/globals.css';
+import './globals.css';
 import { Toaster } from '@/components/ui/toaster';
 import { Header } from '@/components/page/header';
 import { cn } from '@/lib/utils';
@@ -192,7 +192,7 @@ export const metadata: Metadata = {
     images: ['https://godsspiritsays.com/obg.jpeg'],
   },
   icons: {
-    icon: '/christ/fav.png',
+    icon: '/fav.png',
   },
 };
 
@@ -214,13 +214,13 @@ export default function RootLayout({
           `}
         </Script>
         <meta name="google-site-verification" content="zjlJZ97nJErhI_mgAEgGU-PifACNukcCwgoZo6Khifc" />
-        <link rel="preload" href="/christ/butterflies.mp4" as="video" type="video/mp4" />
-        <link rel="preload" href="/christ/hero.mp4" as="video" type="video/mp4" />
-        <link rel="preload" href="/christ/eagle.mp4" as="video" type="video/mp4" />
-        <link rel="preload" href="/christ/blog.mp4" as="video" type="video/mp4" />
-        <link rel="preload" href="/christ/test.mp4" as="video" type="video/mp4" />
-        <link rel="preload" href="/christ/sd.mp4" as="video" type="video/mp4" />
-        <link rel="icon" type="image/x-icon" sizes="any" href="/christ/fav.png" />
+        <link rel="preload" href="/butterflies.mp4" as="video" type="video/mp4" />
+        <link rel="preload" href="/hero.mp4" as="video" type="video/mp4" />
+        <link rel="preload" href="/eagle.mp4" as="video" type="video/mp4" />
+        <link rel="preload" href="/blog.mp4" as="video" type="video/mp4" />
+        <link rel="preload" href="/test.mp4" as="video" type="video/mp4" />
+        <link rel="preload" href="/sd.mp4" as="video" type="video/mp4" />
+        <link rel="icon" type="image/x-icon" sizes="any" href="/fav.png" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{

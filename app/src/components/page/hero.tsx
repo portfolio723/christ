@@ -17,7 +17,7 @@ export function Hero() {
       className="relative h-screen w-full flex flex-col items-center justify-center text-center text-white overflow-hidden"
     >
       <video
-        src="hero.mp4"
+        src="/hero.mp4"
         autoPlay
         muted
         loop
@@ -35,7 +35,7 @@ export function Hero() {
       <div className="relative z-10 flex flex-col items-center p-4">
         <div className="relative mb-4 md:mb-6">
           <Image
-            src="Media.jpeg"
+            src="/Media.jpeg"
             alt="Profile picture for Godsspiritsays, featuring a monarch butterfly on a flower."
             width={160}
             height={160}
