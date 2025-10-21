@@ -237,6 +237,16 @@ Until next time...`,
     href: '/videos/feeling-nearness',
     category: 'In Him',
   },
+  {
+    id: 'video-5',
+    title: "That's all. His love is🫠💕!!! Bubbling🫧🤍🫧...That's all we can't see!!! ♥‿♥",
+    description: "Experience the unseen, bubbling love of God that surrounds and fills us. A short reflection on His ever-present affection.",
+    thumbnail: '/vd5.jpeg',
+    thumbnailHint: 'love concept',
+    videoSrc: '/vd5.mp4',
+    href: '/videos/bubbling-love',
+    category: 'Bubbling Love',
+  },
 ];
 
 const videoSeries = [
