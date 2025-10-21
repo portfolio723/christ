@@ -89,7 +89,7 @@ const spiritualInsights = [
   {
     id: 'insight-7',
     title: 'Millions have been saved by the sweetness that 𝐉𝐄𝐒𝐔𝐒 bleeds 🕊️🩸🤍✨❤️',
-    category: 'Redemption',
+    category: 'Ever Sweet',
     href: '/blog/sweetness-bleeds',
     image: '/bg7.jpeg',
     imageHint: 'cross light',
@@ -101,7 +101,7 @@ const spiritualInsights = [
   {
     id: 'insight-8',
     title: 'Dared to be beautifully shattered in HIS hands 🙌',
-    category: 'Surrender',
+    category: 'Re Made',
     href: '/blog/beautifully-shattered',
     image: '/bg8.jpeg',
     imageHint: 'potters hands',
