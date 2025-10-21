@@ -1,0 +1,124 @@
+
+import Image from 'next/image';
+import {
+  Instagram,
+  Youtube,
+  Send,
+  Twitter,
+  type LucideIcon,
+} from 'lucide-react';
+import { Card } from '@/components/ui/card';
+
+const ThreadsIcon = (props: React.HTMLProps<HTMLSpanElement>) => (
+  <span {...props} style={{ fontSize: '24px', fontWeight: 'bold' }}>@</span>
+);
+
+
+type SocialPlatform = {
+  name: string;
+  Icon: LucideIcon | ((props: React.HTMLProps<HTMLSpanElement>) => JSX.Element);
+  handle: string;
+  followers: string;
+  url: string;
+  color: string;
+};
+
+const socialPlatforms: SocialPlatform[] = [
+  {
+    name: 'Instagram',
+    Icon: Instagram,
+    handle: '@godsspiritsays',
+    followers: 'Root deep. Rise radiant',
+    url: 'https://www.instagram.com/godsspiritsays/',
+    color: 'group-hover:text-[#E4405F]',
+  },
+  {
+    name: 'YouTube',
+    Icon: Youtube,
+    handle: 'GodsspiritSays',
+    followers: 'Heal inside. Shine outside',
+    url: 'https://www.youtube.com/@GodsspiritSays',
+    color: 'group-hover:text-[#FF0000]',
+  },
+  {
+    name: 'Telegram',
+    Icon: Send,
+    handle: 'GodsspiritSaysOfficial',
+    followers: 'Go in. Glow out',
+    url: 'https://t.me/godsspiritsays',
+    color: 'group-hover:text-[#229ED9]',
+  },
+  {
+    name: 'Twitter',
+    Icon: Twitter,
+    handle: '@godsspiritsays',
+    followers: 'Soul first.  Shine next.',
+    url: 'https://x.com/godsspiritsays',
+    color: 'group-hover:text-[#1DA1F2]',
+  },
+  {
+    name: 'Threads',
+    Icon: ThreadsIcon,
+    handle: '@godsspiritsays',
+    followers: 'Weave words. Witness wonders.',
+    url: 'https://www.threads.com/@godsspiritsays',
+    color: 'group-hover:text-black dark:group-hover:text-white',
+  },
+];
+
+export function SocialMedia() {
+  return (
+    <section
+      id="connect"
+      className="relative w-full py-20 md:py-32"
+    >
+      <Image
+        src="it.jpeg"
+        alt="A spiritual background pattern symbolizing interconnectedness."
+        fill
+        className="object-cover"
+        data-ai-hint="spiritual background pattern"
+      />
+      <div className="absolute inset-0 bg-black/70" />
+      <div className="relative z-10 container mx-auto px-4 md:px-6">
+        <div className="flex flex-col items-center text-center space-y-4 mb-12">
+          <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-4xl md:text-5xl text-white">
+            Remain In The Vine
+          </h2>
+          <p className="max-w-[600px] text-white/80 text-lg md:text-xl">
+            Stay connected to the branch to get nourishment continually. 🍇
+          </p>
+        </div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
+          {socialPlatforms.map((platform) => (
+            <a
+              key={platform.name}
+              href={platform.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group"
+              aria-label={`Follow on ${platform.name}`}
+            >
+              <Card className="bg-card/50 backdrop-blur-sm p-4 md:p-6 rounded-xl border-border group-hover:border-primary transition-all duration-300 transform group-hover:-translate-y-2 group-hover:shadow-2xl group-hover:shadow-primary/20 h-full">
+                <div className="flex flex-col items-center text-center">
+                  <platform.Icon
+                    className={`w-8 h-8 md:w-10 md:h-10 text-primary transition-colors duration-300 group-hover:scale-110 group-hover:animate-pulse ${platform.color}`}
+                  />
+                  <div className='mt-4'>
+                    <h3 className="font-bold text-base md:text-lg text-white">
+                      {platform.name}
+                    </h3>
+                    <p className="text-xs md:text-sm text-white/60 break-all">{platform.handle}</p>
+                  </div>
+                </div>
+                <p className="font-hurricane text-white mt-4 text-3xl md:text-4xl text-center">
+                  {platform.followers}
+                </p>
+              </Card>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}

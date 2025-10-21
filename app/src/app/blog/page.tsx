@@ -19,7 +19,7 @@ const spiritualInsights = [
     title: 'Fishing no longer for fish, but for a sign straining for God\'s attention in the silent, empty deep🎣',
     category: 'Abundance',
     href: '/blog/the-prayer-room',
-    image: '/bg1.jpeg',
+    image: 'bg1.jpeg',
     imageHint: 'spiritual path',
     author: 'Godsspiritsays',
     date: 'Oct 10, 2024',
@@ -31,7 +31,7 @@ const spiritualInsights = [
     title: '💔✨ The Beautiful Breaking in his massive, tender hands ✨🕊️',
     category: 'Break to Remake',
     href: '/blog/the-beautiful-breaking',
-    image: '/bg2.jpeg',
+    image: 'bg2.jpeg',
     imageHint: 'jesus statue',
     author: 'Godsspiritsays',
     date: 'Oct 9, 2024',
@@ -43,7 +43,7 @@ const spiritualInsights = [
     title: 'Saving is huge, but His forgiveness is what truly changes us.',
     category: 'Renewed',
     href: '/blog/forgiveness',
-    image: '/bg3.jpeg',
+    image: 'bg3.jpeg',
     imageHint: 'person purpose',
     author: 'Godsspiritsays',
     date: 'Oct 8, 2024',
@@ -55,7 +55,7 @@ const spiritualInsights = [
     title: 'Not only does HE CARE...!, HE will keep your tear drops💦 in his bottle like a jewel 💎Psalms 56:8 ✨',
     category: 'No Unseen',
     href: '/blog/he-cares',
-    image: '/bg4.jpeg',
+    image: 'bg4.jpeg',
     imageHint: 'forgiveness light',
     author: 'Godsspiritsays',
     date: 'Oct 7, 2024',
@@ -67,7 +67,7 @@ const spiritualInsights = [
     title: "Marriage is not about being perfect. It's becoming the image of Christ †💍💐👰🏻‍♀️🤵🏻† 🕊️",
     category: 'Faith',
     href: '/blog/marriage',
-    image: '/bg5.jpeg',
+    image: 'bg5.jpeg',
     imageHint: 'rainbow sky',
     author: 'Godsspiritsays',
     date: 'Oct 6, 2024',
@@ -79,12 +79,36 @@ const spiritualInsights = [
     title: "Pray🙏🏻!!! Because it's the breath of our life ❤️‍🔥",
     category: 'Prayful',
     href: '/blog/pray',
-    image: '/bg6.jpeg',
+    image: 'bg6.jpeg',
     imageHint: 'hands praying',
     author: 'Godsspiritsays',
     date: 'Oct 11, 2024',
     readTime: '3 min read',
     description: "Discover the power and intimacy of prayer. It's more than words; it's the very breath of a life connected to God."
+  },
+  {
+    id: 'insight-7',
+    title: 'Millions have been saved by the sweetness that 𝐉𝐄𝐒𝐔𝐒 bleeds 🕊️🩸🤍✨❤️',
+    category: 'Ever Sweet',
+    href: '/blog/sweetness-bleeds',
+    image: 'bg7.jpeg',
+    imageHint: 'cross light',
+    author: 'Godsspiritsays',
+    date: 'Oct 12, 2024',
+    readTime: '3 min read',
+    description: "Discover the profound sweetness in the sacrifice of Jesus. His love, poured out for all, brings salvation and new life to millions."
+  },
+  {
+    id: 'insight-8',
+    title: 'Dared to be beautifully shattered in HIS hands 🙌',
+    category: 'Re Made',
+    href: '/blog/beautifully-shattered',
+    image: 'bg8.jpeg',
+    imageHint: 'potters hands',
+    author: 'Godsspiritsays',
+    date: 'Oct 13, 2024',
+    readTime: '3 min read',
+    description: "Embrace the process of being broken and remade by God. Discover the beauty in surrender and the strength found in His hands."
   },
 ];
 
@@ -94,7 +118,7 @@ const BlogPage = () => {
       {/* Hero Section */}
       <section className="relative h-screen flex items-center justify-center text-center">
         <video
-          src="/blog.mp4"
+          src="blog.mp4"
           autoPlay
           muted
           loop
@@ -164,7 +188,7 @@ const BlogPage = () => {
       {/* Community Discussion */}
       <div className="w-full bg-background relative">
         <video
-          src="/cg.mp4"
+          src="cg.mp4"
           autoPlay
           muted
           loop
@@ -202,7 +226,7 @@ const BlogPage = () => {
         className="relative w-full py-20 md:py-32 bg-background text-white"
       >
         <video
-          src="/ww.mp4"
+          src="ww.mp4"
           autoPlay
           muted
           loop
@@ -246,5 +270,3 @@ const BlogPage = () => {
 };
 
 export default BlogPage;
-
-    

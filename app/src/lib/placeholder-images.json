@@ -1,0 +1,102 @@
+
+{
+  "placeholderImages": [
+    {
+      "id": "hero-background",
+      "description": "Gentle ocean waves on a serene beach at dusk.",
+      "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723a9ce6890?q=80&w=1080",
+      "imageHint": "ocean sunset"
+    },
+    {
+      "id": "profile-dp",
+      "description": "A monarch butterfly on a white flower, symbolizing transformation.",
+      "imageUrl": "media.jpeg",
+      "imageHint": "butterfly transformation"
+    },
+    {
+      "id": "reel-0",
+      "description": "Listen!\n\nIn a basket of fruits, there are both fresh and rotten ones.\n\nPeople always choose fresh fruits.\n \nBut God? \n\nHe chooses the rotten one.\n \nThat rejected, spoiled, unwanted fruit, thrown-away fruit, \"Do you know who that fruit is?\n\nThat is you. That is me.\n \nYes, He restores what the world calls wasted\n\nand turns our rotten lives into something sweet and new.\n \nThat’s God.❤️🍎✨",
+      "imageUrl": "hv1.jpeg",
+      "imageHint": "restored soul"
+    },
+    {
+      "id": "reel-1",
+      "description": "Our Father 𝐉𝐄𝐒𝐔𝐒 lovingly prepares valuable gifts for us throughout our lives 💎❤️💍\n \nBut what do we often do? 🤷🏻‍♀️\n \nWe focus so much 🔎 on the gifts 🎁 we've received, that we forget something vital: the Giver is far more valuable than the gifts. 😌\n \nPlease, don't let that be your story 👈🏻\n \nYou might wonder, Why does 𝐆𝐎𝐃 give us gifts that reflect such great worth? 👑\n \nBecause 𝐇𝐞 𝐇𝐢𝐦𝐬𝐞𝐥𝐟 is worth far more 💎✨ than anyone or anything He places in our lives.\n \nI pray this encourages your heart today.",
+      "imageUrl": "https://images.unsplash.com/photo-1542884728-3933a4a40c2d?q=80&w=1080",
+      "imageHint": "peaceful lake",
+      "videoSrc": "hv2.mp4"
+    },
+    {
+      "id": "reel-2",
+      "description": "The Strength Within",
+      "imageUrl": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?q=80&w=1080",
+      "imageHint": "serene landscape"
+    },
+    {
+      "id": "testimonial-1",
+      "description": "Portrait of a smiling woman.",
+      "imageUrl": "https://images.unsplash.com/photo-1557053910-d9eadeed1c58?q=80&w=1080",
+      "imageHint": "smiling woman"
+    },
+    {
+      "id": "testimonial-2",
+      "description": "Portrait of a man in a suit.",
+      "imageUrl": "https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=1080",
+      "imageHint": "man in suit"
+    },
+    {
+      "id": "testimonial-3",
+      "description": "Portrait of a woman looking hopeful.",
+      "imageUrl": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?q=80&w=1080",
+      "imageHint": "woman hopeful"
+    },
+    {
+      "id": "testimonial-4",
+      "description": "Portrait of a man looking up.",
+      "imageUrl": "https://images.unsplash.com/photo-1552058544-f2b08422138a?q=80&w=1080",
+      "imageHint": "man looking up"
+    },
+    {
+      "id": "testimonial-5",
+      "description": "Portrait of a woman with glasses.",
+      "imageUrl": "https://images.unsplash.com/photo-1575084713-3983949e6f5a?q=80&w=1080",
+      "imageHint": "woman with glasses"
+    },
+    {
+      "id": "testimonial-6",
+      "description": "Portrait of a man reading a bible.",
+      "imageUrl": "https://images.unsplash.com/photo-1554151228-14d9def656e4?q=80&w=1080",
+      "imageHint": "man reading bible"
+    },
+    {
+      "id": "insight-1",
+      "description": "The path to spiritual enlightenment.",
+      "imageUrl": "https://images.unsplash.com/photo-1506126613408-2e61add503fa?q=80&w=1080",
+      "imageHint": "spiritual path"
+    },
+    {
+      "id": "insight-2",
+      "description": "An open book with a heart-shaped shadow.",
+      "imageUrl": "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?q=80&w=1080",
+      "imageHint": "open book"
+    },
+    {
+      "id": "insight-3",
+      "description": "A person standing on a mountain looking at the sunset.",
+      "imageUrl": "https://images.unsplash.com/photo-1454789548928-9efd52dc4031?q=80&w=1080",
+      "imageHint": "person purpose"
+    },
+    {
+      "id": "insight-4",
+      "description": "Two hands reaching for each other.",
+      "imageUrl": "https://images.unsplash.com/photo-1519412666296-c19b06544a87?q=80&w=1080",
+      "imageHint": "forgiveness light"
+    },
+    {
+      "id": "jesus-statue",
+      "description": "Statue of Jesus Christ.",
+      "imageUrl": "https://images.unsplash.com/photo-1523878291631-87283277f717?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8amVzdXN8ZW58MHx8MHx8fDA%DD",
+      "imageHint": "jesus statue"
+    }
+  ]
+}

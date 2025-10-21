@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 };
 
 export default function FeelingNearnessPage() {
-  const videoSrc = "/vd4.mp4";
+  const videoSrc = "vd4.mp4";
   return (
     <main className="bg-background text-white min-h-screen">
       <div className="relative pt-48 pb-20 bg-background">
