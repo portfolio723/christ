@@ -27,23 +27,61 @@ export default function SweetnessBleedsPage() {
               </div>
             </div>
             <br />
-            <p><strong>Yes, Beloved 💖</strong></p>
+            <p>Hope does not require a description 😉</p>
             <br />
-            <p>How can something so bitter, so painful, be the source of the world&apos;s greatest sweetness? It is a divine mystery. The cross, a symbol of suffering, became the altar where love&apos;s greatest victory was won.</p>
+            <p>Please peek at the bottom 👇🏻</p>
             <br />
-            <p>From His wounds flowed not just blood, but a river of grace, a current of mercy that washes away every sin, every stain, every regret. It is a sweetness that does not cloy, but cleanses. It is a love that does not demand, but gives everything.</p>
+            <p>By the way, have you ever thought about what sweetness🍯 truly means?</p>
             <br />
-            <p>Think of it: the King of all creation, allowing Himself to be broken, so that we might be made whole. Each drop of His blood a testament to a love so profound, it defies all human understanding. This is the sweetness that saves. It is the taste of redemption, the flavor of forgiveness, the aroma of new life.</p>
+            <p>I would love to share my thoughts on it 💭</p>
             <br />
-            <p>When you feel the bitterness of the world, remember the sweetness of His sacrifice. When you feel lost in darkness, remember the light that shines from His love. Millions have been drawn to this sweetness, and there is always room for one more.</p>
+            <p>The ultimate expression of sweetness is found in His sacrifice on the cross for us 🫠</p>
             <br />
-            <p>Come and taste. See that the Lord is good. His love is the sweetest thing you will ever know.</p>
+            <p>We don&apos;t have to endure suffering of our sins because He took that upon Himself long before we came into this world 🥲🌎</p>
             <br />
+            <p>It&apos;s something to think about, isn&apos;t it?🤷🏻‍♀️</p>
+            <br />
+            <p>Beloved 💙</p>
+            <p>All we need to do is embrace the sweetness of His sacrifice made on our behalf ✝️🫂🍯🫰🏻</p>
+            <br />
+            <p>You might wonder 🫣 why He chose to die for us without us asking for it 🤔</p>
+            <p>The truth is, He would choose to do so regardless because He crafted each one of us with His own hands 🥹🤲🏻🫶🏻🥰</p>
+            <br />
+            <p>Isn&apos;t it amazing to consider that the Creator 👑of the universe 🌎 wouldn&apos;t leave us without His love... 🤍❤️</p>
+            <br />
+            <p>That&apos;s the story, Beloved, of His deep sweetness 🫰🏻🫠🤗🫶🏻</p>
+            <br />
+            <hr className="my-8 border-primary/50" />
+            <br />
+            <div className="text-lg" lang="te">
+              <p>దీనికి  వివరణ అవసరం లేదు అని ఆశిస్తున్నాను  😉</p>
+              <br />
+              <p>దయచేసి కిందకి చూడండి 👇🏻</p>
+              <br />
+              <p>అయితే, తీపి అంటే నిజంగా ఏమిటో మీరు ఎప్పుడైనా ఆలోచించారా?</p>
+              <br />
+              <p>దాని గురించి నా ఆలోచనలను పంచుకోవడానికి నేను ఇష్టపడుతున్నాను 💭</p>
+              <br />
+              <p>ఆయన మనకోసం సిలువపై చేసిన త్యాగంలో ఆయన మాధుర్యాయం కనిపిస్తుంది 🫠</p>
+              <br />
+              <p>మనం ఈ లోకంలోకి రాకముందే ఆయన మన కోసం మన షాప బాధను,పాపాలు  తీసుకున్నందున మనం ఇంక ఏ శాపాల వల్ల వొచ్చే బాధలు  భరించాల్సిన అవసరం లేదు 🥲🌎</p>
+              <br />
+              <p>ఇది ఆలోచించాల్సిన విషయం, కాదా?🤷🏻‍♀️</p>
+              <br />
+              <p>ప్రియమైన 💙</p>
+              <p>మనం చేయాల్సిందల్లా ఆయన మన తరపున చేసిన త్యాగం యొక్క మాధుర్యాన్ని స్వీకరించడమే ✝️🫂🍯🫰🏻</p>
+              <br />
+              <p>మీరు ఆశ్చర్యపోవచ్చు 🫣 మనం అడగకుండానే ఆయన మన కోసం చనిపోవడానికి ఎందుకు ఎంచుకున్నాడు అని 🤔</p>
+              <br />
+              <p>నిజం ఏమిటంటే, ఆయన మనలో ప్రతి ఒక్కరినీ తన చేతులతో సృష్టించినందున అతను అలా చేయడానికి ఎంచుకున్నాడు 🥹🤲🏻🫶🏻🥰</p>
+              <br />
+              <p>మన సృష్టికర్త మనల్ని ఇంతగా కోరుకోటం ఆశ్చర్యంగా లేదా? 👑విశ్వనీకి  యజమాని అయిఉండి ఆయన నీ  ప్రేమ లేకుండా ఉండలేడు నిన్ను ప్రేమించకుండా కూడా వుండలేడు ఆలాగే మనల్ని విడిచిపెట్టడు... 🤍❤️</p>
+              <br />
+              <p>అదే ప్రియతమా, ఆయన లోతైన మాధుర్యపు కథ 🫰🏻🫠🤗🫶🏻</p>
+            </div>
         </div>
       </article>
       <SocialMedia />
     </main>
   );
 }
-
-    
