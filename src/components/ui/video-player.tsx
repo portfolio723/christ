@@ -53,11 +53,13 @@ const VideoPlayer = ({
   className,
   autoPlay = false,
   muted = false,
+  alt,
 }: {
   src: string;
   className?: string;
   autoPlay?: boolean;
   muted?: boolean;
+  alt?: string;
 }) => {
   const videoRef = useRef<HTMLVideoElement>(null);
   const [isPlaying, setIsPlaying] = useState(autoPlay);
@@ -168,6 +170,7 @@ const VideoPlayer = ({
         autoPlay={autoPlay}
         muted={muted}
         playsInline
+        aria-label={alt}
         onLoadedMetadata={() => {
           if (videoRef.current) {
             setDuration(videoRef.current.duration);
