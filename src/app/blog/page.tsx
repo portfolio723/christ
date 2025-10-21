@@ -1,7 +1,7 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
-import { Card, CardContent, CardFooter } from '@/components/ui/card';
+import { Card, CardContent } from '@/components/ui/card';
 import { ShineBorder, Timeline } from '@/components/ui/shine-border';
 import { SocialMedia } from '@/components/page/social-media';
 import type { Metadata } from 'next';
@@ -154,12 +154,6 @@ const BlogPage = () => {
                       {insight.description}
                     </p>
                   </CardContent>
-                  <CardFooter className="p-6 pt-0 mt-auto text-xs text-white/60 flex justify-between">
-                     <div>
-                        <p className="font-semibold text-white/80">{insight.author}</p>
-                     </div>
-                     <p>{insight.date}</p>
-                  </CardFooter>
                 </Card>
               </Link>
             ))}
