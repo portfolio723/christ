@@ -1,3 +1,4 @@
+
 'use client';
 
 import Image from 'next/image';
@@ -226,6 +227,26 @@ Until next time...`,
     videoSrc: '/vd3.mp4',
     href: '/videos/fasting',
     category: 'In His Grip & Grace',
+  },
+  {
+    id: 'video-6',
+    title: 'Millions have been saved by the sweetness that 𝐉𝐄𝐒𝐔𝐒 bleeds 🕊️🩸🤍✨❤️',
+    description: "Discover the profound sweetness in the sacrifice of Jesus. His love, poured out for all, brings salvation and new life to millions.",
+    thumbnail: '/bg7.jpeg',
+    thumbnailHint: 'cross light',
+    videoSrc: '/bg7.mp4',
+    href: '/blog/sweetness-bleeds',
+    category: 'Ever Sweet',
+  },
+  {
+    id: 'video-7',
+    title: 'Dared to be beautifully shattered in HIS hands 🙌',
+    description: "Embrace the process of being broken and remade by God. Discover the beauty in surrender and the strength found in His hands.",
+    thumbnail: '/bg8.jpeg',
+    thumbnailHint: 'potters hands',
+    videoSrc: '/bg8.mp4',
+    href: '/blog/beautifully-shattered',
+    category: 'Re Made',
   },
   {
     id: 'video-4',

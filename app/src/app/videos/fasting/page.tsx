@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 };
 
 export default function FastingPage() {
-  const videoSrc = "vd3.mp4";
+  const videoSrc = "/vd3.mp4";
   return (
     <main className="bg-background text-white min-h-screen">
       <div className="relative pt-48 pb-20 bg-background">
@@ -30,7 +30,7 @@ export default function FastingPage() {
               </div>
             )}
             <br />
-            <p>
+            <p style={{ whiteSpace: 'pre-wrap' }}>
 {` 
 Have you heard, beloved?
 

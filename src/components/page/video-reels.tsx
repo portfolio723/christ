@@ -1,3 +1,4 @@
+
 'use client';
 import Image from 'next/image';
 import { Card, CardContent } from '@/components/ui/card';
@@ -101,7 +102,7 @@ export function VideoReels() {
   return (
     <section id="reels" className="relative w-full py-20 md:py-32 bg-background">
       <Image
-        src="/christ/tr.jpeg"
+        src="/tr.jpeg"
         alt="A spiritual background of a wellspring, symbolizing a source of life and encouragement."
         fill
         className="object-cover"

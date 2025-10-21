@@ -12,7 +12,7 @@ export default function AboutPage() {
     <main className="flex min-h-screen flex-col items-center justify-center bg-background">
       <header className="relative w-full h-screen flex flex-col items-center justify-center text-center text-white overflow-hidden">
         <video
-          src="eagle.mp4"
+          src="/eagle.mp4"
           autoPlay
           muted
           loop
@@ -39,7 +39,7 @@ export default function AboutPage() {
         className="relative w-full py-20 md:py-32 bg-background text-white"
       >
         <video
-          src="gg.mp4"
+          src="/gg.mp4"
           autoPlay
           muted
           loop

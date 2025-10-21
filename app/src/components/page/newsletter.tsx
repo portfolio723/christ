@@ -14,7 +14,7 @@ export function Newsletter() {
       className="w-full py-20 md:py-32 relative"
     >
       <Image
-        src="op.jpeg"
+        src="/op.jpeg"
         alt="A spiritual background with ethereal light, inviting users to subscribe."
         fill
         className="object-cover"

@@ -214,13 +214,13 @@ export default function RootLayout({
           `}
         </Script>
         <meta name="google-site-verification" content="zjlJZ97nJErhI_mgAEgGU-PifACNukcCwgoZo6Khifc" />
-        <link rel="preload" href="/christ/butterflies.mp4" as="video" type="video/mp4" />
-        <link rel="preload" href="/christ/hero.mp4" as="video" type="video/mp4" />
-        <link rel="preload" href="/christ/eagle.mp4" as="video" type="video/mp4" />
-        <link rel="preload" href="/christ/blog.mp4" as="video" type="video/mp4" />
-        <link rel="preload" href="/christ/test.mp4" as="video" type="video/mp4" />
-        <link rel="preload" href="/christ/sd.mp4" as="video" type="video/mp4" />
-        <link rel="icon" type="image/x-icon" sizes="any" href="/christ/fav.png" />
+        <link rel="preload" href="/butterflies.mp4" as="video" type="video/mp4" />
+        <link rel="preload" href="/hero.mp4" as="video" type="video/mp4" />
+        <link rel="preload" href="/eagle.mp4" as="video" type="video/mp4" />
+        <link rel="preload" href="/blog.mp4" as="video" type="video/mp4" />
+        <link rel="preload" href="/test.mp4" as="video" type="video/mp4" />
+        <link rel="preload" href="/sd.mp4" as="video" type="video/mp4" />
+        <link rel="icon" type="image/x-icon" sizes="any" href="/fav.png" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{

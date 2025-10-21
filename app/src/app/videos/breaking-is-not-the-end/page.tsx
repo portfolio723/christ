@@ -23,11 +23,11 @@ export default function BreakingIsNotTheEndPage() {
         <div className="container mx-auto px-4 md:px-6 max-w-3xl prose prose-invert prose-lg md:prose-xl prose-p:text-white/80 prose-strong:text-white">
             <div className="flex justify-center">
               <div className="w-full max-w-sm">
-                <VideoPlayer src="vd1.mp4" autoPlay={false} muted={false} />
+                <VideoPlayer src="/vd1.mp4" autoPlay={false} muted={false} />
               </div>
             </div>
             <br />
-            <p>
+            <p style={{ whiteSpace: 'pre-wrap' }}>
 {`Our wing breaks. 💔
 And we are left standing in the silence that follows. 
 We don't even try. We’re almost afraid to look too closely and 

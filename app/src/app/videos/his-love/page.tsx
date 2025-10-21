@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 };
 
 export default function HisLovePage() {
-  const videoSrc = "vd2.mp4";
+  const videoSrc = "/vd2.mp4";
   return (
     <main className="bg-background text-white min-h-screen">
       <div className="relative pt-48 pb-20 bg-background">
@@ -30,7 +30,7 @@ export default function HisLovePage() {
               </div>
             )}
             <br />
-            <p>
+            <p style={{ whiteSpace: 'pre-wrap' }}>
 {`Don't ask who loved you.. 
 Don't think that person should love me. 
 Don't expect how much they should love you🤔 

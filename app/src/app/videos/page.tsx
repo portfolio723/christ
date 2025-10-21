@@ -62,9 +62,9 @@ He knows how to reconstruct 🏘
 What has been beyond repair. 
  
 It begins the moment you dare to place the pieces in His hands. 🤍`,
-    thumbnail: 'vd1.jpeg',
+    thumbnail: '/vd1.jpeg',
     thumbnailHint: 'open bible',
-    videoSrc: 'vd1.mp4',
+    videoSrc: '/vd1.mp4',
     href: '/videos/breaking-is-not-the-end',
     category: 'Fracture meets Grace',
   },
@@ -88,9 +88,9 @@ You 🫵🏻 felt like there was no need to turn to look at the world, and you d
 ఒక్కసారి తండ్రి ప్రేమను రుచి చూడు...🤤❤️ 
  
 నేను పందెం వేస్తున్నాను, నువ్వు 🫵🏻 ప్రపంచము  వైపు చూడటానికి కూడా అవసరం లేదని భావింస్తావు  మరియు "నువ్వు నన్ను ప్రేమిస్తున్నావా?" అని అడగాలని కూడా అనుకోవు 🤷‍♀️`,
-    thumbnail: 'vd2.jpeg',
+    thumbnail: '/vd2.jpeg',
     thumbnailHint: 'light through clouds',
-    videoSrc: 'vd2.mp4',
+    videoSrc: '/vd2.mp4',
     href: '/videos/his-love',
     category: 'The sweetest habit',
   },
@@ -222,9 +222,9 @@ Cause He allows the trap only to pull us out 💪✨
 So, stay anointed, warrior. 🕊️⚔️
 
 Until next time...`,
-    thumbnail: 'vd3.jpeg',
+    thumbnail: '/vd3.jpeg',
     thumbnailHint: 'praying hands',
-    videoSrc: 'vd3.mp4',
+    videoSrc: '/vd3.mp4',
     href: '/videos/fasting',
     category: 'In His Grip & Grace',
   },
@@ -232,9 +232,9 @@ Until next time...`,
     id: 'video-6',
     title: 'Millions have been saved by the sweetness that 𝐉𝐄𝐒𝐔𝐒 bleeds 🕊️🩸🤍✨❤️',
     description: "Discover the profound sweetness in the sacrifice of Jesus. His love, poured out for all, brings salvation and new life to millions.",
-    thumbnail: 'bg7.jpeg',
+    thumbnail: '/bg7.jpeg',
     thumbnailHint: 'cross light',
-    videoSrc: 'bg7.mp4',
+    videoSrc: '/bg7.mp4',
     href: '/blog/sweetness-bleeds',
     category: 'Ever Sweet',
   },
@@ -242,9 +242,9 @@ Until next time...`,
     id: 'video-7',
     title: 'Dared to be beautifully shattered in HIS hands 🙌',
     description: "Embrace the process of being broken and remade by God. Discover the beauty in surrender and the strength found in His hands.",
-    thumbnail: 'bg8.jpeg',
+    thumbnail: '/bg8.jpeg',
     thumbnailHint: 'potters hands',
-    videoSrc: 'bg8.mp4',
+    videoSrc: '/bg8.mp4',
     href: '/blog/beautifully-shattered',
     category: 'Re Made',
   },
@@ -252,9 +252,9 @@ Until next time...`,
     id: 'video-4',
     title: "Don't confuse feeling His nearness. If we truly 𝗜𝗡 𝗛𝗜𝗠 more than 𝗪𝗜𝗧𝗛 𝗛𝗜𝗠 even in failure too, success.",
     description: "Yes, beloved 💙\n \nI’ll never tire of reminding to you... 😇\n\nOur 𝐆𝐎𝐃 is always with us in all our ways. Yes, he is.🫠\n \nBut the exciting question is...this time I'm not asking you the question; I'm telling you, Honestly, ask yourself, AM I WITH 𝐆𝐎𝐃 as he is with me always in all my ways?? or not!!?🤔\n \nI trust you’ve asked yourself😅\n\nNow it’s my turn to do the same 🫣\n \nSee Lovelies 😊,\n \nWhen you see a great tree 🌳 from afar, you recognize it as a tree  yet it appears small. Move closer, step by step, we are so small in front of that big tree while standing in front of the tree🌳.\n \nLikewise, we might think \"𝐆𝐎𝐃 is with me; I can move freely. He knows all and watches over me. And while this is true, we must also examine ourselves🧐,\n \nHow deeply do I truly know Him? \n\nWhat intimacy do i share?\n\nHow closely am I walking with Him in my decisions?\n\nDoes my path delight Him?\n\nHas He clearly confirmed my way, or do I simply assume His presence, as always?!!! 💭💭💭💭💭\n \nDo you feel familier?? fall in puzzled? 😐\n \nLook, my dear 🙂\n \nHe is no earthly lover who abandons us selfishly.\n\nNo faithless husband who discards a covenant lightly 🫠🫠\n \n𝐇𝐄 𝐈𝐒 𝐎𝐔𝐑 𝐅𝐀𝐓𝐇𝐄𝐑 👑🥰 𝐀𝐍𝐃 𝐘𝐎𝐔 𝐀𝐑𝐄 𝐇𝐈𝐒 𝐃𝐀𝐔𝐆𝐇𝐓𝐄𝐑 👸𝐀𝐍𝐃 𝐒𝐎𝐍🤴.𝐇𝐄 𝐋𝐎𝐕𝐄𝐒 𝐘𝐎𝐔 𝐌𝐎𝐑𝐄 𝐓𝐇𝐀𝐍 𝐇𝐈𝐌𝐒𝐄𝐋𝐅 💝. \n\nHe longs for your presence above all else 💖. \n\nHE waits to reveal himself to you ❣.  \n \nSo tear off the veil, Leave doubt behind, Don’t nest in comfortable lies that you know Him fully...Go...Sit with Him...\n\nSpend time knowing Him deeper... 💞\n \nFor when His love truly covers us,even failure whispers near our ears.\n\nDo i will won over you?🤭and the very failure will speak to you ,Better i stay far from you child of GOD.😎😜\n \nsounds proud right!?🤗 🤩\n \nAlthough God is with us, what matters is that how much we are with him in all matters!!!🎯\n \nJust think, Who, after all, should know a Father’s heart better than His own son or daughter?🥰\n \n \nఅవును, ప్రియతమా 💙\n \nనేను నీకు గుర్తుచేయడంలో ఎప్పుడూ అలసిపోను... 😇\n \nమన దేవుడు మన అన్ని విధాలుగా ఎల్లప్పుడూ మనతోనే ఉంటాడు. అవును, ఆయనే ఉంటాడు .🫠\n \nకానీ ఉత్తేజకరమైన ప్రశ్న ఏమిటంటే... ఈసారి నేను నిన్ను ఆ ప్రశ్న అడగడం లేదు; నిజాయితీగా నిన్ను నువ్వు ప్రశ్నించుకో, ఆయన నా అన్ని విధాలుగా ఎల్లప్పుడూ నాతో ఉన్నట్లే నేను కూడా ఆయనతో ఉన్నానా?? లేదా!!?🤔\n \nనువ్వు నిన్ను నువ్వు ప్రశ్నించుకున్నవని నేను నమ్ముతున్నాను😅\n \nఇప్పుడు నా వంతు కూడా అదే 🫣\n \nప్రియమైనవారా  చూడండి 😊,\n \nదూరం నుండి ఒక గొప్ప చెట్టును చూసినప్పుడు, మీరు దానిని చెట్టుగా గుర్తిస్తారు, కానీ అది చిన్నదిగా కనిపిస్తుంది. దగ్గరగా వెళ్ళండి, దశలవారీగా, చెట్టు ముందు నిలబడి ఉన్నప్పుడు మనం ఆ పెద్ద చెట్టు ముందు చాలా చిన్నవాళ్ళం గా  అయిపోతాం 🌳.\n \nఅదేవిధంగా, మనం \"నాతో ఉన్నాడు; నేను స్వేచ్ఛగా కదలగలను. ఆయనకి  అన్నీ తెలుసు మరియు నన్ను చూసుకుంటాడు. ఇది నిజమే అయినప్పటికీ, మనం మనల్ని మనం పరిశీలించుకోవాలి🧐,\n \nనేను ఆయనను నిజంగా ఎంత లోతుగా తెలుసుకున్నాను?\n\nనేను ఎలాంటి సాన్నిహిత్యాన్ని ఆయనతో పంచుకుంటున్నాను  ?\n\nనా నిర్ణయాలలో నేను ఆయనతో ఎంత దగ్గరగా నడుస్తున్నాను?\n\nనా మార్గం ఆయనను ఆనందిస్తుందా?\n\nఆయన నా మార్గాన్ని స్పష్టంగా ధృవీకరించాడా, లేదా నేను ఎప్పటిలాగే ఆయన ఉనికిని ఊహిస్తున్నానా?!!! 💭💭💭💭💭\n \nఇలాగే చేస్తున్నారా ??ఆలోచనల్లో పడ్డారా? 😐\n \nచూడు, నా ప్రియా 🙂\n \nఅతను స్వార్థపూరితంగా మనల్ని విడిచిపెట్టే భూసంబంధమైన ప్రేమికుడు కాదు.\n \nఒడంబడికను తేలికగా విస్మరించే విశ్వాసరహిత భర్త కాడు\n \nఆయన మన తండ్రి 👑🥰 తన కన్నా నిన్ను యెక్కువ ప్రేమిస్తున్నాడు 💝\n\nఆయన అన్నిటికంటే ఎక్కువగా నీ ఉనికిని కోరుకుంటాడు 💖.\n\nఆయన తనను తాను నీకు వెల్లడించుకోవడానికి వేచి ఉన్నాడు ❣.\n \nకాబట్టి ముసుగును చింపివేయండి, సందేహాన్ని వదిలివేయండి, మీరు ఆయనను పూర్తిగా తెలుసుకున్నారని సౌకర్యవంతమైన అబద్ధాలలో గూడు కట్టుకోకండి... వెళ్ళండి... ఆయనతో కూర్చోండి...\n\nఆయనను తెలుసుకుని సమయం గడపండి లోతుగా... 💞\n \nఆయన ప్రేమ నిజంగా మనల్ని కప్పివేసినప్పుడు, వైఫల్యం కూడా మన చెవుల దగ్గర గుసగుసలాడుతుంది.\n \nనేను నిన్ను గెలుస్తానా?🤭మరియు వైఫల్యం కూడా నీతో మాట్లాడుతుంది, దేవుని బిడ్డా, నీ నుండి నేను దూరంగా ఉండటం మంచిది అని .😎😜\n \nగర్వంగా అనిపిస్తుంది కదా!?🤗 🤩\n \nదేవుడు మనతో ఉన్నప్పటికీ, అన్ని విషయాలలో మనం ఆయనతో ఎంతగా ఉన్నాము అనేది ముఖ్యం!!!🎯\n \nఒక్కసారి ఆలోచించండి, తండ్రి హృదయాన్ని తన సొంత కొడుకు లేదా కూతురు కంటే ఎవరు బాగా తెలుసుకోవాలి?",
-    thumbnail: 'vd4.jpeg',
+    thumbnail: '/vd4.jpeg',
     thumbnailHint: 'path light',
-    videoSrc: 'vd4.mp4',
+    videoSrc: '/vd4.mp4',
     href: '/videos/feeling-nearness',
     category: 'In Him',
   },
@@ -262,9 +262,9 @@ Until next time...`,
     id: 'video-5',
     title: "That's all. His love is💕!!! Bubbling🫧🤍...That's all we can't see!!! ♥‿♥",
     description: "Experience the unseen, bubbling love of God that surrounds and fills us. A short reflection on His ever-present affection.",
-    thumbnail: 'vd5.jpeg',
+    thumbnail: '/vd5.jpeg',
     thumbnailHint: 'love concept',
-    videoSrc: 'vd5.mp4',
+    videoSrc: '/vd5.mp4',
     href: '/videos/bubbling-love',
     category: 'Bubbling Love',
   },
@@ -420,7 +420,7 @@ export default function VideoMinistryPage() {
       {/* CTA Section */}
       <section className="relative w-full py-16 md:py-28 text-center border-t border-border">
         <Image
-          src="fd.jpeg"
+          src="/fd.jpeg"
           alt="Abstract background with flowing lights, inviting users to subscribe to the YouTube channel."
           fill
           className="object-cover"
@@ -459,7 +459,7 @@ export default function VideoMinistryPage() {
         className="relative w-full py-20 md:py-32 bg-background text-white"
       >
         <video
-          src="vv.mp4"
+          src="/vv.mp4"
           autoPlay
           muted
           loop

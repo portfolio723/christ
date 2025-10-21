@@ -53,7 +53,7 @@ export default function TheBeautifulBreakingPage() {
             <br />
             <p>So while He is breaking, remaking, and shaping us, He may seem silent. Oh, that silence feels like hell! At that time, don&apos;t leave that situation in the middle, try to stand with him and hold his hand tightly. He is preparing us in that empty, dry desert of brokenness. But if you rely and wait upon Him in that season, 𝐇𝐞 𝐰𝐢𝐥𝐥 𝐟𝐨𝐫𝐠𝐞 𝐲𝐨𝐮 𝐢𝐧𝐭𝐨 𝐇𝐢𝐬 𝐯𝐞𝐫𝐲 𝐡𝐞𝐚𝐫𝐭 𝐨𝐟 𝐥𝐨𝐯𝐞 💕  for the millions who do not know how to love and are desperate to be loved.𝐇𝐞 𝐰𝐢𝐥𝐥 𝐦𝐚𝐤𝐞 𝐲𝐨𝐮 𝐭𝐡𝐚𝐭 𝐯𝐞𝐫𝐲 𝐋𝐨𝐯𝐞 🥰</p>
             <br />
-            <p>Always remember this: If 𝐇𝐞 𝐝𝐨𝐞𝐬 𝐧𝐨𝐭 𝐛𝐫𝐞𝐚𝐤 𝐮𝐬, 𝐰𝐞 𝐰𝐢𝐥𝐥 𝐧𝐞𝐯𝐞𝐫 𝐥𝐞𝐚𝐫𝐧 𝐭𝐨 𝐥𝐨𝐯𝐞 𝐥𝐢𝐤𝐞 𝐇𝐢𝐦🙌. In that breaking, He is producing His masterpieces. His love-makers and grace-donors. Without the breaking, there can be no beautiful, lasting building 💒.</p>
+            <p>Always remember this: If 𝐇𝐞 𝐝𝐨𝐞𝐬 𝐧𝐨𝐭 𝐛𝐫𝐞𝐚𝐤 𝐮𝐬, 𝐰𝐞 𝐰𝐢𝐥𝐥 𝐧𝐞𝐯𝐞𝐫 𝐥𝐞𝐚𝐫𝐧 𝐭𝐨 𝐥𝐨𝐯𝐞 𝐥𝐢𝗸𝗲 𝐇𝐢𝐦🙌. In that breaking, He is producing His masterpieces. His love-makers and grace-donors. Without the breaking, there can be no beautiful, lasting building 💒.</p>
             <br />
             <p>Armed 🛡️ with the love He gives you, you will comfort those who are longing for it. 𝗕𝗲𝗰𝗮𝘂𝘀𝗲 𝗝𝗘𝗦𝗨𝗦 𝗶𝘀 𝗹𝗼𝘃𝗲 𝗶𝘁𝘀𝗲𝗹𝗳!⚡</p>
             <br />

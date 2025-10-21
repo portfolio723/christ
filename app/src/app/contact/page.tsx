@@ -21,7 +21,7 @@ export default function ContactPage() {
       {/* Header Section */}
       <section className="relative w-full h-screen flex flex-col items-center justify-center text-center text-white overflow-hidden">
         <video
-          src="sd.mp4"
+          src="/sd.mp4"
           autoPlay
           muted
           loop
@@ -86,7 +86,7 @@ export default function ContactPage() {
         className="relative w-full py-20 md:py-28 border-y border-border overflow-hidden"
       >
         <video
-          src="aa.mp4"
+          src="/aa.mp4"
           autoPlay
           muted
           loop

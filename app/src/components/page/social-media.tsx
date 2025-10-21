@@ -73,7 +73,7 @@ export function SocialMedia() {
       className="relative w-full py-20 md:py-32"
     >
       <Image
-        src="it.jpeg"
+        src="/it.jpeg"
         alt="A spiritual background pattern symbolizing interconnectedness."
         fill
         className="object-cover"

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 };
 
 export default function FeelingNearnessPage() {
-  const videoSrc = "vd4.mp4";
+  const videoSrc = "/vd4.mp4";
   return (
     <main className="bg-background text-white min-h-screen">
       <div className="relative pt-48 pb-20 bg-background">
@@ -30,7 +30,7 @@ export default function FeelingNearnessPage() {
               </div>
             )}
             <br />
-            <p>
+            <p style={{ whiteSpace: 'pre-wrap' }}>
 {`Yes, beloved 💙
  
 I’ll never tire of reminding to you... 😇
@@ -90,7 +90,7 @@ Just think, Who, after all, should know a Father’s heart better than His own s
             <br />
             <hr className="my-8 border-primary/50" />
             <br />
-            <div className="text-lg" lang="te">
+            <div className="text-lg" lang="te" style={{ whiteSpace: 'pre-wrap' }}>
 {`
 అవును, ప్రియతమా 💙
  

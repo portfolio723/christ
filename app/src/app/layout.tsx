@@ -1,7 +1,7 @@
 
 import type { Metadata } from 'next';
 import { Inter, Playfair_Display, Dancing_Script, Yesteryear, Mea_Culpa, Allison, Lavishly_Yours, Oleo_Script, Condiment, Great_Vibes, Bonheur_Royale, Mrs_Saint_Delafield, Cookie, Love_Light, Alex_Brush, Hurricane, Arizonia, Fasthand, Mr_Dafoe, Pinyon_Script, Engagement, The_Nautigal } from 'next/font/google';
-import './globals.css';
+import '@/app/globals.css';
 import { Toaster } from '@/components/ui/toaster';
 import { Header } from '@/components/page/header';
 import { cn } from '@/lib/utils';

@@ -69,7 +69,7 @@ export default function TestimonialsPage() {
       {/* Hero Section */}
       <section className="relative h-screen w-full flex flex-col items-center justify-center text-center overflow-hidden">
         <video
-          src="test.mp4"
+          src="/test.mp4"
           autoPlay
           muted
           loop
@@ -80,7 +80,7 @@ export default function TestimonialsPage() {
         <div className="relative z-10 p-4 container mx-auto px-4 md:px-6">
           <h1 className="text-5xl md:text-7xl font-allison mb-4 tracking-tight flex flex-col sm:flex-row items-center justify-center">
             Hearts Joined with GOD
-            <Image src="hii.png" alt="A small heart icon with a plus sign, symbolizing joined hearts" width={64} height={64} className="ml-0 sm:ml-2 mt-2 sm:mt-0" />
+            <Image src="/hii.png" alt="A small heart icon with a plus sign, symbolizing joined hearts" width={64} height={64} className="ml-0 sm:ml-2 mt-2 sm:mt-0" />
           </h1>
           <p className="max-w-3xl mx-auto text-3xl md:text-4xl text-white/80 font-allison">
             Come hear the true stories our blog shares, of their inward spirits encouraged by knowing GOD&apos;s deep, measureless love.
@@ -125,7 +125,7 @@ export default function TestimonialsPage() {
       {/* Call to Share Section */}
       <section className="relative w-full py-20 md:py-28 text-center border-y border-border">
         <Image
-          src="ed.jpeg"
+          src="/ed.jpeg"
           alt="A background of graceful, spiritual light patterns inviting users to share their story."
           fill
           className="object-cover"
@@ -151,7 +151,7 @@ export default function TestimonialsPage() {
         className="relative w-full py-20 md:py-32 bg-background text-white"
       >
         <Image
-          src="Testi.jpeg"
+          src="/Testi.jpeg"
           alt="A tranquil and spiritual background for the 'love note' section."
           fill
           className="object-cover"
