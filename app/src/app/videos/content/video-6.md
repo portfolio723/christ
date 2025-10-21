@@ -1,1 +1,0 @@
-Discover the profound sweetness in the sacrifice of Jesus. His love, poured out for all, brings salvation and new life to millions.
