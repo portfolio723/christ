@@ -14,7 +14,6 @@ import {
 } from '@/components/ui/carousel';
 import { SocialMedia } from '@/components/page/social-media';
 import { Hero } from '@/components/page/hero';
-import { VideoPlayerDemo } from '@/components/ui/video-player-demo';
 import Link from 'next/link';
 
 const featuredVideos = [
@@ -377,21 +376,11 @@ export default function VideoMinistryPage() {
         </div>
       </section>
 
-      {/* Live Broadcast Section */}
-      <section
-        id="live-broadcast"
-        className="w-full h-screen flex items-center justify-center"
-      >
-        <div className="w-full h-full">
-          <VideoPlayerDemo />
-        </div>
-      </section>
-
       {/* CTA Section */}
       <section className="relative w-full py-16 md:py-28 text-center border-t border-border">
         <Image
           src="/fd.jpeg"
-          alt="Abstract background with flowing lights, inviting users to subscribe."
+          alt="Abstract background with flowing lights, inviting users to subscribe to the YouTube channel."
           fill
           className="object-cover"
           data-ai-hint="spiritual abstract"
@@ -435,6 +424,7 @@ export default function VideoMinistryPage() {
           loop
           playsInline
           className="absolute top-0 left-0 w-full h-full object-cover"
+          alt="A tranquil video background representing God's love."
         />
         <div className="absolute inset-0 bg-black/70" />
 
