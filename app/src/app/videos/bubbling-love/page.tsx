@@ -33,7 +33,7 @@ export default function BubblingLovePage() {
         <div className="absolute inset-0 bg-black/70" />
         <div className="relative container mx-auto px-4 md:px-6 max-w-4xl text-center">
             <h1 className="text-4xl md:text-5xl font-bold font-headline mb-4">
-            That's all. His love is💕!!! Bubbling🫧🤍...That's all we can't see!!! ♥‿♥
+            That&apos;s all. His love is💕!!! Bubbling🫧🤍...That&apos;s all we can&apos;t see!!! ♥‿♥
             </h1>
         </div>
       </div>
