@@ -1,3 +1,4 @@
+
 'use client';
 
 import { useState, useEffect } from 'react';
@@ -18,17 +19,15 @@ const navLinks = [
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
-  const [hasMounted, setHasMounted] = useState(false);
 
   useEffect(() => {
-    setHasMounted(true);
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 10);
     };
 
-    handleScroll();
-
     window.addEventListener('scroll', handleScroll);
+    handleScroll(); // Check scroll position on mount
+
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
@@ -38,7 +37,7 @@ export function Header() {
     <header
       className={cn(
         'fixed top-0 left-0 w-full z-50 transition-all duration-300',
-        hasMounted && isScrolled
+        isScrolled
           ? 'bg-background/80 backdrop-blur-sm border-b border-border'
           : 'bg-transparent border-b border-transparent'
       )}
