@@ -220,7 +220,7 @@ export default function RootLayout({
         <link rel="preload" href="/blog.mp4" as="video" type="video/mp4" />
         <link rel="preload" href="/test.mp4" as="video" type="video/mp4" />
         <link rel="preload" href="/sd.mp4" as="video" type="video/mp4" />
-        <link rel="icon" type="image/x-icon" sizes="any" href="/favicon.ico" />
+        <link rel="icon" type="image/x-icon" sizes="any" href="/fav.ico" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
