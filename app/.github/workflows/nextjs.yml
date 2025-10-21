@@ -32,7 +32,6 @@ jobs:
     
     - name: Add .nojekyll file
       run: |
-        mkdir -p ./out
         touch ./out/.nojekyll
     
     - name: Setup Pages

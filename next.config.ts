@@ -4,9 +4,8 @@ const nextConfig: NextConfig = {
   // CRITICAL: Enable static export for GitHub Pages
   output: 'export',
   
-  // DO NOT USE basePath for custom domains
-  // basePath is ONLY for github.io/repo-name URLs
-  // basePath: '/christ', // ❌ REMOVE THIS
+  // Set basePath for github.io/repo-name URLs
+  basePath: '/christ',
   
   // Disable image optimization (required for static export)
   images: {
@@ -51,7 +50,7 @@ const nextConfig: NextConfig = {
     ],
   },
   
-  // Optional: Add trailing slashes for better compatibility
+  // Ensure trailing slashes for better compatibility
   trailingSlash: true,
   
   // Optional: Disable server features
