@@ -1,0 +1,1 @@
+Embrace the process of being broken and remade by God. Discover the beauty in surrender and the strength found in His hands.
