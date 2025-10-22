@@ -89,7 +89,7 @@ export const AnimatedTestimonials = ({
               className="flex-grow"
             >
               <motion.p
-                className="text-lg md:text-xl text-white/80 whitespace-pre-line"
+                className="text-lg md:text-xl text-white/80 whitespace-pre-line text-left leading-relaxed"
                 style={{ minHeight: '150px' }} // Set a min-height to avoid layout shifts
               >
                 {testimonials[active].quote.split(" ").map((word, index) => (
