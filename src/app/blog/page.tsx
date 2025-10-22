@@ -6,6 +6,7 @@ import { ShineBorder, Timeline } from '@/components/ui/shine-border';
 import { SocialMedia } from '@/components/page/social-media';
 import type { Metadata } from 'next';
 import { Badge } from '@/components/ui/badge';
+import VideoPlayer from '@/components/ui/video-player';
 
 export const metadata: Metadata = {
   title: 'Blog | The Spirit\'s Voice',
@@ -196,6 +197,20 @@ const BlogPage = () => {
           </div>
         </section>
       </div>
+
+      <section className="w-full py-20 md:py-24">
+        <div className="container mx-auto px-4">
+           <div className="text-center mb-12">
+              <h2 className="text-3xl md:text-4xl font-headline font-bold text-white">
+                A Moment of Reflection
+              </h2>
+              <p className="text-white/70 mt-2 max-w-2xl mx-auto">
+                Watch a short video to pause and reconnect with His message.
+              </p>
+            </div>
+            <VideoPlayer src="/hero.mp4" alt="A reflective video."/>
+        </div>
+      </section>
 
       <section
         id="mission"
