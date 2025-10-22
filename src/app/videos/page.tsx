@@ -435,7 +435,7 @@ export default function VideoMinistryPage() {
                   </CardHeader>
                   <CardContent className="p-6 flex-grow flex flex-col">
                      <div className="flex items-center gap-4 text-xs text-white/60 mb-3">
-                       <Badge variant="outline" className={cn("border-primary/50 text-primary", video.category === 'SIT WITH HIM' && "border-accent/50 text-accent")}>{video.category}</Badge>
+                       <Badge variant="outline" className="border-accent/50 text-accent">{video.category}</Badge>
                     </div>
                     <h3 className="font-headline text-lg md:text-xl font-bold text-white mb-2 flex-grow">
                       {video.title}
