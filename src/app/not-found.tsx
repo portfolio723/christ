@@ -1,7 +1,7 @@
 
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
-import { ArrowLeft, Frown } from 'lucide-react';
+import { ArrowLeft } from 'lucide-react';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -23,17 +23,14 @@ export default function NotFound() {
       <div className="absolute inset-0 bg-black/70" />
       <div className="relative z-10 p-4 container mx-auto px-4 md:px-6">
         <div className="flex flex-col items-center">
-            <div>
-                <Frown className="w-24 h-24 text-primary/50 mb-6" />
-            </div>
-            <h1 className="text-6xl md:text-8xl font-headline font-bold text-white mb-2">
+            <h1 className="text-6xl md:text-8xl font-headline font-bold text-white mb-2 mt-12">
             404
             </h1>
             <p className="text-2xl md:text-3xl font-script text-white/80 mb-8">
             The page you seek is not here, but hope is not lost.
             </p>
             <p className="max-w-md mx-auto text-white/70 mb-12 font-oleo-script">
-            Sometimes we wander off the path, but Grace is always near to guide us home. Let&apos;s return to the light.
+            Sometimes we wander off the path, but Grace is always near to guide us home. Let's return to the light.
             </p>
             <Button asChild size="lg" className="bg-primary hover:bg-primary/90 font-bold text-lg">
                 <Link href="/">
