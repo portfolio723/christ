@@ -208,7 +208,9 @@ const BlogPage = () => {
                 Watch a short video to pause and reconnect with His message.
               </p>
             </div>
-            <VideoPlayer src="/pk.mp4" alt="A reflective video."/>
+            <div className="max-w-sm mx-auto aspect-[9/16] rounded-xl overflow-hidden">
+                <VideoPlayer src="/pk.mp4" alt="A reflective video." className="w-full h-full object-cover" />
+            </div>
         </div>
       </section>
 
