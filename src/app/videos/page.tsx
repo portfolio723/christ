@@ -303,7 +303,7 @@ Did you feel a light heart?😊😊`,
     thumbnailHint: 'love concept',
     videoSrc: '/vd6.mp4',
     href: '/videos/gods-habituality',
-    category: 'Habitual Love',
+    category: 'His most enduring habit 💕',
   },
   {
     id: 'video-7',
@@ -407,9 +407,9 @@ export default function VideoMinistryPage() {
       >
         <div className="container mx-auto px-4 md:px-6">
            <h3 className="text-3xl font-headline font-bold text-center mb-12">
-            Video Series &amp; Playlist
+            Video Series & Playlist
           </h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 md:gap-8 max-w-7xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 max-w-7xl mx-auto">
             {newVideos.map((video) => (
               <Link key={video.id} href={video.href} className="group flex">
                 <Card
@@ -535,7 +535,7 @@ export default function VideoMinistryPage() {
                 </p>
                 <br />
                 <br />
-                <p>Then Jesus...oh, Jesus&apos; love</p>
+                <p>Then Jesus...oh, Jesus&apos;s love</p>
                 <p>He saw you across time and chose the cross.</p>
                 <p>
                   He willingly embraced the cross... not just for the world, but
