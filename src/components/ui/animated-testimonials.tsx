@@ -1,7 +1,7 @@
 
 "use client";
 
-import { ArrowLeft, ArrowRight } from "lucide-react";
+import { ArrowLeft, ArrowRight, Quote } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
 import { useEffect, useState } from "react";
@@ -12,6 +12,7 @@ type Testimonial = {
   name: string;
   designation: string;
   src: string;
+  imageHint: string;
 };
 
 export const AnimatedTestimonials = ({
@@ -33,10 +34,6 @@ export const AnimatedTestimonials = ({
     setActive((prev) => (prev - 1 + testimonials.length) % testimonials.length);
   };
 
-  const isActive = (index: number) => {
-    return index === active;
-  };
-
   useEffect(() => {
     if (autoplay) {
       const interval = setInterval(handleNext, 5000);
@@ -44,123 +41,107 @@ export const AnimatedTestimonials = ({
     }
   }, [autoplay, testimonials.length]);
 
-  const randomRotateY = () => {
-    return Math.floor(Math.random() * 21) - 10;
-  };
-
   return (
-    <div className={cn("max-w-sm md:max-w-4xl mx-auto px-4 md:px-8 lg:px-12 py-20", className)}>
-      <div className="relative grid grid-cols-1 md:grid-cols-2 gap-20">
-        <div>
-          <div className="relative h-80 w-full">
-            <AnimatePresence>
-              {testimonials.map((testimonial, index) => (
-                <motion.div
-                  key={testimonial.src}
-                  initial={{
-                    opacity: 0,
-                    scale: 0.9,
-                    zIndex: 0,
-                    rotate: randomRotateY(),
-                  }}
-                  animate={{
-                    opacity: isActive(index) ? 1 : 0.7,
-                    scale: isActive(index) ? 1 : 0.95,
-                    rotate: isActive(index) ? 0 : randomRotateY(),
-                    zIndex: isActive(index)
-                      ? 999
-                      : testimonials.length - Math.abs(active - index),
-                    y: isActive(index) ? [0, -40, 0] : 0,
-                  }}
-                  exit={{
-                    opacity: 0,
-                    scale: 0.9,
-                    rotate: randomRotateY(),
-                  }}
-                  transition={{
-                    duration: 0.4,
-                    ease: "easeInOut",
-                  }}
-                  className="absolute inset-0 origin-bottom"
-                >
-                  <Image
-                    src={testimonial.src}
-                    alt={testimonial.name}
-                    width={500}
-                    height={500}
-                    draggable={false}
-                    className="h-full w-full rounded-3xl object-cover object-center"
-                  />
-                </motion.div>
-              ))}
-            </AnimatePresence>
-          </div>
+    <div className={cn("relative w-full max-w-4xl mx-auto py-20 px-4", className)}>
+      <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-12 md:gap-8">
+        {/* Left Side: Image and Decorative Shapes */}
+        <div className="relative h-80 w-full max-w-sm mx-auto">
+          {/* Background circle */}
+          <div className="absolute top-0 right-0 w-60 h-60 bg-card/50 rounded-full blur-xl" />
+          {/* Bottom left shape */}
+           <div className="absolute bottom-0 left-0 w-32 h-32 bg-accent/20 rounded-2xl blur-xl" />
+
+          <AnimatePresence>
+            <motion.div
+              key={active}
+              initial={{ opacity: 0, scale: 0.8 }}
+              animate={{ opacity: 1, scale: 1 }}
+              exit={{ opacity: 0, scale: 0.8 }}
+              transition={{ duration: 0.5, ease: "circOut" }}
+              className="absolute inset-0 flex items-center justify-center"
+            >
+              <Image
+                src={testimonials[active].src}
+                alt={testimonials[active].name}
+                width={320}
+                height={320}
+                draggable={false}
+                className="h-64 w-64 md:h-80 md:w-80 rounded-full object-cover object-center border-4 border-white/10 shadow-2xl shadow-primary/20"
+                data-ai-hint={testimonials[active].imageHint}
+              />
+            </motion.div>
+          </AnimatePresence>
         </div>
-        <div className="flex justify-between flex-col py-4">
-          <motion.div
-            key={active}
-            initial={{
-              y: 20,
-              opacity: 0,
-            }}
-            animate={{
-              y: 0,
-              opacity: 1,
-            }}
-            exit={{
-              y: -20,
-              opacity: 0,
-            }}
-            transition={{
-              duration: 0.2,
-              ease: "easeInOut",
-            }}
-          >
-            <h3 className="text-2xl font-bold text-foreground">
-              {testimonials[active].name}
-            </h3>
-            <p className="text-sm text-muted-foreground">
-              {testimonials[active].designation}
-            </p>
-            <motion.p className="text-lg text-white/80 mt-8">
-              {testimonials[active].quote.split(" ").map((word, index) => (
-                <motion.span
-                  key={index}
-                  initial={{
-                    filter: "blur(10px)",
-                    opacity: 0,
-                    y: 5,
-                  }}
-                  animate={{
-                    filter: "blur(0px)",
-                    opacity: 1,
-                    y: 0,
-                  }}
-                  transition={{
-                    duration: 0.2,
-                    ease: "easeInOut",
-                    delay: 0.02 * index,
-                  }}
-                  className="inline-block"
-                >
-                  {word}&nbsp;
-                </motion.span>
-              ))}
-            </motion.p>
-          </motion.div>
-          <div className="flex gap-4 pt-12 md:pt-0">
-            <button
-              onClick={handlePrev}
-              className="h-7 w-7 rounded-full bg-secondary flex items-center justify-center group/button"
+
+        {/* Right Side: Quote and Details */}
+        <div className="relative flex flex-col justify-between py-4 h-full min-h-[350px]">
+          <Quote className="absolute top-0 left-0 w-16 h-16 text-primary/30 transform -translate-x-4 -translate-y-4" />
+          {/* Bottom right shape */}
+          <div className="absolute bottom-0 right-0 w-32 h-32 bg-primary/20 rounded-full blur-xl" />
+
+          <AnimatePresence mode="wait">
+            <motion.div
+              key={active}
+              initial={{ y: 20, opacity: 0 }}
+              animate={{ y: 0, opacity: 1 }}
+              exit={{ y: -20, opacity: 0 }}
+              transition={{ duration: 0.3, ease: "easeInOut" }}
+              className="flex-grow"
             >
-              <ArrowLeft className="h-5 w-5 text-foreground group-hover/button:rotate-12 transition-transform duration-300" />
-            </button>
-            <button
-              onClick={handleNext}
-              className="h-7 w-7 rounded-full bg-secondary flex items-center justify-center group/button"
-            >
-              <ArrowRight className="h-5 w-5 text-foreground group-hover/button:-rotate-12 transition-transform duration-300" />
-            </button>
+              <motion.p
+                className="text-lg md:text-xl text-white/80 whitespace-pre-line"
+                style={{ minHeight: '150px' }} // Set a min-height to avoid layout shifts
+              >
+                {testimonials[active].quote.split(" ").map((word, index) => (
+                  <motion.span
+                    key={index}
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    transition={{
+                      duration: 0.1,
+                      delay: 0.01 * index,
+                    }}
+                    className="inline-block"
+                  >
+                    {word}&nbsp;
+                  </motion.span>
+                ))}
+              </motion.p>
+            </motion.div>
+          </AnimatePresence>
+
+          <div>
+            <AnimatePresence mode="wait">
+              <motion.div
+                key={active}
+                initial={{ y: 20, opacity: 0 }}
+                animate={{ y: 0, opacity: 1 }}
+                exit={{ y: -20, opacity: 0 }}
+                transition={{ duration: 0.3, delay: 0.1, ease: "easeInOut" }}
+              >
+                <h3 className="text-2xl font-bold text-white font-headline">
+                  {testimonials[active].name}
+                </h3>
+                <p className="text-sm text-accent">
+                  {testimonials[active].designation}
+                </p>
+              </motion.div>
+            </AnimatePresence>
+
+            <div className="flex gap-4 pt-8">
+              <button
+                onClick={handlePrev}
+                className="h-10 w-10 rounded-full bg-card/80 flex items-center justify-center group/button border border-border hover:border-primary transition-colors"
+              >
+                <ArrowLeft className="h-5 w-5 text-white/70 group-hover/button:text-white transition-colors" />
+              </button>
+              <button
+                onClick={handleNext}
+                className="h-10 w-10 rounded-full bg-card/80 flex items-center justify-center group/button border border-border hover:border-primary transition-colors"
+              >
+                <ArrowRight className="h-5 w-5 text-white/70 group-hover/button:text-white transition-colors" />
+              </button>
+            </div>
           </div>
         </div>
       </div>
