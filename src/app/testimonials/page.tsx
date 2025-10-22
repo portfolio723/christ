@@ -7,7 +7,7 @@ import { AnimatedTestimonials } from '@/components/ui/animated-testimonials';
 
 const testimonials = [
   {
-    description: 'Heartfelt voice by Anu\n\nShalom & Heavenly Love to You All\n\nWhen I found this channel, I found a place where God speaks.\n\nNot man\'s words—but His.\n\nThrough every message, through every video,\n\nI hear His voice. Gentle. Clear. True.\n\nThis is SPIRIT BREATHED\n\nIt hits the soul\n\nThank you for being a voice that carries only His, and I pray that this kind of genuine message from God will reach and connect many hearts through His Messenger.✍️🕊️',
+    description: 'Heartfelt voice by Anu\n Shalom & Heavenly Love to You All\n When I found this channel, I found a place where God speaks.\n Not man\'s words—but His.\n\nThrough every message, through every video,\n\nI hear His voice. Gentle. Clear. True.\n\nThis is SPIRIT BREATHED\n\nIt hits the soul\n\nThank you for being a voice that carries only His, and I pray that this kind of genuine message from God will reach and connect many hearts through His Messenger.✍️🕊️',
     name: 'With love\nAnu',
     designation: '',
     src: '/tt1.jpeg',
