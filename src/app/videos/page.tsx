@@ -370,6 +370,39 @@ Did you feel a light heart?😊😊
     href: '/blog/sweetness-bleeds',
     category: 'Sweet Sacrifice',
   },
+   {
+    id: 'video-8',
+    title: "Dared to be beautifully shattered in HIS hands 🙌",
+    description: `Dared to be beautifully shattered in HIS hands 🫰🙌
+ 
+Video 8 Description 
+Beloved 💙
+ 
+"The diamond Character will not come to you until 𝐆𝐎𝐃 press you through 𝐡𝐢𝐬 tests and you cannot learn by yourself until 𝐇𝐄 allows you".
+ 
+An olive 🫒 understands the value of its oil ⚱️ only after being pressed.
+ 
+A grape 🍇 recognises the sweetness of its wine 🫐🍷only when crushed.
+ 
+A diamond 💎 knows its true worth under pressure ✨
+ 
+Gold 🌕 knows that when she burns in flames 🧈🔥, her purity is exposed🪄✨ 
+ 
+The sculpture 🪨 knows if it endures the sculptor's chisel strokes ⛏️ how beautifully he will shape it👸
+ 
+And your broken heart 💔? 
+It understands that only the 𝐅𝐚𝐭𝐡𝐞𝐫'𝐬 𝐥𝐨𝐯𝐞 🫧💗✨ can rebuild it...❤️‍🩹🎀🌷
+ 
+Likewiseִֶָ ִֶָ🦋
+Your anointing 🔥 knows that the more you are crushed in 𝐆𝐎𝐃's hands, the more you form in 𝐂𝐇𝐑𝐈𝐒𝐓 👑 the more fragrant you become 🌸
+ 
+𝐀𝐋𝐋𝐄𝐋𝐔𝐉𝐀𝐇  🙏 🙌`,
+    thumbnail: '/bg8.jpeg',
+    thumbnailHint: 'shattered heart',
+    videoSrc: '/bg8.mp4',
+    href: '/blog/beautifully-shattered',
+    category: 'Beautifully Shattered',
+  },
 ]
 
 export default function VideoMinistryPage() {
@@ -431,7 +464,7 @@ export default function VideoMinistryPage() {
            <h3 className="text-3xl font-headline font-bold text-center mb-12">
             More Spiritual Insights
           </h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8 max-w-7xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6 md:gap-8 max-w-7xl mx-auto">
             {newVideos.map((video) => (
               <Link key={video.id} href={video.href} className="group flex">
                 <Card
