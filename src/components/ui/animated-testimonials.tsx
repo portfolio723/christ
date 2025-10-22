@@ -8,7 +8,7 @@ import { useEffect, useState } from "react";
 import { cn } from "@/lib/utils";
 
 type Testimonial = {
-  quote: string;
+  description: string;
   name: string;
   designation: string;
   src: string;
@@ -92,7 +92,7 @@ export const AnimatedTestimonials = ({
                 className="text-lg md:text-xl text-white/80 whitespace-pre-line text-left leading-relaxed"
                 style={{ minHeight: '150px' }} // Set a min-height to avoid layout shifts
               >
-                {testimonials[active].quote.split(/(\s+)/).map((word, index) => (
+                {testimonials[active].description.split(/(\s+)/).map((word, index) => (
                   <motion.span
                     key={index}
                     initial={{ opacity: 0 }}
