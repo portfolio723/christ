@@ -83,8 +83,18 @@ export default function TestimonialsPage() {
       </section>
 
       {/* Animated Testimonial Section */}
-      <section id="testimonials-grid" className="w-full bg-background">
+      <section id="testimonials-grid" className="relative w-full">
+         <Image
+            src="/tsb.jpeg"
+            alt="A spiritual background for the testimonials section."
+            fill
+            className="object-cover"
+            data-ai-hint="spiritual abstract"
+          />
+        <div className="absolute inset-0 bg-black/70" />
+        <div className="relative z-10">
           <AnimatedTestimonials testimonials={testimonials} autoplay={true} />
+        </div>
       </section>
       
       {/* Call to Share Section */}
