@@ -31,42 +31,11 @@
       "imageUrl": "/hv2.jpeg",
       "imageHint": "jesus statue"
     },
-
     {
       "id": "testimonial-1",
       "description": "Portrait of a smiling woman.",
       "imageUrl": "https://images.unsplash.com/photo-1557053910-d9eadeed1c58?q=80&w=1080",
       "imageHint": "smiling woman"
-    },
-    {
-      "id": "testimonial-2",
-      "description": "Portrait of a man in a suit.",
-      "imageUrl": "https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=1080",
-      "imageHint": "man in suit"
-    },
-    {
-      "id": "testimonial-3",
-      "description": "Portrait of a woman looking hopeful.",
-      "imageUrl": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?q=80&w=1080",
-      "imageHint": "woman hopeful"
-    },
-    {
-      "id": "testimonial-4",
-      "description": "Portrait of a man looking up.",
-      "imageUrl": "https://images.unsplash.com/photo-1552058544-f2b08422138a?q=80&w=1080",
-      "imageHint": "man looking up"
-    },
-    {
-      "id": "testimonial-5",
-      "description": "Portrait of a woman with glasses.",
-      "imageUrl": "https://images.unsplash.com/photo-1575084713-3983949e6f5a?q=80&w=1080",
-      "imageHint": "woman with glasses"
-    },
-    {
-      "id": "testimonial-6",
-      "description": "Portrait of a man reading a bible.",
-      "imageUrl": "https://images.unsplash.com/photo-1554151228-14d9def656e4?q=80&w=1080",
-      "imageHint": "man reading bible"
     },
     {
       "id": "insight-1",
