@@ -15,7 +15,7 @@ const metadata: Metadata = {
 const testimonials = [
   {
     quote: 'Heartfelt voice by Anu. Shalom & Heavenly Love to You All. When I found this channel, I found a place where God speaks. Not man\'s words—but His. Through every message, through every video, I hear His voice. Gentle. Clear. True. This is SPIRIT BREATHED. It hits the soul. Thank you for being a voice that carries only His, and I pray that this kind of genuine message from God will reach and connect many hearts through His Messenger.✍️🕊️',
-    name: 'Anu.',
+    name: 'With love\nAnu',
     designation: '',
     src: '/tt1.jpeg',
     imageHint: 'smiling woman',

@@ -119,9 +119,11 @@ export const AnimatedTestimonials = ({
                 exit={{ y: -20, opacity: 0 }}
                 transition={{ duration: 0.3, delay: 0.1, ease: "easeInOut" }}
               >
-                <h3 className="text-2xl font-bold text-white font-headline">
-                  {testimonials[active].name}
-                </h3>
+                <div className="text-2xl font-bold text-white font-headline">
+                  {testimonials[active].name.split('\n').map((line, i) => (
+                    <p key={i}>{line}</p>
+                  ))}
+                </div>
                 {testimonials[active].designation && (
                   <p className="text-sm text-accent">
                     {testimonials[active].designation}
