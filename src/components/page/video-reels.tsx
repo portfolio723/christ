@@ -65,7 +65,7 @@ export function VideoReels() {
   };
 
   const renderCardContent = (reel: ImagePlaceholder) => {
-    const isPortrait = reel.id === 'reel-0' || reel.id === 'reel-2';
+    const isPortrait = reel.id === 'reel-0' || reel.id === 'reel-1' || reel.id === 'reel-2';
     return (
     <Card
       className="group overflow-hidden rounded-lg border-2 border-transparent bg-card transition-all duration-300 hover:border-primary hover:shadow-2xl hover:shadow-primary/20 transform hover:-translate-y-2 h-full flex flex-col"
