@@ -360,6 +360,16 @@ Did you feel a light heart?😊😊
     href: '/videos/gods-habituality',
     category: 'Habitual Love',
   },
+  {
+    id: 'video-7',
+    title: "Millions have been saved by the sweetness that 𝐉𝐄𝐒𝐔𝐒 bleeds 🕊️🩸🤍✨❤️",
+    description: "Hope does not require a description 😉\n \nPlease peek at the bottom 👇🏻\n \nBy the way, have you ever thought about what sweetness🍯 truly means?\n \nI would love to share my thoughts on it 💭\n \nThe ultimate expression of sweetness is found in His sacrifice on the cross for us 🫠\n \nWe don't have to endure suffering of our sins because He took that upon Himself long before we came into this world 🥲🌎\n \nIt's something to think about, isn't it?🤷🏻‍♀️\n \nBeloved 💙\nAll we need to do is embrace the sweetness of His sacrifice made on our behalf ✝️🫂🍯🫰🏻\n \nYou might wonder 🫣 why He chose to die for us without us asking for it 🤔\nThe truth is, He would choose to do so regardless because He crafted each one of us with His own hands 🥹🤲🏻🫶🏻🥰\n \nIsn't it amazing to consider that the Creator 👑of the universe 🌎 wouldn't leave us without His love... 🤍❤️\n \nThat's the story, Beloved, of His deep sweetness 🫰🏻🫠🤗🫶🏻",
+    thumbnail: '/bg7.jpeg',
+    thumbnailHint: 'sacrifice cross',
+    videoSrc: '/bg7.mp4',
+    href: '/blog/sweetness-bleeds',
+    category: 'Sweet Sacrifice',
+  },
 ]
 
 export default function VideoMinistryPage() {
@@ -421,7 +431,7 @@ export default function VideoMinistryPage() {
            <h3 className="text-3xl font-headline font-bold text-center mb-12">
             More Spiritual Insights
           </h3>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 max-w-7xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8 max-w-7xl mx-auto">
             {newVideos.map((video) => (
               <Link key={video.id} href={video.href} className="group flex">
                 <Card
