@@ -241,7 +241,7 @@ const newVideos = [
     thumbnailHint: 'love concept',
     videoSrc: '/vd5.mp4',
     href: '/videos/bubbling-love',
-    category: 'Bubbling Love',
+    category: 'Popping Love',
   },
    {
     id: 'video-6',
