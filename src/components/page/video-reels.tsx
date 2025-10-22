@@ -15,18 +15,9 @@ import { cn } from '@/lib/utils';
 import VideoPlayer from '@/components/ui/video-player';
 
 
-const firstReel: ImagePlaceholder = {
-  id: 'reel-0',
-  description: "Listen!\n\nIn a basket of fruits, there are both fresh and rotten ones.\n\nPeople always choose fresh fruits.\n \nBut God? \n\nHe chooses the rotten one.\n \nThat rejected, spoiled, unwanted fruit, thrown-away fruit, \"Do you know who that fruit is?\n\nThat is you. That is me.\n \nYes, He restores what the world calls wasted\n\nand turns our rotten lives into something sweet and new.\n \nThat’s God.❤️🍎✨",
-  imageUrl: "/hv1.jpeg",
-  imageHint: "restored soul"
-};
-
-const otherReels: ImagePlaceholder[] = PlaceHolderImages.filter(
-  (img) => ['reel-1', 'reel-2'].includes(img.id)
-); 
-
-const reels = [firstReel, ...otherReels];
+const reels: ImagePlaceholder[] = PlaceHolderImages.filter(
+  (img) => ['reel-0', 'reel-1', 'reel-2'].includes(img.id)
+);
 
 
 function YouTubeEmbed({ videoId }: { videoId: string }) {
