@@ -8,7 +8,30 @@ export const metadata: Metadata = {
   description: 'Fasting is not something we do to God. It is something God does in us.',
 };
 
-const content = ` 
+export default function FastingPage() {
+  const videoSrc = "/vd3.mp4";
+  return (
+    <main className="bg-background text-white min-h-screen">
+      <div className="relative pt-48 pb-20 bg-background">
+        <div className="absolute inset-0 bg-black/70" />
+        <div className="relative container mx-auto px-4 md:px-6 max-w-4xl text-center">
+            <h1 className="text-4xl md:text-5xl font-bold font-headline mb-4">
+            Fasting is not something we do to God. It is something God does in us.🛐✨
+            </h1>
+        </div>
+      </div>
+      <article className="py-12">
+        <div className="container mx-auto px-4 md:px-6 max-w-3xl prose prose-invert prose-lg md:prose-xl prose-p:text-white/80 prose-strong:text-white">
+            {videoSrc && (
+              <div className="flex justify-center">
+                <div className="w-full max-w-sm">
+                  <VideoPlayer src={videoSrc} autoPlay={false} muted={false} />
+                </div>
+              </div>
+            )}
+            <br />
+            <p style={{ whiteSpace: 'pre-wrap' }}>
+{` 
 Have you heard, beloved?
 
 Fasting is a sacred step.
@@ -131,32 +154,7 @@ Cause He allows the trap only to pull us out 💪✨
  
 So, stay anointed, warrior. 🕊️⚔️
 
-Until next time...`;
-
-export default function FastingPage() {
-  const videoSrc = "/vd3.mp4";
-  return (
-    <main className="bg-background text-white min-h-screen">
-      <div className="relative pt-48 pb-20 bg-background">
-        <div className="absolute inset-0 bg-black/70" />
-        <div className="relative container mx-auto px-4 md:px-6 max-w-4xl text-center">
-            <h1 className="text-4xl md:text-5xl font-bold font-headline mb-4">
-            Fasting is not something we do to God. It is something God does in us.🛐✨
-            </h1>
-        </div>
-      </div>
-      <article className="py-12">
-        <div className="container mx-auto px-4 md:px-6 max-w-3xl prose prose-invert prose-lg md:prose-xl prose-p:text-white/80 prose-strong:text-white">
-            {videoSrc && (
-              <div className="flex justify-center">
-                <div className="w-full max-w-sm">
-                  <VideoPlayer src={videoSrc} autoPlay={false} muted={false} />
-                </div>
-              </div>
-            )}
-            <br />
-            <p style={{ whiteSpace: 'pre-wrap' }}>
-              {content}
+Until next time...`}
             </p>
         </div>
       </article>

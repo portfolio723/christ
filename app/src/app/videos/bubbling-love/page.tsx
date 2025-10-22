@@ -8,23 +8,6 @@ export const metadata: Metadata = {
   description: "Why read the description? Go and find His mighty grace upon you in your current state, dear!",
 };
 
-const content = `Why have you come to look!?🤔
- 
-Oh, the description..💁‍♀️
- 
-Instead of reading the description, go and find his mighty grace 💫 upon you in your current state, dear 🤗 
-What he secretly secret you🤫🧏‍♂️
- 
-Go, Go, yaar, do not miss out!🤩🎉
- 
-ఎందుకు చూడటానికి వచ్చావు!?🤔
- 
-ఓహ్, వివరణ..💁‍♀️
- 
-వివరణ చదివే బదులు, వెళ్లి నీ ప్రస్తుత స్థితిలో అతని గొప్ప కృపను కనుగొను ప్రియా 🤗 అతను రహస్యంగా నీకు ఏమి రహస్యంగా ఉంచాడో🤫🧏‍♂️
- 
-వెళ్ళు, వెళ్ళు, యార్, మిస్ అవ్వకు!🤩🎉`;
-
 export default function BubblingLovePage() {
   const videoSrc = "/vd5.mp4";
   return (
@@ -48,7 +31,22 @@ export default function BubblingLovePage() {
             )}
             <br />
             <p style={{ whiteSpace: 'pre-wrap' }}>
-              {content}
+{`Why have you come to look!?🤔
+ 
+Oh, the description..💁‍♀️
+ 
+Instead of reading the description, go and find his mighty grace 💫 upon you in your current state, dear 🤗 
+What he secretly secret you🤫🧏‍♂️
+ 
+Go, Go, yaar, do not miss out!🤩🎉
+ 
+ఎందుకు చూడటానికి వచ్చావు!?🤔
+ 
+ఓహ్, వివరణ..💁‍♀️
+ 
+వివరణ చదివే బదులు, వెళ్లి నీ ప్రస్తుత స్థితిలో అతని గొప్ప కృపను కనుగొను ప్రియా 🤗 అతను రహస్యంగా నీకు ఏమి రహస్యంగా ఉంచాడో🤫🧏‍♂️
+ 
+వెళ్ళు, వెళ్ళు, యార్, మిస్ అవ్వకు!🤩🎉`}
             </p>
         </div>
       </article>

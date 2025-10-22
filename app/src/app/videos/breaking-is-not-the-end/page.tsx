@@ -8,7 +8,27 @@ export const metadata: Metadata = {
   description: 'Our wing breaks. And we are left standing in the silence that follows. We don\'t even try. We’re almost afraid to look too closely and quietly accept: our life has ended here.',
 };
 
-const content = `Our wing breaks. 💔
+export default function BreakingIsNotTheEndPage() {
+  return (
+    <main className="bg-background text-white min-h-screen">
+      <div className="relative pt-48 pb-20 bg-background">
+        <div className="absolute inset-0 bg-black/70" />
+        <div className="relative container mx-auto px-4 md:px-6 max-w-4xl text-center">
+            <h1 className="text-4xl md:text-5xl font-bold font-headline mb-4">
+            By the way, Breaking is not the end but the opening for a life with 𝐆𝐎𝐃 👑
+            </h1>
+        </div>
+      </div>
+      <article className="py-12">
+        <div className="container mx-auto px-4 md:px-6 max-w-3xl prose prose-invert prose-lg md:prose-xl prose-p:text-white/80 prose-strong:text-white">
+            <div className="flex justify-center">
+              <div className="w-full max-w-sm">
+                <VideoPlayer src="/vd1.mp4" autoPlay={false} muted={false} />
+              </div>
+            </div>
+            <br />
+            <p style={{ whiteSpace: 'pre-wrap' }}>
+{`Our wing breaks. 💔
 And we are left standing in the silence that follows. 
 We don't even try. We’re almost afraid to look too closely and 
 𝐪𝐮𝐢𝐞𝐭𝐥𝐲 𝐚𝐜𝐜𝐞𝐩𝐭: 𝐨𝐮𝐫 𝐥𝐢𝐟𝐞 𝐡𝐚𝐬 𝐞𝐧𝐝𝐞𝐝 𝐡𝐞𝐫𝐞.
@@ -47,29 +67,7 @@ He is already writing a different story. 📖
 He knows how to reconstruct 🏘 
 What has been beyond repair. 
  
-It begins the moment you dare to place the pieces in His hands. 🤍`;
-
-export default function BreakingIsNotTheEndPage() {
-  return (
-    <main className="bg-background text-white min-h-screen">
-      <div className="relative pt-48 pb-20 bg-background">
-        <div className="absolute inset-0 bg-black/70" />
-        <div className="relative container mx-auto px-4 md:px-6 max-w-4xl text-center">
-            <h1 className="text-4xl md:text-5xl font-bold font-headline mb-4">
-            By the way, Breaking is not the end but the opening for a life with 𝐆𝐎𝐃 👑
-            </h1>
-        </div>
-      </div>
-      <article className="py-12">
-        <div className="container mx-auto px-4 md:px-6 max-w-3xl prose prose-invert prose-lg md:prose-xl prose-p:text-white/80 prose-strong:text-white">
-            <div className="flex justify-center">
-              <div className="w-full max-w-sm">
-                <VideoPlayer src="/vd1.mp4" autoPlay={false} muted={false} />
-              </div>
-            </div>
-            <br />
-            <p style={{ whiteSpace: 'pre-wrap' }}>
-              {content}
+It begins the moment you dare to place the pieces in His hands. 🤍`}
             </p>
         </div>
       </article>
