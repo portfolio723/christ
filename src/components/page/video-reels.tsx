@@ -16,7 +16,7 @@ import VideoPlayer from '@/components/ui/video-player';
 
 
 const reels: ImagePlaceholder[] = PlaceHolderImages.filter(
-  (img) => ['reel-0', 'reel-1', 'reel-2'].includes(img.id)
+  (img) => ['reel-0', 'reel-2', 'reel-1'].includes(img.id)
 );
 
 
