@@ -16,9 +16,9 @@ const metadata: Metadata = {
 const testimonials = [
   {
     quote: 'After a terminal diagnosis, the prayers here brought complete healing. Glory to God!',
-    name: 'Sarah L.',
+    name: 'Anu.',
     designation: 'Texas, USA',
-    src: 'https://images.unsplash.com/photo-1557053910-d9eadeed1c58?q=80&w=1080',
+    src: 'tt1.jpeg',
     imageHint: 'smiling woman',
   },
   {
