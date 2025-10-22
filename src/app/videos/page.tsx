@@ -1,3 +1,4 @@
+
 'use client';
 
 import Image from 'next/image';
@@ -346,7 +347,7 @@ Your anointing 🔥 knows that the more you are crushed in 𝐆𝐎𝐃's hands,
     thumbnailHint: 'shattered heart',
     videoSrc: '/bg8.mp4',
     href: '/blog/beautifully-shattered',
-    category: 'Beautifully Shattered',
+    category: 'RE - MADE',
   },
 ]
 
