@@ -6,11 +6,6 @@ import { PlayCircle, Youtube } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
-import {
-  Carousel,
-  CarouselContent,
-  CarouselItem,
-} from '@/components/ui/carousel';
 import { SocialMedia } from '@/components/page/social-media';
 import { Hero } from '@/components/page/hero';
 import Link from 'next/link';
@@ -246,10 +241,13 @@ Until next time...`,
     href: '/blog/beautifully-shattered',
     category: 'Re Made',
   },
-  {
+];
+
+const newVideos = [
+    {
     id: 'video-4',
     title: "Don't confuse feeling His nearness. If we truly 𝗜𝗡 𝗛𝗜𝗠 more than 𝗪𝗜𝗧𝗛 𝗛𝗜𝗠 even in failure too, success.",
-    description: "Yes, beloved 💙\n \nI’ll never tire of reminding to you... 😇\n\nOur 𝐆𝐎𝐃 is always with us in all our ways. Yes, he is.🫠\n \nBut the exciting question is...this time I'm not asking you the question; I'm telling you, Honestly, ask yourself, AM I WITH 𝐆𝐎𝐃 as he is with me always in all my ways?? or not!!?🤔\n \nI trust you’ve asked yourself😅\n\nNow it’s my turn to do the same 🫣\n \nSee Lovelies 😊,\n \nWhen you see a great tree 🌳 from afar, you recognize it as a tree  yet it appears small. Move closer, step by step, we are so small in front of that big tree while standing in front of the tree🌳.\n \nLikewise, we might think \"𝐆𝐎𝐃 is with me; I can move freely. He knows all and watches over me. And while this is true, we must also examine ourselves🧐,\n \nHow deeply do I truly know Him? \n\nWhat intimacy do i share?\n\nHow closely am I walking with Him in my decisions?\n\nDoes my path delight Him?\n\nHas He clearly confirmed my way, or do I simply assume His presence, as always?!!! 💭💭💭💭💭\n \nDo you feel familier?? fall in puzzled? 😐\n \nLook, my dear 🙂\n \nHe is no earthly lover who abandons us selfishly.\n\nNo faithless husband who discards a covenant lightly 🫠🫠\n \n𝐇𝐄 𝐈𝐒 𝐎𝐔𝐑 𝐅𝐀𝐓𝐇𝐄𝐑 👑🥰 𝐀𝐍𝐃 𝐘𝐎𝐔 𝐀𝐑𝐄 𝐇𝐈𝐒 𝐃𝐀𝐔𝐆𝐇𝐓𝐄𝐑 👸𝐀𝐍𝐃 𝐒𝐎𝐍🤴.𝐇𝐄 𝐋𝐎𝐕𝐄𝐒 𝐘𝐎𝐔 𝐌𝐎𝐑𝐄 𝐓𝐇𝐀𝐍 𝐇𝐈𝐌𝐒𝐄𝐋𝐅 💝. \n\nHe longs for your presence above all else 💖. \n\nHE waits to reveal himself to you ❣.  \n \nSo tear off the veil, Leave doubt behind, Don’t nest in comfortable lies that you know Him fully...Go...Sit with Him...\n\nSpend time knowing Him deeper... 💞\n \nFor when His love truly covers us,even failure whispers near our ears.\n\nDo i will won over you?🤭and the very failure will speak to you ,Better i stay far from you child of GOD.😎😜\n \nsounds proud right!?🤗 🤩\n \nAlthough God is with us, what matters is that how much we are with him in all matters!!!🎯\n \nJust think, Who, after all, should know a Father’s heart better than His own son or daughter?🥰\n \n \nఅవును, ప్రియతమా 💙\n \nనేను నీకు గుర్తుచేయడంలో ఎప్పుడూ అలసిపోను... 😇\n \nమన దేవుడు మన అన్ని విధాలుగా ఎల్లప్పుడూ మనతోనే ఉంటాడు. అవును, ఆయనే ఉంటాడు .🫠\n \nకానీ ఉత్తేజకరమైన ప్రశ్న ఏమిటంటే... ఈసారి నేను నిన్ను ఆ ప్రశ్న అడగడం లేదు; నిజాయితీగా నిన్ను నువ్వు ప్రశ్నించుకో, ఆయన నా అన్ని విధాలుగా ఎల్లప్పుడూ నాతో ఉన్నట్లే నేను కూడా ఆయనతో ఉన్నానా?? లేదా!!?🤔\n \nనువ్వు నిన్ను నువ్వు ప్రశ్నించుకున్నవని నేను నమ్ముతున్నాను😅\n \nఇప్పుడు నా వంతు కూడా అదే 🫣\n \nప్రియమైనవారా  చూడండి 😊,\n \nదూరం నుండి ఒక గొప్ప చెట్టును చూసినప్పుడు, మీరు దానిని చెట్టుగా గుర్తిస్తారు, కానీ అది చిన్నదిగా కనిపిస్తుంది. దగ్గరగా వెళ్ళండి, దశలవారీగా, చెట్టు ముందు నిలబడి ఉన్నప్పుడు మనం ఆ పెద్ద చెట్టు ముందు చాలా చిన్నవాళ్ళం గా  అయిపోతాం 🌳.\n \nఅదేవిధంగా, మనం \"నాతో ఉన్నాడు; నేను స్వేచ్ఛగా కదలగలను. ఆయనకి  అన్నీ తెలుసు మరియు నన్ను చూసుకుంటాడు. ఇది నిజమే అయినప్పటికీ, మనం మనల్ని మనం పరిశీలించుకోవాలి🧐,\n \nనేను ఆయనను నిజంగా ఎంత లోతుగా తెలుసుకున్నాను?\n\nనేను ఎలాంటి సాన్నిహిత్యాన్ని ఆయనతో పంచుకుంటున్నాను  ?\n\nనా నిర్ణయాలలో నేను ఆయనతో ఎంత దగ్గరగా నడుస్తున్నాను?\n\nనా మార్గం ఆయనను ఆనందిస్తుందా?\n\nఆయన నా మార్గాన్ని స్పష్టంగా ధృవీకరించాడా, లేదా నేను ఎప్పటిలాగే ఆయన ఉనికిని ఊహిస్తున్నానా?!!! 💭💭💭💭💭\n \nఇలాగే చేస్తున్నారా ??ఆలోచనల్లో పడ్డారా? 😐\n \nచూడు, నా ప్రియా 🙂\n \nఅతను స్వార్థపూరితంగా మనల్ని విడిచిపెట్టే భూసంబంధమైన ప్రేమికుడు కాదు.\n\nNo faithless husband who discards a covenant lightly 🫠🫠\n \n𝐇𝐄 𝐈𝐒 𝐎𝐔𝐑 𝐅𝐀𝐓𝐇𝐄𝐑 👑🥰 𝐀𝐍𝐃 𝐘𝐎𝐔 𝐀𝐑𝐄 𝐇𝐈𝐒 𝐃𝐀𝐔𝐆𝐇𝐓𝐄𝐑 👸𝐀𝐍𝐃 𝐒𝐎𝐍🤴.𝐇𝐄 𝐋𝐎𝐕𝐄𝐒 𝐘𝐎𝐔 𝐌𝐎𝐑𝐄 𝐓𝐇𝐀𝐍 𝐇𝐈𝐌𝐒𝐄𝐋𝐅 💝. \n\nHe longs for your presence above all else 💖. \n\nHE waits to reveal himself to you ❣.  \n \nSo tear off the veil, Leave doubt behind, Don’t nest in comfortable lies that you know Him fully...Go...Sit with Him...\n\nSpend time knowing Him deeper... 💞\n \nFor when His love truly covers us,even failure whispers near our ears.\n\nDo i will won over you?🤭and the very failure will speak to you ,Better i stay far from you child of GOD.😎😜\n \nsounds proud right!?🤗 🤩\n \nAlthough God is with us, what matters is that how much we are with him in all matters!!!🎯\n \nJust think, Who, after all, should know a Father’s heart better than His own son or daughter?",
+    description: "Yes, beloved 💙\n \nI’ll never tire of reminding to you... 😇\n\nOur 𝐆𝐎𝐃 is always with us in all our ways. Yes, he is.🫠\n \nBut the exciting question is...this time I'm not asking you the question; I'm telling you, Honestly, ask yourself, AM I WITH 𝐆𝐎𝐃 as he is with me always in all my ways?? or not!!?🤔\n \nI trust you’ve asked yourself😅\n\nNow it’s my turn to do the same 🫣\n \nSee Lovelies 😊,\n \nWhen you see a great tree 🌳 from afar, you recognize it as a tree  yet it appears small. Move closer, step by step, we are so small in front of that big tree while standing in front of the tree🌳.\n \nLikewise, we might think \"𝐆𝐎𝐃 is with me; I can move freely. He knows all and watches over me. And while this is true, we must also examine ourselves🧐,\n \nHow deeply do I truly know Him? \n\nWhat intimacy do i share?\n\nHow closely am I walking with Him in my decisions?\n\nDoes my path delight Him?\n\nHas He clearly confirmed my way, or do I simply assume His presence, as always?!!! 💭💭💭💭💭\n \nDo you feel familier?? fall in puzzled? 😐\n \nLook, my dear 🙂\n \nHe is no earthly lover who abandons us selfishly.\n\nNo faithless husband who discards a covenant lightly 🫠🫠\n \n𝐇𝐄 𝐈𝐒 𝐎𝐔𝐑 𝐅𝐀𝐓𝐇𝐄𝐑 👑🥰 𝐀𝐍𝐃 𝐘𝐎𝐔 𝐀𝐑𝐄 𝐇𝐈𝐒 𝐃𝐀𝐔𝐆𝐇𝐓𝐄𝐑 👸𝐀𝐍𝐃 𝐒𝐎𝐍🤴.𝐇𝐄 𝐋𝐎𝐕𝐄𝐒 𝐘𝐎𝐔 𝐌𝐎𝐑𝐄 𝐓𝐇𝐀𝐍 𝐇𝐈𝐌𝐒𝐄𝐋𝐅 💝. \n\nHe longs for your presence above all else 💖. \n\nHE waits to reveal himself to you ❣.  \n \nSo tear off the veil, Leave doubt behind, Don’t nest in comfortable lies that you know Him fully...Go...Sit with Him...\n\nSpend time knowing Him deeper... 💞\n \nFor when His love truly covers us,even failure whispers near our ears.\n\nDo i will won over you?🤭and the very failure will speak to you ,Better i stay far from you child of GOD.😎😜\n \nsounds proud right!?🤗 🤩\n \nAlthough God is with us, what matters is that how much we are with him in all matters!!!🎯\n \nJust think, Who, after all, should know a Father’s heart better than His own son or daughter?",
     thumbnail: '/vd4.jpeg',
     thumbnailHint: 'path light',
     videoSrc: '/vd4.mp4',
@@ -266,50 +264,7 @@ Until next time...`,
     href: '/videos/bubbling-love',
     category: 'Bubbling Love',
   },
-];
-
-const videoSeries = [
-  {
-    title: 'Prophetic Prayer Series',
-    videos: 5,
-    duration: '3h 20m',
-    thumbnail:
-      'https://images.unsplash.com/photo-1628258334105-2a0b3d6ef5f3?q=80&w=1080',
-    thumbnailHint: 'abstract data',
-    width: 1080,
-    height: 607,
-  },
-  {
-    title: 'Divine Encounters',
-    videos: 4,
-    duration: '2h 45m',
-    thumbnail:
-      'https://images.unsplash.com/photo-1588406320565-9fa6d9901d1d?q=80&w=1080',
-    thumbnailHint: 'light rays',
-    width: 1080,
-    height: 607,
-  },
-  {
-    title: 'Biblical Foundations',
-    videos: 6,
-    duration: '4h 15m',
-    thumbnail:
-      'https://images.unsplash.com/photo-1506880018603-34cf5717f185?q=80&w=1080',
-    thumbnailHint: 'old bible',
-    width: 1080,
-    height: 720,
-  },
-  {
-    title: 'Worship Sessions',
-    videos: 8,
-    duration: '5h 50m',
-    thumbnail:
-      'https://images.unsplash.com/photo-1524230659264-445c73a258be?q=80&w=1080',
-    thumbnailHint: 'singing crowd',
-    width: 1080,
-    height: 720,
-  },
-];
+]
 
 export default function VideoMinistryPage() {
   
@@ -367,49 +322,43 @@ export default function VideoMinistryPage() {
         className="w-full py-16 md:py-28 bg-card/50 border-y border-border"
       >
         <div className="container mx-auto px-4 md:px-6">
-          <h3 className="text-3xl font-headline font-bold text-center mb-12">
-            Video Series & Playlists
+           <h3 className="text-3xl font-headline font-bold text-center mb-12">
+            More Spiritual Insights
           </h3>
-          <Carousel
-            opts={{
-              align: 'start',
-              loop: true,
-            }}
-            className="w-full"
-          >
-            <CarouselContent>
-              {videoSeries.map((series, index) => (
-                <CarouselItem
-                  key={index}
-                  className="basis-full sm:basis-1/2 lg:basis-1/3"
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 max-w-4xl mx-auto">
+            {newVideos.map((video) => (
+              <Link key={video.id} href={video.href} className="group flex">
+                <Card
+                  className="w-full flex flex-col bg-card border-border hover:border-primary transition-shadow duration-300 shadow-md hover:shadow-primary/20 rounded-xl overflow-hidden"
                 >
-                  <div className="p-1">
-                    <Card className="overflow-hidden border-border group rounded-lg">
-                      <CardContent className="p-0 relative">
-                        <Image
-                          src={series.thumbnail}
-                          alt={`Thumbnail for the video series titled "${series.title}"`}
-                          width={series.width}
-                          height={series.height}
-                          className="object-cover aspect-video w-full"
-                          data-ai-hint={series.thumbnailHint}
-                          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                        />
-                        <div className="absolute inset-0 bg-black/60 flex flex-col justify-end p-4">
-                          <h4 className="font-headline text-lg md:text-xl font-bold text-white">
-                            {series.title}
-                          </h4>
-                          <p className="text-white/80 text-sm">
-                            {series.videos} videos | {series.duration}
-                          </p>
-                        </div>
-                      </CardContent>
-                    </Card>
-                  </div>
-                </CarouselItem>
-              ))}
-            </CarouselContent>
-          </Carousel>
+                  <CardHeader className="p-0 relative aspect-video">
+                    {video.thumbnail && (
+                      <Image
+                        src={video.thumbnail}
+                        alt={`Thumbnail for the video titled "${video.title}"`}
+                        fill
+                        className="object-cover transition-transform duration-300 group-hover:scale-105"
+                        data-ai-hint={video.thumbnailHint}
+                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                      />
+                    )}
+                     <div className="absolute inset-0 bg-black/40 group-hover:bg-black/60 transition-colors" />
+                      <div className="absolute inset-0 flex items-center justify-center">
+                        <PlayCircle className="w-16 h-16 text-white/70 group-hover:text-white group-hover:scale-110 transition-all" />
+                      </div>
+                  </CardHeader>
+                  <CardContent className="p-6 flex-grow flex flex-col">
+                     <div className="flex items-center gap-4 text-xs text-white/60 mb-3">
+                       <Badge variant="outline" className="border-primary/50 text-primary">{video.category}</Badge>
+                    </div>
+                    <h3 className="font-headline text-lg md:text-xl font-bold text-white mb-2 flex-grow">
+                      {video.title}
+                    </h3>
+                  </CardContent>
+                </Card>
+              </Link>
+            ))}
+          </div>
         </div>
       </section>
 
