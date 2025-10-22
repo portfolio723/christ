@@ -20,41 +20,7 @@ const testimonials = [
     src: '/tt1.jpeg',
     imageHint: 'smiling woman',
   },
-  {
-    quote: 'My business was resurrected after prophetic words. Now I thrive in ways I never imagined.',
-    name: 'Michael R.',
-    designation: 'Phoenix, AZ',
-    src: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=1080',
-    imageHint: 'man in suit',
-  },
-  {
-    quote: 'Fifteen years of addiction were broken through heartfelt intercession and God’s power!',
-    name: 'Jennifer T.',
-    designation: 'Dallas, TX',
-    src: 'https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?q=80&w=1080',
-    imageHint: 'woman hopeful',
-  },
-   {
-    quote: 'Depression lifted, and I found new purpose. This ministry’s support changed my life.',
-    name: 'David O.',
-    designation: 'Lagos, Nigeria',
-    src: 'https://images.unsplash.com/photo-1552058544-f2b08422138a?q=80&w=1080',
-    imageHint: 'man looking up',
-  },
-  {
-    quote: 'My eyesight returned after prayer. Doctors say it’s a miracle!',
-    name: 'Maria G.',
-    designation: 'São Paulo, Brazil',
-    src: 'https://images.unsplash.com/photo-1575084713-3983949e6f5a?q=80&w=1080',
-    imageHint: 'woman with glasses',
-  },
-  {
-    quote: 'I discovered my prophetic gifting through this community. Now I mentor others!',
-    name: 'John K.',
-    designation: 'London, UK',
-    src: 'https://images.unsplash.com/photo-1554151228-14d9def656e4?q=80&w=1080',
-    imageHint: 'man reading bible',
-  },
+  
 ];
 
 export default function TestimonialsPage() {
