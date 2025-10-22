@@ -1,4 +1,3 @@
-
 'use client';
 
 import Image from 'next/image';
@@ -464,7 +463,7 @@ export default function VideoMinistryPage() {
            <h3 className="text-3xl font-headline font-bold text-center mb-12">
             More Spiritual Insights
           </h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6 md:gap-8 max-w-7xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 max-w-7xl mx-auto">
             {newVideos.map((video) => (
               <Link key={video.id} href={video.href} className="group flex">
                 <Card
