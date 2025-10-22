@@ -1,13 +1,14 @@
 
+'use client';
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
-import { Card, CardContent } from '@/components/ui/card';
-import { Badge } from '@/components/ui/badge';
 import { SocialMedia } from '@/components/page/social-media';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import type { Metadata } from 'next';
+import { AnimatedTestimonials } from '@/components/ui/animated-testimonials';
 
-export const metadata: Metadata = {
+// This metadata is still useful for static analysis and SEO, even in a client component.
+const metadata: Metadata = {
   title: 'Testimonies | Hearts Joined with GOD',
   description: 'Read true stories of healing, breakthrough, deliverance, and restoration. See how God\'s deep, measureless love has encouraged and transformed inward spirits.',
 };
@@ -16,49 +17,43 @@ const testimonials = [
   {
     quote: 'After a terminal diagnosis, the prayers here brought complete healing. Glory to God!',
     name: 'Sarah L.',
-    location: 'Texas, USA',
-    category: 'Healing',
-    image: PlaceHolderImages.find((img) => img.id === 'testimonial-1')?.imageUrl,
+    designation: 'Texas, USA',
+    src: 'https://images.unsplash.com/photo-1557053910-d9eadeed1c58?q=80&w=1080',
     imageHint: 'smiling woman',
   },
   {
     quote: 'My business was resurrected after prophetic words. Now I thrive in ways I never imagined.',
     name: 'Michael R.',
-    location: 'Phoenix, AZ',
-    category: 'Breakthrough',
-    image: PlaceHolderImages.find((img) => img.id === 'testimonial-2')?.imageUrl,
+    designation: 'Phoenix, AZ',
+    src: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=1080',
     imageHint: 'man in suit',
   },
   {
     quote: 'Fifteen years of addiction were broken through heartfelt intercession and God’s power!',
     name: 'Jennifer T.',
-    location: 'Dallas, TX',
-    category: 'Deliverance',
-    image: PlaceHolderImages.find((img) => img.id === 'testimonial-3')?.imageUrl,
-    imageHint: 'woman looking hopeful',
+    designation: 'Dallas, TX',
+    src: 'https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?q=80&w=1080',
+    imageHint: 'woman hopeful',
   },
    {
     quote: 'Depression lifted, and I found new purpose. This ministry’s support changed my life.',
     name: 'David O.',
-    location: 'Lagos, Nigeria',
-    category: 'Freedom',
-    image: PlaceHolderImages.find((img) => img.id === 'testimonial-4')?.imageUrl,
+    designation: 'Lagos, Nigeria',
+    src: 'https://images.unsplash.com/photo-1552058544-f2b08422138a?q=80&w=1080',
     imageHint: 'man looking up',
   },
   {
     quote: 'My eyesight returned after prayer. Doctors say it’s a miracle!',
     name: 'Maria G.',
-    location: 'São Paulo, Brazil',
-    category: 'Restoration',
-    image: PlaceHolderImages.find((img) => img.id === 'testimonial-5')?.imageUrl,
+    designation: 'São Paulo, Brazil',
+    src: 'https://images.unsplash.com/photo-1575084713-3983949e6f5a?q=80&w=1080',
     imageHint: 'woman with glasses',
   },
   {
     quote: 'I discovered my prophetic gifting through this community. Now I mentor others!',
     name: 'John K.',
-    location: 'London, UK',
-    category: 'Calling',
-    image: PlaceHolderImages.find((img) => img.id === 'testimonial-6')?.imageUrl,
+    designation: 'London, UK',
+    src: 'https://images.unsplash.com/photo-1554151228-14d9def656e4?q=80&w=1080',
     imageHint: 'man reading bible',
   },
 ];
@@ -88,38 +83,9 @@ export default function TestimonialsPage() {
         </div>
       </section>
 
-      {/* Testimonial Grid */}
-      <section id="testimonials-grid" className="w-full py-20 md:py-28 bg-background">
-        <div className="container mx-auto px-4 md:px-6">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {testimonials.map((testimonial, index) => (
-              <Card key={index} className="flex flex-col bg-card border-border p-6 rounded-lg shadow-lg">
-                <CardContent className="flex-grow p-0">
-                  <Badge className="mb-4 bg-primary/20 text-primary-foreground border-primary/30">{testimonial.category}</Badge>
-                  <blockquote className="text-lg italic text-white/90 border-l-4 border-primary pl-4 mb-4">
-                    &ldquo;{testimonial.quote}&rdquo;
-                  </blockquote>
-                </CardContent>
-                <div className="flex items-center gap-4 mt-auto pt-4 border-t border-border">
-                  {testimonial.image && (
-                     <Image
-                        src={testimonial.image}
-                        alt={`Portrait of ${testimonial.name}, who shared a testimony.`}
-                        width={56}
-                        height={56}
-                        className="rounded-full object-cover"
-                        data-ai-hint={testimonial.imageHint}
-                      />
-                  )}
-                  <div>
-                    <p className="font-bold text-white">{testimonial.name}</p>
-                    <p className="text-sm text-white/60">{testimonial.location}</p>
-                  </div>
-                </div>
-              </Card>
-            ))}
-          </div>
-        </div>
+      {/* Animated Testimonial Section */}
+      <section id="testimonials-grid" className="w-full bg-background">
+          <AnimatedTestimonials testimonials={testimonials} autoplay={true} />
       </section>
       
       {/* Call to Share Section */}
