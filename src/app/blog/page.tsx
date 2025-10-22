@@ -86,30 +86,6 @@ const spiritualInsights = [
     readTime: '3 min read',
     description: "Discover the power and intimacy of prayer. It's more than words; it's the very breath of a life connected to God."
   },
-  {
-    id: 'insight-7',
-    title: 'Millions have been saved by the sweetness that 𝐉𝐄𝐒𝐔𝐒 bleeds 🕊️🩸🤍✨❤️',
-    category: 'Ever Sweet',
-    href: '/blog/sweetness-bleeds',
-    image: '/bg7.jpeg',
-    imageHint: 'cross light',
-    author: 'Godsspiritsays',
-    date: 'Oct 12, 2024',
-    readTime: '3 min read',
-    description: "Discover the profound sweetness in the sacrifice of Jesus. His love, poured out for all, brings salvation and new life to millions."
-  },
-  {
-    id: 'insight-8',
-    title: 'Dared to be beautifully shattered in HIS hands 🙌',
-    category: 'Re Made',
-    href: '/blog/beautifully-shattered',
-    image: '/bg8.jpeg',
-    imageHint: 'potters hands',
-    author: 'Godsspiritsays',
-    date: 'Oct 13, 2024',
-    readTime: '3 min read',
-    description: "Embrace the process of being broken and remade by God. Discover the beauty in surrender and the strength found in His hands."
-  },
 ];
 
 const BlogPage = () => {
