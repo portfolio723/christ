@@ -23,7 +23,7 @@ export default function NotFound() {
       <div className="absolute inset-0 bg-black/70" />
       <div className="relative z-10 p-4 container mx-auto px-4 md:px-6">
         <div className="flex flex-col items-center">
-            <div className="animate-pulse">
+            <div>
                 <Frown className="w-24 h-24 text-primary/50 mb-6" />
             </div>
             <h1 className="text-6xl md:text-8xl font-headline font-bold text-white mb-2">
