@@ -14,7 +14,7 @@ const metadata: Metadata = {
 
 const testimonials = [
   {
-    quote: 'After a terminal diagnosis, the prayers here brought complete healing. Glory to God!',
+    quote: 'Heartfelt voice by Anu\nShalom & Heavenly Love to You All\nWhen I found this channel, I found a place where God speaks.\nNot man\'s words—but His.\nThrough every message, through every video,\nI hear His voice. Gentle. Clear. True.\nThis is SPIRIT BREATHED\nIt hits the soul\nThank you for being a voice that carries only His, and I pray that this kind of genuine message from God will reach and connect many hearts through His Messenger.✍️🕊️',
     name: 'Anu.',
     designation: 'Texas, USA',
     src: '/tt1.jpeg',
