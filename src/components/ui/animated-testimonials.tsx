@@ -122,9 +122,11 @@ export const AnimatedTestimonials = ({
                 <h3 className="text-2xl font-bold text-white font-headline">
                   {testimonials[active].name}
                 </h3>
-                <p className="text-sm text-accent">
-                  {testimonials[active].designation}
-                </p>
+                {testimonials[active].designation && (
+                  <p className="text-sm text-accent">
+                    {testimonials[active].designation}
+                  </p>
+                )}
               </motion.div>
             </AnimatePresence>
 
