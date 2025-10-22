@@ -69,7 +69,7 @@ export function VideoReels() {
       className="group overflow-hidden rounded-lg border-2 border-transparent bg-card transition-all duration-300 hover:border-primary hover:shadow-2xl hover:shadow-primary/20 transform hover:-translate-y-2 h-full flex flex-col"
     >
       <CardContent className="p-0 flex-grow flex flex-col">
-        <div className={cn("relative", isFirstReel ? "aspect-[9/16] sm:aspect-auto" : "aspect-video")}>
+        <div className={cn("relative", isFirstReel ? "aspect-[9/16] sm:aspect-video" : "aspect-video")}>
           <Image
             src={reel.imageUrl}
             alt={reel.description.split('\n')[0]}
