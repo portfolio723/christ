@@ -3,7 +3,6 @@
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import { SocialMedia } from '@/components/page/social-media';
-import { PlaceHolderImages } from '@/lib/placeholder-images';
 import type { Metadata } from 'next';
 import { AnimatedTestimonials } from '@/components/ui/animated-testimonials';
 
@@ -18,7 +17,7 @@ const testimonials = [
     quote: 'After a terminal diagnosis, the prayers here brought complete healing. Glory to God!',
     name: 'Anu.',
     designation: 'Texas, USA',
-    src: 'tt1.jpeg',
+    src: '/tt1.jpeg',
     imageHint: 'smiling woman',
   },
   {
