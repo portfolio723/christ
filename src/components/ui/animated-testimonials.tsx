@@ -88,25 +88,11 @@ export const AnimatedTestimonials = ({
               transition={{ duration: 0.3, ease: "easeInOut" }}
               className="flex-grow"
             >
-              <motion.p
-                className="text-lg md:text-xl text-white/80 whitespace-pre-line text-left leading-relaxed"
+              <motion.div
+                className="text-lg md:text-xl text-white/80 text-left leading-relaxed prose prose-p:my-2 prose-br:my-2"
                 style={{ minHeight: '150px' }} // Set a min-height to avoid layout shifts
-              >
-                {testimonials[active].description.split(/(\s+)/).map((word, index) => (
-                  <motion.span
-                    key={index}
-                    initial={{ opacity: 0 }}
-                    animate={{ opacity: 1 }}
-                    transition={{
-                      duration: 0.1,
-                      delay: 0.01 * index,
-                    }}
-                    className="inline-block"
-                  >
-                    {word}
-                  </motion.span>
-                ))}
-              </motion.p>
+                dangerouslySetInnerHTML={{ __html: testimonials[active].description }}
+              />
             </motion.div>
           </AnimatePresence>
 
