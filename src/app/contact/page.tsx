@@ -1,21 +1,80 @@
+'use client';
 
-import {
-  Mail,
-  Send,
-  Paperclip,
-} from 'lucide-react';
+import React, { useState } from 'react';
+import { Mail, Send, Paperclip } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { SocialMedia } from '@/components/page/social-media';
 import type { Metadata } from 'next';
+import { useToast } from '@/hooks/use-toast';
 
+
+// Metadata is still supported in client components
 export const metadata: Metadata = {
   title: 'Contact & Prayer Requests',
-  description: 'Connect with Godsspiritsays. Send your prayer requests, petitions, and testimonies. We will lay them at our DAD\'s feet and intercede for you. Ask for prayer today.',
+  description:
+    'Connect with Godsspiritsays. Send your prayer requests, petitions, and testimonies. We will lay them at our DAD\'s feet and intercede for you. Ask for prayer today.',
 };
 
 export default function ContactPage() {
+  const { toast } = useToast();
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    subject: '',
+    message: '',
+  });
+  const [isSubmitting, setIsSubmitting] = useState(false);
+
+  const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+    setIsSubmitting(true);
+
+    try {
+      const response = await fetch('https://api.web3forms.com/submit', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          access_key: 'b9e77b63-2280-436f-b141-94943f7d1421', // Replace with your actual access key
+          ...formData,
+        }),
+      });
+
+      const result = await response.json();
+      if (result.success) {
+        toast({
+          title: 'Message Sent!',
+          description: 'Your petition has been received. We will be praying for you.',
+        });
+        setFormData({ name: '', email: '', subject: '', message: '' });
+      } else {
+        toast({
+          variant: 'destructive',
+          title: 'Uh oh! Something went wrong.',
+          description: result.message || 'Failed to send message. Please try again.',
+        });
+      }
+    } catch (error) {
+      toast({
+        variant: 'destructive',
+        title: 'An error occurred.',
+        description: 'Please check your connection and try again.',
+      });
+    } finally {
+      setIsSubmitting(false);
+    }
+  };
+
+  const handleChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) => {
+    setFormData({
+      ...formData,
+      [e.target.name]: e.target.value,
+    });
+  };
+
   return (
     <main className="flex min-h-screen flex-col items-center justify-center bg-background text-white">
       {/* Header Section */}
@@ -100,41 +159,69 @@ export default function ContactPage() {
               Make your petition
             </h2>
           </div>
-          <form className="max-w-2xl mx-auto space-y-6">
-             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-               <Input
+          <form
+            onSubmit={handleSubmit}
+            className="max-w-2xl mx-auto space-y-6"
+          >
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <Input
                 type="text"
+                name="name"
                 placeholder="Your Name"
+                value={formData.name}
+                onChange={handleChange}
+                required
                 className="bg-input/80 border-border focus:ring-primary"
                 aria-label="Your Name"
-                />
+              />
               <Input
                 type="email"
+                name="email"
                 placeholder="Your Email"
+                value={formData.email}
+                onChange={handleChange}
+                required
                 className="bg-input/80 border-border focus:ring-primary"
                 aria-label="Your Email"
               />
-             </div>
+            </div>
             <Input
               type="text"
+              name="subject"
               placeholder="Subject (e.g., Prayer, Testimony, Inquiry)"
+              value={formData.subject}
+              onChange={handleChange}
+              required
               className="bg-input/80 border-border focus:ring-primary"
               aria-label="Subject"
             />
             <Textarea
+              name="message"
               placeholder="Write your message or prayer request here..."
+              value={formData.message}
+              onChange={handleChange}
+              required
               rows={8}
               className="bg-input/80 border-border focus:ring-primary"
               aria-label="Your Message"
             />
             <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
-              <label htmlFor="file-upload" className="flex items-center gap-2 text-sm text-white/70 cursor-pointer hover:text-white">
+              <label
+                htmlFor="file-upload"
+                className="flex items-center gap-2 text-sm text-white/70 cursor-pointer hover:text-white"
+              >
                 <Paperclip className="w-4 h-4" />
                 Attach File (optional)
-                <input id="file-upload" type="file" className="hidden"/>
+                <input id="file-upload" type="file" className="hidden" />
               </label>
-              <Button type="submit" size="lg" className="bg-primary hover:bg-primary/90 font-bold w-full sm:w-auto">
-                Send Request <Send className="ml-2 w-4 h-4" />
+              <Button
+                type="submit"
+                size="lg"
+                disabled={isSubmitting}
+                className="bg-primary hover:bg-primary/90 font-bold w-full sm:w-auto"
+              >
+                {isSubmitting ? 'Sending...' : 'Send Request'}
+                <Send className="ml-2 w-4 h-4" />
               </Button>
             </div>
           </form>
