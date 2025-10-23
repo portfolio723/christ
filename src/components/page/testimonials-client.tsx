@@ -59,14 +59,7 @@ export function TestimonialsClient() {
       </section>
       
       {/* Call to Share Section */}
-      <section className="relative w-full py-20 md:py-28 text-center border-y border-border">
-        <Image
-          src="/ed.jpeg"
-          alt="A background of graceful, spiritual light patterns inviting users to share their story."
-          fill
-          className="object-cover"
-          data-ai-hint="spiritual abstract"
-        />
+      <section className="relative w-full py-20 md:py-28 text-center border-y border-border bg-background">
         <div className="absolute inset-0 bg-black/70" />
         <div className="relative z-10 container mx-auto px-4 md:px-6">
           <h2 className="text-4xl md:text-5xl font-engagement font-bold text-white mb-4">
