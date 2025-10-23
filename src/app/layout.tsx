@@ -1,6 +1,6 @@
 
 import type { Metadata } from 'next';
-import { Inter, Playfair_Display, Dancing_Script, Yesteryear, Mea_Culpa, Allison, Lavishly_Yours, Oleo_Script, Condiment, Great_Vibes, Bonheur_Royale, Mrs_Saint_Delafield, Cookie, Love_Light, Alex_Brush, Hurricane, Arizonia, Fasthand, Mr_Dafoe, Pinyon_Script, Engagement, The_Nautigal } from 'next/font/google';
+import { Inter, Playfair_Display, Dancing_Script, Yesteryear, Mea_Culpa, Allison, Lavishly_Yours, Oleo_Script, Condiment, Great_Vibes, Bonheur_Royale, Mrs_Saint_Delafield, Cookie, Love_Light, Alex_Brush, Hurricane, Arizonia, Fasthand, Mr_Dafoe, Pinyon_Script, Engagement, The_Nautigal, Crimson_Pro } from 'next/font/google';
 import '@/app/globals.css';
 import { Toaster } from '@/components/ui/toaster';
 import { Header } from '@/components/page/header';
@@ -156,6 +156,14 @@ const fontTheNautigal = The_Nautigal({
   display: 'swap',
   variable: '--font-the-nautigal',
   weight: ['400', '700'],
+});
+
+const fontCrimsonPro = Crimson_Pro({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-crimson-pro',
+  style: ['normal', 'italic'],
+  weight: ['200', '300', '400', '500', '600', '700', '800', '900'],
 });
 
 
@@ -322,7 +330,8 @@ export default function RootLayout({
           fontMrDafoe.variable,
           fontPinyonScript.variable,
           fontEngagement.variable,
-          fontTheNautigal.variable
+          fontTheNautigal.variable,
+          fontCrimsonPro.variable
         )}
       >
         <Header />

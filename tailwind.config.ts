@@ -34,6 +34,7 @@ export default {
         'pinyon-script': ['var(--font-pinyon-script)', ...fontFamily.serif],
         engagement: ['var(--font-engagement)', ...fontFamily.serif],
         'the-nautigal': ['var(--font-the-nautigal)', ...fontFamily.serif],
+        'crimson-pro': ['var(--font-crimson-pro)', ...fontFamily.serif],
         code: ['monospace'],
       },
       colors: {
