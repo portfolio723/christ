@@ -76,7 +76,7 @@ export function VideoReels() {
             src={reel.imageUrl}
             alt={reel.description.split('\n')[0]}
             fill
-            className="object-cover transition-transform duration-300 group-hover:scale-105"
+            className={cn("object-cover transition-transform duration-300 group-hover:scale-105", reel.id === 'reel-2' ? 'object-right' : '')}
             data-ai-hint={reel.imageHint}
           />
           {reel.videoSrc && (
