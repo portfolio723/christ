@@ -197,15 +197,7 @@ export default function ContactPage() {
               className="bg-input/80 border-border focus:ring-primary"
               aria-label="Your Message"
             />
-            <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
-              <label
-                htmlFor="file-upload"
-                className="flex items-center gap-2 text-sm text-white/70 cursor-pointer hover:text-white"
-              >
-                <Paperclip className="w-4 h-4" />
-                Attach File (optional)
-                <input id="file-upload" type="file" className="hidden" />
-              </label>
+            <div className="flex flex-col sm:flex-row items-center justify-end gap-4">
               <Button
                 type="submit"
                 size="lg"
