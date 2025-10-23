@@ -6,16 +6,8 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { SocialMedia } from '@/components/page/social-media';
-import type { Metadata } from 'next';
 import { useToast } from '@/hooks/use-toast';
 
-
-// Metadata is still supported in client components
-export const metadata: Metadata = {
-  title: 'Contact & Prayer Requests',
-  description:
-    'Connect with Godsspiritsays. Send your prayer requests, petitions, and testimonies. We will lay them at our DAD\'s feet and intercede for you. Ask for prayer today.',
-};
 
 export default function ContactPage() {
   const { toast } = useToast();
