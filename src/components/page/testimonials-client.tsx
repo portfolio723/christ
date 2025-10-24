@@ -65,7 +65,7 @@ export function TestimonialsClient() {
           <h2 className="text-4xl md:text-5xl font-engagement font-bold text-white mb-4">
             Leave a Mark of Grace
           </h2>
-          <p className="text-white/80 max-w-xl mx-auto mb-8 font-the-nautigal text-3xl md:text-4xl">
+          <p className="text-white/80 max-w-xl mx-auto mb-8 font-crimson-pro text-2xl md:text-3xl">
             Your testimony is a fingerprint of God&apos;s work. You never know whose faith is waiting for a story like yours.So drop a pebble of your testimony and watch the ripples of faith spread.
           </p>
           <Button size="lg" className="bg-primary hover:bg-primary/90 font-bold" asChild>
