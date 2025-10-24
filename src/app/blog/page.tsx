@@ -169,7 +169,7 @@ const BlogPage = () => {
             <h2 className="text-3xl font-bold mb-4 font-headline">
               Fruitful Dialogue
             </h2>
-            <p className="mb-6 text-white/80 font-pinyon-script text-3xl md:text-4xl">
+            <p className="mb-6 text-white/80 font-crimson-pro text-xl md:text-2xl max-w-2xl mx-auto">
               Your place to connect, share, and grow. Engage in conversations that deepen faith through shared testimony and mutual support.
             </p>
             <ShineBorder
@@ -222,7 +222,7 @@ const BlogPage = () => {
           <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-4xl md:text-5xl text-white">
             The promise he made
           </h2>
-          <p className="mt-4 text-xl md:text-2xl font-pinyon-script text-white/80">
+          <p className="mt-4 text-xl md:text-2xl font-crimson-pro text-white/80">
             I will not leave you until I have done what i have promised you &mdash; Genesis 28:15
           </p>
           <div className="mt-12 max-w-4xl mx-auto">
