@@ -87,6 +87,18 @@ const spiritualInsights = [
     readTime: '3 min read',
     description: "Discover the power and intimacy of prayer. It's more than words; it's the very breath of a life connected to God."
   },
+   {
+    id: 'insight-7',
+    title: 'No day in history is called 𝐆𝐎𝐎𝐃 𝐅𝐑𝐈𝐃𝐀𝐘 except the day 𝐉𝐄𝐒𝐔𝐒 gave His life for you! 😇Happy Friday!',
+    category: 'Where GOOD Dies For Us',
+    href: '/blog/good-friday',
+    image: '/7bg.jpeg',
+    imageHint: 'cross sunrise',
+    author: 'Godsspiritsays',
+    date: 'Oct 12, 2024',
+    readTime: '2 min read',
+    description: "He willingly gave Himself, because His love for you is that deep."
+  },
 ];
 
 const BlogPage = () => {
