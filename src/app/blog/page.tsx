@@ -99,6 +99,18 @@ const spiritualInsights = [
     readTime: '2 min read',
     description: "He willingly gave Himself, because His love for you is that deep."
   },
+  {
+    id: 'insight-8',
+    title: 'Beloved, There is no fish🐟 without water 🌊 just as there is no us without our 𝐆𝐎𝐃 👑💒',
+    category: 'Swimming in GRACE',
+    href: '/blog/fish-without-water',
+    image: '/8bg.jpeg',
+    imageHint: 'fish water',
+    author: 'Godsspiritsays',
+    date: 'Oct 13, 2024',
+    readTime: '2 min read',
+    description: "A life minus GOD is a worthless life. Discover why we can't survive without Him, just like a fish can't survive without water."
+  },
 ];
 
 const BlogPage = () => {
