@@ -181,7 +181,7 @@ const BlogPage = () => {
                     )}
                   <CardContent className="p-6 flex-grow flex flex-col">
                     <div className="flex items-center gap-4 text-xs text-white/60 mb-3">
-                       <Badge variant="outline" className="border-primary/50 text-primary">{insight.category}</Badge>
+                       <Badge variant="outline" className="border-white/50 text-white">{insight.category}</Badge>
                        <span>{insight.readTime}</span>
                     </div>
                     <h3 className="font-headline text-xl font-bold text-white mb-2 flex-grow">
