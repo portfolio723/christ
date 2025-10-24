@@ -1,3 +1,4 @@
+
 "use client";
 
 import React, { useRef, useState, useEffect } from "react";
@@ -53,12 +54,14 @@ const VideoPlayer = ({
   className,
   autoPlay = false,
   muted = false,
+  loop = false,
   alt,
 }: {
   src: string;
   className?: string;
   autoPlay?: boolean;
   muted?: boolean;
+  loop?: boolean;
   alt?: string;
 }) => {
   const videoRef = useRef<HTMLVideoElement>(null);
@@ -169,6 +172,7 @@ const VideoPlayer = ({
         onClick={togglePlay}
         autoPlay={autoPlay}
         muted={muted}
+        loop={loop}
         playsInline
         aria-label={alt}
         onLoadedMetadata={() => {
@@ -179,7 +183,7 @@ const VideoPlayer = ({
       />
 
       <AnimatePresence>
-        {showControls && (
+        {showControls && !loop && (
           <motion.div
             className="absolute bottom-0 mx-auto max-w-xl left-0 right-0 p-4 m-2 bg-[#11111198] backdrop-blur-md rounded-2xl"
             initial={{ y: 20, opacity: 0, filter: "blur(10px)" }}

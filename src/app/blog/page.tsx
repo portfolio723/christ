@@ -200,7 +200,7 @@ const BlogPage = () => {
               </p>
             </div>
             <div className="max-w-sm md:max-w-2xl mx-auto aspect-[9/16] md:aspect-video rounded-xl overflow-hidden">
-                <VideoPlayer src="/pk.mp4" alt="A reflective video." className="w-full h-full object-cover" />
+                <VideoPlayer src="/pk.mp4" alt="A reflective video." className="w-full h-full object-cover" autoPlay muted loop />
             </div>
         </div>
       </section>
