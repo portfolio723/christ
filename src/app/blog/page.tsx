@@ -162,6 +162,22 @@ const BlogPage = () => {
         </section>
       </main>
       
+      <section className="w-full py-20 md:py-24">
+        <div className="container mx-auto px-4">
+           <div className="text-center mb-12">
+              <h2 className="text-3xl md:text-4xl font-headline font-bold text-white">
+                A Moment of Reflection
+              </h2>
+              <p className="text-white/70 mt-2 max-w-2xl mx-auto">
+                Watch a short video to pause and reconnect with His message.
+              </p>
+            </div>
+            <div className="max-w-sm md:max-w-2xl mx-auto aspect-[9/16] md:aspect-video rounded-xl overflow-hidden">
+                <VideoPlayer src="/pk.mp4" alt="A reflective video." className="w-full h-full object-cover" autoPlay muted loop />
+            </div>
+        </div>
+      </section>
+      
       {/* Community Discussion */}
       <div className="w-full bg-background relative">
         <section className="text-center py-20 md:py-32 relative z-10">
@@ -188,22 +204,6 @@ const BlogPage = () => {
           </div>
         </section>
       </div>
-
-      <section className="w-full py-20 md:py-24">
-        <div className="container mx-auto px-4">
-           <div className="text-center mb-12">
-              <h2 className="text-3xl md:text-4xl font-headline font-bold text-white">
-                A Moment of Reflection
-              </h2>
-              <p className="text-white/70 mt-2 max-w-2xl mx-auto">
-                Watch a short video to pause and reconnect with His message.
-              </p>
-            </div>
-            <div className="max-w-sm md:max-w-2xl mx-auto aspect-[9/16] md:aspect-video rounded-xl overflow-hidden">
-                <VideoPlayer src="/pk.mp4" alt="A reflective video." className="w-full h-full object-cover" autoPlay muted loop />
-            </div>
-        </div>
-      </section>
 
       <section
         id="mission"
