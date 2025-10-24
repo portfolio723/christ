@@ -233,7 +233,7 @@ const BlogPage = () => {
               <p>The chapter of your past is closed; its pain will not be repeated. 📖⛔</p>
               <p>I have drawn a line in eternity; what was will not be. ✍️</p>
               <p>I have decreed it.👑</p>
-              <p>This is my covenant:I am here for you.&quot;🤍 <span className="font-bold text-sm">edi</span></p>
+              <p>This is my covenant:I am here for you.&quot;🤍 </p>
               <p>Yet, my soul has a holy hunger. 😔</p>
               <p>I wanted to hear from his heart again,so I waited, barely, until one fine day, he spoke again, deeper still, and he satisfied my inner chamber with happy gigglings. 😊💖</p>
               <p>And this is what he said:</p>
