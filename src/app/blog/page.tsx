@@ -111,6 +111,18 @@ const spiritualInsights = [
     readTime: '2 min read',
     description: "A life minus GOD is a worthless life. Discover why we can't survive without Him, just like a fish can't survive without water."
   },
+  {
+    id: 'insight-9',
+    title: '𝑯𝒆 𝒉𝒖𝒓𝒓𝒊𝒆𝒅 𝒐𝒖𝒕 𝒐𝒇 𝒕𝒉𝒆 𝒕𝒐𝒎𝒃 𝒕𝒐 𝒆𝒎𝒃𝒓𝒂𝒄𝒆 𝒚𝒐𝒖 𝒇𝒐𝒓𝒆𝒗𝒆𝒓🤗❤️‍🔥',
+    category: 'His Urgent Love',
+    href: '/blog/resurrection-embrace',
+    image: '/9bg.jpeg',
+    imageHint: 'tomb light',
+    author: 'Godsspiritsays',
+    date: 'Oct 14, 2024',
+    readTime: '1 min read',
+    description: 'He hurried out of the tomb to embrace you forever. Discover His urgent love.'
+  }
 ];
 
 const BlogPage = () => {
