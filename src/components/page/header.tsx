@@ -9,6 +9,7 @@ import { cn } from '@/lib/utils';
 import { motion } from 'framer-motion';
 
 const navLinks = [
+  { href: '/', label: 'Home' },
   { href: '/about', label: 'About' },
   { href: '/videos', label: 'Videos' },
   { href: '/blog', label: 'Blog' },
@@ -105,7 +106,6 @@ export function Header() {
       >
         <div className="container mx-auto px-4 md:px-6 py-8">
           <nav className="flex flex-col items-center gap-4">
-            <Link href="/" className="text-2xl text-white/80 hover:text-white transition-colors w-full text-center py-2 rounded-md" onClick={() => setIsMenuOpen(false)}>Home</Link>
             {navLinks.map((link) => (
               <Link
                 key={link.href}
