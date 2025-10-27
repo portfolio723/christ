@@ -16,7 +16,7 @@ export default function GodsHabitualityPage() {
         <div className="absolute inset-0 bg-black/70" />
         <div className="relative container mx-auto px-4 md:px-6 max-w-4xl text-center">
             <h1 className="text-4xl md:text-5xl font-bold font-headline mb-4">
-            𝐆𝐎𝐃'𝐬 habituality never stops loving you ❤️🌷🌸
+            𝐆𝐎𝐃&apos;𝐬 habituality never stops loving you ❤️🌷🌸
             </h1>
         </div>
       </div>

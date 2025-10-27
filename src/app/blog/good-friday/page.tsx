@@ -28,7 +28,7 @@ export default function GoodFridayPage() {
             </div>
             <br />
             <p>There are 52 Fridays in a year some years may have more, some less.</p>
-            <p>but none are called 𝐆𝐎𝐎𝐃 𝐅𝐑𝐈𝐃𝐀𝐘 😇, except one. 𝐉𝐄𝐒𝐔𝐒 chose that day to lay down His life for you, and He called it good 🥹🫶🏻</p>
+            <p>but none are called 𝐆𝐎𝐎𝐃 𝐅𝐑𝐈𝐃𝐀𝐘 😇, except one. 𝐉𝐄𝐒𝐔𝐒 chose that day to lay down His life for you, and He called it &ldquo;good&rdquo; 🥹🫶🏻</p>
             <p>He shed His blood 🩸and gave His final breath especially for you 🫵🏻</p>
             <p>He willingly gave Himself, because His love for you is that deep 🫂🤍❤️</p>
             <br />
@@ -36,7 +36,7 @@ export default function GoodFridayPage() {
             <br />
             <div className="text-lg" lang="te">
               <p>ఒక సంవత్సరంలో 52 శుక్రవారాలు ఉంటాయి, కొన్ని సంవత్సరాలలో ఎక్కువ ఉండవచ్చు, కొన్ని తక్కువ ఉండవచ్చు.</p>
-              <p>కానీ వేటినీ 𝐆𝐎𝐎𝐃 𝐅𝐑𝐈𝐃𝐀𝐘  (మంచి శుక్రువారం )😇 అని పిలవరు, ఆ ఒక్క  శుక్రువారం తప్ప. యేసయ్య మీ కోసం తన ప్రాణాన్ని అర్పించడానికి ఆ రోజును ఎంచుకున్నాడు మరియు దానిని "మంచి" అని పిలిచాడు 🥹🫶🏻</p>
+              <p>కానీ వేటినీ 𝐆𝐎𝐎𝐃 𝐅𝐑𝐈𝐃𝐀𝐘  (మంచి శుక్రువారం )😇 అని పిలవరు, ఆ ఒక్క  శుక్రువారం తప్ప. యేసయ్య మీ కోసం తన ప్రాణాన్ని అర్పించడానికి ఆ రోజును ఎంచుకున్నాడు మరియు దానిని &ldquo;మంచి&rdquo; అని పిలిచాడు 🥹🫶🏻</p>
               <br />
               <p>ఆయన తన రక్తాన్ని చిందించాడు 🩸 మరియు ముఖ్యంగా మీ కోసం తన తుది శ్వాసను ఇచ్చాడు 🫵🏻</p>
               <p>ఆయన ఇష్టపూర్వకంగా తనను తాను అర్పించుకున్నాడు, ఎందుకంటే ఆయనకి మీ పట్ల ప్రేమ అంత లోతైనది 🫂🤍❤️</p>

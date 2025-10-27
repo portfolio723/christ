@@ -30,7 +30,7 @@ export default function NotFound() {
             The page you seek is not here, but hope is not lost.
             </p>
             <p className="max-w-md mx-auto text-white/70 mb-12 font-oleo-script">
-            Sometimes we wander off the path, but Grace is always near to guide us home. Let's return to the light.
+            Sometimes we wander off the path, but Grace is always near to guide us home. Let&apos;s return to the light.
             </p>
             <Button asChild size="lg" className="bg-primary hover:bg-primary/90 font-bold text-lg">
                 <Link href="/">
