@@ -200,7 +200,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: "God's Spirit Says - Spiritual Encouragement",
     description: "A spiritual resource for encouragement, faith, and hearing what God's Spirit says.",
-    images: ['https://godsspiritsays.com/fav.png'],
+    image: 'https://godsspiritsays.com/fav.png',
     site: '@godsspiritsays',
     creator: '@godsspiritsays',
   },
