@@ -8,5 +8,9 @@ export const metadata: Metadata = {
 };
 
 export default function TestimonialsPage() {
-  return <TestimonialsClient />;
+  return (
+    <div className="mt-20">
+      <TestimonialsClient />
+    </div>
+  );
 }

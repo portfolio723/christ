@@ -69,29 +69,6 @@ export default function ContactPage() {
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-center bg-background text-white">
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "BreadcrumbList",
-            "itemListElement": [
-              {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://godsspiritsays.com"
-              },
-              {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Contact",
-                "item": "https://godsspiritsays.com/contact"
-              }
-            ]
-          })
-        }}
-      />
       {/* Header Section */}
       <section className="relative w-full h-screen flex flex-col items-center justify-center text-center text-white overflow-hidden">
         <video
@@ -103,7 +80,7 @@ export default function ContactPage() {
           className="absolute top-0 left-0 w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-black/60" />
-        <div className="relative z-10 p-4 container mx-auto px-4 md:px-6">
+        <div className="relative z-10 p-4 container mx-auto px-4 md:px-6 mt-20">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-headline font-bold mb-4 tracking-tight">
             Prayer and intercession is our first call
           </h1>

@@ -340,9 +340,6 @@ export default function RootLayout({
         )}
       >
         <Header />
-        <div className="pt-20">
-          
-        </div>
         <div className="flex-grow">
           {children}
         </div>

@@ -22,7 +22,7 @@ export default function AboutPage() {
           className="absolute top-0 left-0 w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-black/60" />
-        <div className="relative z-10 p-4 container mx-auto px-4 md:px-6">
+        <div className="relative z-10 p-4 container mx-auto px-4 md:px-6 mt-20">
           <h1 className="text-4xl md:text-6xl font-great-vibes font-bold text-white mb-4 tracking-tight">
             Chose to go as GOD&apos;s purpose
           </h1>

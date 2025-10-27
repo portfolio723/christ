@@ -20,7 +20,7 @@ export default function Home() {
             className="absolute top-0 left-0 w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-black/60" />
-          <div className="relative z-10 p-4 container mx-auto px-4 md:px-6">
+          <div className="relative z-10 p-4 container mx-auto px-4 md:px-6 mt-20">
             <h1 className="text-3xl sm:text-4xl md:text-6xl font-yesteryear mb-4 tracking-tight max-w-4xl mx-auto">
               &quot;Broken vessels will spark more when they are touched by Jesus&quot;
             </h1>

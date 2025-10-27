@@ -140,7 +140,7 @@ const BlogPage = () => {
           className="absolute top-0 left-0 w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-black/60" />
-        <div className="relative z-10 p-4">
+        <div className="relative z-10 p-4 mt-20">
           <h1 className="text-5xl md:text-7xl font-bold font-headline">
             The Spirit&apos;s Voice
           </h1>
