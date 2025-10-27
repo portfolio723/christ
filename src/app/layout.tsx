@@ -177,6 +177,7 @@ export const metadata: Metadata = {
     template: '%s | Godsspiritsays',
   },
   description: "A spiritual resource for encouragement, faith, and hearing what God's Spirit says. Explore video teachings, blog posts, and testimonies to deepen your walk with Christ.",
+  manifest: '/manifest.json',
   openGraph: {
     title: "God's Spirit Says - Encouragement, Faith & Hearing God's Voice",
     description: "A spiritual resource for encouragement, faith, and hearing what God's Spirit says. Explore video teachings, blog posts, and testimonies to deepen your walk with Christ.",

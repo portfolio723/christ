@@ -1,0 +1,38 @@
+{
+  "name": "God's Spirit Says",
+  "short_name": "GodSpirit",
+  "description": "A spiritual resource for encouragement, faith, and hearing what God's Spirit says.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#4A90E2",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/fav.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/fav.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/fav.png",
+      "sizes": "any",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/fav.png",
+      "sizes": "540x720",
+      "type": "image/png"
+    }
+  ]
+}
