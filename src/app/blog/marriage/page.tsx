@@ -66,7 +66,7 @@ export default function MarriagePage() {
             <br />
             <p>Why, because 𝗦𝗵𝗲/𝗵𝗲, if 𝐆𝐎𝐃&apos;s 👑 choice for us, that the only person will have the capability ⚡ to stay with us in every heavy storm ⛈️ in marriage 💍🤍🕊️</p>
             <br />
-            <p>Under his shadow ☂︎, we will build oneness in spirit in our marriage, and we will build our families in Christ ✞. We will be an example to many. Moreover, marriage is a ministry🤎🍂🎻🪞... Our marriage will become a kingdom marriage 💒 once we carry HOLY Spirit Father Presence into our marriage 🕊️💍🤍</p>
+            <p>Under his shadow ☂︎, we will build oneness in spirit in our marriage, and we will build our families in Christ ✞. We will be an example to many. Moreover, marriage is a ministry🤎🍂🎻... Our marriage will become a kingdom marriage 💒 once we carry HOLY Spirit Father Presence into our marriage 🕊️💍🤍</p>
             <br />
             <p>But, it is only possible if we accept under 𝐆𝐎𝐃&apos;s 👑 authority ✨ With either drizzling drops 💦 or heavy rain 🌦, he is holding OUR umbrella ☔ Remember that. 🙌 Allow his 𝗰𝗵𝗼𝗶𝗰𝗲𝘀 before you marry, and then allow his 𝗱𝗲𝗰𝗶𝘀𝗶𝗼𝗻𝘀 after you marry 🥂</p>
             <br />
