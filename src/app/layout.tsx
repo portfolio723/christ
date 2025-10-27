@@ -6,7 +6,6 @@ import { Toaster } from '@/components/ui/toaster';
 import { Header } from '@/components/page/header';
 import { cn } from '@/lib/utils';
 import Script from 'next/script';
-import Breadcrumb from '@/components/Breadcrumb';
 
 const fontBody = Inter({
   subsets: ['latin'],
@@ -342,7 +341,7 @@ export default function RootLayout({
       >
         <Header />
         <div className="pt-20">
-          <Breadcrumb />
+          
         </div>
         <div className="flex-grow">
           {children}

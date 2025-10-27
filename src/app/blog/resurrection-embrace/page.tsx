@@ -11,6 +11,35 @@ export const metadata: Metadata = {
 export default function ResurrectionEmbracePage() {
   return (
     <main className="bg-background text-white min-h-screen">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://godsspiritsays.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Blog",
+                "item": "https://godsspiritsays.com/blog"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "His Urgent Love",
+                "item": "https://godsspiritsays.com/blog/resurrection-embrace"
+              }
+            ]
+          })
+        }}
+      />
       <div className="relative pt-48 pb-20 bg-background">
         <div className="absolute inset-0 bg-black/70" />
         <div className="relative container mx-auto px-4 md:px-6 max-w-4xl text-center">
