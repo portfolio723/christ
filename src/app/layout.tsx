@@ -173,20 +173,21 @@ export const metadata: Metadata = {
     canonical: '/',
   },
   title: {
-    default: 'Godsspiritsays: Encouragement, Faith & Hearing God\'s Voice',
+    default: "God's Spirit Says - Spiritual Encouragement, Faith & Hearing God's Voice",
     template: '%s | Godsspiritsays',
   },
-  description: 'A spiritual resource for encouragement, faith, and hearing what God\'s Spirit says. Explore video teachings, blog posts, and testimonies to deepen your walk with God.',
+  description: "A spiritual resource for encouragement, faith, and hearing what God's Spirit says. Explore video teachings, blog posts, and testimonies to deepen your walk with Christ.",
   openGraph: {
-    title: 'Godsspiritsays: Encouragement, Faith & Hearing God\'s Voice',
-    description: 'Find encouragement and faith through video teachings, blog posts, and testimonies. Deepen your walk with God and hear what His Spirit says.',
+    title: "God's Spirit Says - Encouragement, Faith & Hearing God's Voice",
+    description: "A spiritual resource for encouragement, faith, and hearing what God's Spirit says. Explore video teachings, blog posts, and testimonies to deepen your walk with Christ.",
     url: 'https://godsspiritsays.com',
-    siteName: 'Godsspiritsays',
+    siteName: "God's Spirit Says",
     images: [
       {
         url: 'https://godsspiritsays.com/fav.png',
-        width: 1200,
-        height: 630,
+        width: 192,
+        height: 192,
+        alt: "God's Spirit Says Logo",
       },
     ],
     locale: 'en_US',
@@ -194,13 +195,14 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Godsspiritsays: Encouragement, Faith & Hearing God\'s Voice',
-    description: 'Find encouragement and faith through video teachings, blog posts, and testimonies. Deepen your walk with God and hear what His Spirit says.',
+    title: "God's Spirit Says - Spiritual Encouragement",
+    description: "Explore spiritual encouragement, faith teachings, and God's guidance.",
+    image: 'https://godsspiritsays.com/fav.png',
     creator: '@godsspiritsays',
-    images: ['https://godsspiritsays.com/obg.jpeg'],
   },
   icons: {
     icon: '/fav.png',
+    apple: '/fav.png',
   },
 };
 
@@ -228,7 +230,8 @@ export default function RootLayout({
         <link rel="preload" href="/blog.mp4" as="video" type="video/mp4" />
         <link rel="preload" href="/test.mp4" as="video" type="video/mp4" />
         <link rel="preload" href="/sd.mp4" as="video" type="video/mp4" />
-        <link rel="icon" type="image/x-icon" sizes="any" href="/fav.png" />
+        <link rel="icon" type="image/png" sizes="any" href="/fav.png" />
+        <link rel="apple-touch-icon" href="/fav.png" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -242,8 +245,8 @@ export default function RootLayout({
               "logo": {
                 "@type": "ImageObject",
                 "url": "https://godsspiritsays.com/fav.png",
-                "width": 1200,
-                "height": 630,
+                "width": 192,
+                "height": 192,
                 "caption": "God's Spirit Says - Christian Ministry Logo"
               },
               "description": "A Christian ministry dedicated to spiritual encouragement, inner healing, and strengthening believers through God's word and teaching videos.",
