@@ -177,10 +177,12 @@ export const metadata: Metadata = {
     template: '%s | Godsspiritsays',
   },
   description: "A spiritual resource for encouragement, faith, and hearing what God's Spirit says. Explore video teachings, blog posts, and testimonies to deepen your walk with Christ.",
+  keywords: "spiritual encouragement, Christian faith, inner healing, Jesus teachings, God's guidance",
   manifest: '/manifest.json',
+  themeColor: "#4A90E2",
   openGraph: {
-    title: "God's Spirit Says - Encouragement, Faith & Hearing God's Voice",
-    description: "A spiritual resource for encouragement, faith, and hearing what God's Spirit says. Explore video teachings, blog posts, and testimonies to deepen your walk with Christ.",
+    title: "God's Spirit Says - Spiritual Encouragement & Faith",
+    description: "A spiritual resource for encouragement, faith, and hearing what God's Spirit says.",
     url: 'https://godsspiritsays.com',
     siteName: "God's Spirit Says",
     images: [
@@ -197,8 +199,9 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: "God's Spirit Says - Spiritual Encouragement",
-    description: "Explore spiritual encouragement, faith teachings, and God's guidance.",
+    description: "A spiritual resource for encouragement, faith, and hearing what God's Spirit says.",
     image: 'https://godsspiritsays.com/fav.png',
+    site: '@godsspiritsays',
     creator: '@godsspiritsays',
   },
   icons: {
@@ -231,8 +234,6 @@ export default function RootLayout({
         <link rel="preload" href="/blog.mp4" as="video" type="video/mp4" />
         <link rel="preload" href="/test.mp4" as="video" type="video/mp4" />
         <link rel="preload" href="/sd.mp4" as="video" type="video/mp4" />
-        <link rel="icon" type="image/png" sizes="any" href="/fav.png" />
-        <link rel="apple-touch-icon" href="/fav.png" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
