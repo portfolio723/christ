@@ -6,6 +6,7 @@ import { Toaster } from '@/components/ui/toaster';
 import { Header } from '@/components/page/header';
 import { cn } from '@/lib/utils';
 import Script from 'next/script';
+import Breadcrumb from '@/components/Breadcrumb';
 
 const fontBody = Inter({
   subsets: ['latin'],
@@ -179,7 +180,7 @@ export const metadata: Metadata = {
   description: "A spiritual resource for encouragement, faith, and hearing what God's Spirit says. Explore video teachings, blog posts, and testimonies to deepen your walk with Christ.",
   keywords: "spiritual encouragement, Christian faith, inner healing, Jesus teachings, God's guidance",
   manifest: '/manifest.json',
-  themeColor: "#4A90E2",
+  themeColor: "#663399",
   openGraph: {
     title: "God's Spirit Says - Spiritual Encouragement & Faith",
     description: "A spiritual resource for encouragement, faith, and hearing what God's Spirit says.",
@@ -340,7 +341,12 @@ export default function RootLayout({
         )}
       >
         <Header />
-        {children}
+        <div className="pt-20">
+          <Breadcrumb />
+        </div>
+        <div className="flex-grow">
+          {children}
+        </div>
         <Toaster />
       </body>
     </html>

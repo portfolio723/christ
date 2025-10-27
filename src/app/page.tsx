@@ -7,24 +7,7 @@ import Image from 'next/image';
 export default function Home() {
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "BreadcrumbList",
-            "@id": "https://godsspiritsays.com/#breadcrumb",
-            "itemListElement": [
-              {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://godsspiritsays.com"
-              }
-            ]
-          })
-        }}
-      />
+      
       <main className="flex min-h-screen flex-col items-center justify-center bg-background">
         {/* Hero Section from former videos page */}
         <section className="relative h-screen w-full flex flex-col items-center justify-center text-center overflow-hidden">

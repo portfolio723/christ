@@ -12,35 +12,6 @@ export default function FastingPage() {
   const videoSrc = "/vd3.mp4";
   return (
     <main className="bg-background text-white min-h-screen">
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "BreadcrumbList",
-            "itemListElement": [
-              {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://godsspiritsays.com"
-              },
-              {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Videos",
-                "item": "https://godsspiritsays.com/videos"
-              },
-              {
-                "@type": "ListItem",
-                "position": 3,
-                "name": "Fasting",
-                "item": "https://godsspiritsays.com/videos/fasting"
-              }
-            ]
-          })
-        }}
-      />
       <div className="relative pt-48 pb-20 bg-background">
         <div className="absolute inset-0 bg-black/70" />
         <div className="relative container mx-auto px-4 md:px-6 max-w-4xl text-center">
