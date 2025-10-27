@@ -267,7 +267,7 @@ export default function RootLayout({
               "sameAs": [
                 "https://www.youtube.com/@GodsspiritSays",
                 "https://t.me/GodsspiritSaysOfficial",
-                "https://www.threads.com/@godsspiritsays",
+                "https://www.threads.net/@godsspiritsays",
                 "https://www.instagram.com/godsspiritsays",
                 "https://x.com/godsspiritsays"
               ],
