@@ -5,6 +5,7 @@ import { Button } from '@/components/ui/button';
 import { SocialMedia } from '@/components/page/social-media';
 import { AnimatedTestimonials } from '@/components/ui/animated-testimonials';
 import Link from 'next/link';
+import { useToast } from '@/hooks/use-toast';
 
 
 const testimonials = [
@@ -19,6 +20,7 @@ const testimonials = [
 ];
 
 export function TestimonialsClient() {
+  const { toast } = useToast();
   return (
     <main className="flex min-h-screen flex-col items-center justify-center bg-background text-white">
       <script

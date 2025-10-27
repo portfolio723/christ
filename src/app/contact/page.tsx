@@ -69,6 +69,29 @@ export default function ContactPage() {
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-center bg-background text-white">
+       <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://godsspiritsays.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Contact",
+                "item": "https://godsspiritsays.com/contact"
+              }
+            ]
+          })
+        }}
+      />
       {/* Header Section */}
       <section className="relative w-full h-screen flex flex-col items-center justify-center text-center text-white overflow-hidden">
         <video
