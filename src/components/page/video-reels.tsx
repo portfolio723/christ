@@ -92,6 +92,9 @@ export function VideoReels() {
     </Card>
   )};
 
+  const videoId = selectedReel?.videoSrc ? getYoutubeVideoId(selectedReel.videoSrc) : null;
+
+
   return (
     <section id="reels" className="relative w-full py-20 md:py-32 bg-background">
       <Image
@@ -147,10 +150,8 @@ export function VideoReels() {
                 {selectedReel.description}
               </DialogTitle>
             </DialogHeader>
-            {selectedReel.videoSrc.startsWith('http') ? (
-              <YouTubeEmbed
-                videoId={getYoutubeVideoId(selectedReel.videoSrc) || ''}
-              />
+            {videoId ? (
+              <YouTubeEmbed videoId={videoId} />
             ) : (
               <LocalVideo src={selectedReel.videoSrc} />
             )}
