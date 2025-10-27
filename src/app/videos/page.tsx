@@ -435,10 +435,7 @@ export default function VideoMinistryPage() {
   return (
     <>
       <main className="flex min-h-screen flex-col items-center justify-center bg-background text-white">
-        {/* Hero Section from former home page */}
-        <div className="mt-20">
-          <Hero />
-        </div>
+        <Hero />
 
         {/* Featured Video Gallery */}
         <section

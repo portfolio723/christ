@@ -32,7 +32,7 @@ export function Hero() {
             'radial-gradient(ellipse at 50% 50%, transparent 0%, hsla(0, 0%, 0%, 0.9) 100%)',
         }}
       />
-      <div className="relative z-10 flex flex-col items-center p-4">
+      <div className="relative z-10 flex flex-col items-center p-4 mt-20 md:mt-0">
         <div className="relative mb-4 md:mb-6">
           <Image
             src="/Media.jpeg"
@@ -59,23 +59,23 @@ export function Hero() {
         <div className="relative mt-4 flex flex-col items-center">
           <GradualSpacing
             text="“She prospers in all that she does”"
-            className="font-lavishly-yours italic text-4xl md:text-6xl font-semibold"
+            className="font-lavishly-yours italic text-3xl md:text-6xl font-semibold"
             framerProps={{
               hidden: { opacity: 0, y: 20 },
               visible: { opacity: 1, y: 0 },
             }}
           >
             <span className="absolute text-accent" style={{ top: '-1rem', left: '0.5rem', filter: 'drop-shadow(0 0 6px hsl(var(--accent)))' }}>
-              <Crown className="w-8 h-8 transform -rotate-12 animate-pulse" />
+              <Crown className="w-6 h-6 md:w-8 md:h-8 transform -rotate-12 animate-pulse" />
             </span>
           </GradualSpacing>
-           <p className="text-2xl md:text-3xl font-lavishly-yours italic text-white/80 mt-2 md:mt-4">
+           <p className="text-xl md:text-3xl font-lavishly-yours italic text-white/80 mt-2 md:mt-4">
               &mdash; Psalms 1:3
             </p>
         </div>
       </div>
       <div className="absolute bottom-5 left-1/2 -translate-x-1/2">
-        <a href="#reels" aria-label="Scroll down to reels">
+        <a href="#featured-videos" aria-label="Scroll down to reels">
           <ChevronDown className="w-10 h-10 text-white/70 animate-bounce" />
         </a>
       </div>
