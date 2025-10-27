@@ -10,6 +10,30 @@ export const metadata: Metadata = {
 
 export default function AboutPage() {
   return (
+    <>
+    <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://godsspiritsays.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "About",
+                "item": "https://godsspiritsays.com/about"
+              }
+            ]
+          })
+        }}
+      />
     <main className="flex min-h-screen flex-col items-center justify-center bg-background">
       <header className="relative w-full h-screen flex flex-col items-center justify-center text-center text-white overflow-hidden">
         <video
@@ -128,5 +152,6 @@ export default function AboutPage() {
       </section>
       <SocialMedia />
     </main>
+    </>
   );
 }
