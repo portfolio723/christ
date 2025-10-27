@@ -24,6 +24,11 @@ export default function Breadcrumb() {
 
   // Generate breadcrumbs from pathname
   const generateBreadcrumbs = (path: string): BreadcrumbItem[] => {
+    // Don't show breadcrumbs on the homepage
+    if (path === '/') {
+      return [];
+    }
+    
     const segments = path.split('/').filter(Boolean);
     const breadcrumbs: BreadcrumbItem[] = [
       { name: 'Home', path: '/' }
@@ -45,11 +50,6 @@ export default function Breadcrumb() {
 
       breadcrumbs.push({ name, path: currentPath });
     });
-
-    // Don't show breadcrumbs with only "Home" on the homepage itself
-    if (breadcrumbs.length === 1 && path === '/') {
-        return [];
-    }
 
     return breadcrumbs;
   };
