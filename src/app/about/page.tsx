@@ -1,6 +1,7 @@
 
 import { SocialMedia } from '@/components/page/social-media';
 import type { Metadata } from 'next';
+import Image from 'next/image';
 
 export const metadata: Metadata = {
   title: 'About Godsspiritsays',
@@ -107,8 +108,16 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
-      <section id="closing-blessing" className="bg-background w-full py-20 md:py-24">
-        <blockquote className="container mx-auto px-4 md:px-6 max-w-3xl text-center">
+      <section id="closing-blessing" className="relative bg-background w-full py-20 md:py-24 overflow-hidden">
+        <Image
+          src="/23.jpeg"
+          alt="A majestic and inspiring spiritual background."
+          fill
+          className="object-cover"
+          data-ai-hint="majestic spiritual"
+        />
+        <div className="absolute inset-0 bg-black/70" />
+        <blockquote className="relative z-10 container mx-auto px-4 md:px-6 max-w-3xl text-center">
           <p className="font-pinyon-script text-3xl md:text-4xl lg:text-5xl text-white/90">
             &ldquo;I will make you majestic forever, a source of joy for every generation&rdquo;
           </p>
