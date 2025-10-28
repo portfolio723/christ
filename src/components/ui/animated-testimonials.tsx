@@ -63,10 +63,10 @@ export const AnimatedTestimonials = ({
               <Image
                 src={testimonials[active].src}
                 alt={testimonials[active].name}
-                width={320}
-                height={320}
+                width={280}
+                height={280}
                 draggable={false}
-                className="h-64 w-64 md:h-80 md:w-80 rounded-full object-cover object-center border-4 border-white/10 shadow-2xl shadow-primary/20"
+                className="h-56 w-56 md:h-72 md:w-72 rounded-full object-cover object-center border-4 border-white/10 shadow-2xl shadow-primary/20"
                 data-ai-hint={testimonials[active].imageHint}
               />
             </motion.div>
