@@ -12,7 +12,7 @@ export default function Home() {
         {/* Hero Section from former videos page */}
         <section className="relative h-screen w-full flex flex-col items-center justify-center text-center overflow-hidden">
           <video
-            src="/butterflies.mp4"
+            src="/hg1.mp4"
             autoPlay
             muted
             loop
