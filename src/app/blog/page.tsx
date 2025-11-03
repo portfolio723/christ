@@ -122,6 +122,18 @@ const spiritualInsights = [
     date: 'Oct 14, 2024',
     readTime: '1 min read',
     description: 'He hurried out of the tomb to embrace you forever. Discover His urgent love.'
+  },
+  {
+    id: 'insight-10',
+    title: 'Jesus came. Jesus saw. Jesus held. Jesus healed...and the flow began!',
+    category: 'Let him in, you flourish out.',
+    href: '/blog/jesus-heals',
+    image: '/bg10.jpeg',
+    imageHint: 'healing light',
+    author: 'Godsspiritsays',
+    date: 'Oct 15, 2024',
+    readTime: '4 min read',
+    description: "When Jesus comes into our lives, our circumstances may not change but our hearts do. And when our hearts change, a new life naturally flows."
   }
 ];
 

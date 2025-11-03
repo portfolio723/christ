@@ -20,6 +20,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/blog/forgiveness',
     '/blog/good-friday',
     '/blog/he-cares',
+    '/blog/jesus-heals',
     '/blog/marriage',
     '/blog/pray',
     '/blog/resurrection-embrace',
