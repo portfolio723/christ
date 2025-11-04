@@ -144,7 +144,7 @@ export function VideoReels() {
 
           <div className="mt-16 grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">
             <div className="text-white/90 text-lg md:text-xl font-crimson-pro space-y-4 text-left">
-              <p className="font-bold text-2xl text-accent">The divine dance of love Triumph💛🎺</p>
+              <p className="font-bold text-2xl text-white">The divine dance of love Triumph💛🎺</p>
               <p>Embracing the unique love of the 𝗧𝗥𝗜𝗡𝗜𝗧𝗬 in our story ✨🤍🔥</p>
               <p>𝑭𝒂𝒕𝒉𝒆𝒓: He loves you... for He did not withhold His only Son. 👑❤️‍🔥</p>
               <p>𝑪𝒉𝒓𝒊𝒔𝒕: He loves you...for He bore your cross and embraced your death. ❤️</p>
