@@ -155,8 +155,8 @@ export function VideoReels() {
               <Image
                 src="/er.jpeg"
                 alt="The divine dance of love"
-                fill
-                className="object-cover"
+                layout="fill"
+                objectFit="contain"
                 data-ai-hint="divine love"
               />
             </div>
