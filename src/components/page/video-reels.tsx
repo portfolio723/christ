@@ -143,7 +143,7 @@ export function VideoReels() {
           </div>
 
           <div className="mt-16 grid grid-cols-1 gap-8 md:gap-12 items-center justify-items-center">
-            <div className="text-white/90 text-lg md:text-xl font-crimson-pro space-y-4 text-center max-w-3xl">
+            <div className="text-white/90 text-lg md:text-xl font-crimson-pro space-y-4 text-left max-w-3xl">
               <p>The divine dance of love Triumph💛🎺</p>
               <p>Embracing the unique love of the 𝗧𝗥𝗜𝗡𝗜𝗧𝗬 in our story ✨🤍🔥</p>
               <p>𝑭𝒂𝒕𝒉𝒆𝒓: He loves you... for He did not withhold His only Son. 👑❤️‍🔥</p>
