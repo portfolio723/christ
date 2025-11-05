@@ -1,4 +1,3 @@
-
 'use client';
 import Image from 'next/image';
 import { Card, CardContent } from '@/components/ui/card';
@@ -142,7 +141,7 @@ export function VideoReels() {
             })}
           </div>
 
-          <div className="mt-16 grid grid-cols-1 gap-8 md:gap-12 items-center justify-items-center bg-card/50 backdrop-blur-sm px-4 md:px-6 rounded-xl border border-primary/20">
+          <div className="mt-16 grid grid-cols-1 items-center justify-items-center bg-card/50 backdrop-blur-sm px-4 md:px-6 rounded-xl border border-primary/20">
             <div className="text-white/90 text-lg md:text-xl font-crimson-pro space-y-4 text-left max-w-3xl">
               <p>The divine dance of love Triumph💛🎺</p>
               <p>Embracing the unique love of the 𝗧𝗥𝗜𝗡𝗜𝗧𝗬 in our story ✨🤍🔥</p>
