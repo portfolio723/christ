@@ -151,6 +151,19 @@ export function VideoReels() {
               <p>𝐇𝐨𝐥𝐲 𝐬𝐩𝐢𝐫𝐢𝐭: He loves you. He can't live outside of you, so He makes His home in you. 🔥💎</p>
               <p>Three persons.𝗢𝗻𝗲 𝗚𝗢𝗗. Their singular and unified mission is to lavish love upon you.🌈</p>
             </div>
+            <div className="relative pb-8">
+              <Image
+                src="/er.jpeg"
+                alt="Father, Son, and Holy Spirit."
+                width={400}
+                height={400}
+                className="rounded-lg shadow-lg"
+                data-ai-hint="trinity symbol"
+              />
+              <p className="text-white/90 text-lg md:text-xl font-crimson-pro text-center pt-4">
+                Father, Son, and Holy Spirit.
+              </p>
+            </div>
           </div>
         </div>
 
