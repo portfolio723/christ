@@ -148,7 +148,7 @@ export function VideoReels() {
               <p>Embracing the unique love of the 𝗧𝗥𝗜𝗡𝗜𝗧𝗬 in our story ✨🤍🔥</p>
               <p>𝑭𝒂𝒕𝒉𝒆𝒓: He loves you... for He did not withhold His only Son. 👑❤️‍🔥</p>
               <p>𝑪𝒉𝒓𝒊𝒔𝒕: He loves you...for He bore your cross and embraced your death. ❤️</p>
-              <p>𝐇𝐨𝐥𝐲 𝐬𝐩𝐢𝐫𝐢𝐭: He loves you. He can't live outside of you, so He makes His home in you. 🔥💎</p>
+              <p>𝐇𝐨𝐥𝐲 𝐬𝐩𝐢𝐫𝐢𝐭: He loves you. He can&apos;t live outside of you, so He makes His home in you. 🔥💎</p>
               <p>Three persons.𝗢𝗻𝗲 𝗚𝗢𝗗. Their singular and unified mission is to lavish love upon you.🌈</p>
             </div>
             <div className="relative pb-8">
