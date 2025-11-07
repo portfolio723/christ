@@ -159,7 +159,7 @@ export function VideoReels() {
                 objectFit="contain"
                 data-ai-hint="divine love"
               />
-               <p className="text-white/90 text-lg md:text-xl font-crimson-pro text-center absolute bottom-0 left-0 right-0 pb-2">
+               <p className="text-white/90 text-lg md:text-xl font-crimson-pro text-center absolute bottom-0 left-0 right-0 pb-0">
                 Father, Son, and Holy Spirit.
               </p>
             </div>
