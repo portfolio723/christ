@@ -155,8 +155,8 @@ export function VideoReels() {
               <Image
                 src="/er.jpeg"
                 alt="Father, Son, and Holy Spirit."
-                width={400}
-                height={400}
+                width={500}
+                height={500}
                 className="rounded-lg shadow-lg"
                 data-ai-hint="trinity symbol"
               />
