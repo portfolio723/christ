@@ -160,6 +160,9 @@ export function VideoReels() {
                 data-ai-hint="divine love"
               />
             </div>
+            <p className="text-white/90 text-lg md:text-xl font-crimson-pro text-center pt-4 pb-8">
+              Father, Son, and Holy Spirit.
+            </p>
           </div>
         </div>
 
