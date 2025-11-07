@@ -143,25 +143,13 @@ export function VideoReels() {
           </div>
 
           <div className="mt-16 grid grid-cols-1 items-center justify-items-center bg-card/50 backdrop-blur-sm px-4 rounded-xl border border-primary/20">
-            <div className="text-white/90 text-lg md:text-xl font-crimson-pro space-y-4 text-left max-w-3xl pt-8">
+            <div className="text-white/90 text-lg md:text-xl font-crimson-pro space-y-4 text-left max-w-3xl pt-8 pb-8">
               <p>The divine dance of love Triumph💛🎺</p>
               <p>Embracing the unique love of the 𝗧𝗥𝗜𝗡𝗜𝗧𝗬 in our story ✨🤍🔥</p>
               <p>𝑭𝒂𝒕𝒉𝒆𝒓: He loves you... for He did not withhold His only Son. 👑❤️‍🔥</p>
               <p>𝑪𝒉𝒓𝒊𝒔𝒕: He loves you...for He bore your cross and embraced your death. ❤️</p>
               <p>𝐇𝐨𝐥𝐲 𝐬𝐩𝐢𝐫𝐢𝐭: He loves you. He can't live outside of you, so He makes His home in you. 🔥💎</p>
               <p>Three persons.𝗢𝗻𝗲 𝗚𝗢𝗗. Their singular and unified mission is to lavish love upon you.🌈</p>
-            </div>
-            <div className="relative aspect-video w-full max-w-3xl pt-0">
-              <Image
-                src="/er.jpeg"
-                alt="The divine dance of love"
-                layout="fill"
-                objectFit="contain"
-                data-ai-hint="divine love"
-              />
-               <p className="text-white/90 text-lg md:text-xl font-crimson-pro text-center absolute bottom-0 left-0 right-0 pb-0">
-                Father, Son, and Holy Spirit.
-              </p>
             </div>
           </div>
         </div>
