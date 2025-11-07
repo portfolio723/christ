@@ -13,6 +13,7 @@ import {
 import { useState } from 'react';
 import { cn } from '@/lib/utils';
 import VideoPlayer from '@/components/ui/video-player';
+import { motion } from 'framer-motion';
 
 
 const reels: ImagePlaceholder[] = PlaceHolderImages.filter(
@@ -151,7 +152,7 @@ export function VideoReels() {
               <p>𝐇𝐨𝐥𝐲 𝐬𝐩𝐢𝐫𝐢𝐭: He loves you. He can&apos;t live outside of you, so He makes His home in you. 🔥💎</p>
               <p>Three persons.𝗢𝗻𝗲 𝗚𝗢𝗗. Their singular and unified mission is to lavish love upon you.🌈</p>
             </div>
-            <div className="relative pb-8">
+            <div className="relative pb-4">
               <Image
                 src="/er.jpeg"
                 alt="Father, Son, and Holy Spirit."
@@ -160,9 +161,42 @@ export function VideoReels() {
                 className="shadow-lg"
                 data-ai-hint="trinity symbol"
               />
-              <p className="text-white/90 text-lg md:text-xl font-crimson-pro text-center pt-4">
-                Father, Son, and Holy Spirit.
-              </p>
+              <div className="text-white/90 text-lg md:text-xl font-crimson-pro text-center pt-4 flex justify-center items-center gap-x-2 md:gap-x-4">
+                <motion.span
+                  whileHover={{
+                    y: -5,
+                    color: '#ffed4a',
+                    textShadow: '0px 0px 8px rgba(255, 237, 74, 0.7)',
+                  }}
+                  transition={{ type: 'spring', stiffness: 300 }}
+                  className="cursor-pointer"
+                >
+                  Father,
+                </motion.span>
+                <motion.span
+                  whileHover={{
+                    y: -5,
+                    color: '#ffed4a',
+                    textShadow: '0px 0px 8px rgba(255, 237, 74, 0.7)',
+                  }}
+                  transition={{ type: 'spring', stiffness: 300 }}
+                  className="cursor-pointer"
+                >
+                  Son,
+                </motion.span>
+                <span className="cursor-default">and</span>
+                <motion.span
+                  whileHover={{
+                    y: -5,
+                    color: '#ffed4a',
+                    textShadow: '0px 0px 8px rgba(255, 237, 74, 0.7)',
+                  }}
+                  transition={{ type: 'spring', stiffness: 300 }}
+                  className="cursor-pointer"
+                >
+                  Holy Spirit.
+                </motion.span>
+              </div>
             </div>
           </div>
         </div>
