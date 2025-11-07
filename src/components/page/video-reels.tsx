@@ -142,8 +142,8 @@ export function VideoReels() {
             })}
           </div>
 
-          <div className="mt-16 grid grid-cols-1 items-center justify-items-center bg-card/50 backdrop-blur-sm px-4 rounded-xl border border-primary/20">
-            <div className="text-white/90 text-lg md:text-xl font-crimson-pro space-y-4 text-left max-w-3xl pt-8">
+          <div className="mt-16 grid grid-cols-1 items-center justify-items-center bg-card/50 backdrop-blur-sm px-4 pt-8 rounded-xl border border-primary/20">
+            <div className="text-white/90 text-lg md:text-xl font-crimson-pro space-y-4 text-left max-w-3xl">
               <p>The divine dance of love Triumph💛🎺</p>
               <p>Embracing the unique love of the 𝗧𝗥𝗜𝗡𝗜𝗧𝗬 in our story ✨🤍🔥</p>
               <p>𝑭𝒂𝒕𝒉𝒆𝒓: He loves you... for He did not withhold His only Son. 👑❤️‍🔥</p>
@@ -160,7 +160,7 @@ export function VideoReels() {
                 data-ai-hint="divine love"
               />
             </div>
-            <p className="text-white/90 text-lg md:text-xl font-crimson-pro text-center pt-4 pb-8">
+            <p className="text-white/90 text-lg md:text-xl font-crimson-pro text-center pt-2 pb-8">
               Father, Son, and Holy Spirit.
             </p>
           </div>
