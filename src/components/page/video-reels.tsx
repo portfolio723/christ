@@ -165,36 +165,36 @@ export function VideoReels() {
                 <motion.span
                   whileHover={{
                     y: -5,
-                    color: '#ffed4a',
-                    textShadow: '0px 0px 8px rgba(255, 237, 74, 0.7)',
+                    color: '#ffffff',
+                    textShadow: '0px 0px 8px rgba(255, 255, 255, 0.8)',
                   }}
                   transition={{ type: 'spring', stiffness: 300 }}
                   className="cursor-pointer"
                 >
-                  Father,
+                  Father
                 </motion.span>
                 <motion.span
                   whileHover={{
                     y: -5,
-                    color: '#ffed4a',
-                    textShadow: '0px 0px 8px rgba(255, 237, 74, 0.7)',
+                    color: '#ffffff',
+                    textShadow: '0px 0px 8px rgba(255, 255, 255, 0.8)',
                   }}
                   transition={{ type: 'spring', stiffness: 300 }}
                   className="cursor-pointer"
                 >
-                  Son,
+                  Son
                 </motion.span>
                 <span className="cursor-default">and</span>
                 <motion.span
                   whileHover={{
                     y: -5,
-                    color: '#ffed4a',
-                    textShadow: '0px 0px 8px rgba(255, 237, 74, 0.7)',
+                    color: '#ffffff',
+                    textShadow: '0px 0px 8px rgba(255, 255, 255, 0.8)',
                   }}
                   transition={{ type: 'spring', stiffness: 300 }}
                   className="cursor-pointer"
                 >
-                  Holy Spirit.
+                  Holy Spirit
                 </motion.span>
               </div>
             </div>
