@@ -46,6 +46,11 @@ function LocalVideo({ src }: { src: string }) {
 
 export function VideoReels() {
   const [selectedReel, setSelectedReel] = useState<ImagePlaceholder | null>(null);
+  const [activeWord, setActiveWord] = useState<string | null>(null);
+
+  const handleWordClick = (word: string) => {
+    setActiveWord(activeWord === word ? null : word);
+  };
 
   const getYoutubeVideoId = (url: string) => {
     try {
@@ -163,35 +168,68 @@ export function VideoReels() {
               />
               <div className="text-white/90 text-2xl md:text-3xl font-crimson-pro text-center pt-4 flex justify-center items-center gap-x-2 md:gap-x-4">
                 <motion.span
-                  whileHover={{
-                    y: -5,
-                    color: 'hsl(var(--accent))',
-                    textShadow: '0 0 5px hsla(var(--accent), 0.8), 0 0 15px hsla(var(--accent), 0.6), 0 0 25px hsla(var(--accent), 0.4)',
+                  animate={activeWord === 'FATHER' ? 'active' : 'inactive'}
+                  whileHover="hover"
+                  variants={{
+                    inactive: { y: 0, color: '#FFFFFF' },
+                    hover: {
+                      y: -5,
+                      color: 'hsl(var(--accent))',
+                      textShadow: '0 0 5px hsla(var(--accent), 0.8), 0 0 15px hsla(var(--accent), 0.6), 0 0 25px hsla(var(--accent), 0.4)',
+                    },
+                    active: {
+                      y: -5,
+                      color: 'hsl(var(--accent))',
+                      textShadow: '0 0 5px hsla(var(--accent), 0.8), 0 0 15px hsla(var(--accent), 0.6), 0 0 25px hsla(var(--accent), 0.4)',
+                    },
                   }}
                   transition={{ type: 'spring', stiffness: 300 }}
                   className="cursor-pointer"
+                  onClick={() => handleWordClick('FATHER')}
                 >
                   FATHER
                 </motion.span>
                 <motion.span
-                  whileHover={{
-                    y: -5,
-                    color: 'hsl(var(--accent))',
-                    textShadow: '0 0 5px hsla(var(--accent), 0.8), 0 0 15px hsla(var(--accent), 0.6), 0 0 25px hsla(var(--accent), 0.4)',
+                  animate={activeWord === 'SON' ? 'active' : 'inactive'}
+                  whileHover="hover"
+                  variants={{
+                    inactive: { y: 0, color: '#FFFFFF' },
+                    hover: {
+                      y: -5,
+                      color: 'hsl(var(--accent))',
+                      textShadow: '0 0 5px hsla(var(--accent), 0.8), 0 0 15px hsla(var(--accent), 0.6), 0 0 25px hsla(var(--accent), 0.4)',
+                    },
+                     active: {
+                      y: -5,
+                      color: 'hsl(var(--accent))',
+                      textShadow: '0 0 5px hsla(var(--accent), 0.8), 0 0 15px hsla(var(--accent), 0.6), 0 0 25px hsla(var(--accent), 0.4)',
+                    },
                   }}
                   transition={{ type: 'spring', stiffness: 300 }}
                   className="cursor-pointer"
+                   onClick={() => handleWordClick('SON')}
                 >
                   SON
                 </motion.span>
                 <motion.span
-                  whileHover={{
-                    y: -5,
-                    color: 'hsl(var(--accent))',
-                    textShadow: '0 0 5px hsla(var(--accent), 0.8), 0 0 15px hsla(var(--accent), 0.6), 0 0 25px hsla(var(--accent), 0.4)',
+                  animate={activeWord === 'HOLY SPIRIT' ? 'active' : 'inactive'}
+                  whileHover="hover"
+                  variants={{
+                    inactive: { y: 0, color: '#FFFFFF' },
+                    hover: {
+                      y: -5,
+                      color: 'hsl(var(--accent))',
+                      textShadow: '0 0 5px hsla(var(--accent), 0.8), 0 0 15px hsla(var(--accent), 0.6), 0 0 25px hsla(var(--accent), 0.4)',
+                    },
+                     active: {
+                      y: -5,
+                      color: 'hsl(var(--accent))',
+                      textShadow: '0 0 5px hsla(var(--accent), 0.8), 0 0 15px hsla(var(--accent), 0.6), 0 0 25px hsla(var(--accent), 0.4)',
+                    },
                   }}
                   transition={{ type: 'spring', stiffness: 300 }}
                   className="cursor-pointer"
+                   onClick={() => handleWordClick('HOLY SPIRIT')}
                 >
                   HOLY SPIRIT
                 </motion.span>
