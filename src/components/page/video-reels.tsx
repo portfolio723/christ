@@ -161,12 +161,12 @@ export function VideoReels() {
                 className="shadow-lg"
                 data-ai-hint="trinity symbol"
               />
-              <div className="text-white/90 text-lg md:text-xl font-crimson-pro text-center pt-4 flex justify-center items-center gap-x-2 md:gap-x-4">
+              <div className="text-white/90 text-2xl md:text-3xl font-crimson-pro text-center pt-4 flex justify-center items-center gap-x-2 md:gap-x-4">
                 <motion.span
                   whileHover={{
                     y: -5,
-                    color: '#ffffff',
-                    textShadow: '0px 0px 8px rgba(255, 255, 255, 0.8)',
+                    color: 'hsl(var(--accent))',
+                    textShadow: '0px 0px 8px hsla(var(--accent), 0.7)',
                   }}
                   transition={{ type: 'spring', stiffness: 300 }}
                   className="cursor-pointer"
@@ -176,8 +176,8 @@ export function VideoReels() {
                 <motion.span
                   whileHover={{
                     y: -5,
-                    color: '#ffffff',
-                    textShadow: '0px 0px 8px rgba(255, 255, 255, 0.8)',
+                    color: 'hsl(var(--accent))',
+                    textShadow: '0px 0px 8px hsla(var(--accent), 0.7)',
                   }}
                   transition={{ type: 'spring', stiffness: 300 }}
                   className="cursor-pointer"
@@ -187,8 +187,8 @@ export function VideoReels() {
                 <motion.span
                   whileHover={{
                     y: -5,
-                    color: '#ffffff',
-                    textShadow: '0px 0px 8px rgba(255, 255, 255, 0.8)',
+                    color: 'hsl(var(--accent))',
+                    textShadow: '0px 0px 8px hsla(var(--accent), 0.7)',
                   }}
                   transition={{ type: 'spring', stiffness: 300 }}
                   className="cursor-pointer"
