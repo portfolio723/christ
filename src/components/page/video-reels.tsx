@@ -171,7 +171,7 @@ export function VideoReels() {
                   transition={{ type: 'spring', stiffness: 300 }}
                   className="cursor-pointer"
                 >
-                  Father
+                  FATHER
                 </motion.span>
                 <motion.span
                   whileHover={{
@@ -182,9 +182,8 @@ export function VideoReels() {
                   transition={{ type: 'spring', stiffness: 300 }}
                   className="cursor-pointer"
                 >
-                  Son
+                  SON
                 </motion.span>
-                <span className="cursor-default">and</span>
                 <motion.span
                   whileHover={{
                     y: -5,
@@ -194,7 +193,7 @@ export function VideoReels() {
                   transition={{ type: 'spring', stiffness: 300 }}
                   className="cursor-pointer"
                 >
-                  Holy Spirit
+                  HOLY SPIRIT
                 </motion.span>
               </div>
             </div>
