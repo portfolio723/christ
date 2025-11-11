@@ -144,7 +144,7 @@ export function VideoReels() {
           </div>
 
           <div className="mt-16 grid grid-cols-1 items-center justify-items-center bg-card/50 backdrop-blur-sm px-4 rounded-xl border border-primary/20">
-            <div className="text-white/90 text-lg md:text-xl font-crimson-pro space-y-4 text-left max-w-3xl pt-8 pb-8">
+            <div className="text-white/90 text-lg md:text-xl font-crimson-pro space-y-4 text-left max-w-3xl pt-8 pb-4">
               <p>The divine dance of love Triumph💛🎺</p>
               <p>Embracing the unique love of the 𝗧𝗥𝗜𝗡𝗜𝗧𝗬 in our story ✨🤍🔥</p>
               <p>𝑭𝒂𝒕𝒉𝒆𝒓: He loves you... for He did not withhold His only Son. 👑❤️‍🔥</p>
@@ -152,7 +152,7 @@ export function VideoReels() {
               <p>𝐇𝐨𝐥𝐲 𝐬𝐩𝐢𝐫𝐢𝐭: He loves you. He can&apos;t live outside of you, so He makes His home in you. 🔥💎</p>
               <p>Three persons.𝗢𝗻𝗲 𝗚𝗢𝗗. Their singular and unified mission is to lavish love upon you.🌈</p>
             </div>
-            <div className="relative pb-8">
+            <div className="relative pb-4">
               <Image
                 src="/er.jpeg"
                 alt="Father, Son, and Holy Spirit."
@@ -166,7 +166,7 @@ export function VideoReels() {
                   whileHover={{
                     y: -5,
                     color: 'hsl(var(--accent))',
-                    textShadow: '0px 0px 8px hsla(var(--accent), 0.7)',
+                    textShadow: '0 0 5px hsla(var(--accent), 0.8), 0 0 15px hsla(var(--accent), 0.6), 0 0 25px hsla(var(--accent), 0.4)',
                   }}
                   transition={{ type: 'spring', stiffness: 300 }}
                   className="cursor-pointer"
@@ -177,7 +177,7 @@ export function VideoReels() {
                   whileHover={{
                     y: -5,
                     color: 'hsl(var(--accent))',
-                    textShadow: '0px 0px 8px hsla(var(--accent), 0.7)',
+                    textShadow: '0 0 5px hsla(var(--accent), 0.8), 0 0 15px hsla(var(--accent), 0.6), 0 0 25px hsla(var(--accent), 0.4)',
                   }}
                   transition={{ type: 'spring', stiffness: 300 }}
                   className="cursor-pointer"
@@ -188,7 +188,7 @@ export function VideoReels() {
                   whileHover={{
                     y: -5,
                     color: 'hsl(var(--accent))',
-                    textShadow: '0px 0px 8px hsla(var(--accent), 0.7)',
+                    textShadow: '0 0 5px hsla(var(--accent), 0.8), 0 0 15px hsla(var(--accent), 0.6), 0 0 25px hsla(var(--accent), 0.4)',
                   }}
                   transition={{ type: 'spring', stiffness: 300 }}
                   className="cursor-pointer"
