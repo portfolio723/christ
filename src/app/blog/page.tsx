@@ -134,6 +134,18 @@ const spiritualInsights = [
     date: 'Oct 15, 2024',
     readTime: '4 min read',
     description: "When Jesus comes into our lives, our circumstances may not change but our hearts do. And when our hearts change, a new life naturally flows."
+  },
+  {
+    id: 'insight-11',
+    title: "Preach under the Holy Spirit's direction. Yield to Him, and offer people His love ✨, not the energy of your own fervor. 🙌🏻",
+    category: 'The sacred pause',
+    href: '/blog/preach-with-love',
+    image: '/bg11.jpeg',
+    imageHint: 'holy spirit',
+    author: 'Godsspiritsays',
+    date: 'Oct 16, 2024',
+    readTime: '3 min read',
+    description: "Yield to the Holy Spirit and offer people His love, not the energy of your own fervor."
   }
 ];
 

@@ -23,6 +23,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/blog/jesus-heals',
     '/blog/marriage',
     '/blog/pray',
+    '/blog/preach-with-love',
     '/blog/resurrection-embrace',
     '/blog/sweetness-bleeds',
     '/blog/the-beautiful-breaking',
