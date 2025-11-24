@@ -56,7 +56,8 @@ export default function PreachWithLovePage() {
               </div>
             </div>
             <br />
-            <p>Content to be updated.</p>
+            <p>Preach under the Holy Spirit&apos;s direction. Yield to Him, and offer people His love ✨, not the energy of your own fervor. 🙌🏻</p>
+            <p>Yield to the Holy Spirit and offer people His love, not the energy of your own fervor.</p>
         </div>
       </article>
       <SocialMedia />
