@@ -39,7 +39,7 @@ export default function LifestylePage() {
           >
             <motion.span custom={0} variants={titleVariants}>I AM</motion.span>
             <motion.span custom={1} variants={titleVariants} className="text-primary">GREATLY BLESSED</motion.span>
-            <motion.span custom={2} variants={titleVariants} className="text-accent">HIGHLY FAVOURED</motion.span>
+            <motion.span custom={2} variants={titleVariants} className="text-baby-pink">HIGHLY FAVOURED</motion.span>
             <motion.span custom={3} variants={titleVariants} className="text-primary">DEEPLY LOVED</motion.span>
           </motion.h1>
         </div>
