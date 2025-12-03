@@ -38,9 +38,9 @@ const TextRevealByWord: FC<TextRevealByWordProps> = ({
             const end = start + 1 / words.length;
             
             let wordClassName = "text-white";
-            if (word === "GREATLY" || word === "DEEPLY") {
+            if (word === "GREATLY" || word === "BLESSED" || word === "DEEPLY" || word === "LOVED") {
                 wordClassName = "text-primary";
-            } else if (word === "HIGHLY") {
+            } else if (word === "HIGHLY" || word === "FAVOURED") {
                 wordClassName = "text-baby-pink";
             }
 
