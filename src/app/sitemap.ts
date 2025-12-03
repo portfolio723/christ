@@ -30,6 +30,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/blog/the-prayer-room',
     '/testimonials',
     '/contact',
+    '/lifestyle',
   ];
 
   return pages.map((page) => ({

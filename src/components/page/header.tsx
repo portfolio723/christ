@@ -14,6 +14,7 @@ const navLinks = [
   { href: '/videos', label: 'Videos' },
   { href: '/blog', label: 'Blog' },
   { href: '/testimonials', label: 'Testimonials' },
+  { href: '/lifestyle', label: 'Lifestyle' },
 ];
 
 export function Header() {
