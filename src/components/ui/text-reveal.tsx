@@ -31,7 +31,7 @@ const TextRevealByWord: FC<TextRevealByWordProps> = ({
       >
         <p
           className={
-            "flex flex-wrap justify-center p-5 font-headline text-4xl md:text-6xl font-bold text-white/20 text-center"
+            "flex flex-wrap justify-center p-5 font-headline text-5xl md:text-7xl font-bold text-white/20 text-center"
           }
         >
           {words.map((word, i) => {
