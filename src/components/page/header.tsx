@@ -13,8 +13,8 @@ const navLinks = [
   { href: '/about', label: 'About' },
   { href: '/videos', label: 'Videos' },
   { href: '/blog', label: 'Blog' },
-  { href: '/testimonials', label: 'Testimonials' },
   { href: '/lifestyle', label: 'Lifestyle' },
+  { href: '/testimonials', label: 'Testimonials' },
 ];
 
 export function Header() {
