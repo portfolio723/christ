@@ -32,6 +32,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/contact',
     '/lifestyle',
     '/lifestyle/seeking-in-the-dark',
+    '/lifestyle/goodnight-at-noon',
   ];
 
   return pages.map((page) => ({

@@ -14,7 +14,14 @@ const blogPosts = [
     title: '...but in the quiet, dark valleys of seeking, where He becomes My only source of light, warmth, sound and celebration.',
     message: 'Ah! I love sitting in darkness for my LORD!',
   },
-  // Add more blog posts here to fill the grid
+  {
+    href: '/lifestyle/goodnight-at-noon',
+    imageSrc: '/lf2.jpeg',
+    imageAlt: 'Sun shining brightly at high noon.',
+    imageHint: 'sun bible',
+    title: 'I\'ll say "goodnight" at high noon.while the sun still burns. A lie I tell gladly for my Beloved.',
+    message: 'Sometimes the soul needs to clock out early to clock into eternity.',
+  },
 ];
 
 export default function LifestylePage() {
