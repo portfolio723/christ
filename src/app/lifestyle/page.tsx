@@ -50,10 +50,10 @@ export default function LifestylePage() {
                     />
                   </div>
                   <CardContent className="p-6 md:p-8 flex flex-col flex-grow">
-                    <h3 className="font-pinyon-script text-2xl font-bold text-white mb-4 flex-grow">
+                    <h3 className="font-headline text-xl font-bold text-white mb-4 flex-grow">
                       {post.title}
                     </h3>
-                    <p className="text-white/80 font-love-light text-xl mb-6">
+                    <p className="text-white/80 font-crimson-pro text-xl mb-6">
                       {post.message}
                     </p>
                     <div className="flex items-center text-accent font-semibold mt-auto">
