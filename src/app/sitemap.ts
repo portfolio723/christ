@@ -31,6 +31,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/testimonials',
     '/contact',
     '/lifestyle',
+    '/lifestyle/seeking-in-the-dark',
   ];
 
   return pages.map((page) => ({
