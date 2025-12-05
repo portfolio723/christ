@@ -8,7 +8,7 @@ import { ArrowRight } from 'lucide-react';
 const blogPosts = [
   {
     href: '/lifestyle/seeking-in-the-dark',
-    imageSrc: '/lf1.jpeg',
+    imageSrc: '/lg1.jpeg',
     imageAlt: 'A person walking in a dark valley with a single light source.',
     imageHint: 'seeking light dark',
     title: '...but in the quiet, dark valleys of seeking, where He becomes My only source of light, warmth, sound and celebration.',
