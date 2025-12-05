@@ -1,4 +1,5 @@
 
+import { TextRevealByWord } from '@/components/ui/text-reveal';
 import Image from 'next/image';
 
 export default function LifestylePage() {
@@ -13,10 +14,8 @@ export default function LifestylePage() {
           data-ai-hint="spiritual lifestyle"
         />
         <div className="absolute inset-0 bg-black/60" />
-        <div className="relative z-10 p-4">
-          {/* You can add hero text here later */}
-        </div>
       </section>
+      <TextRevealByWord text="I AM GREATLY BLESSED HIGHLY FAVOURED DEEPLY LOVED" />
     </main>
   );
 }
