@@ -16,7 +16,7 @@ const blogPosts = [
   },
   {
     href: '/lifestyle/goodnight-at-noon',
-    imageSrc: '/lf2.jpeg',
+    imageSrc: '/lg2.jpeg',
     imageAlt: 'Sun shining brightly at high noon.',
     imageHint: 'sun bible',
     title: 'I\'ll say "goodnight" at high noon.while the sun still burns. A lie I tell gladly for my Beloved.',
