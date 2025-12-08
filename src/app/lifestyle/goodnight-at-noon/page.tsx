@@ -21,9 +21,7 @@ export default function GoodnightAtNoonPage() {
         />
         <div className="absolute inset-0 bg-black/70" />
         <div className="relative container mx-auto px-4 md:px-6 max-w-4xl text-center">
-            <p className="text-2xl md:text-3xl font-love-light text-white/80">
-              Sometimes the soul needs to clock out early to clock into eternity.
-            </p>
+            
         </div>
       </header>
       <article className="py-12">
