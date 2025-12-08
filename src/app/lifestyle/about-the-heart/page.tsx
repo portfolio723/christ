@@ -22,7 +22,7 @@ export default function AboutTheHeartPage() {
         <div className="absolute inset-0 bg-black/70" />
         <div className="relative container mx-auto px-4 md:px-6 max-w-4xl text-center">
             <h1 className="text-4xl md:text-5xl font-pinyon-script font-bold text-white mb-4">
-              Beyond the "about me" page, here’s a closer look at the heart behind it all.
+              Beyond the &quot;about me&quot; page, here’s a closer look at the heart behind it all.
             </h1>
         </div>
       </header>
@@ -33,7 +33,7 @@ export default function AboutTheHeartPage() {
               <li>I’m a South Indian.</li>
               <li>I am a March deer.</li>
               <li>I accepted Jesus when I was 23.</li>
-              <li>I'm a homebird—traveling isn’t my thing.</li>
+              <li>I&apos;m a homebird—traveling isn’t my thing.</li>
               <li>My parents hoped for a boy, wished and waited, and then, there was me.</li>
               <li>In school, I played only one competition, “caroms,”  and lost in the final round.</li>
               <li>I was the topper in my MBA.</li>
@@ -49,7 +49,7 @@ export default function AboutTheHeartPage() {
               <li>Fish and lamb head soup is my absolute favorite.</li>
               <li>I drink dark coffee, and I love it with dark chocolate.</li>
               <li>I love milk rice.</li>
-              <li>My two favorite compliments: 
+              <li>My two favorite compliments:
                 <ul className="list-disc list-inside ml-4 space-y-1 mt-1">
                   <li>A non-Christian friend told me she’d totally lost interest in Christianity. After meeting me, what was lost in her heart toward Christians was found good again.</li>
                   <li>Many say I have a heavenly glow on my face.</li>
@@ -83,7 +83,7 @@ export default function AboutTheHeartPage() {
               <li>I can’t stand crowds. I breathe better on lonely roads.</li>
               <li>I love tulips.</li>
               <li>I suddenly became a watchaholic. My first wristwatch was a birthday gift from my brother, bought with his very first stipend.</li>
-              <li>I'm bookish.</li>
+              <li>I&apos;m bookish.</li>
               <li>I sometimes speak before others finish a habit I dislike and am learning to control.</li>
               <li>Wherever I go, I miss home and wish to return.</li>
             </ol>

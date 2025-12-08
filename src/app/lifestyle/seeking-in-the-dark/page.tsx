@@ -31,9 +31,9 @@ export default function SeekingInTheDarkPage() {
       </header>
       <article className="py-12">
         <div className="container mx-auto px-4 md:px-6 max-w-3xl prose prose-invert prose-lg md:prose-xl prose-p:text-white/80 prose-strong:text-white prose-p:font-crimson-pro">
-            <p>Yes, I like to spend time with MY JESUS in that darkness, I like to fight, I like to wait for his warm embrace, and I want to wrestle in deep silence in that darkness for his whisperings. I like to be boldly engraved that his existence is with me. And lastly, in that darkness, I've been drenched IN HIS PRESENCE AND IT IS SO SWEET FOR ME ..</p>
+            <p>Yes, I like to spend time with MY JESUS in that darkness, I like to fight, I like to wait for his warm embrace, and I want to wrestle in deep silence in that darkness for his whisperings. I like to be boldly engraved that his existence is With me. And lastly, in that darkness, I&apos;ve been drenched IN HIS PRESENCE AND IT IS SO SWEET FOR ME ..</p>
             <br />
-            <p>That's why: I like that darkness so much for my Lord</p>
+            <p>That&apos;s why: I like that darkness so much for my Lord</p>
         </div>
       </article>
       <SocialMedia />
