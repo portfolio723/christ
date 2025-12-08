@@ -13,7 +13,7 @@ export default function GoodnightAtNoonPage() {
     <main className="bg-background text-white min-h-screen">
       <header className="relative pt-48 pb-20">
         <Image
-          src="/lf2.jpeg"
+          src="/lg2.jpeg"
           alt="Sun shining at high noon"
           fill
           className="object-cover"
