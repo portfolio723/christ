@@ -21,9 +21,6 @@ export default function GoodnightAtNoonPage() {
         />
         <div className="absolute inset-0 bg-black/70" />
         <div className="relative container mx-auto px-4 md:px-6 max-w-4xl text-center">
-            <h1 className="text-4xl md:text-5xl font-pinyon-script font-bold text-white mb-4">
-              I&apos;ll say &quot;goodnight&quot; at high noon.while the sun still burns. A lie I tell gladly for my Beloved.
-            </h1>
             <p className="text-2xl md:text-3xl font-love-light text-white/80">
               Sometimes the soul needs to clock out early to clock into eternity.
             </p>
