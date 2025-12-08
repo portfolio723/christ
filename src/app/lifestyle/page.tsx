@@ -22,6 +22,14 @@ const blogPosts = [
     title: 'I\'ll say "goodnight" at high noon.while the sun still burns. A lie I tell gladly for my Beloved.',
     message: 'Sometimes the soul needs to clock out early to clock into eternity.',
   },
+  {
+    href: '/lifestyle/about-the-heart',
+    imageSrc: '/lf3.jpeg',
+    imageAlt: 'A closer look at the heart behind the content.',
+    imageHint: 'heart reflection',
+    title: 'Beyond the "about me" page, here’s a closer look at the heart behind it all.',
+    message: 'I am Jesus’s Own special child.',
+  },
 ];
 
 export default function LifestylePage() {
@@ -70,12 +78,6 @@ export default function LifestylePage() {
                   </CardContent>
                 </Card>
               </Link>
-            ))}
-             {/* Placeholders for a 1x3 layout */}
-            {[...Array(3 - blogPosts.length)].map((_, i) => (
-              <div key={`placeholder-${i}`} className="rounded-xl bg-card/20 border border-dashed border-border flex items-center justify-center text-muted-foreground">
-                <p>Blog Post</p>
-              </div>
             ))}
           </div>
         </div>

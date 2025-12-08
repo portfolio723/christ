@@ -1,3 +1,4 @@
+
 import { MetadataRoute } from 'next';
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -33,6 +34,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/lifestyle',
     '/lifestyle/seeking-in-the-dark',
     '/lifestyle/goodnight-at-noon',
+    '/lifestyle/about-the-heart',
   ];
 
   return pages.map((page) => ({
