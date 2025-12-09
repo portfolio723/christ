@@ -1,12 +1,20 @@
 
+'use client';
+
 import { SocialMedia } from '@/components/page/social-media';
 import type { Metadata } from 'next';
 import Image from 'next/image';
+import { Button } from '@/components/ui/button';
+import { Input } from '@/components/ui/input';
+import { Textarea } from '@/components/ui/textarea';
 
+// Note: Metadata is not used in client components, but we can keep it for static generation reference
+/*
 export const metadata: Metadata = {
   title: 'About the Heart',
   description: 'Beyond the "about me" page, here’s a closer look at the heart behind it all.',
 };
+*/
 
 export default function AboutTheHeartPage() {
   return (
@@ -29,8 +37,8 @@ export default function AboutTheHeartPage() {
       <article className="py-12">
         <div className="container mx-auto px-4 md:px-6 max-w-3xl prose prose-invert prose-lg md:prose-xl prose-p:text-white/80 prose-strong:text-white prose-p:font-crimson-pro prose-li:font-crimson-pro prose-li:text-white/80">
             <ol className="list-decimal list-outside space-y-2">
-              <li>I am Jesus’s Own special child.</li>
-              <li>I’m a South Indian.</li>
+              <li>I am Jesus&apos;s Own special child.</li>
+              <li>I&apos;m a South Indian.</li>
               <li>I am a March deer.</li>
               <li>I accepted Jesus when I was 23.</li>
               <li>I&apos;m a homebird—traveling isn’t my thing.</li>
@@ -57,12 +65,12 @@ export default function AboutTheHeartPage() {
               </li>
               <li>I know two people who share my birthday. One texts me exactly at 12 AM — I just say, &ldquo;Same to you, birthday buddy.&rdquo;Another, with my exact name and my birthday, found me and sent a friend request. I was genuinely thrilled.</li>
               <li>Since childhood, I never liked babies until I met them personally in my home.</li>
-              <li>I’m a night owl. I hate early morning journeys to catch up the trains.</li>
+              <li>I&apos;m a night owl. I hate early morning journeys to catch up the trains.</li>
               <li>I spend long hours with my Jesus in the name of prayer.</li>
               <li>I am the youngest in my family.</li>
               <li>I have no regrets about missing anything or anyone after Jesus came into my life.</li>
               <li>My school labeled me the most silent person in school.</li>
-              <li>I’m a terrible gift-giver and taker, too.</li>
+              <li>I&apos;m a terrible gift-giver and taker, too.</li>
               <li>I preached my first sermon in the Krishna district.</li>
               <li>I dream almost every day, and I remember them, living those moments long after I wake.</li>
               <li>I sleep best with dim lights and quiet, gentle nights.</li>
@@ -106,6 +114,44 @@ export default function AboutTheHeartPage() {
             <p>I cannot put anything on my Bible — not a cup, not a book, not a phone. And I cannot tolerate anything being placed on it except the Bible itself.</p>
         </div>
       </article>
+
+      <section id="comments" className="w-full py-12 md:py-16">
+        <div className="container mx-auto px-4 md:px-6 max-w-3xl">
+          <div className="flex justify-between items-center mb-6">
+            <h2 className="text-2xl font-headline font-bold text-accent">Comments</h2>
+            {/* <Button variant="ghost" className="text-white/80">Newest First</Button> */}
+          </div>
+          <div className="bg-card/50 p-6 rounded-lg border border-border">
+            <form className="space-y-4">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <Input
+                  type="text"
+                  placeholder="Your Name"
+                  className="bg-input/80 border-border focus:ring-primary"
+                  aria-label="Your Name"
+                />
+                <Input
+                  type="email"
+                  placeholder="Your Email (won't be published)"
+                  className="bg-input/80 border-border focus:ring-primary"
+                  aria-label="Your Email"
+                />
+              </div>
+              <Textarea
+                placeholder="Leave your comment..."
+                rows={5}
+                className="bg-input/80 border-border focus:ring-primary"
+                aria-label="Your Comment"
+              />
+              <div className="flex justify-end items-center gap-4">
+                <Button variant="ghost" className="text-white/70">Preview</Button>
+                <Button type="submit" className="bg-primary hover:bg-primary/90 font-bold">Post Comment</Button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+
       <SocialMedia />
     </main>
   );
