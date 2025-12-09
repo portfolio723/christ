@@ -58,6 +58,8 @@ export default function GoodnightAtNoonPage() {
             <p>Reading the Bible is one of my favorite habits.</p>
             <p>I read the Bible… but not daily.</p>
             <p>Once again, I affirm. 😉</p>
+            <br />
+            <p>I cannot put anything on my Bible — not a cup, not a book, not a phone. And I cannot tolerate anything being placed on it except the Bible itself.</p>
         </div>
       </article>
       <SocialMedia />
