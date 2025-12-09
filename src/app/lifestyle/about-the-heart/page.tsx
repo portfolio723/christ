@@ -97,12 +97,13 @@ export default function AboutTheHeartPage() {
                 rel="noopener noreferrer"
                 className="text-red-500 hover:underline"
               >
-                “Godsspiritsays.”
+                &ldquo;Godsspiritsays.&rdquo;
               </a>
             </p>
             <br />
             <p>Tell me 3 things about you in the comments</p>
             <p>I’d love to hear your heart and see what we have in common.</p>
+            <p>I cannot put anything on my Bible — not a cup, not a book, not a phone. And I cannot tolerate anything being placed on it except the Bible itself.</p>
         </div>
       </article>
       <SocialMedia />
