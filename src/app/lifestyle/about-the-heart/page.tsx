@@ -81,9 +81,9 @@ export default function AboutTheHeartPage() {
               <li>I love The Passion Translation and NLT versions of the Bible.</li>
               <li>Tender coconut and jackfruit are my soul in ice cream scoops.</li>
               <li>Christmas evenings hold a special place in my heart.</li>
-              <li>I’m the best secret keeper.</li>
-              <li>I’m both extrovert and introvert — depends.</li>
-              <li>I’m not a social butterfly.</li>
+              <li>I&apos;m the best secret keeper.</li>
+              <li>I&apos;m both extrovert and introvert — depends.</li>
+              <li>I&apos;m not a social butterfly.</li>
               <li>I don’t have any &ldquo;best&rdquo; friends, but I have good ones.</li>
               <li>I change my number often; my brother finds it annoying.</li>
               <li>I bring up even unnecessary topics with my dad — just to talk to him.</li>
@@ -94,6 +94,7 @@ export default function AboutTheHeartPage() {
               <li>I&apos;m bookish.</li>
               <li>I sometimes speak before others finish a habit I dislike and am learning to control.</li>
               <li>Wherever I go, I miss home and wish to return.</li>
+              <li>I cannot put anything on my Bible — not a cup, not a book, not a phone. And I cannot tolerate anything being placed on it except the Bible itself.</li>
             </ol>
             <br />
             <p>Thanks for reading a piece of my story.</p>
@@ -111,7 +112,6 @@ export default function AboutTheHeartPage() {
             <br />
             <p>Tell me 3 things about you in the comments</p>
             <p>I’d love to hear your heart and see what we have in common.</p>
-            <p>I cannot put anything on my Bible — not a cup, not a book, not a phone. And I cannot tolerate anything being placed on it except the Bible itself.</p>
         </div>
       </article>
 
