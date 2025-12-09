@@ -35,7 +35,7 @@ export default function AboutTheHeartPage() {
               <li>I accepted Jesus when I was 23.</li>
               <li>I&apos;m a homebird—traveling isn’t my thing.</li>
               <li>My parents hoped for a boy, wished and waited, and then, there was me.</li>
-              <li>In school, I played only one competition, “caroms,”  and lost in the final round.</li>
+              <li>In school, I played only one competition, &ldquo;caroms,&rdquo;  and lost in the final round.</li>
               <li>I was the topper in my MBA.</li>
               <li>I failed math many times.</li>
               <li>I had stage fright until I started sharing testimonies at church.</li>
@@ -55,7 +55,7 @@ export default function AboutTheHeartPage() {
                   <li>Many say I have a heavenly glow on my face.</li>
                 </ul>
               </li>
-              <li>I know two people who share my birthday. One texts me exactly at 12 AM — I just say, “Same to you, birthday buddy.”Another, with my exact name and my birthday, found me and sent a friend request. I was genuinely thrilled.</li>
+              <li>I know two people who share my birthday. One texts me exactly at 12 AM — I just say, &ldquo;Same to you, birthday buddy.&rdquo;Another, with my exact name and my birthday, found me and sent a friend request. I was genuinely thrilled.</li>
               <li>Since childhood, I never liked babies until I met them personally in my home.</li>
               <li>I’m a night owl. I hate early morning journeys to catch up the trains.</li>
               <li>I spend long hours with my Jesus in the name of prayer.</li>
@@ -68,7 +68,7 @@ export default function AboutTheHeartPage() {
               <li>I sleep best with dim lights and quiet, gentle nights.</li>
               <li>People often appreciate my handwriting.</li>
               <li>In moments of deepest pain or highest joy, I cannot listen to music.</li>
-              <li>I can’t drink anything while it’s still hot.</li>
+              <li>I can’t drink anything while it&apos;s still hot.</li>
               <li>I can’t help but color and write all over my Bible with what I feel, so many people hate my Bible.</li>
               <li>I love The Passion Translation and NLT versions of the Bible.</li>
               <li>Tender coconut and jackfruit are my soul in ice cream scoops.</li>
@@ -76,7 +76,7 @@ export default function AboutTheHeartPage() {
               <li>I’m the best secret keeper.</li>
               <li>I’m both extrovert and introvert — depends.</li>
               <li>I’m not a social butterfly.</li>
-              <li>I don’t have any “best” friends, but I have good ones.</li>
+              <li>I don’t have any &ldquo;best&rdquo; friends, but I have good ones.</li>
               <li>I change my number often; my brother finds it annoying.</li>
               <li>I bring up even unnecessary topics with my dad — just to talk to him.</li>
               <li>After Jesus, my mom is my favorite person.</li>
@@ -89,7 +89,17 @@ export default function AboutTheHeartPage() {
             </ol>
             <br />
             <p>Thanks for reading a piece of my story.</p>
-            <p>I’ll be sharing more in this space and on my YouTube channel — “Godsspiritsays.”</p>
+            <p>
+              I’ll be sharing more in this space and on my YouTube channel —{' '}
+              <a
+                href="https://www.youtube.com/@GodsspiritSays"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-red-500 hover:underline"
+              >
+                “Godsspiritsays.”
+              </a>
+            </p>
             <br />
             <p>Tell me 3 things about you in the comments</p>
             <p>I’d love to hear your heart and see what we have in common.</p>
