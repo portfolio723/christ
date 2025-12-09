@@ -59,7 +59,7 @@ export default function LifestylePage() {
 
       <section className="w-full py-20 md:py-24 bg-background">
         <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {blogPosts.map((post) => (
               <Link key={post.href} href={post.href} className="group flex">
                 <Card className="w-full bg-card/50 border-border hover:border-primary transition-shadow duration-300 shadow-lg hover:shadow-primary/20 rounded-xl overflow-hidden transform hover:-translate-y-1 flex flex-col">
