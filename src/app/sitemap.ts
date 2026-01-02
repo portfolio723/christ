@@ -35,6 +35,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/lifestyle/seeking-in-the-dark',
     '/lifestyle/goodnight-at-noon',
     '/lifestyle/about-the-heart',
+    '/lifestyle/this-is-how-we-talk',
+    '/lifestyle/i-do-not-care-how-long-it-takes',
   ];
 
   return pages.map((page) => ({

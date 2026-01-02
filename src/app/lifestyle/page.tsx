@@ -38,6 +38,14 @@ const blogPosts = [
     title: 'This Is How We Talk.',
     message: 'A peek into my quiet world!! His Voice on paper. My pen in hand. His loud grace. Writing life. Coloring faith.',
   },
+  {
+    href: '/lifestyle/i-do-not-care-how-long-it-takes',
+    imageSrc: '/lf5.jpg',
+    imageAlt: 'A representation of holy rest and delight.',
+    imageHint: 'holy rest delight',
+    title: 'I do not care how long it takes',
+    message: 'My Holy Rest. Because His delight is around me.',
+  },
 ];
 
 export default function LifestylePage() {
